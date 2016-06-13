@@ -1,4 +1,6 @@
 ---
+title: Home
+menu: 1
 ---
 
 ## Courses
