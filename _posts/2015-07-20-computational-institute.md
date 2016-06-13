@@ -1,6 +1,5 @@
 ---
 title: "Computational Institute - Summer 2015"
-category: "training-course"
 root: .
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
