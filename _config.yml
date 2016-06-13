@@ -15,4 +15,4 @@ defaults:
       path: ''
     values:
       layout: 'default'
-baseurl: '/SESYNC-ci/sesync-ci.github.io/dev/_site'
+baseurl: '/syllabi'
