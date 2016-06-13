@@ -1,0 +1,238 @@
+---
+title: 'Computational Institute - Summer 2014'
+category: training-course
+root: .
+venue1: SESYNC
+address1: 1 Park Place, Annapolis MD
+country: United-States
+humandate: July 7-11, 2014
+humantime: 12:00 pm - 12:00 pm
+startdate: 2014-07-07
+enddate: 2014-07-11
+registration: closed
+instructor: ["Mary Shelley", "Mike Smorul", "Ian Munoz"]
+assistant: ["Nick Magliocca", "Drew Hart","Joe Webster","Derek Yarnell"]
+contact: msmorul@sesync.org
+raw: raw.github.com/sesync-ci/2014-07-07-sesync/gh-pages
+eventbrite1: 
+eventbrite2: 
+twitter: csisesync
+etherpad: https://etherpad.mozilla.org/sesync-2014-07-07
+---
+<!--
+    Edit the values in the parameter block above to be appropriate for your bootcamp.
+    Please use three-letter month names for the 'humandate' field.
+-->
+
+<!--
+    This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
+-->
+
+
+<h2>General Information</h2>
+
+<p>
+The SESYNC Computational Summer Institute will offer participants hands-on training in managing the lifecycle of their data and code with a focus on using open source tools, including R. Topics will include, but are not limited to:
+<ul>
+<li>    best practices and techniques for collaborative code development;
+<li>    developing and testing code for data management, modeling, and analysis; and
+<li>    visualizing and disseminating results.
+</ul>
+The beginning of the week will cover material in a typical Data Carpentry workshop. During the middle portion of the workshop, breakout sessions will convene to discuss additional tools of interest based on applicant responses. Participants will apply what they’ve learned to their own data and research problems in consultation with workshop instructors during the last two days of the workshop
+</p>
+<p>
+Our curriculum includes:</p>
+<ul>
+<li>  Day 1 afternoon: Introduction to the shell and git
+<li>  Day 2 morning: Introduction to databases, combining and querying data using SQL. 
+<li>  Day 2 afternoon: Data analysis and some visualization in R
+<li>  Day 3 morning: Putting it all together, workflow and best practice
+<li>  Day 3-5: Hands on consultation and advanced topics
+</ul>
+<p>
+The concepts, skills and tools taught during the tutorial section are domain-indepentand, but the lesson will be taught around a common data and problem set in order to better demonstrate how learned skills can be applied to real-world problems.
+</p>
+
+<p>
+Data Carpentry's teaching is hands-on, so participants are required to bring their own laptops.  Instructions on setting up the required software are detailed below. <em>There are no pre-requisites, and we will assume no prior knowledge about the tools.</em>
+</p>
+
+<p>Updates will be posted to this website as they become available.</p>
+
+<!-- This block displays the instructors' names if they are available. -->
+{% if page.instructor %}
+<p>
+  <strong>Instructors:</strong>
+  {{page.instructor | join: ', ' %}}
+</p>
+<p>
+  <strong>Assistants:</strong>
+  {{page.assistant | join: ', ' %}}
+
+{% endif %}
+
+<!--
+    Modify this block to reflect the target audience for your bootcamp.
+    In particular, if it is only open to people from a particular institution,
+    or if specialized prerequisite knowledge is required, please mention that.
+-->
+<p>
+  <strong>Who:</strong>
+  The course is aimed at graduate students, postdocs, research staff, and other researchers. 
+</p>
+
+<!--
+    This block displays the address and links to a map showing directions.
+-->
+{% if page.latlng %}
+<p>
+  <strong>Where:</strong>
+  BEACON MSU and UT Austin (UT Austin via teleconference)
+<!--  {{ page.address }}. -->
+</p>
+{% endif %}
+
+<!--
+    Modify the block below if there are any special requirements.
+-->
+<p>
+  <strong>Requirements:</strong>
+  Participants must bring a laptop with a few specific software packages installed.</strong>
+</p>
+
+<!--
+    This block automatically inserts a contact email address if one has been specified for the page.
+    If one hasn't, this block inserts the generic contact address for Software Carpentry.
+-->
+{% if page.contact %}
+<p>
+  <strong>Contact</strong>:
+  Please email
+  {% if page.contact %}
+    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
+  {% else %}
+    <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
+  {% endif %}
+  for questions and information not covered here.
+</p>
+{% endif %}
+
+{% if page.twitter %}
+<p><strong>Twitter</strong>: #{{page.twitter}}</p>
+{% endif %}
+{% if page.etherpad %}
+<p><strong>Etherpad</strong>: <a href="{{page.etherpad}}">{{page.etherpad}}</a></p>
+{% endif %}
+
+{% if page.eventbrite1 %}
+<h2>Registration</h2>
+<p>
+Tuition for the course is free, but prior registration is required for attending it. Registration is through EventBrite, see below.</p> 
+<h3>MSU Registration</h3>
+<iframe src="http://www.eventbrite.com/tickets-external?eid={{page.eventbrite1}}&ref=etckt" frameborder="0" width="100%" height="210" scrolling="auto"></iframe>
+<h3>UT Austin Registration</h3>
+<iframe src="http://www.eventbrite.com/tickets-external?eid={{page.eventbrite2}}&ref=etckt" frameborder="0" width="100%" height="210" scrolling="auto"></iframe>
+{% endif %}
+
+
+<h2>Acknowledgements &amp; Support</h2>
+<div class="pull-right" style="max-width: 320px; padding-left: 6px;">
+</div>
+<p>
+The Data Carpentry portion of the workshop is a partnership of several NSF-funded <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">BIO</a> Centers (<a href="http://nescent.org" target="_blank">NESCent</a>, <a href="http://iplantcollaborative.org" target="_blank">iPlant</a>, <a href="http://idigbio.org" target="_blank">iDigBio</a>, <a href="http://beacon-center.org/" target="_blank">BEACON</a> and <a href="http://sesync.org" target="_blank">SESYNC</a>) and <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.The structure and objectives of the curriculum as well as the teaching style are informed by <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
+</p>
+
+
+
+
+<!--
+    Edit this block to show the syllabus and schedule for your bootcamp.
+-->
+
+<h2>Schedule</h2>
+
+<p>We'll have coffee and snack breaks at 10:30am and 3:30pm daily. Lunch will be served at 12:30 each day, except Monday when box lunch will be available starting at 11:15 prior to the workshop start at 12:00. While the workshop does not officially start until 12:00pm Monday, attendees are welcome to stop over early for software setup help, to chat, or just to hang out and use our WiFi.</p>
+
+<p>SESYNC is providing lunch only, attendees are responsible for their own breakfast and dinner arrangements (we can make recommendations)
+
+<table class="table table-striped">
+  <tr> <td>Monday</td>  <td>9:00am</td>  <td>SESYNC open, staff available to help with software setup</td> </tr>
+  <tr> <td></td>        <td>11:15</td>   <td>Boxed lunch available</td> </tr>
+  <tr> <td></td>        <td>12:00pm</td> <td>Welcome and introductions</td> </tr>
+  <tr> <td></td>        <td>12:15</td> <td>Shell and Git</td> </tr>
+  <tr> <td></td>        <td>4:45</td>  <td>Reception and informal group presentations</td> </tr>
+  <tr> <td>Tuesday</td> <td>9:00am</td><td>SQL Basics (theory, navigating, importing, queriws)</td> </tr>
+  <tr> <td></td>        <td>12:30pm</td> <td>Lunch Break</td> </tr>
+  <tr> <td></td>        <td>1:30</td>  <td>R basics (Rstudio, data structures, basic operations</td> </tr>
+  <tr> <td></td>        <td>5:00</td>  <td>Day 2 Wrap-up</td> </tr>
+  <tr> <td>Wednesday</td> <td>9:00am</td>  <td>Pulling it all together, end to end workflow using day 1 &amp; 2 tools</td> </tr>
+  <tr> <td></td>        <td>10:45</td> <td>Scaling up, walk through example of a large SESYNC project</td> </tr>
+  <tr> <td></td>        <td>12:30pm</td> <td>Lunch Break</td> </tr>
+  <tr> <td></td>        <td>1:30</td>  <td>OpenSci, data and code sharing</td> </tr>
+  <tr> <td></td>        <td>2:00</td>  <td>Consultation and open topics</td> </tr>
+  <tr> <td></td>        <td>5:00</td>  <td>Day 3 Wrap-up</td> </tr>
+  <tr> <td>Thursday</td> <td>9:00am</td>  <td>Consultation and open topics (postgis, git, etc)</td> </tr>
+  <tr> <td></td>        <td>12:30pm</td> <td>Lunch Break</td> </tr>
+  <tr> <td></td>        <td>1:30</td>  <td>Consultation and open topics</td> </tr>
+  <tr> <td>Friday</td> <td>9:00am</td>  <td>Consultation</td> </tr>
+  <tr> <td></td>        <td>12:30pm</td> <td>Lunch Break</td> </tr>
+  <tr> <td></td>        <td>1:30</td>  <td>Consultation</td> </tr>
+</table>
+
+<hr/>
+
+<!--
+    Edit the setup instructions in _includes/setup.html to reflect your bootcamp.
+    (In particular, most bootcamps teach either Python or R, not both.)
+-->
+
+
+<!--
+<h2>Additional Resources</h2>
+
+<h3>shell</h3>
+<ul>
+<li><a href=http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/>Unix/Linux Command Reference</a>
+<li><a href=https://github.com/swcarpentry/boot-camps/blob/master/shell/shell_cheatsheet.md
+>Shell cheat sheet</a>
+<li><a href=http://software-carpentry.org/v4/shell/index.html>Software Carpentry shell lessons</a>
+</ul>
+
+<h3>R</h3>
+
+<b>Where to learn more about R</b>
+<ul>
+<li><a href=http://www.statmethods.net/>http://www.statmethods.net/</a> - good for data organization, basics stats and graphs
+<li><a href=http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm>http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm</a> - basic parametric and non-parametric stats
+<li><a href=http://www.cyclismo.org/tutorial/R/index.html>http://www.cyclismo.org/tutorial/R/index.html</a> - R tutorial
+<li><a href=http://www.amazon.com/R-Action-Robert-Kabacoff/dp/1935182390>R in Action</a> - good book as an R reference
+<li><a href=http://www.twotorials.com/>http://www.twotorials.com/</a>
+<li><a href=http://www.r-bloggers.com/>http://www.r-bloggers.com/</a>
+<li><a href=http://tryr.codeschool.com/>http://tryr.codeschool.com/</a>
+<li><a href=http://adv-r.had.co.nz/>Advanced R Programming by Hadley Wickham</a>
+<li><a href=http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction>Beginner's Guide to R from Computer World</a>
+<li><a href=http://www.scoop.it/t/r-for-journalists>R for Journalists</a>
+<li><a href=http://www.r-bloggers.com/>R Bloggers</a>
+<li><a href=http://www.inside-r.org/>inside-R</a> 
+<li><a href=http://ropensci.org/>rOpenSci</a>
+</ul>
+
+<p>
+<b>Plotting in R</b>
+<ul>
+<li><a href=http://www.harding.edu/fmccown/r/>http://www.harding.edu/fmccown/r/</a> - Very simple graphs
+<li><a href=https://storify.com/tracykteal/r-galleries>A variety of R gallery recommendations</a>
+<li><a href=http://docs.ggplot2.org/>ggplot gallery</a> - extensive and comprehensive; a great resource
+<li><a href=http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang-ebook/dp/B00AJ5X7W4/>R Graphics Cookbook</a> - highly recommended
+<li><a href=http://www.cookbook-r.com/Graphs/>Some of R Graphics Cookbook plots</a> - a set of some of the plots from the R Graphics Cookbook by Winston Chang
+<li><a href=http://rgm3.lab.nig.ac.jp/RGM/R_image_list?page=665&init=true>R Graphical Manual</a> - plots from apparently every R CRAN package
+</ul>
+-->
+
+<h2>Setup</h2>
+
+<p>
+  To participate, you will need working copies of the software described below.  Please make sure to install everything <em>before</em> the start of your bootcamp.
+</p>
+
+{% include setup.html %}

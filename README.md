@@ -1,2 +1,1 @@
-# syllabi
-Hands-on training courses administered by SESYNC.
+## <p align="center">https://sesync-ci.github.io/syllabi</p>

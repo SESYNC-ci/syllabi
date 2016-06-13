@@ -1,0 +1,159 @@
+---
+title: "UMD/BSOS Workshop"
+category: "training-course"
+root: .
+startdate: 2016-01-11
+enddate: 2016-01-13
+humandate: January 11 and 13, 2016
+humantime: 10:00 am - 4:00 pm
+address1: 2113 Chincoteague Hall
+instructor: ["Mary Shelley", "Mike Smorul"]
+---
+
+<h2>General Information</h2>
+
+<p>
+We'll explore ways to introduce state-of-the-art, practical computation to undergraduates in the social sciences.
+</p>
+
+<!-- Displays instructors' names if they are available. -->
+{% if page.instructor %}
+<p>
+  <strong>Instructors:</strong>
+  {{page.instructor | join: ', ' %}}
+</p>
+{% endif %}
+
+<p>
+  <strong>Requirements:</strong>
+  Participants must bring a laptop with the required software pre-installed (see "Setup" below).</strong>
+</p>
+
+
+<h2>Schedule (tentative)</h2>
+
+<table class="table table-striped">
+  <tr> <td>Monday</td>  <td>10:00am</td>  <td>Welcome</td> </tr>
+  <tr> <td></td>        <td>10:15</td>   <td>Introductions and overview of issues</td> </tr>
+  <tr> <td></td>        <td>11:00</td>   <td>Using OpenRefine to explore and cleanup data</td> </tr>
+  <tr> <td></td>        <td>12:00pm</td> <td>Lunch</td> </tr>
+  <tr> <td></td>        <td>1:00</td>   <td>Intro to R and RStudio</td> </tr>
+  <tr> <td></td>        <td>3:30</td>   <td>Q&A/Day 1 Wrap up</td> </tr>
+  <tr> <td>Wednesday</td><td>10:00am</td><td>Recap Data Vis and introduce RShiny and accessing API driven data</td> </tr>
+  <tr> <td></td>        <td>12:00pm</td> <td>Lunch</td> </tr>
+  <tr> <td></td>        <td>1:00</td> <td>Quick Jupyter notebook demo</td> </tr>
+  <tr> <td></td>        <td>2:00</td>  <td>Brainstorm ideas for applying in courses</td> </tr>
+  <tr> <td></td>        <td>3:30</td>  <td>Workshop wrap up</td> </tr>
+ 
+</table>
+
+<hr/>
+
+<!--
+    Edit the setup instructions in _includes/setup.html to reflect your bootcamp.
+    (In particular, most bootcamps teach either Python or R, not both.)
+-->
+
+
+<!--
+<h2>Additional Resources</h2>
+
+<h3>R</h3>
+
+<b>Where to learn more about R</b>
+<ul>
+<li><a href=http://www.statmethods.net/>http://www.statmethods.net/</a> - good for data organization, basics stats and graphs
+<li><a href=http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm>http://www.gardenersown.co.uk/Education/Lectures/R/anova.htm</a> - basic parametric and non-parametric stats
+<li><a href=http://www.cyclismo.org/tutorial/R/index.html>http://www.cyclismo.org/tutorial/R/index.html</a> - R tutorial
+<li><a href=http://www.amazon.com/R-Action-Robert-Kabacoff/dp/1935182390>R in Action</a> - good book as an R reference
+<li><a href=http://www.twotorials.com/>http://www.twotorials.com/</a>
+<li><a href=http://www.r-bloggers.com/>http://www.r-bloggers.com/</a>
+<li><a href=http://tryr.codeschool.com/>http://tryr.codeschool.com/</a>
+<li><a href=http://adv-r.had.co.nz/>Advanced R Programming by Hadley Wickham</a>
+<li><a href=http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction>Beginner's Guide to R from Computer World</a>
+<li><a href=http://www.scoop.it/t/r-for-journalists>R for Journalists</a>
+<li><a href=http://www.r-bloggers.com/>R Bloggers</a>
+<li><a href=http://www.inside-r.org/>inside-R</a> 
+<li><a href=http://ropensci.org/>rOpenSci</a>
+</ul>
+
+<p>
+<b>Plotting in R</b>
+<ul>
+<li><a href=http://www.harding.edu/fmccown/r/>http://www.harding.edu/fmccown/r/</a> - Very simple graphs
+<li><a href=https://storify.com/tracykteal/r-galleries>A variety of R gallery recommendations</a>
+<li><a href=http://docs.ggplot2.org/>ggplot gallery</a> - extensive and comprehensive; a great resource
+<li><a href=http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang-ebook/dp/B00AJ5X7W4/>R Graphics Cookbook</a> - highly recommended
+<li><a href=http://www.cookbook-r.com/Graphs/>Some of R Graphics Cookbook plots</a> - a set of some of the plots from the R Graphics Cookbook by Winston Chang
+<li><a href=http://rgm3.lab.nig.ac.jp/RGM/R_image_list?page=665&init=true>R Graphical Manual</a> - plots from apparently every R CRAN package
+</ul>
+-->
+
+<h2>Resources</h2>
+
+<a href="https://github.com/resbaz/r-novice-gapminder-files/tree/master/data">Gap Minder Data</a>
+
+<br><BR>
+
+<h3>R Resources</h3>
+<ul>
+  <li><a href="http://www.princeton.edu/~otorres/RStata.pdf">R to Stata</a></li>
+  <li><a href="http://www.r-bloggers.com/how-to-create-a-twitter-sentiment-analysis-using-r-and-shiny/">Twitter and Shiny</a></li>
+  <LI><A href="http://shiny.rstudio.com/gallery/">R Shiny Gallery</A></LI>
+  <li><a href="http://proquest.safaribooksonline.com/">UMD Safari Books</a></li>
+  <li><a href="http://swirlstats.com/">SWIRL, Learning R</a><pre>
+    install.packages('swirl');
+    library("swirl")
+    swirl()
+  </pre></li>
+  <li><a href="http://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">R TwitteR</a></li>
+  <li><a href="http://proquest.safaribooksonline.com/book/statistics/9781449361129/bdot-introduction-to-statistical-packages/r_html">Introduction to R statistical Packages</a>
+ 
+</li>
+  </ul>
+  <h3>Jupyter notebooks</h3>
+  <ul>
+  <li><a href="http://jupyter.org/">Jupyter Home</a></li>
+  <li><a href="http://nb.bianp.net/sort/views/">Jupyter Notebook Demos</a></li>
+  <li><a href="http://tmpnb.org/">Create your own notebook</a></li>
+</ul>
+
+<h3>Python </h3><ul>
+  <li><a href="https://www.udacity.com/courses/cs101">Udacity CS101</a></li>
+<li><a href="https://www.udacity.com/courses/cs259">Udacity CS259</a>
+<li><a href="https://www.udacity.com/courses/cs212">Udacity CS212</a>
+</ul>
+
+<h3>Course materials</h3>
+<ul>
+  <li><a href="https://github.com/SESYNC-ci/BSOS-Jan-2016">Teaching Notes</a></li>
+  <li><a href="https://github.com/SESYNC-ci/r-twitter-demo">R Shiny Twitter Demo</a></li>
+  <li><a href="https://github.com/msmorul/datacarpentry-shiny">Gapminder Shiny Demo</a></li>
+</ul>
+
+<h3>Open Refine</h3>
+<ul>
+  <li><a href="http://openrefine.org/">Openrefine Website</a></li>
+  <li><a href="http://schoolofdata.org/handbook/recipes/cleaning-data-with-refine/">Ceaning Data with Open/Google Refine</a></li>
+  <li><a href="http://programminghistorian.org/lessons/cleaning-data-with-openrefine">Another cleaning data tutorial</a></li>
+</ul>
+
+UMD R Study Group: <a href="https://umd-r-users.github.io/studyGroup/">https://umd-r-users.github.io/studyGroup/</a>
+<br>Campus-wide R users mailing list: <a href="https://listserv.umd.edu/cgi-bin/wa?SUBED1=umd-r&A=1">https://listserv.umd.edu/cgi-bin/wa?SUBED1=umd-r&A=1</a>
+
+<h2>Setup</h2>
+
+<p>
+  To participate, you will need working copies of the software described below.  Please make sure to install everything <em>before</em> the start of the workshop. Mary and Mike will be on-site at 9 a.m. to help anyone who has trouble.
+</p>
+
+{% comment %}{% include setup.html %}{% endcomment %}
+
+
+<h2>Acknowledgements &amp; Support</h2>
+<div class="pull-right" style="max-width: 320px; padding-left: 6px;">
+</div>
+<p>
+Portions of the instructional materials are adopted from <a href="http://www.datacarpentry.org" target="_blank">Data Carpentry</a> and <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
+The structure of the curriculum as well as the teaching style are informed by <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
+</p>

@@ -1,0 +1,18 @@
+# Site settings
+
+title: sesync-ci
+subtitle: cyberinfrastructure
+email: itrequests@sesync.org
+description: GitHub Page for SESYNC-ci organization
+copyright: "&copy; National Socio-Environmental Synthesis Center (SESYNC)<br>1 Park Place, Suite 300, Annapolis, MD 21401"
+
+# Build settings
+
+markdown: kramdown
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+baseurl: '/SESYNC-ci/sesync-ci.github.io/dev/_site'
