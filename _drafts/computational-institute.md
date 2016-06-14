@@ -4,7 +4,7 @@ root: .
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
-humandate: July 26-29, 2016
+humandate: Jul 26-29, 2016
 humantime: 9:00 am - 5:00 pm
 startdate: 2015-07-26
 enddate: 2015-07-29
@@ -17,8 +17,10 @@ twitter: csisesync
 etherpad:
 ---
 
-[//]: # Edit the values in the parameter block above to be appropriate for your bootcamp.
-        Please use three-letter month names for the 'humandate' field.
+[//]: # "Edit the values in the parameter block above to be appropriate for your bootcamp."
+[//]: # "Please use three-letter month names for the 'humandate' field."
+
+
 
 <!--
     This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
