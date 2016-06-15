@@ -15,7 +15,6 @@ contact: icarroll@sesync.org
 raw:
 twitter: #csisesync
 etherpad:
-toc_levels: 1..1
 ---
 [//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
 [//]: # " Please use three-letter month names for the 'humandate' field. "
@@ -28,12 +27,8 @@ toc_levels: 1..1
 
 ## General Information
 
-This year's CSI will provide our postdocs and graduate theme participants with hands-on instruction in
-open source tools for collaborative coding and data management, analysis, visualization, and dissemination
-with a focus on using SESYNC infrastructure. The goals of the workshop are to learn new skills, advance
-work on team projects, and get familiar with our CI.
-
-Updates will be posted to this website as they become available.
+This summer's Computational Institute will provide science teams from the socio-environmental synthesis community with hands-on instruction in open source tools for collaborative coding and data management, analysis, visualization, and dissemination.
+The goals of the workshop are to learn new skills, advance work on team projects, and become familiar with the kinds of cyberinfrastructure found on most research institutions.
 
 [//]: # " This block displays the instructors' names if they are available. "
 
@@ -90,27 +85,35 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 ## Schedule (tentative)
 
-We'll have coffee and snack breaks at 10:30am and 3:30pm daily.
+**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30am.
 
-SESYNC is providing lunch on site; attendees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+SESYNC provides lunch on site, but attendees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-| Monday    | 9:00am  | Welcome and overview of SESYNC CI                                   |
-|           | 9:15    | R and how to use RStudio Server                                     |
-|           | 10:30   | Break                                                               |
-|           | 10:45   | Intro to relational databases and SQL (from within R)               |
-|           | 12:30pm | Lunch                                                               |
-|           | 1:30    | Intro to git and gitlab and data munging with tidyr and plyr        |
-|           | 3:30    | Break                                                               |
-|           | 4:00    | ggplot, wrap up/Q&A                                                 |
-|           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)             |
-| Tuesday   | 9:00am  | Tools for disseminating results, code, and data (including R Shiny) |
-|           | 10:30   | Break                                                               |
-|           | 10:45   | Consulting/hacking                                                  |
-|           | 12:30pm | Lunch                                                               |
-|           | 1:30    | Attendee choice: submitting jobs to the cluster OR geo data with R  |
-|           | 3:30    | Break                                                               |
-|           | 3:45    | Consulting/hackng                                                   |
-| Wednesday | 9:00am  | Consulting/Hacking/Additional instruction as desired                |
+| Tuesday   |  9:00am | Welcome and Overview of SESYNC CI                       |
+|           |    9:15 |                                                         |
+|           |   10:30 | Break                                                   |
+|           |   10:45 |                                                         |
+|           | 12:30pm | Lunch                                                   |
+|           |    1:30 | Team Meeting: Devise 'data2doc' Project                 |
+|           |    3:30 | Break                                                   |
+|           |    4:00 | One Hour Languages                                      |
+|           |         | attendee choice: R, Python, SQL, JavaScript             |
+|           |    5:00 | Reception (informal with snacks, tasty beverages, etc.) |
+| Wednesday |  9:00am |                                                         |
+|           |   10:30 | Break                                                   |
+|           |   10:45 |                                                         |
+|           | 12:30pm | Lunch                                                   |
+|           |    1:30 |                                                         |
+|           |    3:30 | Break                                                   |
+|           |    3:45 |                                                         |
+| Thursday  |  9:00am |                                                         |
+|           | 10:30am | Break                                                   |
+|           | 12:30pm | Lunch                                                   |
+|           |    3:30 | Break                                                   |
+| Friday    |  9:00am |                                                         |
+|           | 12:00pm |                                                         |
+|           | 12:30pm | Lunch                                                   |
+|           |  1:30pm | Presentation of "data2doc" documents                    |
 {: .table .table-striped}
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
