@@ -89,31 +89,35 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 SESYNC provides lunch on site, but attendees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-| Tuesday   |  9:00am | Welcome and Overview of SESYNC CI                       |
-|           |    9:15 |                                                         |
-|           |   10:30 | Break                                                   |
-|           |   10:45 |                                                         |
-|           | 12:30pm | Lunch                                                   |
-|           |    1:30 | Team Meeting: Devise 'data2doc' Project                 |
-|           |    3:30 | Break                                                   |
-|           |    4:00 | One Hour Languages                                      |
-|           |         | attendee choice: R, Python, SQL, JavaScript             |
-|           |    5:00 | Reception (informal with snacks, tasty beverages, etc.) |
-| Wednesday |  9:00am |                                                         |
-|           |   10:30 | Break                                                   |
-|           |   10:45 |                                                         |
-|           | 12:30pm | Lunch                                                   |
-|           |    1:30 |                                                         |
-|           |    3:30 | Break                                                   |
-|           |    3:45 |                                                         |
-| Thursday  |  9:00am |                                                         |
-|           | 10:30am | Break                                                   |
-|           | 12:30pm | Lunch                                                   |
-|           |    3:30 | Break                                                   |
-| Friday    |  9:00am |                                                         |
-|           | 12:00pm |                                                         |
-|           | 12:30pm | Lunch                                                   |
-|           |  1:30pm | Presentation of "data2doc" documents                    |
+[//]: # " Bracketed [name] is the presenter, who is not necessarilly responsible for preparing material "
+
+| Tuesday   | 9:00am  | Welcome and Overview of SESYNC [Mary + Ian]                                         |
+|           | 9:15    | Collaborative & Reproducible Workflows (basic git) [Ian]                            |
+|           | 10:30   | Break                                                                               |
+|           | 10:45   | Data Storage and Retrieval (database principles) [Mary]                             |
+|           | 12:30pm | Lunch                                                                               |
+|           | 1:30    | Introduce 'data2doc' Project & Team Meetings [Ian]                                  |
+|           | 3:30    | Break                                                                               |
+|           | 4:00    | One Hour Language<br>&nbsp; choose *one* **new** from R, Python, SQL, or JavaScript |
+|           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)                             |
+| Wednesday | 9:00am  | The Landscape of Spatial Data Tools (part projections, part open stack) [Kelly]     |
+|           | 10:30   | Break                                                                               |
+|           | 10:45   | Scripting Geospatial Analysis (ArcPy, PyQGIS) [Ian]                                 |
+|           | 12:30pm | Lunch                                                                               |
+|           | 1:30    | Geospatial Libraries in R (geospatial R) [Philippe]                                 |
+|           | 3:30    | Break                                                                               |
+|           | 3:45    | Coaching Sessions                                                                   |
+| Thursday  | 9:00am  | (intermediate version control / data versioning) [Ian]                              |
+|           | 10:30am | Break                                                                               |
+|           | 10:45am | (postGIS) [Philippe]                                                                |
+|           | 12:30pm | Lunch                                                                               |
+|           | 1:30pm  | Coaching Sessions                                                                   |
+|           | 3:30    | Break                                                                               |
+|           | 3:45pm  | Shiny Apps [Kelly]                                                                  |
+| Friday    | 9:00am  | Coaching Session and ad-hoc Plenary                                                 |
+|           | 12:00pm | Wrap-up and Review                                                                  |
+|           | 12:30pm | Lunch                                                                               |
+|           | 1:30pm  | Presentation of "data2doc" documents                                                |
 {: .table .table-striped}
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
