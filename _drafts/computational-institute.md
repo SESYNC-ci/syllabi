@@ -85,9 +85,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 ## Schedule (tentative)
 
-**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30am.
-
-SESYNC provides lunch on site, but attendees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30am and on site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
 [//]: # " Bracketed [name] is the presenter, who is not necessarilly responsible for preparing material "
 
