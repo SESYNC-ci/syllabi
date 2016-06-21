@@ -11,5 +11,6 @@ menu: 2
 |                 |                                                   |          |
 | Version Control |                                                   |          |
 |                 |                                                   |          |
+| Machine Learning| <http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/> | R |
 {:.table}
 
