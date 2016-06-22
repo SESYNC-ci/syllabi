@@ -97,11 +97,12 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30    | Introduce 'data2doc' Project & Team Meetings [Ian]                              |
 |           | 3:30    | Break                                                                           |
-|           | 4:00    | One Hour Language <br> choose **one** *new* language from                       |
-|           |         | > [R]({{ site.gh-pages }}/basic-R-lesson)                                       |
-|           |         | > Python                                                                        |
-|           |         | > [SQL]({{ site.gh-pages }}/basic-SQL-lesson)                                   |
-|           |         | > JavaScript                                                                    |
+|           | 4:00    | One Hour Language                                                               |
+|           |         | (choose **one** *new* language)                                                 |
+|           |         | [R]({{ site.gh-pages }}/basic-R-lesson)                                         |
+|           |         | Python                                                                          |
+|           |         | [SQL]({{ site.gh-pages }}/basic-SQL-lesson)                                     |
+|           |         | JavaScript                                                                      |
 |           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)                         |
 | Wednesday | 9:00am  | The Landscape of Spatial Data Tools (part projections, part open stack) [Kelly] |
 |           | 10:30   | Break                                                                           |
