@@ -15,7 +15,7 @@ menu: 2
 |                      |                                                                                                     |             |
 | Machine Learning     | <http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/> | R           |
 |                      |                                                                                                     |             |
-| Additional Resources | [Open Source Softwares](http://casoilresource.lawr.ucdavis.edu/software/)                           |             |
+| Additional Resources | [Open Source Software for Soil Scientists](http://casoilresource.lawr.ucdavis.edu/software/)        |             |
 |                      | [NEON WorkWithData](http://neondataskills.org/)                                                     |             |
 |                      | [Data Carpentry Lessons](http://www.datacarpentry.org/lessons/)                                     |             |
 |                      | [Codecademy](https://www.codecademy.com)                                                            |             |
