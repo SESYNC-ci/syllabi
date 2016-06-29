@@ -86,7 +86,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 ## Schedule (tentative)
 
-**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30am and on site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
 [//]: # " Bracketed [name] is the presenter, who is not necessarilly responsible for preparing material "
 
@@ -104,11 +104,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |         | [SQL]({{ site.gh-pages }}/basic-SQL-lesson)                                     |
 |           |         | JavaScript                                                                      |
 |           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)                         |
-| Wednesday | 9:00am  | The Landscape of Spatial Data Tools (part projections, part open stack) [Kelly] |
+| Wednesday | 9:00am  | [The Landscape of Spatial Data Tools]({{ site.gh-pages }}/basic-osgeo-lesson)   |
 |           | 10:30   | Break                                                                           |
 |           | 10:45   | Scripting Geospatial Analysis (ArcPy, PyQGIS) [Ian]                             |
 |           | 12:30pm | Lunch                                                                           |
-|           | 1:30    | Geospatial Libraries in R (geospatial R) [Philippe]                             |
+|           | 1:30    | [Geospatial Packages in R]({{ site.gh-pages }}/geospatial-packages-in-R-lesson) |
 |           | 3:30    | Break                                                                           |
 |           | 3:45    | Coaching Sessions                                                               |
 | Thursday  | 9:00am  | (intermediate version control / data versioning) [Ian]                          |
@@ -117,8 +117,8 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30pm  | Coaching Sessions                                                               |
 |           | 3:30    | Break                                                                           |
-|           | 3:45pm  | Shiny Apps [Kelly]                                                              |
-| Friday    | 9:00am  | Coaching Session and ad-hoc Plenary                                             |
+|           | 3:45pm  | [Shiny Apps]({{ site.gh-pages }}/basic-Shiny-lesson)                            |
+| Friday    | 9:00am  | Coaching Sessions and ad-hoc Plenary                                            |
 |           | 12:00pm | Wrap-up and Review                                                              |
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30pm  | Presentation of "data2doc" documents                                            |
