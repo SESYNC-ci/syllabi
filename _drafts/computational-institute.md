@@ -1,5 +1,5 @@
 ---
-title: "Computational Institute - Summer 2016"
+title: Computational Institute - Summer 2016
 root: .
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
@@ -29,7 +29,7 @@ etherpad:
 ## General Information
 
 This summer's Computational Institute will provide science teams from the socio-environmental synthesis community with hands-on instruction in open source tools for collaborative coding and data management, analysis, visualization, and dissemination.
-The goals of the workshop are to learn new skills, advance work on team projects, and become familiar with the kinds of cyberinfrastructure found on most research institutions.
+The goals of the workshop are to learn new concepts, skills and approaches for data-driven research, advance work on team projects, and become familiar with tools compitible with the cyberinfrastructure available at most research institution.
 
 [//]: # " This block displays the instructors' names if they are available. "
 
@@ -93,7 +93,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 | Tuesday   | 9:00am  | Welcome and Overview of SESYNC [Mary + Ian]                                     |
 |           | 9:15    | [Collaborative & Reproducible Workflow]({{ site.gh-pages }}/basic-git-lesson)   |
 |           | 10:30   | Break                                                                           |
-|           | 10:45   | Data Storage and Retrieval (database principles) [Mary]                         |
+|           | 10:45   | [Data Storage and Access for All] (database principles) [Mary]                  |
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30    | Introduce 'data2doc' Project & Team Meetings [Ian]                              |
 |           | 3:30    | Break                                                                           |
@@ -102,7 +102,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |         | [R]({{ site.gh-pages }}/basic-R-lesson)                                         |
 |           |         | Python                                                                          |
 |           |         | [SQL]({{ site.gh-pages }}/basic-SQL-lesson)                                     |
-|           |         | JavaScript                                                                      |
+|           |         | [JavaScript]({{ site.gh-pages}}/basic-JavaScript-lesson)                        ||
 |           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)                         |
 | Wednesday | 9:00am  | [The Landscape of Spatial Data Tools]({{ site.gh-pages }}/basic-osgeo-lesson)   |
 |           | 10:30   | Break                                                                           |
@@ -113,11 +113,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 3:45    | Coaching Sessions                                                               |
 | Thursday  | 9:00am  | (intermediate version control / data versioning) [Ian]                          |
 |           | 10:30am | Break                                                                           |
-|           | 10:45am | (postGIS) [Philippe]                                                            |
+|           | 10:45am | [Shiny Apps]({{ site.gh-pages }}/basic-Shiny-lesson)                            |
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30pm  | Coaching Sessions                                                               |
 |           | 3:30    | Break                                                                           |
-|           | 3:45pm  | [Shiny Apps]({{ site.gh-pages }}/basic-Shiny-lesson)                            |
+|           | 3:45pm  | [Data Manipulation in R]({{ site.gh-pages }}/data-manipulation-in-R-lesson)     |
 | Friday    | 9:00am  | Coaching Sessions and ad-hoc Plenary                                            |
 |           | 12:00pm | Wrap-up and Review                                                              |
 |           | 12:30pm | Lunch                                                                           |
@@ -127,7 +127,14 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
 
-## Additional Resources
+## Setup
+
+To participate, you will need working copies of the software described below.
+Please make sure to install everything **before** the start of your bootcamp.
+
+{% include setup-non-sesync.html %}
+
+## Resources for Self-Learning
 
 ### shell
 
@@ -158,10 +165,3 @@ The structure of the curriculum as well as the teaching style are informed by [S
     + <http://www.cookbook-r.com/Graphs> *some plots from R Graphics Cookbook by Winston Chang*
 	+ [R Graphical Manual](http://rgm3.lab.nig.ac.jp/RGM/R_image_list?page=665&init=true) *plots from apparently every R CRAN package*
 
-
-## Setup
-
-To participate, you will need working copies of the software described below.
-Please make sure to install everything **before** the start of your bootcamp.
-
-{% include setup.html %}
