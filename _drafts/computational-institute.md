@@ -93,7 +93,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 | Tuesday   | 9:00am  | Welcome and Overview of SESYNC [Mary + Ian]                                     |
 |           | 9:15    | [Collaborative & Reproducible Workflow]({{ site.gh-pages }}/basic-git-lesson)   |
 |           | 10:30   | Break                                                                           |
-|           | 10:45   | [Data Storage and Access for All] (database principles) [Mary]                  |
+|           | 10:45   | [Data Storage and Access for All]({{ site.gh-pages }}/introdb-lesson)           |
 |           | 12:30pm | Lunch                                                                           |
 |           | 1:30    | Introduce 'data2doc' Project & Team Meetings [Ian]                              |
 |           | 3:30    | Break                                                                           |
@@ -102,9 +102,9 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |         | [R]({{ site.gh-pages }}/basic-R-lesson)                                         |
 |           |         | Python                                                                          |
 |           |         | [SQL]({{ site.gh-pages }}/basic-SQL-lesson)                                     |
-|           |         | [JavaScript]({{ site.gh-pages}}/basic-JavaScript-lesson)                        ||
+|           |         | [JavaScript]({{ site.gh-pages}}/basic-JavaScript-lesson)                        |
 |           | 5:00    | Reception (informal with snacks, tasty beverages, etc.)                         |
-| Wednesday | 9:00am  | [The Landscape of Spatial Data Tools]({{ site.gh-pages }}/basic-osgeo-lesson)   |
+| Wednesday | 9:00am  | [The Landscape of Spatial Data Tools]({{ site.gh-pages }}/osgeo-lesson)         |
 |           | 10:30   | Break                                                                           |
 |           | 10:45   | Scripting Geospatial Analysis (ArcPy, PyQGIS) [Ian]                             |
 |           | 12:30pm | Lunch                                                                           |
