@@ -275,9 +275,13 @@ h5, h6 {
     	overflow-y: hidden;
     }
 
+    .main-content:hover {
+    	overflow-y: auto;
+    }
+
     .sidebar-content {
     	height: calc(100vh - 150px - 115px);
-    	overflow-y: scroll;
+    	overflow-y: auto;
     }
 
 }
