@@ -56,7 +56,7 @@ The goals of the workshop are to learn new concepts, skills and approaches for d
 **Requirements:**  
 Participants must bring a laptop.
 
-[//]: # " This block automatically inserts a contact email address if one has been specified for the page. "
+[//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
 [//]: # " If one hasn't, this block inserts the generic contact address for Software Carpentry. "
 
 {% capture mailto %}
