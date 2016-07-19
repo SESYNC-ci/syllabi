@@ -13,7 +13,7 @@ assistant: ["Kate Weiss"]
 contact: icarroll@sesync.org
 twitter: #csisesync
 etherpad: https://public.etherpad-mozilla.org/p/sesync-comp-institute-july-16
-download: "where's the data live"
+download: http://sesync.us/fr
 ---
 
 [//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
@@ -117,7 +117,8 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 12:00 pm   | Wrap-up and Review                                                   |
 |           | *12:30*    | *Lunch*                                                              |
 |           | 1:30       | Presentation of "data2doc" documents                                 |
-{:.table .table-striped}
+|           |            |                                                                      |
+{:.table .table-striped .disable-links}
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
@@ -125,9 +126,9 @@ The structure of the curriculum as well as the teaching style are informed by [S
 ## Pre-Arrival Installations & Downloads
 
 To participate, you will need working copies of the software described below.
-Please make sure to install everything **before** the start of your bootcamp.
+Please make sure to install everything **before** the start of the short course.
 
-{% include setup-non-sesync.html %}
+{% include setup-non-sesync.md %}
 
 [//]: # " Hyperlinks "
 
