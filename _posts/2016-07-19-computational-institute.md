@@ -13,7 +13,7 @@ assistant: ["Kate Weiss"]
 contact: icarroll@sesync.org
 twitter: #csisesync
 etherpad: https://public.etherpad-mozilla.org/p/sesync-comp-institute-july-16
-download: http://sesync.us/fr
+download: http://sesync.us/fs
 ---
 
 [//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
@@ -127,6 +127,10 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 To participate, you will need working copies of the software described below.
 Please make sure to install everything **before** the start of the short course.
+
+We encourage participants to create a directory, we will refer to it as your `%sandbox%`, for all course material.
+Please download the sidebar data and unzip it into your `%sandbox%`.
+You should have a README file at `%sandbox%\data\README.md`.
 
 {% include setup-non-sesync.md %}
 
