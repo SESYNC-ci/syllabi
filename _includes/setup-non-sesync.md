@@ -4,7 +4,7 @@ When you're writing scripts or text, it's nice to have a text editor that is opt
 These editors feature automatic color-coding of key words, line numbers, and maybe even tab-completion.
 The default text editor on Mac OS X and Linux is usually set to Vim, which is not famous for being intuitive.
 If you accidentally find yourself stuck in Vim, try typing the escape key, followed by ':q!' (colon, lower-case 'q', exclamation mark), then hitting Return to exit. This will lose any unsaved changes to the file!
-You operating system will have a default text editor (e.g. Notepad on Windows, TextEdit on Mac OSX), you may install a text editor of your own choosing, or you can use the text editor built into RStudio (see below) for all kinds of scripting (not just in the R language).
+Your operating system will have a default text editor (e.g. Notepad on Windows, TextEdit on Mac OSX), you may install a text editor of your own choosing, or you can use the text editor built into RStudio (see below) for all kinds of scripting (not just in the R language).
 
 **Command Line Interface / Shell**
 
