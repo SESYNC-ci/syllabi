@@ -32,7 +32,6 @@ Most packages in the list below can be installed with `brew install %package%`, 
 | RStudio      | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          |                     |
 | Python 2.7.x | <https://www.python.org/downloads/>                   | `python`            | `python`            |
 | QGIS         | <https://trac.osgeo.org/osgeo4w/><sup>1</sup>         | `qgis`*, `gdal`     | `qgis`              |
-|              |                                                       |                     |                     |
 {:.table}
 
 1: Choose the express Desktop install. **Windows users**  need to add a path to your `PATH` environment variable. Open the "Start" menu, search for "environment", and choose to edit environment variables for your account. Add a new variable named "PATH" with value "C:\OSGeo4W64\bin".
