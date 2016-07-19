@@ -11,7 +11,7 @@ You operating system will have a default text editor (e.g. Notepad on Windows, T
 When writing scripts, creating programs, and working with data, the best way (sometimes the only way!) to proceed is often by working on the operating system's command line interface (CLI), or shell. Access to the shell varies by OS:
 
 - Windows: Select "Start" and "Run" and type in "cmd.exe".
-- Mac OS: Open the Terminal in Applications.
+- Mac: Open the Terminal in Applications.
 - Linux: I bet you already know.
 
 Make sure you know how to access the shell on your system. Customize it's look and feel if you like!
@@ -20,8 +20,8 @@ Make sure you know how to access the shell on your system. Customize it's look a
 
 The table below lists software we will use in this short course.
 Unless noted (and especially for `git`) please use the default installation options.
-For **Window's users**, an installer for each item is available at the given download site.
-**Mac OS X users** are encouraged to use [Homebrew](http://brew.sh){:target="_blank"} -- the missing package manager for OS X -- via the shell.
+For **Windows users**, an installer for each item is available at the given download site.
+**Mac users** are encouraged to use [Homebrew](http://brew.sh){:target="_blank"} -- the missing package manager for OS X -- via the shell.
 Most packages in the list below can be installed with `brew install %package%`, but for packages with an * use `brew cask install %package%`.
 **Ubuntu users** may install from the shell with `sudo apt-get install %package%`, and other Linux users are on their own.
 
