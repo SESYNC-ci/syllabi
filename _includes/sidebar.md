@@ -1,15 +1,12 @@
-# Sidebar title
+## Course Material and Links
 
-* List item
-* another item
+{% if page.etherpad %}
+* Ask for help, copy snippets, and share your discoveries on our [Etherpad]({{ page.etherpad }}){:target="_blank"}.
+{% endif %}
+{% if page.download %}
+* Get the [data]({{ page.download }}){:target="_blank"} for all lessons.
+{% endif %}
 
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/csisesync" data-widget-id="755218684000501760" width="96%">#csiseysnc</a>
 
-Here's a paragraph of some short text. If this long enough, it will wrap around
-
-# Related Stuff
-
-* [Link list item](http://www.sesync.org)
-* [Link](https://cnn.com)
-
-
-## Sidebar subtitle
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

@@ -8,3 +8,9 @@
 /*     height: auto; */
 /*     overflow-y: auto; */
 /* } */
+
+.disable-links a {
+    color: #333;
+    pointer-events: none;
+    cursor: default;
+}

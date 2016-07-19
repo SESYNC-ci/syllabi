@@ -88,8 +88,6 @@
     font-style: normal;
 }
 
-
-
 /*
  * Base Tag Formatting
  */
@@ -120,31 +118,30 @@ html,body{
     padding: 0 0 115px;
 
 }
-    /* Medium Devices, Desktops */
-	@media only screen and (min-width : 992px) {
-        .contentpage {
-            background: transparent url('../images/desktop-zone-content-bg.png') repeat-y;
-            background-position: center;
-        }
-        .frontpage {
-            background: transparent url('../images/desktop-zone-content-bg-fp.png') repeat-y;
-            background-position: center;
-        }
-	}
 
-	/* Large Devices, Wide Screens */
-	@media only screen and (min-width : 1200px) {
-        .contentpage {
-            background: transparent url('../images/desktop-zone-content-bg-lg.png') repeat-y;
-            background-position: center;
-        }
-        .frontpage {
-            background: transparent url('../images/desktop-zone-content-bg-lg-fp.png') repeat-y;
-            background-position: center;
-        }
-	}
-	
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .contentpage {
+	background: transparent url('../images/desktop-zone-content-bg.png') repeat-y;
+	background-position: center;
+    }
+    .frontpage {
+	background: transparent url('../images/desktop-zone-content-bg-fp.png') repeat-y;
+	background-position: center;
+    }
+}
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .contentpage {
+	background: transparent url('../images/desktop-zone-content-bg-lg.png') repeat-y;
+	background-position: center;
+    }
+    .frontpage {
+	background: transparent url('../images/desktop-zone-content-bg-lg-fp.png') repeat-y;
+	background-position: center;
+    }
+}
 
 .list-inline {
     margin-left: 0px;
@@ -177,7 +174,7 @@ html,body{
 }
 
 .main-content {
-    /*background: #FFF;*/
+    background: #FFF;
     padding-left: 10px;
 }
 .sidebar-content {
@@ -265,7 +262,26 @@ h4 {
 h5, h6 {
     font-size: 1em
 }
-/** title bar links **/
 
+@media (min-width:992px) {
 
-/** End title bar links **/
+    html, body {
+    	height: 100%;
+    	overflow: hidden;
+    }
+    
+    .main-content {
+    	height: calc(100vh - 150px - 115px);
+    	overflow-y: scroll;
+    }
+
+    .sidebar-content {
+    	height: calc(100vh - 150px - 115px);
+    	overflow-y: scroll;
+    }
+
+}
+
+a.twitter-timeline {
+    padding-right: 30px;
+}
