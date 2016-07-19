@@ -272,7 +272,7 @@ h5, h6 {
     
     .main-content {
     	height: calc(100vh - 150px - 115px);
-    	overflow-y: scroll;
+    	overflow-y: auto;
     }
 
     .sidebar-content {
