@@ -69,14 +69,6 @@ Participants must bring a laptop.
 **Contact:**  
 Please email *{{ mailto | strip }}* for questions and information not covered here.
 
-{% if page.twitter %}
-  **Twitter:** {{page.twitter}}
-{% endif %}
-
-{% if page.etherpad %}
-  **Etherpad:** ({{page.etherpad}})
-{% endif %}
-
 ## Acknowledgements & Support
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
