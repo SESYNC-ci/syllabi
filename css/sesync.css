@@ -291,6 +291,6 @@ h5, h6 {
 
 }
 
-a.twitter-timeline {
-    padding-right: 30px;
+.timeline-Viewport {
+    overflow-y: hidden;
 }
