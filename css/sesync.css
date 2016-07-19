@@ -176,6 +176,7 @@ html,body{
 .main-content {
     background: #FFF;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .sidebar-content {
     /*background: #595757;*/
@@ -281,6 +282,10 @@ h5, h6 {
 
     .sidebar-content {
     	height: calc(100vh - 150px - 115px);
+    	overflow-y: hidden;
+    }
+
+    .sidebar-content:hover {
     	overflow-y: auto;
     }
 
