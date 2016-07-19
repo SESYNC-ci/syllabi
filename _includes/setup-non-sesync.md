@@ -22,7 +22,7 @@ The table below lists software we will use in this short course.
 Unless noted (and especially for `git`) please use the default installation options.
 For **Windows users**, an installer for each item is available at the given download site.
 **Mac users** are encouraged to use [Homebrew](http://brew.sh){:target="_blank"} -- the missing package manager for OS X -- via the shell.
-Most packages in the list below can be installed with `brew install %package%`, but for packages with an * use `brew cask install %package%`.
+Most packages in the list below can be installed with `brew install %package%`, but packages with an * require `brew cask install %package%`.
 **Ubuntu users** may install from the shell with `sudo apt-get install %package%`, and other Linux users are on their own.
 
 | Software     | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
