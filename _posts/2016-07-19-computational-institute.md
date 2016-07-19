@@ -117,7 +117,6 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 12:00 pm   | Wrap-up and Review                                                   |
 |           | *12:30*    | *Lunch*                                                              |
 |           | 1:30       | Presentation of "data2doc" documents                                 |
-|           |            |                                                                      |
 {:.table .table-striped .disable-links}
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
