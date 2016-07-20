@@ -15,6 +15,7 @@ menu: 2
 | [CodeSchool](https://www.codeschool.com/)                                                    |
 | [R-bloggers](https://www.r-bloggers.com)                                                     |
 | [Open Source Software for Soil Scientists](http://casoilresource.lawr.ucdavis.edu/software/) |
+| [Inside-R](http://www.inside-r.org)                                                          |
 {:.table}
 
 ## Topical Resources
@@ -41,7 +42,6 @@ menu: 2
 |                  | [Command line cheat-sheet](http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)                                    | Shell       |
 |                  |                                                                                                                                |             |
 | Multiple         | [R stuff in 2 minute tutorials](http://www.twotorials.com)                                                                     | R           |
-|                  | [Inside-R](http://www.inside-r.org)                                                                                            | R           |
 |                  | [Quick-R](http://www.statmethods.net)                                                                                          | R           |
 |                  | [Kelly Black's R Tutorial](http://www.cyclismo.org/tutorial/R/index.html)                                                      | R           |
 |                  | [Hadley Wickham's Advanced R](http://adv-r.had.co.nz/)                                                                         | R           |
