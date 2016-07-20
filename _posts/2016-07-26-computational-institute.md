@@ -67,7 +67,7 @@ Participants must bring a laptop.
   {% endif %}
 {% endcapture %}
 **Contact:**  
-Please email *{{ mailto | strip }}* for questions and information not covered here.
+Please email *{{ mailto | strip }}* with any questions and for information not covered here.
 
 ## Acknowledgements & Support
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
