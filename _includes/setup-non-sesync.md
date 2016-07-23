@@ -1,3 +1,8 @@
+**GitHub**
+
+If you do not aleady have a GitHub account, please create one at <https://www.github.com>.
+Participants with a SESYNC account may instead use <https://gitlab.sesync.com> for their projects, but are encouraged to try GitHub in our lessons.
+
 **Editor**
 
 When you're writing scripts or text, it's nice to have a text editor that is optimized for writing code.

@@ -1,10 +1,12 @@
-## Course Material and Links
+# Course Material <br>& Links
 
+-  
+- Do you have a [GitHub](https://www.github.com) account?
 {% if page.etherpad %}
-* Ask for help, copy snippets, and share your discoveries on our [Etherpad]({{ page.etherpad }}){:target="_blank"}.
+- Ask for help, copy snippets, and share your discoveries on our [Etherpad]({{ page.etherpad }}){:target="_blank"}.
 {% endif %}
 {% if page.download %}
-* Get the [data]({{ page.download }}){:target="_blank"} for all lessons.
+- Get the [data]({{ page.download }}){:target="_blank"} for all lessons.
 {% endif %}
 
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/csisesync" data-widget-id="755481646099492864" width="96%" data-chrome="noscrollbar">#csiseysnc</a>
