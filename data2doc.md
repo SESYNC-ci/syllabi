@@ -13,6 +13,6 @@ You teams's project should **aim to achieve the following four goals**:
 
 - Collaborate on a GitHub (or similar) repository, where your project files will live.
 - Incorporate or describe tables in a relational database you might use to share project data. The PostgreSQL server is at your disposal.
-- Has a script that uses your data in a simple analysis or vizualization. The script is in your GitHub repository.
-- Has a viewable document, anything from an image to a text document or a web page, you can share on Friday afternoon.
+- Programatically read the data, with a script in your repository, and use it in a simple analysis or vizualization.
+- Create a document, anything from an image to a text document or a web page, to share on Friday afternoon.
 
