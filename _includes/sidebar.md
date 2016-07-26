@@ -9,7 +9,11 @@
 {% endif %}
 
 {% if page.download %}
-- <p>Get the <a href="{{ page.download }}" target="_blank">data</a> for all lessons.</p>
+- Get the [data]({{ site.baseurl }}{{ page.download }}) for all lessons.
+{% endif %}
+
+{% if page.data2doc %}
+- <p>Description of <a href="{{ site.baseurl }}/data2doc.html">data2doc</a> mini-project.</p>
 {% endif %}
 
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/csisesync" data-widget-id="755481646099492864" width="96%" data-chrome="noscrollbar">#csiseysnc</a>

@@ -14,6 +14,7 @@ contact: icarroll@sesync.org
 twitter: #csisesync
 etherpad: https://public.etherpad-mozilla.org/p/sesync-comp-institute-july-16
 download: http://sesync.us/fs
+data2doc: data2doc.html
 ---
 
 [//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
@@ -91,6 +92,8 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 4:00       | One Hour Language                                                    |
 |           |            | choose **one** *new* language: [R], [Python], [SQL], or [JavaScript] |
 |           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
+{:.table .table-striped}
+
 | Wednesday | 9:00 am    | [The Landscape of Spatial Data Tools]                                |
 |           | *10:30*    | *Break*                                                              |
 |           | 10:45      | [Scripting Geospatial Analysis]                                      |
