@@ -9,7 +9,7 @@
 {% endif %}
 
 {% if page.download %}
-- Get the [data]({{ site.baseurl }}{{ page.download }}) for all lessons.
+- Get the [data]({{ page.download }}) for all lessons.
 {% endif %}
 
 {% if page.data2doc %}
