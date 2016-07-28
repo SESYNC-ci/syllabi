@@ -99,7 +99,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 1:30       | [Geospatial Packages in R]                                           |
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | Coaching Sessions                                                    |
-| Thursday  | 9:00 am    | [Version Control & Data Provenence]                                  |
+| Thursday  | 9:00 am    | [Version Control & Data Provenance]                                  |
 |           | *10:30*    | *Break*                                                              |
 |           | 10:45      | [Shiny Apps]                                                         |
 |           | *12:30 pm* | *Lunch*                                                              |
@@ -138,6 +138,6 @@ You should have a README file at `%sandbox%\data\README.md`.
 [The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
 [Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
-[Version Control & Data Provenence]: {{ site.gh-pages }}/vcdp-lesson
+[Version Control & Data Provenance]: {{ site.gh-pages }}/vcdp-lesson
 [Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson
 [Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
