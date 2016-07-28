@@ -94,13 +94,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
 | Wednesday | 9:00 am    | [The Landscape of Spatial Data Tools]                                |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      | Scripting Geospatial Analysis                                      |
+|           | 10:45      | Scripting Geospatial Analysis                                        |
 |           | *12:30 pm* | *Lunch*                                                              |
 |           | 1:30       | [Geospatial Packages in R]                                           |
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | Coaching Sessions                                                    |
-{:.table .table-striped}
-
 | Thursday  | 9:00 am    | [Version Control & Data Provenence]                                  |
 |           | *10:30*    | *Break*                                                              |
 |           | 10:45      | [Shiny Apps]                                                         |
@@ -112,7 +110,8 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 12:00 pm   | Wrap-up and Review                                                   |
 |           | *12:30*    | *Lunch*                                                              |
 |           | 1:30       | Presentation of "data2doc" documents                                 |
-{:.table .table-striped .disable-links}
+{:.table .table-striped}
+[//]: # " {:.table .table-striped .disable-links} "
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
@@ -139,6 +138,6 @@ You should have a README file at `%sandbox%\data\README.md`.
 [The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
 [Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
-[Version Control & Data Provenence]: {{ site.gh-pages }} intermediate-git-lesson
+[Version Control & Data Provenence]: {{ site.gh-pages }} vcdp-lesson
 [Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson
 [Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
