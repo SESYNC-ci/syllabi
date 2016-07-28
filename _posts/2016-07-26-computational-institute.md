@@ -138,6 +138,6 @@ You should have a README file at `%sandbox%\data\README.md`.
 [The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
 [Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
-[Version Control & Data Provenence]: {{ site.gh-pages }} vcdp-lesson
+[Version Control & Data Provenence]: {{ site.gh-pages }}/vcdp-lesson
 [Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson
 [Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
