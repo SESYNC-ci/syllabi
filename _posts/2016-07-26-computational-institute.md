@@ -125,13 +125,14 @@ Please make sure to install everything **before** the start of the short course.
 
 [Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson
 [Data Storage and Access for All]: {{ site.gh-pages }}/introdb-lesson
-[R]: {{ site.gh-pages }}/basic-R-lesson
-[Python]: {{ site.gh-pages }}/basic-Python-lesson
-[SQL]: {{ site.gh-pages }}/basic-SQL-lesson
-[JavaScript]: {{ site.gh-pages }}/basic-JavaScript-lesson{{ page.date | date: "/%Y/%m/%d/" }}
 [The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
 [Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
 [Version Control & Data Provenance]: {{ site.gh-pages }}/vcdp-lesson
-[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson
-[Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
+
+[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[R]: {{ site.gh-pages }}/basic-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Python]: {{ site.gh-pages }}/basic-Python-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[SQL]: {{ site.gh-pages }}/basic-SQL-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[JavaScript]: {{ site.gh-pages }}/basic-JavaScript-lesson{{ page.date | date: "/%Y/%m/%d/" }}
