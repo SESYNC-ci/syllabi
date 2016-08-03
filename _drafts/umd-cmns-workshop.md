@@ -1,7 +1,7 @@
 ---
 title: SESYNC @ CMNS Data Skills Workshop
 venue: University of Maryland College Park
-address: Plant Sciences Building Room 1130, 4291 Fieldhouse Road, College Park, MD 20742
+address: "Plant Sciences Building Room 1130<br>4291 Fieldhouse Road<br>College Park, MD 20742"
 country: us
 language: en
 latlng: 38.9888251,-76.942558
@@ -14,7 +14,7 @@ helper: []
 contact: icarroll@sesync.org
 etherpad: https://public.etherpad-mozilla.org/p/2016-08-25-sesync-ci
 twitter: ["#SESYNC", "#skills4synthesis"]
-eventbrite: abcd
+eventbrite: 26907412796
 download: http://sesync.us/fs
 ---
 
@@ -27,7 +27,7 @@ download: http://sesync.us/fs
 * TOC
 {:toc}
 
-## General Information
+## General Information & Registration
 
 A SESYNC Data Skills Workshop provides researchers from the socio-environmental synthesis community with hands-on training in open source tools for collaborative coding, data management, analysis, visualization, and dissemination.
 The goal of this one-day workshop is to introduce novice and intermediate scientific coders to concepts, skills and approaches for data-driven research, while relying on tools available through the RStudio development environment.
@@ -51,13 +51,17 @@ Registration is open to graduate students and researchers affiliated with the BI
 [//]: # " This block displays the address and links to a map showing directions. "
 {% if page.latlng %}
   **Where:**  
-  {{ page.address }}.
+  {{ page.address }}
+  
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  or <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 {% endif %}
 
 [//]: # " Modify the block below if there are any special requirements. "
 
 **Requirements:**  
-Participants must bring a laptop.
+Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.). Any software listed below must be installed prior to starting the workshop.
 
 [//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
 [//]: # " If one hasn't, this block inserts the generic contact address for Software Carpentry. "
@@ -73,7 +77,6 @@ Participants must bring a laptop.
 Please email *{{ mailto | strip }}* with any questions and for information not covered here.
 
 {% if page.eventbrite %}
-## Registration
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"

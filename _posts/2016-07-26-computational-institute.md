@@ -5,8 +5,8 @@ address1: 1 Park Place, Annapolis MD
 country: United-States
 humandate: Jul 26-29, 2016
 humantime: 9:00 am - 5:00 pm
-startdate: 2015-07-26
-enddate: 2015-07-29
+startdate: 2016-07-26
+enddate: 2016-07-29
 registration: closed
 instructor: ["Ian Carroll", "Kelly Hondula", "Philippe Marchand", "Mary Shelley"]
 assistant: ["Kate Weiss"]
@@ -74,13 +74,12 @@ Please email *{{ mailto | strip }}* with any questions and for information not c
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
+
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
 
 ## Schedule
 
 **Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
-
-[//]: # " Bracketed [name] is the presenter, who is not necessarilly responsible for preparing material "
 
 | Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                                       |
 |           | 9:15       | [Collaborative & Reproducible Workflows]                             |
@@ -111,15 +110,14 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | *12:30*    | *Lunch*                                                              |
 |           | 1:30       | Presentation of "data2doc" documents                                 |
 {:.table .table-striped}
-[//]: # " {:.table .table-striped .disable-links} "
-
-[//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
-[//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
+[//]: # " Add .disable-links to classes to disable links"
 
 ## Pre-Arrival Installations & Downloads
 
 To participate, you will need working copies of the software described below.
 Please make sure to install everything **before** the start of the short course.
+
+[//]: # " Choose or create setup instructions in _includes to reflect your bootcamp. "
 
 {% include setup-non-sesync.md %}
 
@@ -130,7 +128,7 @@ Please make sure to install everything **before** the start of the short course.
 [R]: {{ site.gh-pages }}/basic-R-lesson
 [Python]: {{ site.gh-pages }}/basic-Python-lesson
 [SQL]: {{ site.gh-pages }}/basic-SQL-lesson
-[JavaScript]: {{ site.gh-pages }}/basic-JavaScript-lesson
+[JavaScript]: {{ site.gh-pages }}/basic-JavaScript-lesson{{ page.date | date: "/%Y/%m/%d/" }}
 [The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
 [Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
