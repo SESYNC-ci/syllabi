@@ -1,10 +1,16 @@
 ---
-title: Home
+title: Syllabus
 menu: 1
 ---
 
-# Courses
+## Current & Upcoming Workshops
+{% assign posts = site.posts | where:'published', true %}
+{% for post in posts %}
+|{{ post.humandate }}|[{{ post.title }}]({% if post.redirect %}{{ post.redirect }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %})|{% endfor %}
+{:.table}
 
-{% for post in site.posts  %}
-+ [{{post.title}}]({{site.baseurl}}{{post.url}})
-{% endfor %}
+## Past Workshops
+{% assign posts = site.posts | where:'published', '' %}
+{% for post in posts %}
+|{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|{% endfor %}
+{:.table}
