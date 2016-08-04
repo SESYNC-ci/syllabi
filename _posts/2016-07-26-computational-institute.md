@@ -123,13 +123,12 @@ Please make sure to install everything **before** the start of the short course.
 
 [//]: # " Hyperlinks "
 
-[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson
-[Data Storage and Access for All]: {{ site.gh-pages }}/introdb-lesson
-[The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson
-[Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson
-[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson
-[Version Control & Data Provenance]: {{ site.gh-pages }}/vcdp-lesson
-
+[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Version Control & Data Provenance]: {{ site.gh-pages }}/vcdp-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Data Storage and Access for All]: {{ site.gh-pages }}/introdb-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson{{ page.date | date: "/%Y/%m/%d/" }}
 [Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson{{ page.date | date: "/%Y/%m/%d/" }}
 [Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
 [R]: {{ site.gh-pages }}/basic-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
