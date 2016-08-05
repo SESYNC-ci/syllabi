@@ -10,6 +10,7 @@ menu: 2
 | [NEON WorkWithData](http://neondataskills.org/)                                              |
 | [Data Carpentry Lessons](http://www.datacarpentry.org/lessons/)                              |
 | [Software Carpentry Lessons](http://software-carpentry.org/lessons/)                         |
+| [swirl: Learn R, in R.](http://swirlstats.com/)
 | [Codecademy](https://www.codecademy.com)                                                     |
 | [rOpenSci](https://ropensci.org)                                                             |
 | [CodeSchool](https://www.codeschool.com/)                                                    |
