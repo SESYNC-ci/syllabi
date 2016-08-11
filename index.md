@@ -1,16 +1,26 @@
 ---
 title: Syllabus
 menu: 1
+past: 2016-09-01 00:00:00
 ---
 
 ## Current & Upcoming Workshops
-{% assign posts = site.posts | where:'published', true %}
-{% for post in posts %}
-|{{ post.humandate }}|[{{ post.title }}]({% if post.redirect %}{{ post.redirect }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %})|{% endfor %}
-{:.table}
+
+{% for post in site.posts %}{% capture row %}
+  {% assign content = post.content | strip | size %}
+  {% if post.redirect %}
+    |{{ post.humandate }}|[{{ post.title }}]({{ post.redirect }})|
+  {% elsif content > 0 %}
+    |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
+  {% else %}
+    |{{ post.humandate }}|{{ post.title }}|
+  {% endif %}
+{% endcapture %}{% if post.date > page.past %}{{ row | strip }}
+{% endif %}{% endfor %}{:.table}
 
 ## Past Workshops
-{% assign posts = site.posts | where:'published', '' %}
-{% for post in posts %}
-|{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|{% endfor %}
-{:.table}
+
+{% for post in site.posts %}{% capture row %}
+  |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
+{% endcapture %}{% if post.date <= page.past %}{{ row | strip }}
+{% endif %}{% endfor %}{:.table}

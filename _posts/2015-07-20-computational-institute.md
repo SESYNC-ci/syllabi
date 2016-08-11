@@ -41,11 +41,11 @@ work on team projects, and get familiar with our CI.
 {% if page.instructor %}
 <p>
   <strong>Instructors:</strong>
-  {{page.instructor | join: ', ' %}}
+  {{page.instructor | join: ', ' }}
 </p>
 <p>
   <strong>Assistants:</strong>
-  {{page.assistant | join: ', ' %}}
+  {{page.assistant | join: ', ' }}
 {% endif %}
 
 <!--

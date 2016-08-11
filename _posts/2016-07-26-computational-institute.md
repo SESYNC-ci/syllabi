@@ -36,11 +36,11 @@ The goals of the workshop are to learn new concepts, skills and approaches for d
 
 {% if page.instructor %}
   **Instructors:**  
-  {{page.instructor | join: ', ' %}}
+  {{page.instructor | join: ', ' }}
 {% endif %}
 {% if page.assistant %}
   **Assistant:**  
-  {{page.assistant | join: ', ' %}}
+  {{page.assistant | join: ', ' }}
 {% endif %}
 
 [//]: # " Modify this block to reflect the target audience for your bootcamp. "
