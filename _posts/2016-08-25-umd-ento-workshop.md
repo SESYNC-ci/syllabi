@@ -16,6 +16,7 @@ etherpad:
 twitter:
 eventbrite: 26907412796
 download: TODO
+github: true
 ---
 
 [//]: # " Capture additional variables. "
