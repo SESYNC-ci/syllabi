@@ -11,7 +11,8 @@
 {% endif %}
 
 {% if page.download %}
-- Get the [data]({{ page.download }}) for all lessons.
+- Lesson data coming soon!
+[//]: # " - Get the [data]({{ page.download }}) for all lessons. "
 {% endif %}
 
 {% if page.data2doc %}
