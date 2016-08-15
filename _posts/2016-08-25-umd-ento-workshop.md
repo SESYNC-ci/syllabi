@@ -9,7 +9,7 @@ humandate: Aug 25, 2016
 humantime: 9:00 am - 5:00 pm
 startdate: 2016-08-25
 enddate: 2016-08-25
-instructor: ["Ian Carroll", "Mary Shelley", "Mike Smorul"]
+instructor: ["Ian Carroll, Data Scientist", "Mary Shelley, Associate Director of Synthesis", "Mike Smorul, Associate Director of Cyberinfrastructure"]
 assistant:
 contact: icarroll@sesync.org
 etherpad:
@@ -49,9 +49,11 @@ Registration is open to graduate students and researchers affiliated with the En
 [//]: # " This block displays the instructors' names if they are available. "
 
 {% if page.instructor %}
-**Instructors:**  
-{{ page.instructor | join: ', ' }}
+**SESYNC Instructors:**  
+{% for instructor in page.instructor %}{{ instructor }}  
+{% endfor %}
 {% endif %}
+
 {% if page.assistant %}
 **Assistant:**  
 {{ page.assistant | join: ', ' }}
