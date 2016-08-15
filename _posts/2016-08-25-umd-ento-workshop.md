@@ -61,6 +61,9 @@ Registration is open to graduate students and researchers affiliated with the En
 [//]: # " In particular, if it is only open to people from a particular institution, "
 [//]: # " or if specialized prerequisite knowledge is required, please mention that. "
 
+**When:**  
+{{ page.humandate }}
+
 [//]: # " This block displays the address and links to a map showing directions. "
 {% if page.latlng %}
 **Where:**  
