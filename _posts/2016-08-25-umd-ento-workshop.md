@@ -1,7 +1,7 @@
 ---
 title: Data Skills Workshop at UMD
 venue: University of Maryland College Park
-address: "Biosciences Research Building Room 1103<br>4066 Campus Drive<br>College Park, MD 20742"
+address: "Bioscience Research Building Room 1103<br>4066 Campus Drive<br>College Park, MD 20742"
 country: us
 language: en
 latlng: 38.988588,-76.943121
