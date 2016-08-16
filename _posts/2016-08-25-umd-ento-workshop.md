@@ -121,7 +121,7 @@ Please make sure to install and/or download everything **before** the start of t
 ## Registration
 {: style="visibility: hidden;"}
 
-<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="206px" scrolling="auto"></iframe>
+<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
 {% endif %}
 
 ## Acknowledgements & Support
