@@ -44,7 +44,7 @@ github: true
 A SESYNC Data Skills Workshop provides researchers from the socio-environmental synthesis community with hands-on training in open source tools for collaborative coding, data management, analysis, visualization, and dissemination.
 The goal of this one-day workshop is to introduce novice and intermediate scientific coders to concepts, skills and approaches for data-driven research, while relying on tools available through the RStudio development environment.
 The agenda provides an overview of the specific topics we will address through a series of four lessons that integrate live-coding and trainee challenge exercises.
-Registration is open to graduate students and researchers affiliated with the Entomology Department as well as the BISI program at the University of Maryland.
+Registration is open to graduate students and researchers working in the biological sciences at the University of Maryland College of Mathematical and Natural Sciences (CMNS).
 
 [//]: # " This block displays the instructors' names if they are available. "
 
