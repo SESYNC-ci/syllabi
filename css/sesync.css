@@ -242,8 +242,7 @@ html,body{
     padding-top: 10px;
     text-align: right;
 }
-h1,
-h2 {
+h1, h2 {
     color: #3c799f;
     font-family: 'proxima_nova_rgbold';
     letter-spacing: 0;
@@ -265,6 +264,7 @@ h5, h6 {
     font-size: 1em
 }
 
+/* Scrolling of main content between fixed header and footer */
 @media (min-width:992px) {
 
     html, body {

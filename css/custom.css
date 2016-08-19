@@ -14,3 +14,7 @@
     pointer-events: none;
     cursor: default;
 }
+
+.table td:nth-child(1) {
+    width: 25%;
+}
