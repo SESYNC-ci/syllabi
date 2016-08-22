@@ -96,11 +96,11 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 | 9:00 am | Welcome and Overview of SESYNC            |
 |    9:15 | [Reproducible Workflows in RStudio]       |
-| *10:30* | *Coffee Break*                            |
+| *10:30* | *Break*                                   |
 |   10:45 | [Manipulating Tabular Data]               |
 | *12:30* | *Lunch Break*                             |
 | 1:30 pm | [Introduction to `ggplot`]                |
-|  *3:00* | *Stretch Break*                           |
+|  *3:00* | *Break*                                   |
 |    3:15 | [Databases to Documents with `rmarkdown`] |
 |    4:45 | Wrap-Up & Review                          |
 |    5:00 | Fin                                       |
