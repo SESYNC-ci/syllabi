@@ -11,11 +11,11 @@
 {% endif %}
 
 {% if page.download %}
-{% if page.download == 'TODO' %}
-- Lesson data coming soon!
-{% else %}
 - Get the [data]({{ page.download }}) for all lessons.
 {% endif %}
+
+{% if page.repo %}
+- Lesson repo coming soon!
 {% endif %}
 
 {% if page.data2doc %}
