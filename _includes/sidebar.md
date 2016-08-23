@@ -5,19 +5,15 @@
 {% if page.github %}
 - Do you have a [GitHub](https://www.github.com) account?
 {% endif %}
-
 {% if page.etherpad %}
 - Ask for help, copy snippets, and share your discoveries on our [Etherpad]({{ page.etherpad }}){:target="_blank"}.
 {% endif %}
-
 {% if page.download %}
 - Get the [data]({{ page.download }}) for all lessons.
 {% endif %}
-
 {% if page.repo %}
 - Lesson repo coming soon!
 {% endif %}
-
 {% if page.data2doc %}
 - Description of [data2doc]({{ site.baseurl }}/data2doc.html) mini-project.
 {% endif %}
