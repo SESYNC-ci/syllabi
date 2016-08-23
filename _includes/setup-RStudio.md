@@ -1,9 +1,3 @@
-**Working Directory**
-
-We encourage participants to create a directory (i.e. a folder), which we will reference using the variable `%sandbox%`, for all course material.
-Please download the sidebar data and unzip it into your `%sandbox%`.
-Afterwords you should have a README file at the file path `%sandbox%\data\README.md` (e.g. on Windows, if your sandbox is the folder `SESYNC-data-skills` in your `Documents`, the path would be `C:\Users\%username%\Documents\SESYNC-data-skills\README.md`).
-
 **GitHub**
 
 If you do not aleady have a GitHub account, please create one at <https://www.github.com>.
