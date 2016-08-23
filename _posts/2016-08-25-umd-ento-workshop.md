@@ -15,7 +15,7 @@ contact: icarroll@sesync.org
 etherpad:
 twitter:
 eventbrite: 26907412796
-download: TODO
+repo: TODO
 github: true
 ---
 
