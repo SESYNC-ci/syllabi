@@ -128,9 +128,9 @@ Please make sure to install and/or download everything **before** the start of t
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
-[//]: # " Links by Reference "
+[//]: # " Links by reference "
 
 [Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
-[Introduction to `ggplot`]: {{ site.gh-pages }}/
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/
+[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson
+[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/vcdp-lesson
