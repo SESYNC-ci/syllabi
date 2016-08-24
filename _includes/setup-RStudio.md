@@ -30,7 +30,6 @@ Most packages in the list below can be installed by typing `brew install %packag
 The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages(%package%)` in the Console (where you see a `>`) and press return. Then follow the instructions given.
 
 - `tidyr`
-- `dplyr`
+- `ggplot2`
 - `RSQLite`
 - `rmarkdown`
-
