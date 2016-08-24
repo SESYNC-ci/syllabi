@@ -15,7 +15,7 @@ contact: icarroll@sesync.org
 etherpad:
 twitter:
 eventbrite: 26907412796
-download: TODO
+repo: TODO
 github: true
 ---
 
@@ -96,11 +96,11 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 | 9:00 am | Welcome and Overview of SESYNC            |
 |    9:15 | [Reproducible Workflows in RStudio]       |
-| *10:30* | *Coffee Break*                            |
+| *10:30* | *Break*                                   |
 |   10:45 | [Manipulating Tabular Data]               |
 | *12:30* | *Lunch Break*                             |
 | 1:30 pm | [Introduction to `ggplot`]                |
-|  *3:00* | *Stretch Break*                           |
+|  *3:00* | *Break*                                   |
 |    3:15 | [Databases to Documents with `rmarkdown`] |
 |    4:45 | Wrap-Up & Review                          |
 |    5:00 | Fin                                       |
@@ -128,9 +128,9 @@ Please make sure to install and/or download everything **before** the start of t
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
-[//]: # " Links by Reference "
+[//]: # " Links by reference "
 
 [Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
-[Introduction to `ggplot`]: {{ site.gh-pages }}/
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/
+[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson
+[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/vcdp-lesson

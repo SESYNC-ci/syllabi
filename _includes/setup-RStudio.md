@@ -1,9 +1,3 @@
-**Working Directory**
-
-We encourage participants to create a directory (i.e. a folder), which we will reference using the variable `%sandbox%`, for all course material.
-Please download the sidebar data and unzip it into your `%sandbox%`.
-Afterwords you should have a README file at the file path `%sandbox%\data\README.md` (e.g. on Windows, if your sandbox is the folder `SESYNC-data-skills` in your `Documents`, the path would be `C:\Users\%username%\Documents\SESYNC-data-skills\README.md`).
-
 **GitHub**
 
 If you do not aleady have a GitHub account, please create one at <https://www.github.com>.
@@ -27,7 +21,7 @@ Most packages in the list below can be installed by typing `brew install %packag
 
 **R Packages**
 
-The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages(%package%)` in the Console (where you see a `>`) and press return. Then follow the instructions given.
+The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given.
 
 - `tidyr`
 - `ggplot2`
