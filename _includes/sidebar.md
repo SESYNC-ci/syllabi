@@ -12,7 +12,7 @@
 - Get the [data]({{ page.download }}) for all lessons.
 {% endif %}
 {% if page.repo %}
-- Lesson repo coming soon!
+- [Handouts](page.repo)
 {% endif %}
 {% if page.data2doc %}
 - Description of [data2doc]({{ site.baseurl }}/data2doc.html) mini-project.
