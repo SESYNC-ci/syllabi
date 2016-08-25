@@ -14,6 +14,9 @@
 {% if page.repo %}
 - [Handouts]({{ page.repo}})
 {% endif %}
+{% if page.feedback %}
+- Help us out with a quick [feedback survey]({{ page.feedback}} ).
+{% endif %}
 {% if page.data2doc %}
 - Description of [data2doc]({{ site.baseurl }}/data2doc.html) mini-project.
 {% endif %}
