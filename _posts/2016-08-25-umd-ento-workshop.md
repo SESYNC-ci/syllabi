@@ -17,6 +17,7 @@ twitter:
 eventbrite: 26907412796
 repo: https://github.com/SESYNC-ci/handouts
 github: true
+feedback: https://goo.gl/forms/pcIyXSndUElIEePG2
 ---
 
 [//]: # " Capture additional variables. "
