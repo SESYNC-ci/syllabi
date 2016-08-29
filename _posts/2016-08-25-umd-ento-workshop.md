@@ -92,9 +92,6 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 ## Schedule
 
-[//]: # " too early? allow pre-event install time? "
-[//]: # " Motivate utility of R before version control? Or is GitHub sexy enough? "
-
 | 9:00 am | Welcome and Overview of SESYNC            |
 |    9:15 | [Reproducible Workflows in RStudio]       |
 | *10:30* | *Break*                                   |
@@ -106,7 +103,6 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |    4:45 | Wrap-Up & Review                          |
 |    5:00 | Fin                                       |
 {:.table .table-striped}
-[//]: # " {:.table .table-striped} "
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
@@ -131,7 +127,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 [//]: # " Links by reference "
 
-[Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
-[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson
+[Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson/2016/08/25/
+[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2016/08/25/
+[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2016/08/25/
+[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/2016/08/25/
