@@ -1,7 +1,7 @@
 ---
 title: Syllabus
 menu: 1
-past: 2016-08-15 00:00:00
+past: 2016-08-29 00:00:00
 ---
 
 ## Current & Upcoming Workshops
