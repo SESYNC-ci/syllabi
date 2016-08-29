@@ -15,8 +15,9 @@ contact: icarroll@sesync.org
 etherpad:
 twitter:
 eventbrite: 26907412796
-repo: TODO
+repo: https://github.com/SESYNC-ci/handouts
 github: true
+feedback: https://goo.gl/forms/pcIyXSndUElIEePG2
 ---
 
 [//]: # " Capture additional variables. "
@@ -104,7 +105,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |    3:15 | [Databases to Documents with `rmarkdown`] |
 |    4:45 | Wrap-Up & Review                          |
 |    5:00 | Fin                                       |
-{:.table .table-striped .disable-links}
+{:.table .table-striped}
 [//]: # " {:.table .table-striped} "
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
@@ -133,4 +134,4 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson
 [Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/vcdp-lesson
+[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson
