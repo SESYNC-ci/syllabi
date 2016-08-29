@@ -1,5 +1,5 @@
 ---
-title: SESYNC Short-Course: Introduction to Spatial Agent-Based Modeling
+title: "SESYNC Short-Course: Introduction to Spatial Agent-Based Modeling"
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
@@ -97,11 +97,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |			| 4:00		 | Group discussion - conceptual mapping exercise						|
 |           | *5:15*     | *Reception at SESYNC (informal with snacks, tasty beverages, etc.)*  |
 |           | 6:30       | Dinner in Annapolis												    |
-|			| *Homework* | 1. Read supporting paper(s) for chosen model	
-						   2. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.
-						   3. Optional readings:
-							a.	An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.
-							b.	Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent‐based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.|
+|			| *Homework* | 1. Read supporting paper(s) for chosen model							|
+|			|			 |2. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.|
+|||3. Optional readings:|
+|||a. An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.|
+|||b. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.|
 | Tuesday   | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
 |           | 9:00       | Group work – initial system map of chosen model                      |
 |           | *10:30*    | *Break*                                                              |
@@ -112,11 +112,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 3:45       | Presentation of group findings - how did your system map change?     |
 |			| 5:00		 | Day wrap-up															|
 |			| *Homework* | Short writing assignment (1-2 paragraphs): Provide a preliminary motivation for your model by answering the following questions:
-a.	What is the overall purpose of your model? Do not describe anything about how the model will work here, only for what the model will be used.
-b.	What is (are) the main research question(s) you seek to answer?
-c.	Why (or why not) is ABM the most appropriate modeling approach to answer your research question(s)?|
-|			| *Reading*  | a.	Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.
-b.	OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.|
+|||a.	What is the overall purpose of your model? Do not describe anything about how the model will work here, only for what the model will be used.|
+|||b.	What is (are) the main research question(s) you seek to answer?|
+|||c.	Why (or why not) is ABM the most appropriate modeling approach to answer your research question(s)?|
+|			| *Reading*  | a.	Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.|
+|||b.	OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.|
 | Wednesday | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
 |           | 9:00       | Class discussion of writing assignments		                        |
 |			| 9:45		 | Lecture:[Introduction to spatially-explicit ABMs, part 1]			|
@@ -129,12 +129,12 @@ b.	OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005)
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | Individual project consultation and work time				        |
 |			| 5:00		 | Day wrap-up															|
-|			| *Homework* | Short writing assignment: (2-3 paragraphs): Describe a preliminary specification of your model by answering the following questions about your study system:
-a.	What constitutes an agent in your system?
-b.	What are key attributes of your agents, and how do they differ between agents?
-c.	Which environment conditions influence agent behaviors? Do these conditions vary over space? If so, how?|
-|			| *Reading*  | a.	Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.
-b.	Optional: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.|
+|			| *Homework* | Short writing assignment: (2-3 paragraphs): Describe a preliminary specification of your model by answering the following questions about your study system:|
+|||a.	What constitutes an agent in your system?|
+|||b.	What are key attributes of your agents, and how do they differ between agents?|
+|||c.	Which environment conditions influence agent behaviors? Do these conditions vary over space? If so, how?|
+|			| *Reading*  | a.	Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.|
+|||b.	Optional: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.|
 | Thursday  | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
 |			| 9:00       | Class discussion of writing assignments                              |
 |			| 9:45		 | Lecture: [Introduction to model calibration, sensitivity analysis, and evaluation, part 1]|
@@ -146,8 +146,8 @@ b.	Optional: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selec
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | Individual project consultation and work time                        |
 |			| 5:00		 | Day wrap-up															|
-|			| *Reading*  | a.	Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.
-b.	Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.|
+|			| *Reading*  | a.	Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.|
+|||b.	Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.|
 | Friday    | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
 |			| 9:00       | Working in R to analyze results (Philippe Marchand)			        |
 |           | *10:30*    | *Break*                                                              |
