@@ -19,7 +19,7 @@ contact: icarroll@sesync.org
 etherpad:
 twitter: #csisesync
 repo:
-github:
+github: true
 feedback:
 ---
 
