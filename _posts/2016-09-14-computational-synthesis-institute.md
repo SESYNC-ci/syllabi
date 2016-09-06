@@ -124,7 +124,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
 
-## Pre-Arrival Installations & Downloads
+## Pre-Arrival Instructions
 
 To participate, you will need working copies of the software described below.
 Please make sure to install and/or download everything **before** the start of the short course.
