@@ -151,7 +151,7 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | git      | <https://git-scm.com/downloads>                       | `git`               | `git`               |
 | R Base   | <https://cran.rstudio.com/>                           | `r`                 | `r-base`            |
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
-| Homebrew | For Mac users only: <http://brew.sh/>                 |                     |                     |
+| Homebrew | for Mac users only: <http://brew.sh/>                 |                     |                     |
 | GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
 {:.table}
 
