@@ -155,7 +155,7 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 
 ### Additional Software *for Mac Users Only*
 
-The software below may not be necessary, depending on your system. Attempt the **R Package** installations below, and if the `rgdal` or `rgeos` installations fail, come back here. First, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that still fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "mac.binary.mavericks")`.
+The software below may not be necessary, depending on your system. First, attempt the **R Package** installations below, and only if the `rgdal` or `rgeos` installations fail, continue from here. Next, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that also fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "source")`.
 
 | Software | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
 |----------+-------------------------------------------------------+---------------------+---------------------|
