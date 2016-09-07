@@ -153,16 +153,6 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
 {:.table}
 
-### Additional Software *for Mac Users Only*
-
-The software below may not be necessary, depending on your system. First, attempt the **R Package** installations below, and only if the `rgdal` or `rgeos` installations fail, continue from here. Next, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that also fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "source")`.
-
-| Software | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
-|----------+-------------------------------------------------------+---------------------+---------------------|
-| Homebrew | for Mac users only: <http://brew.sh/>                 |                     |                     |
-| GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
-{:.table}
-
 ### R Packages
 
 The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given. If the Console prints a "Warning" that the installation "had non-zero exit status", then the installation has failed.
@@ -174,6 +164,16 @@ The following R packages (i.e. add-on pieces of software) need to be installed. 
 - `rgeos`
 - `shiny`
 - `leaflet`
+
+### Additional Software *for Mac Users Only*
+
+The steps here may not be necessary, depending on your system. Only follow these steps if the **R Package** installations above failed for `rgdal` or `rgeos`. First, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that also fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "source")`.
+
+| Software | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
+|----------+-------------------------------------------------------+---------------------+---------------------|
+| Homebrew | for Mac users only: <http://brew.sh/>                 |                     |                     |
+| GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
+{:.table}
 
 {% if page.eventbrite %}
 ## Registration
