@@ -138,7 +138,7 @@ Note that students and educators with a `.edu` e-mail address are eligible for s
 **Software**
 
 The table below lists software we will use in this short course.
-Please use the default installation options.
+Please use the default installation options, and install in order moving down the table.
 If you have previously installed this software, please upgrade to the latest version available in your operating system.
 
 For **Windows users**, an installer for each item is available at the given download site.
@@ -151,6 +151,7 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | git      | <https://git-scm.com/downloads>                       | `git`               | `git`               |
 | R Base   | <https://cran.rstudio.com/>                           | `r`                 | `r-base`            |
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
+| Homebrew | For Mac users only: <http://brew.sh/>                 |                     |                     |
 | GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
 {:.table}
 
