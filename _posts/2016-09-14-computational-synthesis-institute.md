@@ -130,12 +130,12 @@ To participate, you will need working copies of the software described below.
 Please make sure to install and/or download everything **before** the start of the short course.
 Contact the instructor before the course begins if you run into any trouble.
 
-**GitHub**
+### GitHub
 
 If you do not already have a GitHub account, please create one at <https://www.github.com>.
 Note that students and educators with a `.edu` e-mail address are eligible for some free stuff through [GitHub's Student Developer Pack](https://education.github.com/pack).
 
-**Software**
+### Software
 
 The table below lists software we will use in this short course.
 Please use the default installation options, and install in order moving down the table.
@@ -153,7 +153,7 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
 {:.table}
 
-**Additional Software *for Mac Users Only***
+### Additional Software *for Mac Users Only
 
 The software below may not be necessary, depending on your system. Attempt the **R Package** installations below, and if the `rgdal` or `rgeos` installations fail, come back here. First, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that still fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "mac.binary.mavericks")`.
 
@@ -163,7 +163,7 @@ The software below may not be necessary, depending on your system. Attempt the *
 | GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
 {:.table}
 
-**R Packages**
+### R Packages
 
 The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given. If the Console prints a "Warning" that the installation "had non-zero exit status", then the installation has failed.
 
