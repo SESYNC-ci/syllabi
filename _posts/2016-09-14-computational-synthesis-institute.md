@@ -101,7 +101,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | 10:45      | Team Practice #1                         |
 |           | 12:00      | Team Introductions                       |
 |           | *12:30 pm* | *Lunch*                                  |
-|           | 1:30       | [Scripting for Analysts]                 |
+|           | 1:30       | [Bas(e)ic R]                             |
 |           | *3:30*     | *Break*                                  |
 |           | 3:45       | [Database Principles and Use]            |
 | Thursday  | 9:00 am    | [Manipulating Tabular Data]              |
@@ -189,7 +189,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [//]: # " Links by reference "
 
 [Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson/
-[Scripting for Analysts]: {{ site.gh-pages }}/basic-R-lesson/
+[Bas(e)ic R]: {{ site.gh-pages }}/basic-R-lesson/
 [Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/
 [Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
