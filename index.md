@@ -2,6 +2,7 @@
 title: Syllabus
 menu: 1
 past: 2016-08-29 00:00:00
+twitter: true
 ---
 
 ## Current & Upcoming Workshops

@@ -17,10 +17,11 @@ instructors:
  - Kate Weiss, Quantitative Research Assistant
 contact: icarroll@sesync.org
 etherpad:
-twitter: #csisesync
+twitter:
 repo:
-github:
+github: true
 feedback:
+shorturl: http://sesync.us/g2
 ---
 
 [//]: # " Capture additional variables. "
