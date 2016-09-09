@@ -14,7 +14,7 @@ instructors:
  - Mary Shelley, Associate Director of Synthesis
  - Philippe Marchand, Data Scientist
  - Kelly Hondula, Quantitative Researcher
- - Kate Weiss, Quantitative Research Assistant
+ - Kate Weiss, Computational Research Assistant
 contact: icarroll@sesync.org
 etherpad:
 twitter: #csisesync
