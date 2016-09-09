@@ -14,7 +14,7 @@ instructors:
  - Mary Shelley, Associate Director of Synthesis
  - Philippe Marchand, Data Scientist
  - Kelly Hondula, Quantitative Researcher
- - Kate Weiss, Quantitative Research Assistant
+ - Kate Weiss, Computational Research Assistant
 contact: icarroll@sesync.org
 etherpad:
 twitter:
@@ -102,7 +102,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | 10:45      | Team Practice #1                         |
 |           | 12:00      | Team Introductions                       |
 |           | *12:30 pm* | *Lunch*                                  |
-|           | 1:30       | [Scripting for Analysts]                 |
+|           | 1:30       | [Bas(e)ic R]                             |
 |           | *3:30*     | *Break*                                  |
 |           | 3:45       | [Database Principles and Use]            |
 | Thursday  | 9:00 am    | [Manipulating Tabular Data]              |
@@ -125,21 +125,21 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
 [//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
 
-## Pre-Arrival Installations & Downloads
+## Pre-Arrival Instructions
 
 To participate, you will need working copies of the software described below.
 Please make sure to install and/or download everything **before** the start of the short course.
 Contact the instructor before the course begins if you run into any trouble.
 
-**GitHub**
+### GitHub
 
 If you do not already have a GitHub account, please create one at <https://www.github.com>.
 Note that students and educators with a `.edu` e-mail address are eligible for some free stuff through [GitHub's Student Developer Pack](https://education.github.com/pack).
 
-**Software**
+### Software
 
 The table below lists software we will use in this short course.
-Please use the default installation options.
+Please use the default installation options, and install in order moving down the table.
 If you have previously installed this software, please upgrade to the latest version available in your operating system.
 
 For **Windows users**, an installer for each item is available at the given download site.
@@ -152,12 +152,11 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | git      | <https://git-scm.com/downloads>                       | `git`               | `git`               |
 | R Base   | <https://cran.rstudio.com/>                           | `r`                 | `r-base`            |
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
-| GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
 {:.table}
 
-**R Packages**
+### R Packages
 
-The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given.
+The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given. If the Console prints a "Warning" that the installation "had non-zero exit status", then the installation has failed.
 
 - `tidyr`
 - `ggplot2`
@@ -166,6 +165,16 @@ The following R packages (i.e. add-on pieces of software) need to be installed. 
 - `rgeos`
 - `shiny`
 - `leaflet`
+
+### Additional Software *for Mac Users Only*
+
+The steps here may not be necessary, depending on your system. Only follow these steps if the **R Package** installations above failed for `rgdal` or `rgeos`. First, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that also fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "source")`.
+
+| Software | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
+|----------+-------------------------------------------------------+---------------------+---------------------|
+| Homebrew | for Mac users only: <http://brew.sh/>                 |                     |                     |
+| GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
+{:.table}
 
 {% if page.eventbrite %}
 ## Registration
@@ -181,7 +190,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [//]: # " Links by reference "
 
 [Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson/
-[Scripting for Analysts]: {{ site.gh-pages }}/basic-R-lesson/
+[Bas(e)ic R]: {{ site.gh-pages }}/basic-R-lesson/
 [Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/
 [Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
