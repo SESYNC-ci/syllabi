@@ -4,7 +4,7 @@ layout: slideshow
 styleurl: https://rawgit.com/sesync-ci/lesson-stylesheets/master
 style: /css/slideshow.css
 reveal: https://cdn.rawgit.com/hakimel/reveal.js/3.3.0
-reveal-theme: /css/theme/sky.css
+reveal-theme: /css/theme/black.css
 ---
 
 <section markdown="block">
