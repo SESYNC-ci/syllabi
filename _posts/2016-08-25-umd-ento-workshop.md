@@ -15,7 +15,7 @@ contact: icarroll@sesync.org
 etherpad:
 twitter:
 eventbrite: 26907412796
-repo: https://github.com/SESYNC-ci/handouts/archive/umd-ento-workshop.zip
+handout: https://github.com/SESYNC-ci/handouts/archive/umd-ento-workshop.zip
 github: true
 feedback: https://goo.gl/forms/pcIyXSndUElIEePG2
 ---

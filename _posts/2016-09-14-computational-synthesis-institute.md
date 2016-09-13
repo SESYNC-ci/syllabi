@@ -18,10 +18,11 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-repo:
+handout:
 github: true
 feedback:
 shorturl: http://sesync.us/g2
+data2doc: true
 ---
 
 [//]: # " Capture additional variables. "

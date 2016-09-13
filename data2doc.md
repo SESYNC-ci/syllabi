@@ -1,18 +1,49 @@
 ---
+layout: slideshow
+# styleurl: https://cdn.rawgit.com/sesync-ci/lesson-stylesheets/1.0.0
+styleurl: https://rawgit.com/sesync-ci/lesson-stylesheets/master
+style: /css/slideshow.css
+reveal: https://cdn.rawgit.com/hakimel/reveal.js/3.3.0
+reveal-theme: /css/theme/sky.css
 ---
 
-# data2doc
+<section markdown="block">
 
-## Computational Summer Institute Mini-Project Description
+# CSI Mini-Project
 
-The inspiration for the project name comes from a naming convention for command line conversion utilities.
-The program `pdf2text`, for example, reads a pdf and converts any embedded text into a plain text document.
-Your team's "data2doc" project should probably not go so far as to read in data and produce some kind of report in one command.
+Over the course of three team practices, your group should **aim to achieve the following goals** with assistance from your SESYNC coach:
 
-You teams's project should **aim to achieve the following four goals**:
+- Collaborate on a GitHub repository, and keep it up to date.
+- Incorporate or describe tables in a relational database you might use to share project data.
+- Programatically read the data and use it in a simple analysis or vizualization.
+- Present your README this morning, and your mini-results on Friday afternoon.
 
-- Collaborate on a GitHub (or similar) repository, where your project files will live.
-- Incorporate or describe tables in a relational database you might use to share project data. The PostgreSQL server is at your disposal.
-- Programatically read the data, with a script in your repository, and use it in a simple analysis or vizualization.
-- Create a document, anything from an image to a text document or a web page, to share on Friday afternoon.
+</section>
+<section markdown="block">
 
+## Team Practice #1
+
+1. Create a single GitHub repo for your team, and make everyone a collaborator.
+1. Create a skeleton README.md with sections for each member to compose.
+1. Everyone create a new RStudio project from the repo: then pull, edit, commit and push content.
+
+</section>
+<section markdown="block">
+
+## Team Practice #2
+
+1. Develop your data strategy
+   1. How is data shared?
+   1. Do you have/need a database?
+1. Read data into R and prepare it for a simple analyis or vizualization.
+
+</section>
+<section markdown="block">
+
+## Team Practice #3
+
+1. Code up a simple analysis or vizualization.
+1. Set new project goals!
+1. Prepare to show off your mini-project's mini-results in 15 minutes or less.
+
+</section>
