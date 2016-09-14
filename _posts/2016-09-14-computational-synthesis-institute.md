@@ -18,7 +18,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-handout:
+handout: https://github.com/SESYNC-ci/handouts
 github: true
 feedback:
 shorturl: http://sesync.us/g2
@@ -113,14 +113,14 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | 1:30       | [Introduction to Shiny Apps]             |
 |           | *3:30*     | *Break*                                  |
 |           | 3:45       | Team Practice #2                         |
-| Friday    | 9:00 am    | [Visualizations with Maps and More]      |
+| Friday    | 9:00 am    | Visualizations with Maps                 |
 |           | *10:30*    | *Break*                                  |
-|           | 10:45 pm   | [Qualitative Data]                       |
-|           | *12:00*    | *Lunch*  ... followed by|
+|           | 10:45 pm   | Qualitative Data                         |
+|           | *12:00*    | *Lunch*  ... followed by                 |
 |           |            | Team Practice #3                         |
 |           | 3:15       | *Break*                                  |
 |           | 3:30 pm    | Scrimmage (a.k.a. Team Presentations)    |
-{:.table .table-striped .disable-links}
+{:.table .table-striped}
 [//]: # " Add .disable-links to classes to disable links"
 
 [//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
@@ -196,5 +196,4 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/
 [Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
 [Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/
-[Visualizations with Maps and More]: ""
-[Qualitative Data]: ""
+[Visualizations with Maps]: {{ site.gh-pages }}/maps-in-R-lesson/
