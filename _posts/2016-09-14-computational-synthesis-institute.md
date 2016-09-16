@@ -113,7 +113,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | 1:30       | [Introduction to Shiny Apps]             |
 |           | *3:30*     | *Break*                                  |
 |           | 3:45       | Team Practice #2                         |
-| Friday    | 9:00 am    | Visualizations with Maps                 |
+| Friday    | 9:00 am    | [Visualizations with Maps]               |
 |           | *10:30*    | *Break*                                  |
 |           | 10:45 pm   | Qualitative Data                         |
 |           | *12:00*    | *Lunch*  ... followed by                 |
