@@ -20,7 +20,7 @@ etherpad:
 twitter:
 handout: https://github.com/SESYNC-ci/handouts
 github: true
-feedback:
+feedback: https://goo.gl/forms/zzuJKaTyOSmNL89A2
 shorturl: http://sesync.us/g2
 data2doc: true
 ---
