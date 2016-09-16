@@ -117,9 +117,9 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | *10:30*    | *Break*                                  |
 |           | 10:45 pm   | Qualitative Data                         |
 |           | *12:00*    | *Lunch*  ... followed by                 |
+|           | 1:30       | Leaflet cont'd                           |
 |           |            | Team Practice #3                         |
-|           | 3:15       | *Break*                                  |
-|           | 3:30 pm    | Scrimmage (a.k.a. Team Presentations)    |
+|           | 2:30 pm    | Scrimmage (a.k.a. Team Presentations)    |
 {:.table .table-striped}
 [//]: # " Add .disable-links to classes to disable links"
 
