@@ -18,7 +18,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-handout: https://github.com/SESYNC-ci/handouts
+handout: https://github.com/SESYNC-ci/handouts/archive/csi-fall-2016.zip
 github: true
 feedback: https://goo.gl/forms/zzuJKaTyOSmNL89A2
 shorturl: http://sesync.us/g2
@@ -115,7 +115,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |           | 3:45       | Team Practice #2                         |
 | Friday    | 9:00 am    | [Visualizations with Maps]               |
 |           | *10:30*    | *Break*                                  |
-|           | 10:45 pm   | Qualitative Data                         |
+|           | 10:45 pm   | [Qualitative Data]                       |
 |           | *12:00*    | *Lunch*  ... followed by                 |
 |           | 1:30       | Leaflet cont'd                           |
 |           |            | Team Practice #3                         |
@@ -190,10 +190,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 [//]: # " Links by reference "
 
-[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson/
-[Bas(e)ic R]: {{ site.gh-pages }}/basic-R-lesson/
-[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/
-[Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
-[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/
-[Visualizations with Maps]: {{ site.gh-pages }}/maps-in-R-lesson/
+[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson/2016/09/14/
+[Bas(e)ic R]: {{ site.gh-pages }}/basic-R-lesson/2016/09/14/
+[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/2016/09/14/
+[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2016/09/14/
+[Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2016/09/14/
+[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/2016/09/14/
+[Visualizations with Maps]: {{ site.gh-pages }}/maps-in-R-lesson/2016/09/14/
+[Qualitative Data]: {{site.gh-pages }}/text-mining-lesson/2016/09/14/
