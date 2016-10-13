@@ -1,27 +1,34 @@
 ---
 title: Syllabus
 menu: 1
-past: 2016-08-29 00:00:00
 twitter: true
 ---
 
+{% assign past = 'now' | date: '%s' | minus: 604800 %}
+
 ## Current & Upcoming Workshops
 
-{% for post in site.posts %}{% capture row %}
-  {% assign content = post.content | strip | size %}
-  {% if post.redirect %}
-    |{{ post.humandate }}|[{{ post.title }}]({{ post.redirect }})|
-  {% elsif content > 0 %}
-    |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
-  {% else %}
-    |{{ post.humandate }}|{{ post.title }}|
+{% for post in site.posts %}{% capture row %}{% capture cols %}
+  {% assign date = post.date | date: '%s' | minus: 0 %}
+  {% if date > past %}
+    {% assign content = post.content | strip | size %}
+    {% if post.redirect %}
+      |{{ post.humandate }}|[{{ post.title }}]({{ post.redirect }})|
+    {% elsif content > 0 %}
+      |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
+    {% else %}
+      |{{ post.humandate }}|{{ post.title }}|
+    {% endif %}
   {% endif %}
-{% endcapture %}{% if post.date > page.past %}{{ row | strip }}
-{% endif %}{% endfor %}{:.table}
+  {% endcapture %}{{ cols | strip }}{% endcapture %}{% if row != '' %}{{ row }}
+  {% endif %}{% endfor %}{:.table}
 
 ## Past Workshops
 
-{% for post in site.posts %}{% capture row %}
-  |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
-{% endcapture %}{% if post.date <= page.past %}{{ row | strip }}
-{% endif %}{% endfor %}{:.table}
+{% for post in site.posts %}{% capture row %}{% capture cols %}
+  {% assign date = post.date | date: '%s' | minus: 0 %}
+  {% if date <= past %}
+    |{{ post.humandate }}|[{{ post.title }}]({{ site.baseurl }}{{ post.url }})|
+  {% endif %}
+  {% endcapture %}{{ cols | strip }}{% endcapture %}{% if row != '' %}{{ row }}
+  {% endif %}{% endfor %}{:.table}
