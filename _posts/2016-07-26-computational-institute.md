@@ -3,7 +3,7 @@ title: Computational Synthesis Institute
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
-humandate: July 26-29, 2016
+humandate: Jul 26-29, 2016
 humantime: 9:00 am - 5:00 pm
 startdate: 2016-07-26
 enddate: 2016-07-29

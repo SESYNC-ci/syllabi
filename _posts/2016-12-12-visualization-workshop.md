@@ -1,3 +1,3 @@
 ---
-humandate: December 12, 2016
+humandate: Dec 12, 2016
 ---

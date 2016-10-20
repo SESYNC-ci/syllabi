@@ -4,7 +4,7 @@ root: .
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
-humandate: July 20-22, 2015
+humandate: Jul 20-22, 2015
 humantime: 9:00 am - 5:00 pm
 startdate: 2015-07-20
 enddate: 2015-07-22

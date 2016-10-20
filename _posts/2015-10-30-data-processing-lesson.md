@@ -1,4 +1,4 @@
 ---
 category: 'training-lesson'
-humandate: October 30, 2015
+humandate: Oct 30, 2015
 ---
