@@ -23,3 +23,5 @@ defaults:
 exclude:
   - README.md
   - CONTRIBUTING.md
+gems:
+  - jekyll-redirect-from
