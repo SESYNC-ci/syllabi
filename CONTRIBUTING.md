@@ -1,6 +1,6 @@
 # Overview
 
-A syllabus for a SESYNC-cyberinfrastructure led course or workshop provides logistical information, a schedule of lessons, and participation requirements. Each time a course or workshop is held, a new syllbus should be created with updated information.
+A syllabus for a SESYNC-cyberinfrastructure led short course provides logistical information, a schedule of lessons, and participation requirements. A new syllbus should be created, with updated information, for every instance of a short course.
 
 # Create a syllabus
 
@@ -12,6 +12,6 @@ No link exists to a new syllabus until one is created on SESYNC's main website, 
 
 > `https://sesync-ci.github.io/syllabi/YYYY/MM/DD/title.html`
 
-To truly preview a page offline, it is necessary to run [Jekyll](https://jekyllrb.com) in a local clone of this repository. The followin command will locally host the page and tell you the address.
+To preview a page offline, it is necessary to run [Jekyll](https://jekyllrb.com) in a local clone of this repository. The following command will locally host the page, by default at http://127.0.0.1:4000, until the process is killed.
 
 > `jekyll serve --baseurl=''`
