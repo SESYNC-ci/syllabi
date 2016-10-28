@@ -95,7 +95,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 |       9:30 | Visualization Pipeline                |
 |      10:00 | Tools & APIs                          |
 |    *10:30* | *Break*                               |
-|      10:45 | Multidim (Tabluea, Keshif)            |
+|      10:45 | Multidimensional Data (Tableau, Keshif)            |
 | *12:00 pm* | *Lunch Break*                         |
 |       1:00 | Networks (NodeXL, CytoScope?, Gephi?) |
 |       2:00 | Temporal (EventFlow?)                 |
@@ -115,7 +115,7 @@ Please make sure to install and/or download everything **before** the start of t
 FIXME: Requirements
 
 {% if page.eventbrite %}
-## Registration
+## Registration  
 {: style="visibility: hidden;"}
 
 <iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
