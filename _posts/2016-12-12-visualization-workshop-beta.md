@@ -157,7 +157,7 @@ To install Tableau Public:
 ![]({{ site.baseurl }}/images/tableau-install-4.png)
 
 {% if page.eventbrite %}
-## Registration
+## Registration  
 {: style="visibility: hidden;"}
 
 <iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>

@@ -1,3 +1,3 @@
 ---
-humandate: December 5-9, 2016
+humandate: Dec 5-9, 2016
 ---

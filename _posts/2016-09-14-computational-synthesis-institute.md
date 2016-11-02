@@ -4,7 +4,7 @@ venue: SESYNC
 address: 1 Park Place Suite 300, Annapolis, MD 21401
 country: us
 language: en
-humandate: September 14-16, 2016
+humandate: Sep 14-16, 2016
 humantime: 9:00 am - 5:00 pm
 startdate: 2016-09-14
 enddate: 2016-09-16
