@@ -117,41 +117,39 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 To participate, you will need working copies of the software described below.
 Please make sure to install and/or download everything **before** the start of the short course.
 
-
-To install Java Runtime Environment (JRE):
+**To install Java Runtime Environment (JRE):**
 
 1. Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
 1. Accept the licensing agreement (target of red arrow in image below)
 
 1. Select the file appropriate for your operating system and click the corresponding download link; your download should start automatically (note: the more intuitive approach may be to use the automatic installers - .rpm, .dmg, or .exe - shown outlined in red below)  
-![]({{ site.baseurl }}/images/jre-install-1.png)
+![]({{ site.baseurl }}/images/jre-install-1.png){: width="80%"}
 
 1. Click "Install"  
-![]({{ site.baseurl }}/images/jre-install-2.png)
+![]({{ site.baseurl }}/images/jre-install-2.png){: width="80%"}
 
 1. Wait for setup process to run  
-![]({{ site.baseurl }}/images/jre-install-3.png)
+![]({{ site.baseurl }}/images/jre-install-3.png){: width="80%"}
 
 1. [Optional] You may want to uninstall outdated versions of JRE, if applicable:  
-![]({{ site.baseurl }}/images/jre-install-4.png)
+![]({{ site.baseurl }}/images/jre-install-4.png){: width="80%"}
 
 1. You should receive a message notifying you of successful installation:  
-![]({{ site.baseurl }}/images/jre-install-5.png)
+![]({{ site.baseurl }}/images/jre-install-5.png){: width="80%"}
 
-To install Tableau Public:
+**To install Tableau Public:**
 
 1. Go to the [Tableau download page](https://public.tableau.com/s/download?)
 
 1. Enter your email (as shown below) and click "Download the App"  
-![]({{ site.baseurl }}/images/tableau-install-1.png)
+![]({{ site.baseurl }}/images/tableau-install-1.png){: width="80%"}
 
 1. Your download should begin automatically:  
-![]({{ site.baseurl }}/images/tableau-install-2.png)
-
+![]({{ site.baseurl }}/images/tableau-install-2.png){: width="80%"}
 
 1. Open the installer and click the install button  
-![]({{ site.baseurl }}/images/tableau-install-3.png)
+![]({{ site.baseurl }}/images/tableau-install-3.png){: width="80%"}
 
 1. You should now have Tableau public installed on your device:  
 ![]({{ site.baseurl }}/images/tableau-install-4.png){: width="80%"}
