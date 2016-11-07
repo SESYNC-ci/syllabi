@@ -17,7 +17,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-eventbrite:
+eventbrite: 29224442093
 handout:
 github:
 feedback:
@@ -92,6 +92,13 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (
 **Contact:**  
 Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
 
+{% if page.eventbrite %}
+## Registration
+{:style="visibility: hidden;"}
+
+<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
+{% endif %}
+
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
 
 ## Schedule
@@ -153,13 +160,6 @@ Please make sure to install and/or download everything **before** the start of t
 
 1. You should now have Tableau public installed on your device:  
 ![]({{ site.baseurl }}/images/tableau-install-4.png){: width="80%"}
-
-{% if page.eventbrite %}
-## Registration  
-{: style="visibility: hidden;"}
-
-<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
-{% endif %}
 
 ## Acknowledgements & Support
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
