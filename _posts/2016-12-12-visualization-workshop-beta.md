@@ -96,7 +96,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 ## Registration
 {:style="visibility: hidden;"}
 
-<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
+<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" scrolling="no"></iframe>
 {% endif %}
 
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
