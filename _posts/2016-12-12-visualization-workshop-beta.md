@@ -51,10 +51,13 @@ While there will be no specific technical knowledge requirements, participants a
 
 [//]: # " This block displays the instructors' names if they are available. "
 
-{% if page.instructor %}
+{% if page.instructors %}
 **Instructors:**  
-{% for instructor in page.instructor %}{{ instructor }}  
-{% endfor %}
+{%
+  for instructor in page.instructors
+  %}{{ instructor }}  
+  {% endfor
+%}
 {% endif %}
 
 {% if page.assistant %}
@@ -66,10 +69,13 @@ While there will be no specific technical knowledge requirements, participants a
 [//]: # " In particular, if it is only open to people from a particular institution, "
 [//]: # " or if specialized prerequisite knowledge is required, please mention that. "
 
-**When:**   {% if page.enddate %}
-{{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }}{% else %}
-{{ page.startdate | date: "%A, %B %-d, %Y" }}
-{% endif %}
+**When:**  {%
+if page.enddate
+  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }} {%
+else
+  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} {%
+endif
+%}
 
 [//]: # " This block displays the address and links to a map showing directions. "
 {% if page.latlng %}
@@ -96,7 +102,10 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 ## Registration
 {:style="visibility: hidden;"}
 
-<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" scrolling="no"></iframe>
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
+  frameborder="0" width="100%" height="300px" scrolling="no">
+</iframe>
 {% endif %}
 
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
