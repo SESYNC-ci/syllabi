@@ -2,17 +2,17 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div id="wrap" class="contentpage">
+    <div class="contentpage">
       {% include header.html %}
       <div class="main-body container">
-	<div class="col-md-9" style="padding-right: 7px;">
+	<div class="col-md-9">
 	  <div class="main-content">{{content}}</div>
 	</div>
         <div class="col-md-3 sidebar-content">
-	  {% capture sb %}{% include sidebar.md %}{% endcapture %}{{sb | markdownify}}
+	  {% capture sidebar %}{% include sidebar.md %}{% endcapture %}{{ sidebar | markdownify }}
 	</div>
       </div>
-    </div><!-- #wrap -->
-    {% include footer.html %}
+      {% include footer.html %}
+    </div>
   </body>
 </html>
