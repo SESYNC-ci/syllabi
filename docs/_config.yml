@@ -19,5 +19,5 @@ defaults:
       path: ''
     values:
       layout: 'default'
-gems:
-  - jekyll-redirect-from
+#gems:
+#  - jekyll-redirect-from
