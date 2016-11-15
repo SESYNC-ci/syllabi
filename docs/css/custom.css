@@ -1,0 +1,11 @@
+.disable-links a {
+    color: #333;
+    pointer-events: none;
+    cursor: default;
+}
+.table td:nth-child(1) {
+    width: 25%;
+}
+.logo-row a:hover {
+    text-decoration: none;
+}

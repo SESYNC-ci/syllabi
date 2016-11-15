@@ -10,11 +10,14 @@ humantime: 9:00 am - 5:00 pm
 startdate: 2016-12-12
 enddate:
 instructors:
-  - Nik Elmqvist, Associate Professor, College of Information Studies, University of Maryland
+  - Nik Elmqvist, Associate Professor, College of Information Studies, University of Maryland (iSchool)
+  - Sriram Karthik Badam, Ph.D. Student, iSchool
+  - Andrea Julca, Ph.D. Student, iSchool
+  - Adil Yalcin, Ph.D. Student, iSchool
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-eventbrite:
+eventbrite: 29224442093
 handout:
 github:
 feedback:
@@ -42,14 +45,19 @@ feedback:
 
 ## General Information
 
-FIXME: Event summary.
+Data visualization uses interactive graphical images of abstract data to amplify cognition, and is a key solution when dealing with large, complex, and heterogeneous datasets.
+In this day-long workshop, we will take a hands-on approach to data visualization starting with the specific tools and techniques that SESYNC researchers may encounter in their work, including network, geospatial, temporal, and multidimensional data.
+While there will be no specific technical knowledge requirements, participants are expected to have a working knowledge of basic data management, including text, spreadsheets, and simple databases.
 
 [//]: # " This block displays the instructors' names if they are available. "
 
-{% if page.instructor %}
+{% if page.instructors %}
 **Instructors:**  
-{% for instructor in page.instructor %}{{ instructor }}  
-{% endfor %}
+{%
+  for instructor in page.instructors
+  %}{{ instructor }}  
+  {% endfor
+%}
 {% endif %}
 
 {% if page.assistant %}
@@ -61,10 +69,13 @@ FIXME: Event summary.
 [//]: # " In particular, if it is only open to people from a particular institution, "
 [//]: # " or if specialized prerequisite knowledge is required, please mention that. "
 
-**When:**   {% if page.enddate %}
-{{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }}{% else %}
-{{ page.startdate | date: "%A, %B %-d, %Y" }}
-{% endif %}
+**When:**  {%
+if page.enddate
+  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }} {%
+else
+  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} {%
+endif
+%}
 
 [//]: # " This block displays the address and links to a map showing directions. "
 {% if page.latlng %}
@@ -87,6 +98,25 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (
 **Contact:**  
 Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
 
+{% if page.eventbrite %}
+## Registration
+{:style="visibility: hidden;"}
+
+[//]: # " <div style=![//]: # "\width:100%; text-align:left;![//]: # "\> "
+<iframe
+  src="//eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
+  frameborder="0" height="275" width="100%"
+  vspace="0" hspace="0" marginheight="5" marginwidth="5"
+  scrolling="auto" allowtransparency="true">
+</iframe>
+[//]: # " <div style=![//]: # "\font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;![//]: # "\ > "
+[//]: # " <a class=![//]: # "\powered-by-eb![//]: # "\ style=![//]: # "\color: #ADB0B6; text-decoration: none;![//]: # "\ target=![//]: # "\_blank![//]: # "\ "
+[//]: # "   href=![//]: # "\http://www.eventbrite.com/![//]: # "\>Powered by Eventbrite "
+[//]: # " </a> "
+[//]: # " </div> "
+[//]: # " </div> "
+{% endif %}
+
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
 
 ## Schedule
@@ -95,12 +125,12 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 |       9:30 | Visualization Pipeline                |
 |      10:00 | Tools & APIs                          |
 |    *10:30* | *Break*                               |
-|      10:45 | Multidim (Tabluea, Keshif)            |
+|      10:45 | Multidimensional (Tabluea, Keshif)    |
 | *12:00 pm* | *Lunch Break*                         |
-|       1:00 | Networks (NodeXL, CytoScope?, Gephi?) |
-|       2:00 | Temporal (EventFlow?)                 |
+|       1:00 | Networks (NodeXL, CytoScope, Gephi)   |
+|       2:00 | Temporal (EventFlow)                  |
 |     *3:00* | *Break*                               |
-|       3:15 | Scripting (VEGA, Lyra?, D3?)          |
+|       3:15 | Scripting (VEGA and Lyra)             |
 |       4:30 | Fin                                   |
 {:.table .table-striped}
 
@@ -112,14 +142,42 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 To participate, you will need working copies of the software described below.
 Please make sure to install and/or download everything **before** the start of the short course.
 
-FIXME: Requirements
+**To install Java Runtime Environment (JRE):**
 
-{% if page.eventbrite %}
-## Registration
-{: style="visibility: hidden;"}
+1. Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
-<iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
-{% endif %}
+1. Accept the licensing agreement (target of red arrow in image below)
+
+1. Select the file appropriate for your operating system and click the corresponding download link; your download should start automatically (note: the more intuitive approach may be to use the automatic installers - .rpm, .dmg, or .exe - shown outlined in red below)  
+![]({{ site.baseurl }}/images/jre-install-1.png){: width="80%"}
+
+1. Click "Install"  
+![]({{ site.baseurl }}/images/jre-install-2.png){: width="80%"}
+
+1. Wait for setup process to run  
+![]({{ site.baseurl }}/images/jre-install-3.png){: width="80%"}
+
+1. [Optional] You may want to uninstall outdated versions of JRE, if applicable:  
+![]({{ site.baseurl }}/images/jre-install-4.png){: width="80%"}
+
+1. You should receive a message notifying you of successful installation:  
+![]({{ site.baseurl }}/images/jre-install-5.png){: width="80%"}
+
+**To install Tableau Public:**
+
+1. Go to the [Tableau download page](https://public.tableau.com/s/download?)
+
+1. Enter your email (as shown below) and click "Download the App"  
+![]({{ site.baseurl }}/images/tableau-install-1.png){: width="80%"}
+
+1. Your download should begin automatically:  
+![]({{ site.baseurl }}/images/tableau-install-2.png){: width="80%"}
+
+1. Open the installer and click the install button  
+![]({{ site.baseurl }}/images/tableau-install-3.png){: width="80%"}
+
+1. You should now have Tableau public installed on your device:  
+![]({{ site.baseurl }}/images/tableau-install-4.png){: width="80%"}
 
 ## Acknowledgements & Support
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
