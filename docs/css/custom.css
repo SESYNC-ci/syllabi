@@ -6,3 +6,6 @@
 .table td:nth-child(1) {
     width: 25%;
 }
+.logo-row a:hover {
+    text-decoration: none;
+}
