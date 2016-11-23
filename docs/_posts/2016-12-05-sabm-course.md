@@ -148,6 +148,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |			| 5:00		 | Day wrap-up															|
 |			| *Reading*  | a.	Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.|
 |||b.	Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.|
+|||c. Optional: Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48.|
 | Friday    | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
 |			| 9:00       | Working in R to analyze results (Kelly Hondula)			        |
 |           | *10:30*    | *Break*                                                              |
