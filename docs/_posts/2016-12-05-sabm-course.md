@@ -96,7 +96,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           | 1:30       | [NetLogo Tutorial: Basics]				                            |
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | Description of group assignment, model and group selection           |
-|			| 4:00		 | Group discussion - conceptual mapping exercise						|
+|			| 4:00		 | Group work - model scoping and causal mapping						|
 |           | *5:15*     | *Reception at SESYNC (informal with snacks, tasty beverages, etc.)*  |
 |           | 6:30       | Dinner in Annapolis												    |
 |			| *Homework* | 1. Read supporting paper(s) for chosen model							|
