@@ -34,11 +34,11 @@ This 5-day short course will serve as an introduction to the theory and practice
 [//]: # " This block displays the instructors' names if they are available. "
 
 {% if page.instructor %}
-  **Instructors:**  
+  **Instructor:**  
   {{page.instructor | join: ', ' }}
 {% endif %}
 {% if page.assistant %}
-  **Assistant:**  
+  **Assistants:**  
   {{page.assistant | join: ', ' }}
 {% endif %}
 
@@ -85,80 +85,79 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 **Plenary sessions begin promptly at 9:00 am.** A light breakfast is provided at 8:30 am on-site. Coffee and snack breaks are at 10:30 am and 3:30 pm, and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own dinner arrangements (we can make recommendations).
 
-| Monday    | 8:30 am	 | Breakfast at SESYNC													|
-|           | 9:00       | Welcome and course introduction                                      |
-|           | 9:15       | Lecture: [What are socio-environmental (S-E) systems?]               |
-|			| 10:00		 | Group Activity
-|           | *10:30*    | *Break*                                                              |
-|           | 10:45      | Lecture: [What are agent-based models (ABMs)?]                       |
-|			| 12:00		 | Schelling Segregation Model Demo
-|           | *12:30 pm* | *Lunch*                                                              |
-|           | 1:30       | [NetLogo Tutorial: Basics]				                            |
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | Description of group assignment, model and group selection           |
-|			| 4:00		 | Group work - model scoping and description						|
-|           | *5:15*     | *Reception at SESYNC (informal with snacks, tasty beverages, etc.)*  |
-|           | 6:30       | Dinner in Annapolis												    |
-|			| *Homework* | 1. Read supporting paper(s) for chosen model							|
-|			|			 | 2. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.|
-|||3. Optional readings:|
-|||a. An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.|
-|||b. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.|
-| Tuesday   | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
-|           | 9:00       | Group work – causal map of chosen model                      |
-|           | *10:30*    | *Break*                                                              |
-|           | 11:00      | Lecture: [Introduction to “building-blocks” of ABMs, pt. 1]        	|
-|           | *12:30 pm* | *Lunch*                                                              |
-|           | 1:30       | Lecture: [Introduction to “building-blocks” of ABMs, pt. 2]			|
-|			| 2:20		 | Mini-break		
-|           | 2:30       | Group work – revise causal maps, formulate hypotheses, and conduct simulation tests|
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | Presentation of group findings: How does your system work? What types of agents do you have? What are their attributes? Which building-blocks might you use to build a model of your system?|
-|			| 5:00		 | Day wrap-up															|
-|			| *Homework* | Short writing assignment (1-2 paragraphs): Provide a preliminary motivation for your model by answering the following questions:
-|||a.	What is the overall purpose of your model? Do not describe anything about how the model will work here, only for what the model will be used.|
-|||b.	What is (are) the main research question(s) you seek to answer?|
-|||c.	Why (or why not) is ABM the most appropriate modeling approach to answer your research question(s)?|
-|			| *Reading*  | a.	Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.|
-|||b.	OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.|
-| Wednesday | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
-|           | 9:00       | Class discussion of writing assignments		                        |
-|			| 9:45		 | Lecture:[Introduction to spatially-explicit ABMs, part 1]			|
-|           | *10:30*    | *Break*                                                              |
-|           | 11:00      | Lecture: [Introduction to spatially-explicit ABMs, part 2]        	|
-|           | *12:30 pm* | *Lunch*                                                              |
-|           | 1:30       | NetLogo Tutorial: Programming in NetLogo								|
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | Introduction to code versioning with Git (Ian Carroll)		        |
-|			| 5:00		 | Day wrap-up															|
-|			| *Homework* | Short writing assignment: (2-3 paragraphs): Describe a preliminary specification of your model by answering the following questions about your study system:|
-|||a.	What constitutes an agent in your system?|
-|||b.	What are key attributes of your agents, and how do they differ between agents?|
-|||c.	Which environment conditions influence agent behaviors? Do these conditions vary over space? If so, how?|
-|			| *Reading*  | a.	Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.|
-|||b.	Optional: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.|
-| Thursday  | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
-|			| 9:00       | Class discussion of writing assignments                              |
-|           | *10:30*    | *Break*                                                              |
-|           | 11:00      | Lecture: [Introduction to model calibration, sensitivity analysis, and evaluation]|
-|           | *12:30 pm* | *Lunch*                                                              |
-|           | 1:30       | Individual project consultation and work time                        |
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | Individual project consultation and work time                        |
-|			| 5:00		 | Day wrap-up															|
-|			| *Reading*  | a.	Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.|
-|||b.	Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.|
-|||c. Optional: Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48.|
-| Friday    | 8:30 am	 | Breakfast at SESYNC, outline of the day								|
-|			| 9:00       | Working in R to analyze results (Kelly Hondula)			        |
-|           | *10:30*    | *Break*                                                              |
-|			| 11:00      | NetLogo Tutorial: GIS and NetLogo          							|
-|           | *12:30*    | *Lunch*                                                              |
-|           | 1:30       | Individual project consultation and work time                        |
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | Individual project consultation and work time                        |
-|			| 5:00 		 | Adjourn																|
-{:.table .table-striped}
+| Monday    |    8:30 am | Breakfast at SESYNC                                                                                                                                                                                                                                           |
+|           |       9:15 | Lecture: [What are socio-environmental (S-E) systems?][1]                                                                                                                                                                                                     |
+|           |      10:00 | Group Activity                                                                                                                                                                                                                                                |
+|           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |      10:45 | Lecture: [What are agent-based models (ABMs)?][2]                                                                                                                                                                                                             |
+|           |      12:00 | Schelling Segregation Model Demo                                                                                                                                                                                                                              |
+|           | *12:30 pm* | *Lunch*                                                                                                                                                                                                                                                       |
+|           |       1:30 | Tutorial: [NetLogo Basics][3]                                                                                                                                                                                                                                 |
+|           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |       3:45 | Description of group assignment, model and group selection                                                                                                                                                                                                    |
+|           |       4:00 | Group work - model scoping and description                                                                                                                                                                                                                    |
+|           |     *5:15* | *Reception at SESYNC (informal with snacks, tasty beverages, etc.)*                                                                                                                                                                                           |
+|           |       6:30 | Dinner in Annapolis                                                                                                                                                                                                                                           |
+|           | *Homework* | 1. Read supporting paper(s) for chosen model                                                                                                                                                                                                                  |
+|           |            | 2. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.                                                                                  |
+|           |            | 3. Optional readings:                                                                                                                                                                                                                                         |
+|           |            | a. An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.                                                                                                              |
+|           |            | b. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.                                |
+| Tuesday   |    8:30 am | Breakfast at SESYNC, outline of the day                                                                                                                                                                                                                       |
+|           |       9:00 | Group work – causal map of chosen model                                                                                                                                                                                                                       |
+|           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |      11:00 | Lecture: [Introduction to “building-blocks” of ABMs, pt. 1][4]                                                                                                                                                                                                |
+|           | *12:30 pm* | *Lunch*                                                                                                                                                                                                                                                       |
+|           |       1:30 | Lecture: [Introduction to “building-blocks” of ABMs, pt. 2][5]                                                                                                                                                                                                |
+|           |       2:20 | Mini-break                                                                                                                                                                                                                                                    |
+|           |       2:30 | Group work – revise causal maps, formulate hypotheses, and conduct simulation tests                                                                                                                                                                           |
+|           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |       3:45 | Presentation of group findings: How does your system work? What types of agents do you have? What are their attributes? Which building-blocks might you use to build a model of your system?                                                                  |
+|           |       5:00 | Day wrap-up                                                                                                                                                                                                                                                   |
+|           | *Homework* | Short writing assignment (1-2 paragraphs): Provide a preliminary motivation for your model by answering the following questions:                                                                                                                              |
+|           |            | a. What is the overall purpose of your model? Do not describe anything about how the model will work here, only for what the model will be used.                                                                                                              |
+|           |            | b. What is (are) the main research question(s) you seek to answer?                                                                                                                                                                                            |
+|           |            | c. Why (or why not) is ABM the most appropriate modeling approach to answer your research question(s)?                                                                                                                                                        |
+|           |  *Reading* | a. Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.                                 |
+|           |            | b. OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.                                              |
+| Wednesday |    8:30 am | Breakfast at SESYNC, outline of the day                                                                                                                                                                                                                       |
+|           |       9:00 | Class discussion of writing assignments                                                                                                                                                                                                                       |
+|           |       9:45 | Lecture:[Introduction to spatially-explicit ABMs, part 1][6]                                                                                                                                                                                                  |
+|           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |      11:00 | Lecture: [Introduction to spatially-explicit ABMs, part 2][7]                                                                                                                                                                                                 |
+|           | *12:30 pm* | *Lunch*                                                                                                                                                                                                                                                       |
+|           |       1:30 | Tutorial: [Programming in NetLogo][8]                                                                                                                                                                                                                         |
+|           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |       3:45 | Tutorial: [Introduction to Code Versioning with Git][9]                                                                                                                                                                                                       |
+|           |       5:00 | Day wrap-up                                                                                                                                                                                                                                                   |
+|           | *Homework* | Short writing assignment: (2-3 paragraphs): Describe a preliminary specification of your model by answering the following questions about your study system:                                                                                                  |
+|           |            | a. What constitutes an agent in your system?                                                                                                                                                                                                                  |
+|           |            | b. What are key attributes of your agents, and how do they differ between agents?                                                                                                                                                                             |
+|           |            | c. Which environment conditions influence agent behaviors? Do these conditions vary over space? If so, how?                                                                                                                                                   |
+|           |  *Reading* | a. Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.                               |
+|           |            | b. Optional: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.                                                                                                         |
+| Thursday  |    8:30 am | Breakfast at SESYNC, outline of the day                                                                                                                                                                                                                       |
+|           |       9:00 | Class discussion of writing assignments                                                                                                                                                                                                                       |
+|           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |      11:00 | Lecture: [Introduction to model calibration, sensitivity analysis, and evaluation][10]                                                                                                                                                                        |
+|           | *12:30 pm* | *Lunch*                                                                                                                                                                                                                                                       |
+|           |       1:30 | Individual project consultation and work time                                                                                                                                                                                                                 |
+|           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |       3:45 | Individual project consultation and work time                                                                                                                                                                                                                 |
+|           |       5:00 | Day wrap-up                                                                                                                                                                                                                                                   |
+|           |  *Reading* | a. Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.                                                                      |
+|           |            | b. Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.                 |
+|           |            | c. Optional: Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48. |
+| Friday    |    8:30 am | Breakfast at SESYNC, outline of the day                                                                                                                                                                                                                       |
+|           |       9:00 | Tutorial: [Use R to analyze NetLogo simulations][11]                                                                                                                                                                                                          |
+|           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |      11:00 | Tutorial: [GIS and NetLogo][12]                                                                                                                                                                                                                               |
+|           |    *12:30* | *Lunch*                                                                                                                                                                                                                                                       |
+|           |       1:30 | Individual project consultation and work time                                                                                                                                                                                                                 |
+|           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
+|           |       3:45 | Individual project consultation and work time                                                                                                                                                                                                                 |
+|           |       5:00 | Adjourn                                                                                                                                                                                                                                                       |
+{:.table .table-striped .disable-links}
 [//]: # " Add .disable-links to classes to disable links"
 
 ## Pre-Arrival Installations & Downloads
@@ -172,15 +171,15 @@ Please make sure to install everything **before** the start of the short course.
 
 [//]: # " Hyperlinks "
 
-[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Scripting Geospatial Analysis]: {{ site.gh-pages }}/basic-PyQGIS-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Version Control & Data Provenance]: {{ site.gh-pages }}/vcdp-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[The Landscape of Spatial Data Tools]: {{ site.gh-pages }}/osgeo-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Data Storage and Access for All]: {{ site.gh-pages }}/introdb-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Data Manipulation in R]: {{ site.gh-pages }}/data-manipulation-in-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[R]: {{ site.gh-pages }}/basic-R-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[Python]: {{ site.gh-pages }}/basic-Python-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[SQL]: {{ site.gh-pages }}/basic-SQL-lesson{{ page.date | date: "/%Y/%m/%d/" }}
-[JavaScript]: {{ site.gh-pages }}/basic-JavaScript-lesson{{ page.date | date: "/%Y/%m/%d/" }}
+[1]:
+[2]:
+[3]: {{ site.gh-pages }}/basic-netlogo-lesson/class
+[4]:
+[5]:
+[6]:
+[7]:
+[8]: {{ site.gh-pages }}/netlogo-programming-lesson/class
+[9]: {{ site.gh-pages }}/basic-git-lesson/class
+[10]:
+[11]: {{ site.gh-pages }}/rnetlogo-lesson/class
+[12]: {{ site.gh-pages }}/gis-abm-lesson/class
