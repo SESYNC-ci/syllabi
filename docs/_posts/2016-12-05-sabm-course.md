@@ -14,7 +14,7 @@ contact: nmagliocca@sesync.org
 twitter: #sabmsesync
 etherpad: https://public.etherpad-mozilla.org/p/sabm-dec-16
 download: http://sesync.us/fz
-data2doc: data2doc.html
+data2doc:
 github: true
 ---
 
@@ -122,7 +122,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |            | b. OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.                                              |
 | Wednesday |    8:30 am | Breakfast at SESYNC, outline of the day                                                                                                                                                                                                                       |
 |           |       9:00 | Class discussion of writing assignments                                                                                                                                                                                                                       |
-|           |       9:45 | Lecture:[Introduction to spatially-explicit ABMs, part 1][6]                                                                                                                                                                                                  |
+|           |       9:45 | Lecture: [Introduction to spatially-explicit ABMs, part 1][6]                                                                                                                                                                                                  |
 |           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
 |           |      11:00 | Lecture: [Introduction to spatially-explicit ABMs, part 2][7]                                                                                                                                                                                                 |
 |           | *12:30 pm* | *Lunch*                                                                                                                                                                                                                                                       |
@@ -163,23 +163,68 @@ The structure of the curriculum as well as the teaching style are informed by [S
 ## Pre-Arrival Installations & Downloads
 
 To participate, you will need working copies of the software described below.
-Please make sure to install everything **before** the start of the short course.
+Please make *an attempt* to install everything before the start of the short course.
 
-[//]: # " Choose or create setup instructions in _includes to reflect your bootcamp. "
+### Download
 
-{% include setup-non-sesync.md %}
+The table below lists software we will use in this short course.
+Unless noted (and especially for `git`) please use the default installation options.
+For **Windows users** and **Mac users**, a suitable installer (i.e. a ".msi", ".pkg", or ".dmg") is available at the given download site.
+**Mac users** are encouraged to try [Homebrew](http://brew.sh){:target="_blank"} as an alternative download method: homebrew packages in the list below can be installed from the Terminall application with `brew install %package%`.
+The analagous command line utility for Windows is [Chocolatey](http://chocolatey.org/){:target="_blank"}, for which the command `choco install %package%` is used within the CMD.exe program.
+**Ubuntu users** may install Debian packages from the shell with `sudo apt-get install %package%`, and users of other Linux distributions are on their own.
+
+| Software                | Download Site                                             | Homebrew | Debian   | Chocolatey  |
+|-------------------------+-----------------------------------------------------------+----------+----------+-------------|
+| NetLogo                 | <https://ccl.northwestern.edu/netlogo/download.shtml>     |          |          |             |
+| git                     | <https://git-scm.com/downloads>                           | `git`    | `git`    | `git`       |
+| R                       | <https://cran.rstudio.com/>                               | `r`      | `r-base` | `r.project` |
+| RStudio Desktop         | <https://www.rstudio.com/products/rstudio/download2/>     |          |          |             |
+| Java SE Development Kit | <http://www.oracle.com/technetwork/java/javase/downloads> |          |          |             |
+{:.table}
+
+### Installation
+
+Follow the normal procedures for running the downloaded installers on your operating system.
+For NetLogo, drag the package contents to your Desktop, Program Files (**on Windows**), or Applications (**on Mac**) folder.
+**Mac users** may be prevented from running a ".pkg" file at first, but simply open `System Preferences` > `Security & Privacy` after receiving a warning and choose to "Open Anyway".
+
+The following R packages also need to be installed. Open RStudio and, for each package below, type `install.packages('%package%')` at the `>` prompt and press return.
+Proceed as directed, and seek help if the installation stops with a message saying the packaged failed to install.
+
+- `igraph`
+- `rJava` (**Mac users** should Install from source: `install.packages('rJava', type='source')`)
+- `RNetLogo`
+- `ggplot2`
+
+### Tests
+
+Certain applications must talk to each other, and a successful install is not sufficient to guarantee they will.
+Please run the following tests before arrival, and notify the instructor on **day one** if your tests fails.
+
+1. RStudio & Git
+    1. Open RStudio
+    1. Choose `File` then `New Project` then `Version Control` then `git`
+    1. Enter "https://github.com/sesync-ci/handouts.git", "handouts", and browse to any desired location for your coursework.
+    1. The eventual appearence of scripts within RStudio's "Files" tab confirms your installation is working.
+1. RStudio, Java & NetLogo
+    1. While still within the handouts project, type `source('tests.R')` at the `>` prompt and press return.
+    1. Follow the prompts.
+    1. The message "Tests passed." indicates a working installation.
+
+Contact the instructor, in advance by e-mail or on the first day of the workshop, if your installations or tests fail.
 
 [//]: # " Hyperlinks "
 
-[1]:
-[2]:
+[1]: ""
+[2]: ""
 [3]: {{ site.gh-pages }}/basic-netlogo-lesson/class
-[4]:
-[5]:
-[6]:
-[7]:
+[4]: ""
+[5]: ""
+[6]: ""
+[7]: ""
 [8]: {{ site.gh-pages }}/netlogo-programming-lesson/class
 [9]: {{ site.gh-pages }}/basic-git-lesson/class
-[10]:
+[10]: ""
 [11]: {{ site.gh-pages }}/rnetlogo-lesson/class
 [12]: {{ site.gh-pages }}/gis-abm-lesson/class
