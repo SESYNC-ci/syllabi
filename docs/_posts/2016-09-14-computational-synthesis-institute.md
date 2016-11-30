@@ -18,7 +18,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-handout: https://github.com/SESYNC-ci/handouts/archive/csi-fall-2016.zip
+handout: https://github.com/sesync-ci/handouts/releases/download/csi-fall-2016/handouts.zip
 github: true
 feedback: https://goo.gl/forms/zzuJKaTyOSmNL89A2
 shorturl: http://sesync.us/g2
