@@ -170,6 +170,7 @@ Please make *an attempt* to install everything before the start of the short cou
 The table below lists software we will use in this short course.
 Unless noted (and especially for `git`) please use the default installation options.
 For **Windows users** and **Mac users**, a suitable installer (i.e. a ".msi", ".pkg", or ".dmg") is available at the given download site.
+**Windows users** should not need to install the Java SDK listed below.
 **Mac users** are encouraged to try [Homebrew](http://brew.sh){:target="_blank"} as an alternative download method: homebrew packages in the list below can be installed from the Terminall application with `brew install %package%`.
 The analagous command line utility for Windows is [Chocolatey](http://chocolatey.org/){:target="_blank"}, for which the command `choco install %package%` is used within the CMD.exe program.
 **Ubuntu users** may install Debian packages from the shell with `sudo apt-get install %package%`, and users of other Linux distributions are on their own.
@@ -186,10 +187,11 @@ The analagous command line utility for Windows is [Chocolatey](http://chocolatey
 ### Installation
 
 Follow the normal procedures for running the downloaded installers on your operating system.
-For NetLogo, drag the package contents to your Desktop, Program Files (**on Windows**), or Applications (**on Mac**) folder.
+If necessary for NetLogo, drag the package contents to your Desktop, Program Files (**on Windows**), or Applications (**on Mac**) folder.
 **Mac users** may be prevented from running a ".pkg" file at first, but simply open `System Preferences` > `Security & Privacy` after receiving a warning and choose to "Open Anyway".
 
-The following R packages also need to be installed. Open RStudio and, for each package below, type `install.packages('%package%')` at the `>` prompt and press return.
+The following R packages also need to be installed.
+Open RStudio and, for each package below, type `install.packages('%package%')` at the `>` prompt and press return.
 Proceed as directed, and seek help if the installation stops with a message saying the packaged failed to install.
 
 - `igraph`
