@@ -24,6 +24,10 @@
 {% if page.data2doc %}
 - Description of [mini-project]({{ site.baseurl }}/data2doc.html).
 {% endif %}
+{% if page.proj_desc %}
+- Description of course [project]({{ site.proj_desc }}).
+{% endif %}
+
 
 {% if page.twitter %}
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/csisesync" data-widget-id="755481646099492864" width="96%" data-chrome="noscrollbar">#csiseysnc</a>
