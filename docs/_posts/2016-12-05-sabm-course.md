@@ -192,10 +192,11 @@ If necessary for NetLogo, drag the package contents to your Desktop, Program Fil
 
 The following R packages also need to be installed.
 Open RStudio and, for each package below, type `install.packages('%package%')` at the `>` prompt and press return.
+To install `igraph` for example, type `install.packages('igraph')` and press return.
 Proceed as directed, and seek help if the installation stops with a message saying the packaged failed to install.
 
 - `igraph`
-- `rJava` (**Mac users** should Install from source: `install.packages('rJava', type='source')`)
+- `rJava` (**Mac users** should install from source: `install.packages('rJava', type='source')`)
 - `RNetLogo`
 - `ggplot2`
 
