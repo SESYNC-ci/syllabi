@@ -25,7 +25,7 @@
 - Description of [mini-project]({{ site.baseurl }}/data2doc.html).
 {% endif %}
 {% if page.proj_desc %}
-- Description of course [project]({{ site.proj_desc }}).
+- Description of course [project]({{ page.proj_desc }}).
 {% endif %}
 
 
