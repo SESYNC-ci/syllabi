@@ -159,7 +159,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |     *3:30* | *Break*                                                                                                                                                                                                                                                       |
 |           |       3:45 | Individual project consultation and work time                                                                                                                                                                                                                 |
 |           |       5:00 | Adjourn                                                                                                                                                                                                                                                       |
-{:.table .table-striped .disable-links}
+{:.table .table-striped}
 [//]: # " Add .disable-links to classes to disable links"
 
 ## Pre-Arrival Installations & Downloads
