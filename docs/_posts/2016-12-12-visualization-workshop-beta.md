@@ -17,10 +17,11 @@ instructors:
 contact: icarroll@sesync.org
 etherpad:
 twitter:
-eventbrite: 29224442093
+eventbrite: # 29224442093
 handout:
 github:
 feedback:
+other-download: "Get EventFlow at http://sesync.us/h0"
 ---
 
 [//]: # " Capture additional variables. "
@@ -127,7 +128,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 |    *10:30* | *Break*                               |
 |      10:45 | Multidimensional (Tabluea, Keshif)    |
 | *12:00 pm* | *Lunch Break*                         |
-|       1:00 | Networks (NodeXL, CytoScope, Gephi)   |
+|       1:00 | Networks (NodeXL)                     |
 |       2:00 | Temporal (EventFlow)                  |
 |     *3:00* | *Break*                               |
 |       3:15 | Scripting (VEGA and Lyra)             |
@@ -179,9 +180,25 @@ Please make sure to install and/or download everything **before** the start of t
 1. You should now have Tableau public installed on your device:  
 ![]({{ site.baseurl }}/images/tableau-install-4.png){: width="80%"}
 
-## Acknowledgements & Support
-Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
-The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+**To install EventFlow:**
+
+1. Download [the installer](http://sesync.us/h0) using the password provided by e-mail.
+
+1. Copy the downloaded .jar file to a location you'll remember.
+
+1. EventFlow does not require installation: click on the .jar file to run. Mac users will receive a security notification. Select "Okay" then go to System Preferences > Security & Privacy and choose to "Open Anyway".
+
+**To install NodeXL (Windows only):**
+
+1. Go to the [NodeXL download page](https://nodexl.codeplex.com/) and clicke "download".
+
+1. Run the downloaded installer: `NodeXLBasicExcelTemplate2014Setup.exe`
+
+1. Select "Install" when notified about the Publisher.
+
+1. Close the installer when the Microsoft customization has installed succesfuly.
+
+1. Run NodeXL by opening "NodeXL Excel Template" from All Programs in your Start Menu.
 
 [//]: # " Links by reference "
 

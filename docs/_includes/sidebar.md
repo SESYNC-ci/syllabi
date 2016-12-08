@@ -27,7 +27,9 @@
 {% if page.proj_desc %}
 - Description of course [project]({{ page.proj_desc }}).
 {% endif %}
-
+{% if page.other-download %}
+- {{ page.other-download }}
+{% endif %}
 
 {% if page.twitter %}
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/csisesync" data-widget-id="755481646099492864" width="96%" data-chrome="noscrollbar">#csiseysnc</a>
