@@ -13,10 +13,10 @@ assistant: ["Ian Carroll", "Kelly Hondula"]
 contact: nmagliocca@sesync.org
 twitter: #sabmsesync
 etherpad: https://public.etherpad-mozilla.org/p/sabm-dec-16
-download: http://sesync.us/fz
+download: https://github.com/SESYNC-ci/handouts/releases/download/sabm-fall-2016/handouts.zip
 data2doc:
 github: true
-shorturl: http://sesync.us/gz
+shorturl:
 proj_desc: https://docs.google.com/presentation/d/14ISpi7vAAJZJC7KaWKd4cA70zhdIPlQycyolsm-Kdpo/edit?usp=sharing
 ---
 
