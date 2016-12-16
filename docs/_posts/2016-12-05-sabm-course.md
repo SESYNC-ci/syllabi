@@ -204,18 +204,14 @@ Proceed as directed, and seek help if the installation stops with a message sayi
 
 ### Tests
 
-Certain applications must talk to each other, and a successful install is not sufficient to guarantee they will.
-Please run the following tests before arrival, and notify the instructor on **day one** if your tests fails.
+RStudio, Java & NetLogo must talk to each other, but a successful install is not sufficient to guarantee they will.
+Please run following test before arrival, and notify the instructor on **day one** if your tests fails.
 
-1. RStudio & Git
-    1. Open RStudio
-    1. Choose `File` then `New Project` then `Version Control` then `git`
-    1. Enter "https://github.com/sesync-ci/handouts.git", "handouts", and browse to any desired location for your coursework.
-    1. The eventual appearence of scripts within RStudio's "Files" tab confirms your installation is working.
-1. RStudio, Java & NetLogo
-    1. While still within the handouts project, type `source('tests.R')` at the `>` prompt and press return.
-    1. Follow the prompts.
-    1. The message "Tests passed." indicates a working installation.
+1. [Download][handouts] and unzip the handouts.
+1. Open 'handouts.Rproj', and wait for RStudio to start.
+1. Type `source('tests.R')` at the `>` prompt and press return.
+1. Follow the prompt to navigate to the Java file.
+1. The message "Tests passed." indicates a working installation.
 
 Contact the instructor, in advance by e-mail or on the first day of the workshop, if your installations or tests fail.
 
@@ -231,3 +227,4 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
 [9]: {{ site.gh-pages }}/rnetlogo-lesson/2016/12/05/
 [10]: {{ site.gh-pages }}/gis-abm-lesson/2016/12/05/
+[handouts]: https://github.com/SESYNC-ci/handouts/releases/download/sabm-fall-2016/handouts.zip
