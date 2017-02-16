@@ -1,28 +1,21 @@
 ---
-title: Computational Synthesis Institute
+title: Version Control Remote Training
 venue: SESYNC
 address: 1 Park Place Suite 300, Annapolis, MD 21401
 country: us
 language: en
-humandate: Sep 14-16, 2016
-humantime: 9:00 am - 5:00 pm
-startdate: 2016-09-14
-enddate: 2016-09-16
+humandate: Feb 17, 2017
+humantime: 10:30 am - 12:30 pm ET
+startdate: 2017-02-17
+enddate: 2017-02-17
 latlng: 38.97667, -76.50347
 instructors:
- - Ian Carroll, Data Scientist
- - Mary Shelley, Associate Director of Synthesis
- - Philippe Marchand, Data Scientist
- - Kelly Hondula, Quantitative Researcher
- - Kate Weiss, Computational Research Assistant
+ - Ian Carroll, Data Scientist @ SESYNC
 contact: icarroll@sesync.org
-etherpad:
+etherpad: https://public.etherpad-mozilla.org/p/B94QOgx3Pa
 twitter:
-handout: https://github.com/sesync-ci/handouts/releases/download/csi-fall-2016/handouts.zip
-github: true
-feedback: https://goo.gl/forms/zzuJKaTyOSmNL89A2
-shorturl: http://sesync.us/g2
-data2doc: true
+cloud: [Bitbucket](https://bitbucket.org/)
+shorturl: http://sesync.us/vct
 ---
 
 [//]: # " Capture additional variables. "
@@ -39,18 +32,12 @@ data2doc: true
 [//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
 [//]: # " Please use three-letter month names for the 'humandate' field. "
 
-## Table of Contents
-{:.no_toc}
-
 * TOC
 {:toc}
 
 ## General Information
 
-A SESYNC Computational Synthesis Institute provides science teams from the socio-environmental synthesis community with hands-on training in open source tools for collaborative coding and data management, analysis, visualization, and product dissemination.
-The goals of the workshop are to learn new concepts, skills and approaches for data-driven research, advance work on team projects, and become familiar with a variety of open-source tools.
-The agenda provides an overview of topics we will address through classroom-style instruction that integrates live-coding and trainee challenge exercises.
-In addition, the agenda allots time for science teams to work on a mini-project with a designated SESYNC coach.
+Version Control is instrumental to project stability (and user sanity!) in collaborative research that requires scientific coding. During this 1.5 to 2 hour session, we will begin to understand the fundamentals of the git version control system and how it integrates with the server based scripting environment hosted at SESYNC for your synthesis project.
 
 [//]: # " This block displays the instructors' names if they are available. "
 
@@ -77,15 +64,10 @@ In addition, the agenda allots time for science teams to work on a mini-project 
 **Where:**  
 {{ page.address }}
   
-Get directions with
-<a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a> or
-<a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
-{% endif %}
+[Join using Skype for Business](https://meet.sesync.org/icarroll/N2ONU4FQ)
 
 [//]: # " Modify the block below if there are any special requirements. "
 
-**Requirements:**  
-Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). The software noted below must be installed prior to starting the workshop. Contact *{{ mailto }}* with installation questions *at least two business days* before the event.
 
 [//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
 [//]: # " If one hasn't, this block inserts the generic contact address for Software Carpentry. "
@@ -95,53 +77,25 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
 
-## Schedule
+## Pre-Call Instructions
 
-| Wednesday | 9:00 am    | Welcome to SESYNC                        |
-|           | 9:15       | [Collaborative & Reproducible Workflows] |
-|           | *10:30*    | *Break*                                  |
-|           | 10:45      | Team Practice #1                         |
-|           | 12:00      | Team Introductions                       |
-|           | *12:30 pm* | *Lunch*                                  |
-|           | 1:30       | [Bas(e)ic R]                             |
-|           | *3:30*     | *Break*                                  |
-|           | 3:45       | [Database Principles and Use]            |
-| Thursday  | 9:00 am    | [Manipulating Tabular Data]              |
-|           | *10:30*    | *Break*                                  |
-|           | 10:45      | [Visualizations the `ggplot` Way]        |
-|           | *12:30 pm* | *Lunch*                                  |
-|           | 1:30       | [Introduction to Shiny Apps]             |
-|           | *3:30*     | *Break*                                  |
-|           | 3:45       | Team Practice #2                         |
-| Friday    | 9:00 am    | [Visualizations with Maps]               |
-|           | *10:30*    | *Break*                                  |
-|           | 10:45 pm   | [Qualitative Data]                       |
-|           | *12:00*    | *Lunch*  ... followed by                 |
-|           | 1:30       | Leaflet cont'd                           |
-|           |            | Team Practice #3                         |
-|           | 2:30 pm    | Scrimmage (a.k.a. Team Presentations)    |
-{:.table .table-striped}
-[//]: # " Add .disable-links to classes to disable links"
+**Requirements:**  
+Participants must create an account on [Bitbucket](https://bitbucket.org), and are strongly encouraged to sign up with an academic e-mail address for free access to private repositories. You are also encouraged to install the software listed below, which will allow you to work on your version controlled project offline/locally.
 
-[//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
-[//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
+### Bitbucket
 
-## Pre-Arrival Instructions
+If you do not already have a Bitbucket account, please create one at <https://bitbucket.org>.
+Note that students and educators with an e-mail address from a academic institution are eligible for [unlimited public and private repositories](https://blog.bitbucket.org/2012/08/20/bitbucket-academic/).
 
-To participate, you will need working copies of the software described below.
-Please make sure to install and/or download everything **before** the start of the short course.
-Contact the instructor before the course begins if you run into any trouble.
-
-### GitHub
-
-If you do not already have a GitHub account, please create one at <https://www.github.com>.
-Note that students and educators with a `.edu` e-mail address are eligible for some free stuff through [GitHub's Student Developer Pack](https://education.github.com/pack).
+Once you have created an account, please enter your username on the [etherpad]{{ etherpad }}.
 
 ### Software
 
-The table below lists software we will use in this short course.
-Please use the default installation options, and install in order moving down the table.
-If you have previously installed this software, please upgrade to the latest version available in your operating system.
+The training relies on SESYNC's web-based platforms, the only essential software is a modern internet browser.
+Because the software we use is all open source, there are free versions that you can install locally.
+Having the software installed locally allows you to work offline in nearly the same way you would on the SESYNC web-based platform.
+
+Helping participants confirm their local installations are working will be the last part of our tutorial, so please install the following applications prior to the training. Always use the default installation options, and install the applications in order moving down the table. If you have previously installed any of this software, please upgrade to the latest version available for your operating system.
 
 For **Windows users**, an installer for each item is available at the given download site.
 **Mac users** may also find an installer at the download site, but are encouraged to use the [Homebrew](http://brew.sh){:target="_blank"} software manager via the Terminal application.
@@ -155,46 +109,9 @@ Most packages in the list below can be installed on a Mac with Homebrew by typin
 | RStudio  | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*          | use download site   |
 {:.table}
 
-### R Packages
-
-The following R packages (i.e. add-on pieces of software) need to be installed. Open RStudio and, for each package listed below, type `install.packages("%package%")` in the Console (where you see a `>`) and press return. To install the `tidyr` package, for example, you type `install.packages("tidyr")`, and then follow the instructions given. If the Console prints a "Warning" that the installation "had non-zero exit status", then the installation has failed.
-
-- `tidyr`
-- `ggplot2`
-- `RSQLite`
-- `rgdal`
-- `rgeos`
-- `shiny`
-- `leaflet`
-
-### Additional Software *for Mac Users Only*
-
-The steps here may not be necessary, depending on your system. Only follow these steps if the **R Package** installations above failed for `rgdal` or `rgeos`. First, attempt to install those two packages with `install.packages("%package%", type = "mac.binary.mavericks")`. If that also fails, install the software below, then re-attempt the package installations with `install.packages("%package%", type = "source")`.
-
-| Software | Download Site                                         | Homebrew Package(s) | Aptitude Package(s) |
-|----------+-------------------------------------------------------+---------------------+---------------------|
-| Homebrew | for Mac users only: <http://brew.sh/>                 |                     |                     |
-| GDAL     | separate install not required on Windows              | `gdal geos`         | `gdal-bin`          |
-{:.table}
-
 {% if page.eventbrite %}
 ## Registration
 {: style="visibility: hidden;"}
 
 <iframe src="https://www.eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" width="100%" height="216px" scrolling="no"></iframe>
 {% endif %}
-
-## Acknowledgments & Support
-Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
-The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
-
-[//]: # " Links by reference "
-
-[Collaborative & Reproducible Workflows]: {{ site.gh-pages }}/basic-git-lesson/2016/09/14/
-[Bas(e)ic R]: {{ site.gh-pages }}/basic-R-lesson/2016/09/14/
-[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/2016/09/14/
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2016/09/14/
-[Visualizations the `ggplot` Way]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2016/09/14/
-[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/2016/09/14/
-[Visualizations with Maps]: {{ site.gh-pages }}/maps-in-R-lesson/2016/09/14/
-[Qualitative Data]: {{site.gh-pages }}/text-mining-lesson/2016/09/14/

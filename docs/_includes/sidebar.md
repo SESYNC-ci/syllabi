@@ -6,6 +6,9 @@
 {% if page.shorturl %}
 - Also at <{{ page.shorturl }}>
 {% endif %}
+{% if page.cloud %}
+- Do you have a {{ page.cloud }} account?
+{% endif %}
 {% if page.github %}
 - Do you have a [GitHub](https://www.github.com) account?
 {% endif %}
