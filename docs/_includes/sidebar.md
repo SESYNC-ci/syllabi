@@ -7,7 +7,7 @@
 - Also at <{{ page.shorturl }}>
 {% endif %}
 {% if page.cloud %}
-- Do you have a [{{ page.cloud[1] }}]({{ page.cloud[2] }}) account?
+- Do you have a [{{ page.cloud[0] }}]({{ page.cloud[1] }}) account?
 {% endif %}
 {% if page.github %}
 - Do you have a [GitHub](https://www.github.com) account?
