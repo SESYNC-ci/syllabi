@@ -1,2 +1,5 @@
 # Jekyll
 docs/_site/
+
+# RStudio
+.Rproj.user
