@@ -81,4 +81,14 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating system 
 
 ## Pre-workshop Instructions
 
-Please check back soon for software installation instructions to complete before the workshop.
+The training relies on having a Python distribution installed on your laptop, access to SESYNC's WinAnalytics server, and an up-to-date internet browser.
+
+1. The lesson is tested on Chrome and Firefox, use IE or Safari at your own risk.
+1. Check your access to to [WinAnalytics](https://base.sesync.org/projects/documentation/wiki/Winanalytics) if you have not used this server before.
+1. Install Anaconda with the 32 bit version of Python 2.7. Anaconda should peacefully coexist with any Python distribution you have already installed. Even though it is not possible to use ArcPy from **Mac OS**, everyone should still choose the appropriate installer from the table below.
+
+| Operating System | Anaconda Installer                                                    |
+|------------------+-----------------------------------------------------------------------|
+| Windows          | <https://repo.continuum.io/archive/Anaconda2-4.3.1-Windows-x86.exe>   |
+| Mac              | <https://repo.continuum.io/archive/Anaconda2-4.3.1-MacOSX-x86_64.pkg> |
+{:.table}
