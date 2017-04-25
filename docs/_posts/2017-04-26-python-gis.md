@@ -85,7 +85,7 @@ The training relies on having a Python distribution installed on your laptop, ac
 
 1. The lesson is tested on Chrome and Firefox, use IE or Safari at your own risk.
 1. Check your access to to [WinAnalytics](https://base.sesync.org/projects/documentation/wiki/Winanalytics) if you have not used this server before.
-1. Install Anaconda with the 32 bit version of Python 2.7. Anaconda should peacefully coexist with any Python distribution you have already installed. Even though it is not possible to use ArcPy from **Mac OS**, everyone should still choose the appropriate installer from the table below.
+1. Install Anaconda for Python 2.7 (on Windows, use the 32-bit version). Anaconda should peacefully coexist with any Python distribution you have already installed. Even though it is not possible to use ArcPy from **Mac OS**, everyone should still choose the appropriate installer from the table below.
 
 | Operating System | Anaconda Installer                                                    |
 |------------------+-----------------------------------------------------------------------|
