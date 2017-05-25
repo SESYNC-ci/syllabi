@@ -20,7 +20,7 @@ cloud:
  - GitHub
  - https://github.com
 twitter:
-shorturl:
+shorturl: http://sesync.us/conserve
 ---
 
 [//]: # " Capture additional variables. "
