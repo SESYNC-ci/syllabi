@@ -10,9 +10,10 @@ startdate: 2017-08-01
 enddate: 2017-08-03
 latlng: 38.97667, -76.50347
 instructors:
- - Ian Carroll, Data Scientist @ SESYNC
- - Mary Shelley, Associate Director of Synthesis
- - Kelly Hondula, Quantitative Researcher
+ - Ian Carroll, Data Scientist (SESYNC)
+ - Mary Shelley, Associate Director of Synthesis (SESYNC)
+ - Hillary Craddock (CONSERVE)
+ - TBD (CONSERVE)
 contact: icarroll@sesync.org
 etherpad:
 cloud:
@@ -38,14 +39,15 @@ shorturl:
 
 ## General Information
 
-A SESYNC Data Skills Workshop provides researchers from the socio-environmental synthesis community with hands-on training in open source tools for collaborative coding, data management, analysis, visualization, and dissemination.
+SESYNC welcomes CONSERVE Scholars to a workshop that will grow your data skills and conceptual understanding for CONSERVE projects and to foster interdisciplinary research.
+A SESYNC data skills workshop provides researchers from the socio-environmental synthesis community with an open source toolbox for collaborative coding, data management, analysis, visualization, and dissemination.
 The goal of this two-and-a-half-day workshop is to introduce novice and intermediate scientific coders to concepts, skills and approaches for data-driven research, while relying on tools available through the RStudio development environment.
-The agenda provides an overview of the specific topics we will address through a series of four that integrate hands-on training and coding challenges.
+See the agenda below for an overview of the specific topics we will address through a series of lessons that integrate hands-on training and coding challenges.
 
 [//]: # " This block displays the instructors' names if they are available. "
 
 {% if page.instructors %}
-**SESYNC Instructors:**  
+**Instructors:**  
 {% for instructor in page.instructors %}{{ instructor }}  
 {% endfor %}
 {% endif %}
@@ -60,7 +62,7 @@ The agenda provides an overview of the specific topics we will address through a
 [//]: # " or if specialized prerequisite knowledge is required, please mention that. "
 
 **When:**  
-{{ page.humantime}} on {{ page.humandate }}
+{{ page.humantime}}
 
 {% if page.latlng %}
 **Where:**  
@@ -78,13 +80,13 @@ Get directions with
 Please email *{{ mailto }}* with any questions or for information not covered here.
 
 **Requirements:**  
-Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). For the best possible experience, please install the software noted below prior to the day of the workshop.
+Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). For the best possible experience, please install the software noted below prior to the start of the workshop.
 
 ## Schedule (Under Development)
 
 | Tuesday   | 9:00 am |   |
 | Wednesday | 9:00 am |   |
-| Wednesday | 9:00 am |   |
+| Thursday  | 9:00 am |   |
 {:.table .table-striped .disable-links}
 [//]: # " Add .disable-links to classes to disable links"
 
