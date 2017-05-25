@@ -39,7 +39,7 @@ shorturl:
 
 ## General Information
 
-SESYNC welcomes CONSERVE Scholars to a workshop that will grow your data skills and conceptual understanding for CONSERVE projects and to foster interdisciplinary research.
+SESYNC welcomes CONSERVE Scholars to a workshop that will grow your data skills and conceptual understanding for CONSERVE projects and foster interdisciplinary research.
 A SESYNC data skills workshop provides researchers from the socio-environmental synthesis community with an open source toolbox for collaborative coding, data management, analysis, visualization, and dissemination.
 The goal of this two-and-a-half-day workshop is to introduce novice and intermediate scientific coders to concepts, skills and approaches for data-driven research, while relying on tools available through the RStudio development environment.
 See the agenda below for an overview of the specific topics we will address through a series of lessons that integrate hands-on training and coding challenges.
