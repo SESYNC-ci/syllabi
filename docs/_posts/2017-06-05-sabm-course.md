@@ -13,7 +13,7 @@ assistant: ["Ian Carroll", "Kelly Hondula"]
 contact: nmagliocca@sesync.org
 twitter: #sabmsesync
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-17
-download: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2017/handouts.zip
+handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2017/handouts.zip
 data2doc:
 github: true
 shorturl:
@@ -208,7 +208,7 @@ Proceed as directed, and seek help if the installation stops with a message sayi
 RStudio, Java & NetLogo must talk to each other, but a successful install is not sufficient to guarantee they will.
 Please run following test before arrival, and notify the instructor on **day one** if your tests fails.
 
-1. [Download][handouts] and unzip the handouts.
+1. [Download][handout] and unzip the handout.
 1. Open 'handouts.Rproj', and wait for RStudio to start.
 1. Type `source('tests.R')` at the `>` prompt and press return.
 1. Follow the prompt to navigate to the Java file.
@@ -228,4 +228,4 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
 [9]: {{ site.gh-pages }}/rnetlogo-lesson/course
 [10]: {{ site.gh-pages }}/gis-abm-lesson/course
-[handouts]: {{ handouts }}
+[handout]: {{ handout }}

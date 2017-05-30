@@ -19,7 +19,7 @@
 - Get the [data]({{ page.download }}) for all lessons.
 {% endif %}
 {% if page.handout %}
-- [Handout]({{ page.handout }})
+- Get the [handout]({{ page.handout }}) for all lessons.
 {% endif %}
 {% if page.feedback %}
 - Help us out with a quick [feedback survey]({{ page.feedback}} ).
