@@ -228,4 +228,4 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
 [9]: {{ site.gh-pages }}/rnetlogo-lesson/course
 [10]: {{ site.gh-pages }}/gis-abm-lesson/course
-[handouts]: https://github.com/SESYNC-ci/handouts/releases/download/sabm-fall-2016/handouts.zip
+[handouts]: {{ handouts }}
