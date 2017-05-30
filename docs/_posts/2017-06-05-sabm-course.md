@@ -201,7 +201,6 @@ Proceed as directed, and seek help if the installation stops with a message sayi
 - `igraph`
 - `rJava` (**Mac users** should install from source: `install.packages('rJava', type='source')`)
 - `RNetLogo`
-- `ggplot2`
 
 ### Tests
 
