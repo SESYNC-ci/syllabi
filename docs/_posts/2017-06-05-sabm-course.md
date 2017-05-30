@@ -182,7 +182,7 @@ The analagous command line utility for Windows is [Chocolatey](http://chocolatey
 |-------------------------+-----------------------------------------------------------+----------+----------+-------------|
 | NetLogo                 | <https://ccl.northwestern.edu/netlogo/download.shtml>     |          |          |             |
 | git                     | <https://git-scm.com/downloads>                           | `git`    | `git`    | `git`       |
-| R                       | <https://cran.rstudio.com/>                               | `r`      | `r-base` | `r.project` |
+| R                       | <https://cran.r-project.org/>                             | `r`      | `r-base` | `r.project` |
 | RStudio Desktop         | <https://www.rstudio.com/products/rstudio/download2/>     |          |          |             |
 | Java SE Development Kit | <http://www.oracle.com/technetwork/java/javase/downloads> |          |          |             |
 {:.table}
