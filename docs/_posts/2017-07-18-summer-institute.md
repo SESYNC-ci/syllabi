@@ -12,10 +12,10 @@ humantime: 9:00 am - 5:00 pm
 startdate: 2017-07-18
 enddate:
 instructors:
-  - Ian Carroll
-  - Mary Shelly
-  - Kelly Hondula
-  - Benoit Parmentier
+  - Ian Carroll, Data Scientist
+  - Mary Shelly, Associate Director for Synthesis
+  - Benoit Parmentier, Data Scientist
+  - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact: icarroll@sesync.org
 etherpad:
 twitter:
@@ -43,11 +43,11 @@ feedback:
 
 ## General Information
 
-This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
+This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven <research and dissemination>.
 
 Participants should expect to:
 
-- learn new scientific computing skills
+- learn new <hint: scientific computing skills>
 - overcome specific or conceptual project hurdles
 - gain coding confidence
 - have fun
@@ -64,7 +64,8 @@ Please review the agenda below and note the **pre-workshop activities required**
 {% endif %}
 
 {% if page.assistant %}
-**Assistant:**  
+**Assistant:**
+
 {{ page.assistant | join: ', ' }}
 {% endif %}
 
