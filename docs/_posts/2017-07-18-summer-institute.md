@@ -1,4 +1,6 @@
 ---
+# Edit the values in this YAML block to suit your event.
+# Use three-letter month names for the 'humandate' field.
 title: "Summer Institute @SESYNC"
 venue: SESYNC
 address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
@@ -22,8 +24,6 @@ github: true
 feedback:
 ---
 
-<!--- Capture additional variables to use below. --->
-
 <!-- Capture additional variables to use below. -->
 
 {% capture mailto %}
@@ -35,9 +35,6 @@ feedback:
 {% endcapture %}
 {% assign mailto = mailto | strip %}
 
-[//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
-[//]: # " Please use three-letter month names for the 'humandate' field. "
-
 ## Table of Contents
 {:.no_toc}
 
@@ -46,9 +43,9 @@ feedback:
 
 ## General Information
 
-This year's Summer Institute brings seven science teams together for a short course on data and software skills for socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff aim to accelerate each team's adoption of cyber resources for all phases of data-driven research and dissemination.
+This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
 
-During this short course, participants should expect to:
+Participants should expect to:
 
 - learn new scientific computing skills
 - overcome specific or conceptual project hurdles
@@ -57,15 +54,13 @@ During this short course, participants should expect to:
 
 Please review the agenda below and note the **pre-workshop activities required** of all participants.
 
-[//]: # " This block displays the instructors' names if they are available. "
+<!-- The next block displays instructors' names if they are available. -->
 
 {% if page.instructors %}
-**Instructors:**  
-{%
-  for instructor in page.instructors
-  %}{{ instructor }}  
-  {% endfor
-%}
+**Instructors:**
+{% for instructor in page.instructors%}
+- {{ instructor }}  
+{% endfor%}
 {% endif %}
 
 {% if page.assistant %}
