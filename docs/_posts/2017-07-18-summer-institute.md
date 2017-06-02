@@ -22,7 +22,8 @@ github: true
 feedback:
 ---
 
-<!---Capture additional variables.-->
+{{" comment as
+liquid variable "}}
 
 {% capture mailto %}
 {% if page.contact %}
