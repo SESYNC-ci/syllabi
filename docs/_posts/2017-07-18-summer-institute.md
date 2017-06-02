@@ -22,8 +22,6 @@ twitter:
 handout:
 github: true
 feedback:
-assistant:
- - test
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -60,16 +58,15 @@ Please review the agenda below and note the **pre-workshop activities required**
 
 {% if page.instructors %}
 **Instructors:**
-{% for instructor in page.instructors%}
-- {{ instructor }}  
-{% endfor%}
-{% endif %}
+
+{% for name in page.instructors%}- {{ name }}  
+{% endfor%}{% endif %}
 
 {% if page.assistant %}
-**Assistant:**
+**Assistants:**
 
-{{ page.assistant | join: ', ' }}
-{% endif %}
+{% for name in page.assistants %}- {{ name }}  
+{% endfor%}{% endif %}
 
 **When:**
 
@@ -127,43 +124,46 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 **Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
+
 | Monday    | 9:00 am    | [Running R & Running R Code]                                         |
-|           | 9:30       | *Software Installation* and Activity ?? |
-|           | *10:30*    | *Break & Help w/ Installs * |
-|           | 10:45      | [Basic R: Part I]                                    |
+|           | 9:30       | *Software Installation* and reading finished code                    |
+|           | *10:30*    | *Break & Help w/ Installs *                                          |
+|           | 10:45      | [Basic R: Part I]                                                    |
 |           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | [Basic R: Part II]                         |
+|           | 1:30       | [Basic R: Part II]                                                   |
 |           | *3:15*     | *Break*                                                              |
-|           | 4:00       | [project structures / coding style / exercises]  |
+|           | 4:00       | [coding style / exercises]                                           |
 | Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                                       |
-|           | 9:15       | [Collaborative & Reproducible Workflows]                             |
+|           | 9:15       | [Collaborative Workflow, Reproducible Pipeline]                      |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      | [Data Storage and Access for All]                                    |
+|           | 10:45      | [Data Storage and Access]                                            |
 |           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | Introduce Teams & 'data2doc' Project                            |
+|           | 1:30       | Introduce Teams & 'data2doc' Project                                 |
 |           | *3:15*     | *Break*                                                              |
-|           | 3:30       | [Data Manipulation in R]                                             |
+|           | 3:30       | [Using R for Data Manipulation]                                      |
 |           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
-| Wednesday | 9:00 am    | [Geospatial Packages in R]                                     |
+| Wednesday | 9:00 am    | [model specification language (stan + rstan)]                        |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      | []                                           |
+|           | 10:45      | [Geospatial Packages in R]                                           |
 |           | *12:15 pm* | *Lunch*                                                              |
 |           | 1:30       | Coaching Sessions                                                    |
 |           | *3:15*     | *Break*                                                              |
-|           | 3:30       | [Geospatial Packages in Python ??]                                   |
-| Thursday  | 9:00 am    | [Repositories and Data Standards]                                  |
+|           | 3:30       | [Shiny Apps]                                                         |
+| Thursday  | 9:00 am    | [Repositories and Data Standards]                                    |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      | [git workflows / model specification languages (jags/stan) ] |
+|           | 10:45      | [Python ]                                                            |
 |           | *12:30 pm* | *Lunch*                                                              |
 |           | 1:30       | Coaching Sessions                                                    |
 |           | *3:30*     | *Break*                                                              |
-|           | 3:45       | [Shiny Apps]                                             |
-| Friday    | 9:00 am    | [Python / javascript / SQL / text mining ??] |
-|           | *10:30*    | *Break* |
-|           | 10:45      | Coaching Sessions |
+|           | 3:45       | [Use Python with APIs and online Data]                               |
+| Friday    | 9:00 am    | [unstructued data / text mining ??]                                  |
+|           | *10:30*    | *Break*                                                              |
+|           | 10:45      | Coaching Sessions                                                    |
 |           | *12:15*    | *Lunch*                                                              |
-|           | 1:30       | "data2doc" Project Presentations                                 |
-{:.table .table-striped .disable-links} <!-- add '.disable-links' to disable lesson links -->
+|           | 1:30       | "data2doc" Project Presentations                                     |
+{:.table .table-striped .disable-links}
+
+<!-- add '.disable-links' to disable lesson links -->
 
 <!--
 Use the next block to detail pre-arrival installation and download instructions.
