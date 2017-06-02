@@ -74,7 +74,7 @@ Please review the agenda below and note the **pre-workshop activities required**
 {% if page.assistant %}
 **Assistant:**
 
-{{- page.assistant | join: ', ' -}}
+{{- any text at all -}}
 {% endif %}
 
 **When:**
