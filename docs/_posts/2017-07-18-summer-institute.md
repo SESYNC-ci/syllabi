@@ -59,7 +59,7 @@ Please review the agenda below and note the **pre-workshop activities required**
 <!-- The next block displays instructors' names if they are available. -->
 
 {% if page.instructors %}
-**{{ page.instrutors | size | pluralize: 'Instructor:', 'Instructors:' }}**
+**Instructors:**
 {% for instructor in page.instructors%}
 - {{ instructor }}  
 {% endfor%}
@@ -69,12 +69,6 @@ Please review the agenda below and note the **pre-workshop activities required**
 **Assistant:**
 
 {{ page.assistant | join: ', ' }}
-{% endif %}
-
-{% if page.assistant %}
-**Assistant:**
-
-{{- any text at all -}}
 {% endif %}
 
 **When:**
@@ -134,11 +128,13 @@ An eventbrite value in the YAML front matter triggers the next block.
 **Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
 | Monday    | 9:00 am    | [Running R & Running R Code]                                         |
-|           | *10:30*    | *Break & Help w/ Installs *                                                  |           | 10:45      | [Base(ic)-R: Part I]                                    |
+|           | 9:30       | *Software Installation* and Activity ?? |
+|           | *10:30*    | *Break & Help w/ Installs * |
+|           | 10:45      | [Basic R: Part I]                                    |
 |           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | [Base(ic)-R: Part II]                         |
+|           | 1:30       | [Basic R: Part II]                         |
 |           | *3:15*     | *Break*                                                              |
-|           | 4:00       | [project structures / coding style / exercises]
+|           | 4:00       | [project structures / coding style / exercises]  |
 | Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                                       |
 |           | 9:15       | [Collaborative & Reproducible Workflows]                             |
 |           | *10:30*    | *Break*                                                              |
@@ -148,23 +144,23 @@ An eventbrite value in the YAML front matter triggers the next block.
 |           | *3:15*     | *Break*                                                              |
 |           | 3:30       | [Data Manipulation in R]                                             |
 |           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
-| Wednesday | 9:00 am    | [The Landscape of Spatial Data Tools]                                |
+| Wednesday | 9:00 am    | [Geospatial Packages in R]                                     |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      | Scripting Geospatial Analysis                                        |
+|           | 10:45      | []                                           |
 |           | *12:15 pm* | *Lunch*                                                              |
 |           | 1:30       | Coaching Sessions                                                    |
 |           | *3:15*     | *Break*                                                              |
-|           | 3:30       | [Geospatial Packages in R]                                           |
-| Thursday  | 9:00 am    | [Version Control & Data Provenance]                                  |
+|           | 3:30       | [Geospatial Packages in Python ??]                                   |
+| Thursday  | 9:00 am    | [Repositories and Data Standards]                                  |
 |           | *10:30*    | *Break*                                                              |
-|           | 10:45      |                                                          |
+|           | 10:45      | [git workflows / model specification languages (jags/stan) ] |
 |           | *12:30 pm* | *Lunch*                                                              |
 |           | 1:30       | Coaching Sessions                                                    |
 |           | *3:30*     | *Break*                                                              |
 |           | 3:45       | [Shiny Apps]                                             |
-| Friday    | 9:00 am    | [Python / javascript / SQL ??]                                 |
+| Friday    | 9:00 am    | [Python / javascript / SQL / text mining ??] |
 |           | *10:30*    | *Break* |
-|           | 10:45      | Coaching Sessions
+|           | 10:45      | Coaching Sessions |
 |           | *12:15*    | *Lunch*                                                              |
 |           | 1:30       | "data2doc" Project Presentations                                 |
 {:.table .table-striped .disable-links} <!-- add '.disable-links' to disable lesson links -->
