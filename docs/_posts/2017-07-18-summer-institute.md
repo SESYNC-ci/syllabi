@@ -22,7 +22,7 @@ github: true
 feedback:
 ---
 
-[//]: # " Capture additional variables. "
+[]:/ Capture additional variables.
 
 {% capture mailto %}
 {% if page.contact %}
