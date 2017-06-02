@@ -131,22 +131,47 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 ## Schedule
 
-|    9:00 am | Theory & History                      |
-|       9:30 | Visualization Pipeline                |
-|      10:00 | Tools & APIs                          |
-|    *10:30* | *Break*                               |
-|      10:45 | Multidimensional (Tabluea, Keshif)    |
-| *12:00 pm* | *Lunch Break*                         |
-|       1:00 | Networks (NodeXL)                     |
-|       2:00 | Temporal (EventFlow)                  |
-|     *3:00* | *Break*                               |
-|       3:15 | Scripting (VEGA and Lyra)             |
-|       4:30 | Fin                                   |
-{:.table .table-striped}
+**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+
+| Monday    | 9:00 am    | [Running R & Running R Code]                                         |
+|           | *10:30*    | *Break & Help w/ Installs *                                                  |           | 10:45      | [Base(ic)-R: Part I]                                    |
+|           | *12:15 pm* | *Lunch*                                                              |
+|           | 1:30       | [Base(ic)-R: Part II]                         |
+|           | *3:15*     | *Break*                                                              |
+|           | 4:00       | [project structures / coding style / exercises]
+| Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                                       |
+|           | 9:15       | [Collaborative & Reproducible Workflows]                             |
+|           | *10:30*    | *Break*                                                              |
+|           | 10:45      | [Data Storage and Access for All]                                    |
+|           | *12:15 pm* | *Lunch*                                                              |
+|           | 1:30       | Introduce Teams & 'data2doc' Project                            |
+|           | *3:15*     | *Break*                                                              |
+|           | 3:30       | [Data Manipulation in R]                                             |
+|           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
+| Wednesday | 9:00 am    | [The Landscape of Spatial Data Tools]                                |
+|           | *10:30*    | *Break*                                                              |
+|           | 10:45      | Scripting Geospatial Analysis                                        |
+|           | *12:15 pm* | *Lunch*                                                              |
+|           | 1:30       | Coaching Sessions                                                    |
+|           | *3:15*     | *Break*                                                              |
+|           | 3:30       | [Geospatial Packages in R]                                           |
+| Thursday  | 9:00 am    | [Version Control & Data Provenance]                                  |
+|           | *10:30*    | *Break*                                                              |
+|           | 10:45      |                                                          |
+|           | *12:30 pm* | *Lunch*                                                              |
+|           | 1:30       | Coaching Sessions                                                    |
+|           | *3:30*     | *Break*                                                              |
+|           | 3:45       | [Shiny Apps]                                             |
+| Friday    | 9:00 am    | [Python / javascript / SQL ??]                                 |
+|           | *10:30*    | *Break* |
+|           | 10:45      | Coaching Sessions
+|           | *12:15*    | *Lunch*                                                              |
+|           | 1:30       | "data2doc" Project Presentations                                 |
+{:.table .table-striped .disable-links} <!-- add '.disable-links' to disable lesson links -->
 
 <!--
 Use the next block to detail pre-arrival installation and download instructions.
-Certain standard procedures may be included, i.e. {% include setup-RStudio %}
+Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.md.
 -->
 
 ## Pre-Arrival Installations & Downloads
