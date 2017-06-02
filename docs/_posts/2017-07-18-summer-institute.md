@@ -22,7 +22,8 @@ twitter:
 handout:
 github: true
 feedback:
-assistant: test
+assistant:
+ - test
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -84,9 +85,10 @@ Please review the agenda below and note the **pre-workshop activities required**
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
-[//]: # " This block displays the address and links to a map showing directions. "
+<!-- The next block displays the address and links to a map showing directions. -->
+
 {% if page.latlng %}
-**Where:**  
+**Where:**
 {{ page.address }}
   
 Get directions with
@@ -94,16 +96,24 @@ Get directions with
 <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 {% endif %}
 
-[//]: # " Modify the block below if there are any special requirements. "
+<!-- Modify the next block if there are any special requirements. -->
 
-**Requirements:**  
+**Requirements:**
+
 Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.). The software listed below must be installed prior to starting the workshop.
 
-[//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
-[//]: # " If one hasn't, this block inserts the generic contact address for Software Carpentry. "
+<!--
+The following block automatically inserts a contact email address if one has been specified
+for the page. If one hasn't, this block inserts the site.contact address in docs/_config.yml.
+-->
 
-**Contact:**  
+**Contact:**
+
 Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
+
+<!--
+An eventbrite value in the YAML front matter triggers the next block.
+-->
 
 {% if page.eventbrite %}
 ## Registration
@@ -117,7 +127,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 </iframe>
 {% endif %}
 
-[//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
+<!-- Compose the schedule below. -->
 
 ## Schedule
 
@@ -134,74 +144,17 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 |       4:30 | Fin                                   |
 {:.table .table-striped}
 
-[//]: # " Edit the setup instructions in _includes/setup.html to reflect your bootcamp. "
-[//]: # " (In particular, most bootcamps teach either Python or R, not both.) "
+<!--
+Use the next block to detail pre-arrival installation and download instructions.
+Certain standard procedures may be included, i.e. {% include setup-RStudio %}
+-->
 
 ## Pre-Arrival Installations & Downloads
 
-To participate, you will need working copies of the software described below.
-Please make sure to install and/or download everything **before** the start of the short course.
 
-**To install Java Runtime Environment (JRE):**
+<!-- Only use space below for links. -->
 
-1. Go to the [Java download page](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-
-1. Accept the licensing agreement (target of red arrow in image below)
-
-1. Select the file appropriate for your operating system and click the corresponding download link; your download should start automatically (note: the more intuitive approach may be to use the automatic installers - .rpm, .dmg, or .exe - shown outlined in red below)  
-![]({{ site.baseurl }}/images/jre-install-1.png){: width="80%"}
-
-1. Click "Install"  
-![]({{ site.baseurl }}/images/jre-install-2.png){: width="80%"}
-
-1. Wait for setup process to run  
-![]({{ site.baseurl }}/images/jre-install-3.png){: width="80%"}
-
-1. [Optional] You may want to uninstall outdated versions of JRE, if applicable:  
-![]({{ site.baseurl }}/images/jre-install-4.png){: width="80%"}
-
-1. You should receive a message notifying you of successful installation:  
-![]({{ site.baseurl }}/images/jre-install-5.png){: width="80%"}
-
-**To install Tableau Public:**
-
-1. Go to the [Tableau download page](https://public.tableau.com/s/download?)
-
-1. Enter your email (as shown below) and click "Download the App"  
-![]({{ site.baseurl }}/images/tableau-install-1.png){: width="80%"}
-
-1. Your download should begin automatically:  
-![]({{ site.baseurl }}/images/tableau-install-2.png){: width="80%"}
-
-1. Open the installer and click the install button  
-![]({{ site.baseurl }}/images/tableau-install-3.png){: width="80%"}
-
-1. You should now have Tableau public installed on your device:  
-![]({{ site.baseurl }}/images/tableau-install-4.png){: width="80%"}
-
-**To install EventFlow:**
-
-1. Download [the installer](http://sesync.us/h0) using the password provided by e-mail.
-
-1. Copy the downloaded .jar file to a location you'll remember.
-
-1. EventFlow does not require installation: click on the .jar file to run. Mac users will receive a security notification. Select "Okay" then go to System Preferences > Security & Privacy and choose to "Open Anyway".
-
-**To install NodeXL (Windows only):**
-
-1. Go to the [NodeXL download page](https://nodexl.codeplex.com/) and clicke "download".
-
-1. Run the downloaded installer: `NodeXLBasicExcelTemplate2014Setup.exe`
-
-1. Select "Install" when notified about the Publisher.
-
-1. Close the installer when the Microsoft customization has installed succesfuly.
-
-1. Run NodeXL by opening "NodeXL Excel Template" from All Programs in your Start Menu.
-
-[//]: # " Links by reference "
-
-[Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson/2016/08/25/
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2016/08/25/
-[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2016/08/25/
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/2016/08/25/
+[Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson/class
+[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/class
+[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/class
+[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/class
