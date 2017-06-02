@@ -6,7 +6,7 @@
       {% include header.html %}
       <div class="main-body container">
 	<div class="col-md-9">
-	  <div class="main-content">{{content}}</div>
+	  <div class="main-content">{{ content }}</div>
 	</div>
         <div class="col-md-3 sidebar-content">
 	  {% capture sidebar %}{% include sidebar.md %}{% endcapture %}{{ sidebar | markdownify }}

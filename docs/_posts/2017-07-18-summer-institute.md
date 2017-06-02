@@ -22,6 +22,7 @@ twitter:
 handout:
 github: true
 feedback:
+assistant: test
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -43,11 +44,11 @@ feedback:
 
 ## General Information
 
-This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven <research and dissemination>.
+This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
 
 Participants should expect to:
 
-- learn new <hint: scientific computing skills>
+- learn new scientific computing skills
 - overcome specific or conceptual project hurdles
 - gain coding confidence
 - have fun
@@ -57,7 +58,7 @@ Please review the agenda below and note the **pre-workshop activities required**
 <!-- The next block displays instructors' names if they are available. -->
 
 {% if page.instructors %}
-**Instructors:**
+**{{ page.instrutors | size | pluralize: 'Instructor:', 'Instructors:' }}**
 {% for instructor in page.instructors%}
 - {{ instructor }}  
 {% endfor%}
@@ -69,17 +70,19 @@ Please review the agenda below and note the **pre-workshop activities required**
 {{ page.assistant | join: ', ' }}
 {% endif %}
 
-[//]: # " Modify this block to reflect the target audience for your bootcamp. "
-[//]: # " In particular, if it is only open to people from a particular institution, "
-[//]: # " or if specialized prerequisite knowledge is required, please mention that. "
+{% if page.assistant %}
+**Assistant:**
 
-**When:**  {%
-if page.enddate
-  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }} {%
-else
-  %} {{ page.startdate | date: "%A, %B %-d, %Y" }} {%
-endif
-%}
+{{- page.assistant | join: ', ' -}}
+{% endif %}
+
+**When:**
+
+{% if page.enddate %}
+{{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }}
+{% else %}
+{{ page.startdate | date: "%A, %B %-d, %Y" }}
+{% endif %}
 
 [//]: # " This block displays the address and links to a map showing directions. "
 {% if page.latlng %}
