@@ -111,8 +111,8 @@ html, body{
     margin: 0 auto;
     padding: 0;
 }
-.main-body [class^="col-md-*"] {
-    padding: 0px;
+.main-body [class^=col-md-] {
+    padding-right: 0px;
 }
 .list-inline {
     margin-left: 0px;
@@ -145,7 +145,7 @@ html, body{
 .main-content {
     background: #FFF;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 17px;
 }
 .sidebar-content {
     background: #595757;
@@ -228,54 +228,51 @@ h5, h6 {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .contentpage {
-	background: transparent url('../images/desktop-zone-content-bg.png') repeat-y;
-	background-position: center;
+	      background: transparent url('../images/desktop-zone-content-bg.png') repeat-y;
+	      background-position: center;
     }
     .frontpage {
-	background: transparent url('../images/desktop-zone-content-bg-fp.png') repeat-y;
-	background-position: center;
+	      background: transparent url('../images/desktop-zone-content-bg-fp.png') repeat-y;
+        background-position: center;
     }
     .logo-row h1 {
-    	display: block;
-	text-transform: uppercase;
+        display: block;
+        text-transform: uppercase;
     }
     .main-body .sidebar-content {
-	padding: 0px;
+        padding: 0px;
     }
     
     /* Scrolling of main content between fixed header and footer */
     html, body {
-    	height: 100%;
-    	overflow: hidden;
+        height: 100%;
+        overflow: hidden;
     }    
     .main-content {
-    	height: calc(100vh - 125px - 75px);
-    	overflow-y: hidden;
-    }
-    .main-content:hover {
-    	overflow-y: auto;
+        height: calc(100vh - 125px - 75px);
+        overflow-y: scroll;
     }
     .sidebar-content {
-    	height: calc(100vh - 125px - 75px);
-    	overflow-y: hidden;
+        height: calc(100vh - 125px - 75px);
+        overflow-y: hidden;
     }
     .sidebar-content:hover {
-    	overflow-y: auto;
+        overflow-y: auto;
     }
     #footer {
-	position: absolute;
-	bottom:0;
+        position: absolute;
+        bottom:0;
     }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .contentpage {
-	background: transparent url('../images/desktop-zone-content-bg-lg.png') repeat-y;
-	background-position: center;
+        background: transparent url('../images/desktop-zone-content-bg-lg.png') repeat-y;
+        background-position: center;
     }
     .frontpage {
-	background: transparent url('../images/desktop-zone-content-bg-lg-fp.png') repeat-y;
-	background-position: center;
+        background: transparent url('../images/desktop-zone-content-bg-lg-fp.png') repeat-y;
+        background-position: center;
     }
 }
