@@ -219,12 +219,12 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 
 [1]: https://drive.google.com/open?id=1ZLPxJjqKD0rbCXcvlcox68BpzzMCre9KaosFjxIaQxc
 [2]: https://drive.google.com/open?id=1Mr577ds2hsHwlw0FafguS6UodmFS2J8ItS4EXOaQr2I
-[3]: {{ site.gh-pages }}/basic-netlogo-lesson/course/
+[3]: {{ site.gh-pages }}/basic-netlogo-lesson/2017/06/05/index.html
 [4]: https://drive.google.com/open?id=1B13R5fkProK6zFslgBCGEOkso9BLd9dVgxkcAJ9uDDc
 [5]: https://drive.google.com/open?id=1AGSS3EEke8r4l3AVHs8AGVy6z8smYyN6uoFrUq392s4
-[6]: {{ site.gh-pages }}/netlogo-programming-lesson/course/
-[7]: {{ site.gh-pages }}/basic-git-lesson/course
+[6]: {{ site.gh-pages }}/netlogo-programming-lesson/2017/06/05/index.html
+[7]: {{ site.gh-pages }}/basic-git-lesson/2017/06/05/index.html
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
-[9]: {{ site.gh-pages }}/rnetlogo-lesson/course
-[10]: {{ site.gh-pages }}/gis-abm-lesson/course
+[9]: {{ site.gh-pages }}/rnetlogo-lesson/2017/06/05/index.html
+[10]: {{ site.gh-pages }}/gis-abm-lesson/2017/06/05/index.html
 [handout]: {{ page.handout }}
