@@ -3,7 +3,10 @@
     pointer-events: none;
     cursor: default;
 }
-.table td:nth-child(1) {
+.hide-instructor td:nth-child(4) {
+    display: none;
+}
+#agenda td:nth-child(1) {
     width: 25%;
 }
 .logo-row a:hover {

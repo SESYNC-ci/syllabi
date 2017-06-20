@@ -10,7 +10,7 @@ latlng: 38.97667, -76.50347
 humandate: Jul 18 - 21, 2017
 humantime: 9:00 am - 5:00 pm
 startdate: 2017-07-18
-enddate:
+enddate: 2017-07-21
 instructors:
   - Ian Carroll, Data Scientist
   - Mary Shelly, Associate Director for Synthesis
@@ -52,7 +52,7 @@ Participants should expect to:
 - gain coding confidence
 - have fun
 
-Please review the agenda below and note the **pre-workshop activities required** of all participants.
+Please review the agenda below and note the **pre-arrival installation instructions**.
 
 <!-- The next block displays instructors' names if they are available. -->
 
@@ -76,10 +76,13 @@ Please review the agenda below and note the **pre-workshop activities required**
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
+Plus an optional day for basic R training on Monday, July 17.
+
 <!-- The next block displays the address and links to a map showing directions. -->
 
 {% if page.latlng %}
 **Where:**
+
 {{ page.address }}
   
 Get directions with
@@ -124,58 +127,98 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 **Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-
-| Monday    | 9:00 am    | [Running R & Running R Code]                                         |
-|           | 9:30       | *Software Installation* and reading finished code                    |
-|           | *10:30*    | *Break & Help w/ Installs *                                          |
-|           | 10:45      | [Basic R: Part I]                                                    |
-|           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | [Basic R: Part II]                                                   |
-|           | *3:15*     | *Break*                                                              |
-|           | 4:00       | [coding style / exercises]                                           |
-| Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                                       |
-|           | 9:15       | [Collaborative Workflow, Reproducible Pipeline]                      |
-|           | *10:30*    | *Break*                                                              |
-|           | 10:45      | [Data Storage and Access]                                            |
-|           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | Introduce Teams & 'data2doc' Project                                 |
-|           | *3:15*     | *Break*                                                              |
-|           | 3:30       | [Using R for Data Manipulation]                                      |
-|           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)*            |
-| Wednesday | 9:00 am    | [model specification language (stan + rstan)]                        |
-|           | *10:30*    | *Break*                                                              |
-|           | 10:45      | [Geospatial Packages in R]                                           |
-|           | *12:15 pm* | *Lunch*                                                              |
-|           | 1:30       | Coaching Sessions                                                    |
-|           | *3:15*     | *Break*                                                              |
-|           | 3:30       | [Shiny Apps]                                                         |
-| Thursday  | 9:00 am    | [Repositories and Data Standards]                                    |
-|           | *10:30*    | *Break*                                                              |
-|           | 10:45      | [Python ]                                                            |
-|           | *12:30 pm* | *Lunch*                                                              |
-|           | 1:30       | Coaching Sessions                                                    |
-|           | *3:30*     | *Break*                                                              |
-|           | 3:45       | [Use Python with APIs and online Data]                               |
-| Friday    | 9:00 am    | [unstructued data / text mining ??]                                  |
-|           | *10:30*    | *Break*                                                              |
-|           | 10:45      | Coaching Sessions                                                    |
-|           | *12:15*    | *Lunch*                                                              |
-|           | 1:30       | "data2doc" Project Presentations                                     |
-{:.table .table-striped .disable-links}
-
-<!-- add '.disable-links' to disable lesson links -->
+| Monday    | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
+|           | 9:30       | Installation Help & Reading Comprehension Exercise        |        |
+|           | *10:30*    | *Break*                                                   |        |
+|           | 10:45      | [Basic R: Part I]                                         | Ian    |
+|           | *12:15 pm* | *Lunch*                                                   |        |
+|           | 1:15       | [Basic R: Part II]                                        | Mary   |
+|           | *3:15*     | *Break*                                                   |        |
+|           | 3:30       | Scripting Exercises                                       |        |
+| Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
+|           | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
+|           | *10:30*    | *Break*                                                   |        |
+|           | 10:45      | Introduce Teams & 'data2doc' Project                      | Ian    |
+|           | 11:15      | Coaching Sessions & Installation Help                     |        |
+|           | *12:15 pm* | *Lunch*                                                   |        |
+|           | 1:15       | [Data Storage and Access]                                 | Benoit |
+|           | *3:15*     | *Break*                                                   |        |
+|           | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
+|           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
+| Wednesday | 9:00 am    | [Visualization with `ggplot2`]                            | Mary   |
+|           | *10:30*    | *Break*                                                   |        |
+|           | 10:45      | [glm model specification]                                 | Ian    |
+|           | *12:15 pm* | *Lunch*                                                   |        |
+|           | 1:15       | [Database-to-Doc with `rmarkdown`]                        | Benoit |
+|           | 2:15       | Coaching Sessions                                         |        |
+|           | *3:15*     | *Break*                                                   |        |
+|           | 3:30       | [Shiny Apps]                                              | Kelly  |
+| Thursday  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
+|           | *10:30*    | *Break*                                                   |        |
+|           | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
+|           | *12:15 pm* | *Lunch*                                                   |        |
+|           | 1:15       | [Cyberinfrastructure @ SESYNC]                            | Mary   |
+|           | 1:45       | Coaching Sessions                                         |        |
+|           | *3:15*     | *Break*                                                   |        |
+|           | 3:30       | [data from web services with python]                      | Ian    |
+| Friday    | 9:00 am    | [unstructued data and text mining]                        | Ian    |
+|           | *10:30*    | *Break*                                                   |        |
+|           | 10:45      | Coaching Sessions                                         |        |
+|           | *12:15*    | *Lunch*                                                   |        |
+|           | 1:15       | "data2doc" Project Presentations                          |        |
+{:#agenda .table .table-striped .hide-instructor .disable-links}
 
 <!--
 Use the next block to detail pre-arrival installation and download instructions.
 Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.md.
 -->
 
-## Pre-Arrival Installations & Downloads
+## Pre-Arrival Installation Instructions
+
+**Docker: for newer Windows and macOS laptops**
+
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you probably meet [all the system requirements](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). 
+
+If you run **Mac OS** 10.11+ (El Capitan or newer), you probably meet [all the system requirements](https://docs.docker.com/docker-for-mac/install/#what-to-know-before-you-install).
+
+**Docker Toolbox: for older operating systems**
 
 
 <!-- Only use space below for links. -->
 
-[Reproducible Workflows in RStudio]: {{ site.gh-pages }}/basic-git-lesson/class
+[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/class
+[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/class
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/class
+[Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/class
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/class
-[Introduction to `ggplot`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/class
-[Databases to Documents with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/class
+[Visualization with `ggplot2`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/class
+[Database-to-Doc with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/class
+[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/class
+[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/class
+[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/class
+
+<!--
+
+# To Do
+
+Monday
+- introduction to the RStudio IDE
+- scripting exercises
+
+Tuesday
+- re-work basic-git-lesson
+- add SQL to data storage and access lesson
+
+Wednesday
+- glm models lesson
+- improve database-to-doc
+
+Thursday
+- improve python lesson
+- python with web services
+
+Friday
+- improve text lesson
+
+
+-->
