@@ -1,13 +1,13 @@
 ---
 # Edit the values in this YAML block to suit your event.
-# Use three-letter month names for the 'humandate' field.
+
 title: "Summer Institute @SESYNC"
 venue: SESYNC
 address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
 country: us
 language: en
 latlng: 38.97667, -76.50347
-humandate: Jul 18 - 21, 2017
+humandate: Jul 18 - 21, 2017  # use three-letter month names
 humantime: 9:00 am - 5:00 pm
 startdate: 2017-07-18
 enddate: 2017-07-21
@@ -175,13 +175,27 @@ Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.m
 
 ## Pre-Arrival Installation Instructions
 
-**Docker: for newer Windows and macOS laptops**
+A bundle of all the software needed for the Summer Institute is available as a Docker "container", a sort of virtual server that your laptop can run in the background. To use the container, you only need to install Docker with Kitematic. If you cannot get Docker running, you must install several pieces of software separately. Please complete **only one** of these three sets of instructions:
 
-If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you probably meet [all the system requirements](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). 
+1. [Docker for newer Windows and macOS laptops](#docker)
+1. [Docker Toolbox for laptops with an older operating system](#docker-toolbox)
+1. [if 1 does not apply and 2 fails ...](#itemized-installation)
 
-If you run **Mac OS** 10.11+ (El Capitan or newer), you probably meet [all the system requirements](https://docs.docker.com/docker-for-mac/install/#what-to-know-before-you-install).
+### Docker
 
-**Docker Toolbox: for older operating systems**
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will attempt to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), but will fail if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
+
+If you run **Mac OS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed.
+
+...instructions to launch kitematic and run sesync-ci/e-lab...
+
+### Docker-Toolbox
+
+If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". The installer provides three applications, the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see the error "" if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
+
+If you run **Mac OS** 10...
+
+### Itemized Installation
 
 
 <!-- Only use space below for links. -->
