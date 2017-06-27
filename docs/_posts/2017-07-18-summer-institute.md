@@ -54,7 +54,7 @@ Participants should expect to:
 - gain coding confidence
 - have fun
 
-Please review the agenda below and note the [**pre-arrival installation instructions**](#pre-arrival-installation-instructions).
+Please review the agenda below and follow the [**pre-arrival installation instructions**](#pre-arrival-installation-instructions).
 
 <!-- The next block displays instructors' names if they are available. -->
 
@@ -96,7 +96,8 @@ Get directions with
 
 **Requirements:**
 
-Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.). The software listed below must be installed prior to starting the workshop.
+- Participants must bring a laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
+- After the course, participants must complete a [reimbursement form](https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable.pdf) to recover allowed travel expenses.
 
 <!--
 The following block automatically inserts a contact email address if one has been specified
@@ -181,13 +182,13 @@ Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.m
 
 A bundle of all the software needed for the Summer Institute is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
 
-1. [Docker for newer Windows and macOS laptops](#docker)
-1. [Docker Toolbox for laptops with an older operating system](#docker-toolbox)
-1. [if 1 does not apply and 2 fails ...](#itemized-installation)
+1. [Docker for newer Windows and macOS laptops](#1-docker)
+1. [Docker Toolbox for laptops with an older operating system](#2-docker-toolbox)
+1. [if 1 does not apply and 2 fails ...](#3-itemized-installation)
 
 ### 1. Docker
 
-If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the system tray, but may raise an error if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to the new folder "C:\Program Files\Docker\Kitematic". Now Kitematic will launch from the Docker icon's right-click menu.
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for chaning your BIOS settings using the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker". Now Kitematic will launch from the right-clicke menu of the Docker icon in the system tray.
 
 If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Launch Kitematic by selecting it from the menu shown in step 3 of Docker's installation instructions.
 
@@ -195,7 +196,7 @@ On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if 
 
 ### 2. Docker Toolbox
 
-If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
+If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In that case, search the internet for system-specific instructions for chaning your BIOS settings using the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
 
 If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/), a legacy version of "Docker for Mac". Choose "Get Docker Toolbox for Mac" from the installation guide to download the installer, click the package to install and complete the instructions.
 
