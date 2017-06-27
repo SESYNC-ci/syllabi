@@ -52,7 +52,7 @@ Participants should expect to:
 - gain coding confidence
 - have fun
 
-Please review the agenda below and note the **pre-arrival installation instructions**.
+Please review the agenda below and note the [**pre-arrival installation instructions**](#pre-arrival-installation-instructions).
 
 <!-- The next block displays instructors' names if they are available. -->
 
@@ -76,7 +76,7 @@ Please review the agenda below and note the **pre-arrival installation instructi
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
-Plus an optional day for basic R training on Monday, July 17.
+Optional day for basic R training: Monday, July 17
 
 <!-- The next block displays the address and links to a map showing directions. -->
 
@@ -121,7 +121,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 </iframe>
 {% endif %}
 
-<!-- Compose the schedule below. -->
+<!-- Compose the schedule below. The instructor field is only visible with URL query string parameter "draft=TRUE" -->
 
 ## Schedule
 
@@ -175,7 +175,7 @@ Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.m
 
 ## Pre-Arrival Installation Instructions
 
-A bundle of all the software needed for the Summer Institute is available as a Docker "container", a sort of virtual server that your laptop can run in the background. To use the container, you only need to install Docker with Kitematic. If you cannot get Docker running, you must install several pieces of software separately. Please complete **only one** of these three sets of instructions:
+A bundle of all the software needed for the Summer Institute is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
 
 1. [Docker for newer Windows and macOS laptops](#docker)
 1. [Docker Toolbox for laptops with an older operating system](#docker-toolbox)
@@ -183,20 +183,23 @@ A bundle of all the software needed for the Summer Institute is available as a D
 
 ### Docker
 
-If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will be starting in the system tray, but may raise an error if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the system tray, but may raise an error if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to the new folder "C:\Program Files\Docker\Kitematic". Now Kitematic will launch from the Docker icon's right-click menu.
 
-If you run **Mac OS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed.
+If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Launch Kitematic by selecting it from the menu shown in step 3 of Docker's installation instructions.
 
-...instructions to launch kitematic and run sesync-ci/e-lab...
+On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
-### Docker-Toolbox
+### Docker Toolbox
 
 If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
 
-If you run **Mac OS** 10...
+If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/), a legacy version of "Docker for Mac". Choose "Get Docker Toolbox for Mac" from the installation guide to download the installer, click the package to install and complete the instructions.
+
+On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
 ### Itemized Installation
 
+*Comming soon...*
 
 <!-- Only use space below for links. -->
 
