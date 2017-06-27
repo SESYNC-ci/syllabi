@@ -17,11 +17,12 @@ instructors:
   - Benoit Parmentier, Data Scientist
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact: icarroll@sesync.org
-etherpad:
-twitter:
-handout:
+etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
+twitter: 
+handout: https://github.com/new/import
 github: true
 feedback:
+data2doc: true
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -129,45 +130,45 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 **Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-| Monday    | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
-|           | 9:30       | Installation Help & Reading Comprehension Exercise        |        |
-|           | *10:30*    | *Break*                                                   |        |
-|           | 10:45      | [Basic R: Part I]                                         | Ian    |
-|           | *12:15 pm* | *Lunch*                                                   |        |
-|           | 1:15       | [Basic R: Part II]                                        | Mary   |
-|           | *3:15*     | *Break*                                                   |        |
-|           | 3:30       | Scripting Exercises                                       |        |
-| Tuesday   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
-|           | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
-|           | *10:30*    | *Break*                                                   |        |
-|           | 10:45      | Introduce Teams & 'data2doc' Project                      | Ian    |
-|           | 11:15      | Coaching Sessions & Installation Help                     |        |
-|           | *12:15 pm* | *Lunch*                                                   |        |
-|           | 1:15       | [Data Storage and Access]                                 | Benoit |
-|           | *3:15*     | *Break*                                                   |        |
-|           | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
-|           | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| Wednesday | 9:00 am    | [Visualization with `ggplot2`]                            | Mary   |
-|           | *10:30*    | *Break*                                                   |        |
-|           | 10:45      | [glm model specification]                                 | Ian    |
-|           | *12:15 pm* | *Lunch*                                                   |        |
-|           | 1:15       | [Database-to-Doc with `rmarkdown`]                        | Benoit |
-|           | 2:15       | Coaching Sessions                                         |        |
-|           | *3:15*     | *Break*                                                   |        |
-|           | 3:30       | [Shiny Apps]                                              | Kelly  |
-| Thursday  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
-|           | *10:30*    | *Break*                                                   |        |
-|           | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
-|           | *12:15 pm* | *Lunch*                                                   |        |
-|           | 1:15       | [Cyberinfrastructure @ SESYNC]                            | Mary   |
-|           | 1:45       | Coaching Sessions                                         |        |
-|           | *3:15*     | *Break*                                                   |        |
-|           | 3:30       | [data from web services with python]                      | Ian    |
-| Friday    | 9:00 am    | [unstructued data and text mining]                        | Ian    |
-|           | *10:30*    | *Break*                                                   |        |
-|           | 10:45      | Coaching Sessions                                         |        |
-|           | *12:15*    | *Lunch*                                                   |        |
-|           | 1:15       | "data2doc" Project Presentations                          |        |
+| **[Monday]**  | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
+|               | 9:30       | Installation Help & Reading Comprehension Exercise        |        |
+|               | *10:30*    | *Break*                                                   |        |
+|               | 10:45      | [Basic R: Part I]                                         | Ian    |
+|               | *12:15 pm* | *Lunch*                                                   |        |
+|               | 1:15       | [Basic R: Part II]                                        | Mary   |
+|               | *3:15*     | *Break*                                                   |        |
+|               | 3:30       | Scripting Exercises                                       |        |
+| **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
+|               | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
+|               | *10:30*    | *Break*                                                   |        |
+|               | 10:45      | Introduce Teams & 'data2doc' Project                      | Ian    |
+|               | 11:15      | Coaching Sessions & Installation Help                     |        |
+|               | *12:15 pm* | *Lunch*                                                   |        |
+|               | 1:15       | [Data Storage and Access]                                 | Benoit |
+|               | *3:15*     | *Break*                                                   |        |
+|               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
+|               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
+| **Wednesday** | 9:00 am    | [Visualization with ggplot2]                              | Mary   |
+|               | *10:30*    | *Break*                                                   |        |
+|               | 10:45      | [Mini-languages for Statistical Models]                   | Ian    |
+|               | *12:15 pm* | *Lunch*                                                   |        |
+|               | 1:15       | [Database-to-Doc with RMarkdown]                          | Benoit |
+|               | 2:15       | Coaching Sessions                                         |        |
+|               | *3:15*     | *Break*                                                   |        |
+|               | 3:30       | [Introduction to Shiny Apps]                              | Kelly  |
+| **Thursday**  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
+|               | *10:30*    | *Break*                                                   |        |
+|               | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
+|               | *12:15 pm* | *Lunch*                                                   |        |
+|               | 1:15       | [Cyberinfrastructure @SESYNC]                             | Mary   |
+|               | 1:45       | Coaching Sessions                                         |        |
+|               | *3:15*     | *Break*                                                   |        |
+|               | 3:30       | [Web Services and APIs with Python]                       | Ian    |
+| **Friday**    | 9:00 am    | [Unstructued Data and Text Mining]                        | Ian    |
+|               | *10:30*    | *Break*                                                   |        |
+|               | 10:45      | Coaching Sessions                                         |        |
+|               | *12:15*    | *Lunch*                                                   |        |
+|               | 1:15       | "data2doc" Project Presentations                          |        |
 {:#agenda .table .table-striped .hide-instructor .disable-links}
 
 <!--
@@ -183,7 +184,7 @@ A bundle of all the software needed for the Summer Institute is available as a D
 1. [Docker Toolbox for laptops with an older operating system](#docker-toolbox)
 1. [if 1 does not apply and 2 fails ...](#itemized-installation)
 
-### Docker
+### 1. Docker
 
 If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the system tray, but may raise an error if your laptop's virtualization technology is turned off in the system BIOS. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to the new folder "C:\Program Files\Docker\Kitematic". Now Kitematic will launch from the Docker icon's right-click menu.
 
@@ -191,7 +192,7 @@ If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Doc
 
 On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
-### Docker Toolbox
+### 2. Docker Toolbox
 
 If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In case of such an error, search for system-specific instructions with the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs.
 
@@ -199,9 +200,38 @@ If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Do
 
 On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
-### Itemized Installation
+### 3. Itemized Installation
 
-*Comming soon...*
+The table below lists software we use in the short course. Unless noted (and especially for `git`) please use the default installation options. For **Windows users**, an installer for each item is available at the given download site. **Mac users** are encouraged to use [Homebrew](http://brew.sh){:target="_blank"} -- the missing package manager for OS X -- via the shell. Most packages in the list below can be installed with `brew install <package>`, but packages with an * require `brew cask install <package>`.
+**Ubuntu users** may install from the shell with `sudo apt-get install <package>`, and other Linux users are on their own.
+
+| Software   | Download Site                                         | Homebrew Package(s)         | Aptitude Package(s)    |
+|------------+-------------------------------------------------------+-----------------------------+------------------------|
+| git        | <https://git-scm.com/downloads>                       | `git`                       | `git`                  |
+| R          | <https://cran.rstudio.com/>                           | `r`                         | `r-base`               |
+| RStudio    | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*                  |                        |
+| Python 3.x | <https://www.python.org/downloads/>                   | `python3`                   | `python3`              |
+| GDAL/OGR   | <https://trac.osgeo.org/osgeo4w/>                     | `gdal2`<sup>1</sup>, `geos` | `gdal-bin`<sup>2</sup> |
+{:.table}
+
+1: **macOS** users will need to execute `brew tap osgeo/osgeo4mac` prior to running `brew install gdal2`.
+
+2: **Ubuntu** users will need to add the [UbuntuGIS](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) repository prior to running `apt-get install gdal-bin`
+
+The following R packages need to be installed. Open RStudio and, for each package below, type `install.packages(<package>)` at the prompt and press return. Follow all prompts.
+
+- `tidyr`
+- `ggplot2`
+- `RSQLite`
+- `rgdal`
+- `rgeos`
+- `shiny`
+- `leaflet`
+
+## Acknowledgements
+
+Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
@@ -210,34 +240,12 @@ On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if 
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
 [Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
-[Visualization with `ggplot2`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Database-to-Doc with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
-[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
+[Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
+[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/course
-
-<!--
-
-# To Do
-
-Monday
-- introduction to the RStudio IDE
-- scripting exercises
-
-Tuesday
-- re-work basic-git-lesson
-- add SQL to data storage and access lesson
-
-Wednesday
-- glm models lesson
-- improve database-to-doc
-
-Thursday
-- improve python lesson
-- python with web services
-
-Friday
-- improve text lesson
-
-
--->
+[Mini-languages for Statistical Models]: {{ site.gh-pages }}
+[Web Services and APIs with Python]: {{ site.gh-pages }}
+[Unstructued Data and Text Mining]: {{ site.gh-pages }}
+[Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
