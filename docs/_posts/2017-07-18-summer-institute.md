@@ -23,6 +23,7 @@ handout: https://github.com/new/import
 github: true
 feedback:
 data2doc: true
+shorturl: http://sesync.us/jz
 ---
 
 <!-- Capture additional variables to use below. -->
