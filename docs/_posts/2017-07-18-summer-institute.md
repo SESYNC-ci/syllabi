@@ -125,7 +125,9 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 ## Schedule
 
-**Plenary sessions begin promptly at 9:00 am.** Come prepared to survive until the first coffee break at 10:30 am and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+**Sessions begin promptly at 9:00 am.**
+
+**Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
 | Monday    | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
 |           | 9:30       | Installation Help & Reading Comprehension Exercise        |        |
@@ -203,16 +205,16 @@ On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if 
 
 <!-- Only use space below for links. -->
 
-[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/class
-[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/class
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/class
-[Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/class
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/class
-[Visualization with `ggplot2`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/class
-[Database-to-Doc with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/class
-[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/class
-[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/class
-[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/class
+[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/course
+[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/plot
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
+[Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/course
+[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
+[Visualization with `ggplot2`]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+[Database-to-Doc with `rmarkdown`]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
+[Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
+[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
+[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/course
 
 <!--
 
