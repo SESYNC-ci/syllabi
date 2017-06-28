@@ -19,7 +19,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
 twitter: CyberSESYNC
-handout: https://github.com/new/import
+handout: # https://github.com/new/import
 github: true
 feedback:
 data2doc: true
