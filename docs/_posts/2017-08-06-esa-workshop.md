@@ -115,6 +115,8 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 ## Schedule
 
+1st pass
+
 | 8:00 am | The Meaning of Unstructured and Qualitative Data    |
 |    8:30 | qualitative methods of data collection              |
 |    9:00 | computational qualitative methods (data aquisition) |
@@ -123,12 +125,14 @@ An eventbrite value in the YAML front matter triggers the next block.
 |   10:45 | text analytics, topic modelling                     |
 {:#agenda .table .table-striped .hide-instructor .disable-links}
 
-| 8:00 am | meaning of unstructured and qualitative Data                          |
-|    8:30 | qualitative methods of data collection (traditional)                  |
-|    9:00 | computational qualitative methods (data aquisition)                   |
-|  *9:45* | *Break*                                                               |
-|   10:00 | qualitative methods of data collection: praxis - create training data |
-|   10:45 | computational qualitative methods: train algorithm, validattion stats |
+2nd pass
+
+| 8:00 am | meaning of unstructured and qualitative Data                  |
+|    8:30 | qualitative methods of data collection (traditional)          |
+|    9:00 | digital qualitative methods (data aquisition)                 |
+|  *9:45* | *Break*                                                       |
+|   10:00 | content analysis / coding (traditional: create training data) |
+|   10:30 | computational qualitative methods (train, fit, validate)      |
 {:#agenda .table .table-striped .hide-instructor .disable-links}
 
 Software options
