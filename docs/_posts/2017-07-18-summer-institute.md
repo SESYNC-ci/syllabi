@@ -1,7 +1,7 @@
 ---
 # Edit the values in this YAML block to suit your event.
 
-title: "Summer Institute @SESYNC"
+title: Summer Institute @SESYNC
 venue: SESYNC
 address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
 country: us
@@ -18,7 +18,7 @@ instructors:
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact: icarroll@sesync.org
 etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
-twitter: 
+twitter: CyberSESYNC
 handout: https://github.com/new/import
 github: true
 feedback:
@@ -190,9 +190,9 @@ A bundle of all the software needed for the Summer Institute is available as a D
 
 If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for chaning your BIOS settings using the keywords "enable vt-x <laptop type>" (e.g. "enable vt-x thinkpad") or "enable amd-v <laptop type>" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker". Now Kitematic will launch from the right-clicke menu of the Docker icon in the system tray.
 
-If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Launch Kitematic by selecting it from the menu shown in step 3 of Docker's installation instructions.
+If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Kitematic will be in the menu opened by tapping on the Docker icon, once it appears in the menu bar.
 
-On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
+On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
 ### 2. Docker Toolbox
 
@@ -200,7 +200,7 @@ If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbo
 
 If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/), a legacy version of "Docker for Mac". Choose "Get Docker Toolbox for Mac" from the installation guide to download the installer, click the package to install and complete the instructions.
 
-On both **Windows** and **macOS**, launch Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
+On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
 ### 3. Itemized Installation
 

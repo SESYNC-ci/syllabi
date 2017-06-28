@@ -152,7 +152,7 @@ html, body{
     padding: 1px;
     color: #EEE;
 }
-.sidebar-content ul {
+.sidebar-content ul, .sidebar-content p {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 25px;
