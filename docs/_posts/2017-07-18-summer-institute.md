@@ -143,7 +143,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 | **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
 |               | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Introduce Teams & 'data2doc' Project                      | Ian    |
+|               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
 |               | 11:15      | Coaching Sessions & Installation Help                     |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
 |               | 1:15       | [Data Storage and Access]                                 | Benoit |
