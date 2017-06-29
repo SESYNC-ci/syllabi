@@ -1,7 +1,7 @@
 ---
 title: Summer Workshop for CONSERVE Scholars @SESYNC
 venue: SESYNC
-address: 1 Park Place Suite 300, Annapolis, MD 21401
+address: "1 Park Place Suite 300<br>Annapolis, MD 21401"
 country: us
 language: en
 humandate: Aug 1-3, 2017
@@ -23,7 +23,7 @@ twitter:
 shorturl: http://sesync.us/conserve
 ---
 
-[//]: # " Capture additional variables. "
+<!-- Capture additional variables to use below. -->
 
 {% capture mailto %}
 {% if page.contact %}
@@ -34,8 +34,11 @@ shorturl: http://sesync.us/conserve
 {% endcapture %}
 {% assign mailto = mailto | strip %}
 
-[//]: # " Edit the values in the parameter block above to be appropriate for your bootcamp. "
-[//]: # " Please use three-letter month names for the 'humandate' field. "
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
 
 ## General Information
 
@@ -44,28 +47,33 @@ A SESYNC data skills workshop provides researchers from the socio-environmental 
 The goal of this two-and-a-half-day workshop is to introduce novice and intermediate scientific coders to concepts, skills and approaches for data-driven research, while relying on tools available through the RStudio development environment.
 See the agenda below for an overview of the specific topics we will address through a series of lessons that integrate hands-on training and coding challenges.
 
-[//]: # " This block displays the instructors' names if they are available. "
+<!-- The next block displays instructors' names if they are available. -->
 
 {% if page.instructors %}
-**Instructors:**  
-{% for instructor in page.instructors %}{{ instructor }}  
-{% endfor %}
-{% endif %}
+**Instructors:**
+
+{% for name in page.instructors%}- {{ name }}  
+{% endfor%}{% endif %}
 
 {% if page.assistant %}
-**Assistant:**  
-{{ page.assistant | join: ', ' }}
+**Assistants:**
+
+{% for name in page.assistants %}- {{ name }}  
+{% endfor%}{% endif %}
+
+**When:**
+
+{% if page.enddate %}
+{{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }}
+{% else %}
+{{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
-[//]: # " Modify this block to reflect the target audience for your bootcamp. "
-[//]: # " In particular, if it is only open to people from a particular institution, "
-[//]: # " or if specialized prerequisite knowledge is required, please mention that. "
-
-**When:**  
-{{ page.humantime}}
+<!-- The next block displays the address and links to a map showing directions. -->
 
 {% if page.latlng %}
-**Where:**  
+**Where:**
+
 {{ page.address }}
   
 Get directions with
@@ -73,14 +81,13 @@ Get directions with
 <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 {% endif %}
 
-[//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
-[//]: # " If one hasn't, this block inserts the generic contact address for Software Carpentry. "
-
-**Contact:**  
-Please email *{{ mailto }}* with any questions or for information not covered here.
+<!-- Modify the next block if there are any special requirements. -->
 
 **Requirements:**  
 Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). For the best possible experience, please install the software noted below prior to the start of the workshop.
+
+**Contact:**  
+Please email *{{ mailto }}* with any questions or for information not covered here.
 
 ## Schedule (Under Development)
 
@@ -110,3 +117,8 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating system 
 |                  |               |
 |                  |               |
 {:.table}
+
+## Acknowledgments
+
+Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
