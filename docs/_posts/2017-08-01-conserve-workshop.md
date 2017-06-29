@@ -84,11 +84,24 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating system 
 
 ## Schedule (Under Development)
 
-| Tuesday   | 9:00 am |   |
-| Wednesday | 9:00 am |   |
-| Thursday  | 9:00 am |   |
+| **Tuesday**   | 9:00 am    | CONSERVE Frameworks, Data Types and Management          |
+|               | *10:30*    | *Break*                                                 |
+|               | 10:45      | Collaborative Workflows & Reproducible Pipelines        |
+|               | *12:15 pm* | *Lunch*                                                 |
+|               | 1:15       | Introduction to Data Management & Analysis in R         |
+|               | *3:15*     | *Break*                                                 |
+|               | 3:30       | Introduction to Open Data and Sources of Secondary Data |
+| **Wednesday** | 9:00 am    | Data Manipulation in R                                  |
+|               | *10:30*    | *Break*                                                 |
+|               | 10:45      | Coding Challenge #1                                     |
+|               | *12:15 pm* | *Lunch*                                                 |
+|               | 1:15       | Visualization with ggplot2                              |
+|               | *3:15*     | *Break*                                                 |
+|               | 3:30       | Coding Challenge #2                                     |
+|               | 4:30       | Code Review                                             |
+| **Thursday**  | 9:00 am    | Small-group Collaboration Time                          |
+|               | 11:00      | Depart for UMCP                                         |
 {:.table .table-striped .disable-links}
-[//]: # " Add .disable-links to classes to disable links"
 
 ## Pre-workshop Instructions (Under Development)
 
