@@ -92,14 +92,6 @@ Get directions with
 <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 {% endif %}
 
-<!-- Modify the next block if there are any special requirements. -->
-
-**Requirements:**
-
-- Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
-- At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
-- After the course, participants must complete a [reimbursement form](https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable.pdf) to recover allowed travel expenses.
-
 <!--
 The following block automatically inserts a contact email address if one has been specified
 for the page. If one hasn't, this block inserts the site.contact address in docs/_config.yml.
@@ -108,6 +100,14 @@ for the page. If one hasn't, this block inserts the site.contact address in docs
 **Contact:**
 
 Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
+
+<!-- Modify the next block if there are any special requirements. -->
+
+## Requirements:
+
+- Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
+- At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
+- After the course, participants must complete a [reimbursement form](https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable.pdf) to recover allowed travel expenses.
 
 <!--
 An eventbrite value in the YAML front matter triggers the next block.
