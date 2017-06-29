@@ -97,6 +97,7 @@ Get directions with
 **Requirements:**
 
 - Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
+- At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
 - After the course, participants must complete a [reimbursement form](https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable.pdf) to recover allowed travel expenses.
 
 <!--
