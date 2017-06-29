@@ -103,7 +103,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 
 <!-- Modify the next block if there are any special requirements. -->
 
-## Requirements:
+## Requirements
 
 - Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
 - At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
