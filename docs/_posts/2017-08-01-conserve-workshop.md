@@ -89,7 +89,7 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating system 
 **Contact:**  
 Please email *{{ mailto }}* with any questions or for information not covered here.
 
-## Schedule (Under Development)
+## Schedule
 
 | **Tuesday**   | 9:00 am    | CONSERVE Frameworks, Data Types and Management          |
 |               | *10:30*    | *Break*                                                 |
