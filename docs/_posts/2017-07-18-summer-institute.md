@@ -147,7 +147,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
 |               | 11:15      | Coaching Sessions & Installation Help                     |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Data Storage and Access]                                 | Benoit |
+|               | 1:15       | [Database Principles and Use]                             | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
@@ -242,7 +242,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/course
 [Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/plot
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
-[Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/course
+[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
 [Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
