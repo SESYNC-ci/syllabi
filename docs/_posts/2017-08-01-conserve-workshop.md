@@ -12,7 +12,7 @@ latlng: 38.97667, -76.50347
 instructors:
  - Ian Carroll, Data Scientist (SESYNC)
  - Mary Shelley, Associate Director of Synthesis (SESYNC)
- - Hillary Craddock, Graduate Assistant (CONSERVE)
+ - Hillary Craddock Kelbick, Graduate Research Assistant (CONSERVE)
  - Amy Sapkota, Associate Professor (CONSERVE)
 contact: icarroll@sesync.org
 etherpad:
