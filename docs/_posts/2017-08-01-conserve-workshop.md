@@ -12,8 +12,8 @@ latlng: 38.97667, -76.50347
 instructors:
  - Ian Carroll, Data Scientist (SESYNC)
  - Mary Shelley, Associate Director of Synthesis (SESYNC)
- - Hillary Craddock (CONSERVE)
- - TBD (CONSERVE)
+ - Hillary Craddock, Graduate Assistant (CONSERVE)
+ - Amy Sapkota, Associate Professor (CONSERVE)
 contact: icarroll@sesync.org
 etherpad:
 cloud:
@@ -21,6 +21,7 @@ cloud:
  - https://github.com
 twitter:
 shorturl: http://sesync.us/conserve
+other-download: Request a <a href="https://www.census.gov/developers/" target="_blank">Census API Key</a>
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -84,7 +85,11 @@ Get directions with
 <!-- Modify the next block if there are any special requirements. -->
 
 **Requirements:**  
-Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). For the best possible experience, please install the software noted below prior to the start of the workshop.
+
+- Bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), with the software noted below installed prior to the start of the workshop.
+- Have access to data from your own CONVSERVE project.
+- Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
+- Complete an R-Swirl
 
 **Contact:**  
 Please email *{{ mailto }}* with any questions or for information not covered here.
@@ -112,11 +117,31 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 ## Pre-workshop Instructions (Under Development)
 
-| Operating System | Download Link |
-|------------------+---------------|
-|                  |               |
-|                  |               |
-{:.table}
+
+A bundle of all the software needed for the workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). Depending on your operating system version, please complete **only one** of the three sets of instructions below:
+
+1. [Docker for newer Windows and macOS laptops](#1-docker)
+1. [Docker Toolbox for laptops with an older operating system](#2-docker-toolbox)
+
+To run RStudio and Swirl prior to the workshop, create a SESYNC Teaching-Lab container from Kitematic. Go to "Settings" and add a username for yourself in the space next to the "USER" Environment Variable and press "Save". The container will restart, and you can pop-out the web-preview to get started.
+
+![]({{ site.base-url }}/images/docker-user-setting.png){: width="60%"}
+
+### 1. Docker
+
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker". Now Kitematic will launch from the right-click menu of the Docker icon in the system tray.
+
+If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Kitematic will be in the menu opened by tapping on the Docker icon, once the icon appears in the menu bar.
+
+On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
+
+### 2. Docker Toolbox
+
+If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs.
+
+If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/), a legacy version of "Docker for Mac". Choose "Get Docker Toolbox for Mac" from the installation guide to download the installer, click the package to install and complete the instructions.
+
+On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
 ## Acknowledgments
 
