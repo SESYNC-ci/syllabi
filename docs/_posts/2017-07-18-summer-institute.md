@@ -107,7 +107,7 @@ Please email *{{ mailto }}* with any questions, including installation issues, o
 
 - Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
 - At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
-- After the course, participants must complete a [reimbursement form](https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable.pdf) to recover allowed travel expenses.
+- After the course, participants must complete a [reimbursement form] to recover allowed travel expenses.
 
 <!--
 An eventbrite value in the YAML front matter triggers the next block.
@@ -147,7 +147,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
 |               | 11:15      | Coaching Sessions & Installation Help                     |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Data Storage and Access]                                 | Benoit |
+|               | 1:15       | [Database Principles and Use]                             | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
@@ -238,10 +238,11 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 <!-- Only use space below for links. -->
 
+[reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
 [Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/course
 [Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/plot
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
-[Data Storage and Access]: {{ site.gh-pages }}/introdb-lesson/course
+[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
 [Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
