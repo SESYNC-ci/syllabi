@@ -126,7 +126,7 @@ A bundle of all the software needed for the workshop is available as a Docker "c
 
 To run RStudio and Swirl prior to the workshop, create a SESYNC Teaching-Lab container from Kitematic. Go to "Settings" and add a username for yourself in the space next to the "USER" Environment Variable and press "Save". The container will restart, and you can pop-out the web-preview to get started.
 
-![]({{ site.base-url }}/images/docker-user-setting.png){: width="60%"}
+![]({{ site.baseurl }}/images/docker-user-setting.png){: width="60%"}
 
 ### 1. Docker
 
