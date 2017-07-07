@@ -89,7 +89,8 @@ Get directions with
 - Bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), with the software noted below installed prior to the start of the workshop.
 - Have access to data from your own CONVSERVE project.
 - Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
-- Complete an R-Swirl
+- Have or create a GitHub account.
+- Complete an R-Swirl lesson.
 
 **Contact:**  
 Please email *{{ mailto }}* with any questions or for information not covered here.
