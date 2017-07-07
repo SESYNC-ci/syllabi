@@ -90,7 +90,7 @@ Get directions with
 - Have access to data from your own CONVSERVE project.
 - Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
 - Have or create a GitHub account.
-- Complete an R-Swirl lesson.
+- Complete an [R-Swirl lesson](http://swirlstats.com/students.html) - Steps 1,2 and 3 are already done in the RStudio app within your Docker Container.
 
 **Contact:**  
 Please email *{{ mailto }}* with any questions or for information not covered here.
