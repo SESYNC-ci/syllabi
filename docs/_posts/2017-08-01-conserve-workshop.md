@@ -116,8 +116,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |               | 11:00      | Depart for UMCP                                         |
 {:.table .table-striped .disable-links}
 
-## Pre-workshop Instructions (Under Development)
-
+## Pre-workshop Instructions
 
 A bundle of all the software needed for the workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). Depending on your operating system version, please complete **only one** of the three sets of instructions below:
 
