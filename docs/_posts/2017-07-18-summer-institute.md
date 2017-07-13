@@ -183,14 +183,9 @@ Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.m
 
 A bundle of all the software needed for the Summer Institute is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
 
-Option 1
-: [Docker for newer Windows and macOS laptops](#option-1-docker)
-
-Option 2
-: [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
-
-Option 3
-: [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)
+- **Option 1:** [Docker for newer Windows and macOS laptops](#option-1-docker)
+- **Option 2:** [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
+- **Option 3:** [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)
 
 ### Option 1: Docker
 
