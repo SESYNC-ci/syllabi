@@ -245,7 +245,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
 [Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/course
+[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/
 [Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/course
