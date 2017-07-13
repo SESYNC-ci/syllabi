@@ -185,8 +185,10 @@ A bundle of all the software needed for the Summer Institute is available as a D
 
 Option 1
 : [Docker for newer Windows and macOS laptops](#option-1-docker)
+
 Option 2
 : [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
+
 Option 3
 : [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)
 
@@ -198,7 +200,7 @@ If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Doc
 
 On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
 
-### 2. Option 2: Docker Toolbox
+### Option 2: Docker Toolbox
 
 If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs.
 
