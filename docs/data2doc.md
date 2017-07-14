@@ -12,7 +12,7 @@ reveal-theme: /css/theme/black.css
 ## The "data2doc" Mini-project
 {:style="text-transform: none;"}
 
-During four team practice times, your group should **aim to achieve the following goals** with assistance from your SESYNC coach:
+During four team practice sessions, your group should **aim to achieve the following goals** with assistance from your SESYNC coach:
 
 - Collaborate on a GitHub repository, and keep it up to date.
 - Incorporate or describe tables in a relational database you might use to share project data.
@@ -22,7 +22,7 @@ During four team practice times, your group should **aim to achieve the followin
 </section>
 <section markdown="block">
 
-### Team Practice #1
+## Practice #1
 
 1. Create a single GitHub repo for your team, and make everyone a collaborator.
 1. Create a skeleton README.md with sections for each member to compose.
@@ -31,7 +31,7 @@ During four team practice times, your group should **aim to achieve the followin
 </section>
 <section markdown="block">
 
-### Team Practice #2
+## Practice #2
 
 1. Discuss your data management strategy
    1. How is data shared?
@@ -41,7 +41,7 @@ During four team practice times, your group should **aim to achieve the followin
 </section>
 <section markdown="block">
 
-### Team Practice #3
+## Practice #3
 
 1. Extend your data pipeline
     1. Can you script a data vizualization or analysis?
@@ -51,11 +51,11 @@ During four team practice times, your group should **aim to achieve the followin
 </section>
 <section markdown="block">
 
-### Team Practice #4
+## Practice #4
 
 1. Extend your data pipeline
     1. Can you aquire data programatically?
-    1. Would your result in a Shiny App or RMarkdown document?
+    1. Should you share results in a Shiny App or RMarkdown document?
 1. Prepare to show off your mini-project's mini-results in 15 minutes or less.
 1. Set new project goals!
 
