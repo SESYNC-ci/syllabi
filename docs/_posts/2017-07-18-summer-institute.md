@@ -19,7 +19,7 @@ instructors:
 contact: icarroll@sesync.org
 etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
 twitter: CyberSESYNC
-handout: # https://github.com/new/import
+handout: https://github.com/sesync-ci/handouts
 github: true
 feedback:
 data2doc: true
@@ -134,45 +134,47 @@ An eventbrite value in the YAML front matter triggers the next block.
 **Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
 | **[Monday]**  | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
-|               | 9:30       | Installation Help & Reading Comprehension Exercise        |        |
+|               | 9:30       | Installation Help & [Reading Comprehension Exercise]      |        |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | [Basic R: Part I]                                         | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
 |               | 1:15       | [Basic R: Part II]                                        | Mary   |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Scripting Exercises                                       |        |
+|               | 3:30       | [Scripting Challenges]                                    |        |
 | **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
-|               | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
+|               | 9:15       | Collaborative Workflows & Reproducible Pipelines          | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
 |               | 11:15      | Coaching Sessions & Installation Help                     |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Database Principles and Use]                             | Benoit |
+|               | 1:15       | Database Principles and Use                               | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
+|               | 3:30       | Manipulating Tabular Data                                 | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| **Wednesday** | 9:00 am    | [Visualization with ggplot2]                              | Mary   |
+| **Wednesday** | 9:00 am    | Visualization with ggplot2                                | Mary   |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | [Mini-languages for Statistical Models]                   | Ian    |
+|               | 10:45      | Mini-languages for Statistical Models                     | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Database-to-Doc with RMarkdown]                          | Benoit |
+|               | 1:15       | Database-to-Doc with RMarkdown                            | Benoit |
 |               | 2:15       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Introduction to Shiny Apps]                              | Kelly  |
-| **Thursday**  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
+|               | 3:30       | Introduction to Shiny Apps                                | Kelly  |
+| **Thursday**  | 9:00 am    | Geospatial Packages in R                                  | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
+|               | 10:45      | Introduction to Python + Pandas                           | Kelly  |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Cyberinfrastructure @SESYNC]                             | Mary   |
+|               | 1:15       | Cyberinfrastructure @SESYNC                               | Mary   |
 |               | 1:45       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Web Services and APIs with Python]                       | Ian    |
-| **Friday**    | 9:00 am    | [Unstructured Data and Text Mining]                        | Ian    |
+|               | 3:30       | Web Services and APIs with Python                         | Ian    |
+| **Friday**    | 9:00 am    | Unstructured Data and Text Mining                         | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Coaching Sessions                                         |        |
 |               | *12:15*    | *Lunch*                                                   |        |
 |               | 1:15       | "data2doc" Project Presentations                          |        |
-{:#agenda .table .table-striped .hide-instructor .disable-links}
+{:#agenda .table .table-striped .hide-instructor}
+
+<!-- .disable-links -->
 
 <!--
 Use the next block to detail pre-arrival installation and download instructions.
@@ -253,3 +255,5 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Web Services and APIs with Python]: {{ site.gh-pages }}
 [Unstructured Data and Text Mining]: {{ site.gh-pages }}
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
+[Reading Comprehension Exercise]: https://github.com/SESYNC-ci/handouts/blob/master/reading.md
+[Scripting Challenges]: https://github.com/SESYNC-ci/handouts/blob/master/challenge.md
