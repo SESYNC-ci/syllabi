@@ -142,14 +142,14 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | [Scripting Challenges]                                    |        |
 | **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
-|               | 9:15       | Collaborative Workflows & Reproducible Pipelines          | Ian    |
+|               | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
 |               | 11:15      | Coaching Sessions & Installation Help                     |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Database Principles and Use                               | Benoit |
+|               | 1:15       | [Database Principles and Use]                             | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Manipulating Tabular Data                                 | Kelly  |
+|               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
 | **Wednesday** | 9:00 am    | Visualization with ggplot2                                | Mary   |
 |               | *10:30*    | *Break*                                                   |        |
