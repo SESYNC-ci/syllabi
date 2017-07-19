@@ -151,19 +151,19 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| **Wednesday** | 9:00 am    | Visualization with ggplot2                                | Mary   |
+| **Wednesday** | 9:00 am    | [Visualization with ggplot2]                              | Mary   |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Mini-languages for Statistical Models                     | Ian    |
+|               | 10:45      | [Mini-languages for Statistical Models]                   | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Database-to-Doc with RMarkdown                            | Benoit |
+|               | 1:15       | Cyberinfrastructure @SESYNC                               | Mary   |
 |               | 2:15       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Introduction to Shiny Apps                                | Kelly  |
+|               | 3:30       | [Introduction to Shiny Apps]                              | Kelly  |
 | **Thursday**  | 9:00 am    | Geospatial Packages in R                                  | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Introduction to Python + Pandas                           | Kelly  |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Cyberinfrastructure @SESYNC                               | Mary   |
+|               | 1:15       | Database-to-Doc with RMarkdown                            | Benoit |
 |               | 1:45       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | Web Services and APIs with Python                         | Ian    |
@@ -251,7 +251,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/course
-[Mini-languages for Statistical Models]: {{ site.gh-pages }}
+[Mini-languages for Statistical Models]: {{ site.gh-pages }}/model-lang-lesson/course
 [Web Services and APIs with Python]: {{ site.gh-pages }}
 [Unstructured Data and Text Mining]: {{ site.gh-pages }}
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
