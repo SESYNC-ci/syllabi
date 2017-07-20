@@ -159,15 +159,15 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | 2:15       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | [Introduction to Shiny Apps]                              | Kelly  |
-| **Thursday**  | 9:00 am    | Geospatial Packages in R                                  | Benoit |
+| **Thursday**  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Introduction to Python + Pandas                           | Kelly  |
+|               | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Database-to-Doc with RMarkdown                            | Benoit |
+|               | 1:15       | [Database-to-Doc with RMarkdown]                          | Ian    |
 |               | 1:45       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Web Services and APIs with Python                         | Ian    |
-| **Friday**    | 9:00 am    | Unstructured Data and Text Mining                         | Ian    |
+|               | 3:30       | Coaching Sessions                                         |        |
+| **Friday**    | 9:00 am    | Web Services and APIs with Python                         | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Coaching Sessions                                         |        |
 |               | *12:15*    | *Lunch*                                                   |        |
