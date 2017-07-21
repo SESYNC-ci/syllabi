@@ -21,7 +21,7 @@ etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
 twitter: CyberSESYNC
 handout: https://github.com/sesync-ci/handouts
 github: true
-feedback:
+feedback: https://docs.google.com/forms/d/e/1FAIpQLSeRcLYTcYIKAsvvBhb6HHyC1ivXqcxi6wNj9eNdE4BQaba-5A/viewform
 data2doc: true
 shorturl: http://sesync.us/jz
 ---
