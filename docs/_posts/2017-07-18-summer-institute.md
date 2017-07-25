@@ -189,7 +189,7 @@ A bundle of all the software needed for the Summer Institute is available as a D
 
 - **Option 1:** [Docker for newer Windows and macOS laptops](#option-1-docker)
 - **Option 2:** [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
-- **Option 3:** [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)
+- ~~**Option 3:** [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)~~
 
 ### Option 1: Docker
 
