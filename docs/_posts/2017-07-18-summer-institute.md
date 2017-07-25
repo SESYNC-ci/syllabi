@@ -169,7 +169,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 |               | 1:45       | Coaching Sessions                                         |        |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | Coaching Sessions                                         |        |
-| **Friday**    | 9:00 am    | Web Services and APIs with Python                         | Ian    |
+| **Friday**    | 9:00 am    | [Web Services and APIs with Python]                       | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Coaching Sessions                                         |        |
 |               | *12:15*    | *Lunch*                                                   |        |
@@ -244,18 +244,17 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
 [Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/
-[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/plot
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
-[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/course
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
-[Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/
-[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/course
-[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
-[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/course
-[Mini-languages for Statistical Models]: {{ site.gh-pages }}/model-lang-lesson/course
-[Web Services and APIs with Python]: {{ site.gh-pages }}
-[Unstructured Data and Text Mining]: {{ site.gh-pages }}
+[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/#/slides/plot
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/2017/07/18/
+[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/2017/07/18/
+[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2017/07/18/
+[Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2017/07/18/
+[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/2017/07/18/
+[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/2017/07/18/
+[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2017/07/18/
+[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/2017/07/18/
+[Mini-languages for Statistical Models]: {{ site.gh-pages }}/model-lang-lesson/2017/07/18/
+[Web Services and APIs with Python]: https://github.com/online-data-lesson/2017/07/18/
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 [Reading Comprehension Exercise]: https://github.com/SESYNC-ci/handouts/blob/master/reading.md
 [Scripting Challenges]: https://github.com/SESYNC-ci/handouts/blob/master/challenge.md
