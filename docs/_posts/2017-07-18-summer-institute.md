@@ -243,7 +243,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 <!-- Only use space below for links. -->
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
-[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/course
+[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/
 [Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/plot
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
 [Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/course
