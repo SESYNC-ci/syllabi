@@ -11,7 +11,7 @@ registration: open
 instructor: ["Nick Magliocca"]
 assistant: ["Ian Carroll", "Kelly Hondula"]
 contact: nmagliocca@sesync.org
-twitter: sabmsesync
+twitter:
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-17
 handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2017/handouts.zip
 data2doc:

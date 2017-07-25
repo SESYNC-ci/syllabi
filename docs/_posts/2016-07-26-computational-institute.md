@@ -11,7 +11,9 @@ registration: closed
 instructor: ["Ian Carroll", "Kelly Hondula", "Philippe Marchand", "Mary Shelley"]
 assistant: ["Kate Weiss"]
 contact: icarroll@sesync.org
-twitter: csisesync
+twitter:
+ - csisesync
+ - 755481646099492864
 etherpad: https://public.etherpad-mozilla.org/p/sesync-comp-institute-july-16
 download: http://sesync.us/fs
 data2doc: data2doc.html

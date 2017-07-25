@@ -13,7 +13,9 @@ instructor: ["Kelly Hondula", "Philippe Marchand", "Mary Shelley", "Mike Smorul"
 assistant: ["Nick Magliocca"]
 contact: mshelley@sesync.org
 raw: raw.github.com/sesync-ci/CSI-2015/gh-pages
-twitter: csisesync
+twitter:
+ - csisesync
+ - 755481646099492864
 etherpad: https://etherpad.mozilla.org/fBqIr3TFrT
 ---
 <!--
@@ -89,10 +91,6 @@ work on team projects, and get familiar with our CI.
   {% endif %}
   for questions and information not covered here.
 </p>
-{% endif %}
-
-{% if page.twitter %}
-<p><strong>Twitter</strong>: #{{page.twitter}}</p>
 {% endif %}
 
 {% if page.etherpad %}

@@ -18,7 +18,9 @@ instructors:
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact: icarroll@sesync.org
 etherpad: https://public.etherpad-mozilla.org/p/2017-07-08-summer-institute
-twitter: CyberSESYNC
+twitter:
+ - CyberSESYNC
+ - 880115261722038272
 handout: https://github.com/sesync-ci/handouts
 github: true
 feedback:
