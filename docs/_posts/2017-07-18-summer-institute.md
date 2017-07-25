@@ -254,7 +254,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2017/07/18/
 [Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/2017/07/18/
 [Mini-languages for Statistical Models]: {{ site.gh-pages }}/model-lang-lesson/2017/07/18/
-[Web Services and APIs with Python]: https://github.com/online-data-lesson/2017/07/18/
+[Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/2017/07/18/
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 [Reading Comprehension Exercise]: https://github.com/SESYNC-ci/handouts/blob/master/reading.md
 [Scripting Challenges]: https://github.com/SESYNC-ci/handouts/blob/master/challenge.md
