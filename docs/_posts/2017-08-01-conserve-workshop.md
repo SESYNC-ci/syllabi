@@ -92,46 +92,47 @@ Get directions with
 - Have access to data from your own CONVSERVE project.
 - Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
 - Have or create a GitHub account.
-- Complete an [R-Swirl lesson](http://swirlstats.com/students.html): open the RStudio app within your Docker Container and then skip Steps 1 and 2.
+- Complete an [R-Swirl lesson](http://swirlstats.com/students.html).
+  - You may use either a desktop installation of RStudio or the Teaching Lab container you've installed for the workshop.
+  - To use RStudio in the Teaching Lab container: launch kitematic and select the SESYNC Teaching lab from the panel on the left. Choose the "Settings" tab and add a username for yourself in [the space next to the "USER" Environment Variable]({{ site.baseurl }}/images/docker-user-setting.png) and press "Save". The container will restart, and you can pop-out the web-preview to get started. Skip steps 1 and 2 in the R-Swirl instructions, they're already done!
 
 **Contact:**  
 Please email *{{ mailto }}* with any questions or for information not covered here.
 
 ## Schedule
 
-| **Tuesday**   | 9:00 am    | CONSERVE Frameworks, Data Types and Management          |
-|               | *10:30*    | *Break*                                                 |
-|               | 10:45      | Collaborative Workflows & Reproducible Pipelines        |
-|               | *12:15 pm* | *Lunch*                                                 |
-|               | 1:15       | Introduction to Data Management & Analysis in R         |
-|               | *3:15*     | *Break*                                                 |
-|               | 3:30       | Introduction to Open Data and Sources of Secondary Data |
-| **Wednesday** | 9:00 am    | Data Manipulation in R                                  |
-|               | *10:30*    | *Break*                                                 |
-|               | 10:45      | Coding Challenge #1                                     |
-|               | *12:15 pm* | *Lunch*                                                 |
-|               | 1:15       | Visualization with ggplot2                              |
-|               | *3:15*     | *Break*                                                 |
-|               | 3:30       | Coding Challenge #2                                     |
-|               | 4:30       | Code Review                                             |
-| **Thursday**  | 9:00 am    | Small-group Collaboration Time                          |
-|               | 11:00      | Depart for UMCP                                         |
-{:.table .table-striped .disable-links}
+| **Tuesday**   | 9:00 am    | CONSERVE Frameworks, Data Types and Management          | Amy     |
+|               | *10:30*    | *Break*                                                 |         |
+|               | 10:45      | Collaborative Workflows & Reproducible Pipelines        | Ian     |
+|               | *12:15 pm* | *Lunch*                                                 |         |
+|               | 1:15       | Introduction to Data Management & Analysis in R         | Ian     |
+|               | *3:15*     | *Break*                                                 |         |
+|               | 3:30       | Introduction to Open Data and Sources of Secondary Data | Hillary |
+| **Wednesday** | 9:00 am    | Data Manipulation in R                                  | Ian     |
+|               | *10:30*    | *Break*                                                 |         |
+|               | 10:45      | Coding Challenge #1                                     |         |
+|               | *12:15 pm* | *Lunch*                                                 |         |
+|               | 1:15       | Visualization with ggplot2                              | Mary    |
+|               | *3:15*     | *Break*                                                 |         |
+|               | 3:30       | Coding Challenge #2                                     |         |
+|               | 4:30       | Code Review                                             |         |
+| **Thursday**  | 9:00 am    | Small-group Collaboration Time                          |         |
+|               | 11:00      | Depart for UMCP                                         |         |
+{:#agenda .table .table-striped .hide-instructor}
+
 
 ## Pre-workshop Instructions
 
-A bundle of all the software needed for the workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). Depending on your operating system version, please complete **only one** of the three sets of instructions below:
+A bundle of all the software needed for the workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). Depending on your operating system version, please complete **only one** of these two options::
 
 1. [Docker for newer Windows and macOS laptops](#1-docker)
 1. [Docker Toolbox for laptops with an older operating system](#2-docker-toolbox)
 
-To run RStudio and Swirl prior to the workshop, create a SESYNC Teaching-Lab container from Kitematic. Go to "Settings" and add a username for yourself in the space next to the "USER" Environment Variable and press "Save". The container will restart, and you can pop-out the web-preview to get started.
-
-![]({{ site.baseurl }}/images/docker-user-setting.png){: width="60%"}
+Please email *{{ mailto }}* if you have any questions or have an unsuccessful installation.
 
 ### 1. Docker
 
-If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker". Now Kitematic will launch from the right-click menu of the Docker icon in the system tray.
+If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the *contents* of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker": you should end up with a "C:\Program Files\Docker\Kitematic" folder adjacent to a "C:\Program Files\Docker\Docker\" folder. Now Kitematic will launch from the right-click menu of the Docker icon in the system tray.
 
 If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Kitematic will be in the menu opened by tapping on the Docker icon, once the icon appears in the menu bar.
 
