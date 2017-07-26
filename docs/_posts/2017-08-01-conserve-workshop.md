@@ -89,7 +89,7 @@ Get directions with
 **Requirements:**  
 
 - Bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), with the software noted below installed prior to the start of the workshop.
-- Have access to data from your own CONVSERVE project.
+- Have access to data from your own CONSERVE project.
 - Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
 - Have or create a [GitHub](https://github.com) account.
 - Complete an [R-Swirl lesson](http://swirlstats.com/students.html).
