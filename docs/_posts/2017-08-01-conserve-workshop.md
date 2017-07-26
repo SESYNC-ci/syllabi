@@ -91,7 +91,7 @@ Get directions with
 - Bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), with the software noted below installed prior to the start of the workshop.
 - Have access to data from your own CONVSERVE project.
 - Register an [API key](https://www.census.gov/developers/) from the Census Bureau.
-- Have or create a GitHub account.
+- Have or create a [GitHub](https://github.com) account.
 - Complete an [R-Swirl lesson](http://swirlstats.com/students.html).
   - You may use either a desktop installation of RStudio or the Teaching Lab container you've installed for the workshop.
   - To use RStudio in the Teaching Lab container: launch kitematic and select the SESYNC Teaching lab from the panel on the left. Choose the "Settings" tab and add a username for yourself in [the space next to the "USER" Environment Variable]({{ site.baseurl }}/images/docker-user-setting.png) and press "Save". The container will restart, and you can pop-out the web-preview to get started. Skip steps 1 and 2 in the R-Swirl instructions, they're already done!
