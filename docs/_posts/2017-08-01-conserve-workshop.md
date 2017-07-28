@@ -101,23 +101,26 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 ## Schedule
 
-| **Tuesday**   | 9:00 am    | CONSERVE Frameworks, Data Types and Management          | Amy     |
-|               | *10:30*    | *Break*                                                 |         |
-|               | 10:45      | Collaborative Workflows & Reproducible Pipelines        | Ian     |
+| **Tuesday**   |    8:30 am | *Breakfast Snacks & Software Instalation Help*          |         |
+|               |       9:00 | CONSERVE Frameworks, Data Types and Management          | Amy     |
+|               |      10:00 | CONSERVE Scholar Introductions                          |         |
+|               |    *10:30* | *Break*                                                 |         |
+|               |      10:45 | Collaborative Workflows & Reproducible Pipelines        | Ian     |
 |               | *12:15 pm* | *Lunch*                                                 |         |
-|               | 1:15       | Introduction to Data Management & Analysis in R         | Ian     |
-|               | *3:15*     | *Break*                                                 |         |
-|               | 3:30       | Introduction to Open Data and Sources of Secondary Data | Hillary |
-| **Wednesday** | 9:00 am    | Data Manipulation in R                                  | Ian     |
-|               | *10:30*    | *Break*                                                 |         |
-|               | 10:45      | Coding Challenge #1                                     |         |
+|               |       1:15 | Introduction to Data Management & Analysis in R         | Ian     |
+|               |     *3:15* | *Break*                                                 |         |
+|               |       3:30 | Introduction to Open Data and Sources of Secondary Data | Hillary |
+| **Wednesday** |    8:30 am | *Breakfast Snacks*                                      |         |
+|               |       9:00 | Data Manipulation in R                                  | Ian     |
+|               |    *10:30* | *Break*                                                 |         |
+|               |      10:45 | Coding Challenge #1                                     |         |
 |               | *12:15 pm* | *Lunch*                                                 |         |
-|               | 1:15       | Visualization with ggplot2                              | Mary    |
-|               | *3:15*     | *Break*                                                 |         |
-|               | 3:30       | Coding Challenge #2                                     |         |
-|               | 4:30       | Code Review                                             |         |
-| **Thursday**  | 9:00 am    | Small-group Collaboration Time                          |         |
-|               | 11:00      | Depart for UMCP                                         |         |
+|               |       1:15 | Visualization with ggplot2                              | Mary    |
+|               |     *3:15* | *Break*                                                 |         |
+|               |       3:30 | Coding Challenge #2                                     |         |
+|               |       4:30 | Code Review                                             |         |
+| **Thursday**  |    9:00 am | Small-group Collaboration Time                          |         |
+|               |      11:00 | Depart for UMCP                                         |         |
 {:#agenda .table .table-striped .hide-instructor}
 
 
