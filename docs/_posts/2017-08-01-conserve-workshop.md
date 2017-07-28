@@ -101,7 +101,7 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 ## Schedule
 
-| **Tuesday**   |    8:30 am | *Breakfast Snacks & Software Instalation Help*          |         |
+| **Tuesday**   |    8:30 am | *Breakfast Snacks & Software Installation Help*          |         |
 |               |       9:00 | CONSERVE Frameworks, Data Types and Management          | Amy     |
 |               |      10:00 | CONSERVE Scholar Introductions                          |         |
 |               |    *10:30* | *Break*                                                 |         |
