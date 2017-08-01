@@ -24,6 +24,7 @@ twitter:
  - 889839023052730368
 shorturl: http://sesync.us/conserve
 other-download: Request a <a href="https://www.census.gov/developers/" target="_blank">Census API Key</a>
+handout: https://github.com/SESYNC-ci/handouts
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -101,13 +102,13 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 
 ## Schedule
 
-| **Tuesday**   |    8:30 am | *Breakfast Snacks & Software Installation Help*          |         |
+| **Tuesday**   |    8:30 am | *Breakfast Snacks & Software Installation Help*         |         |
 |               |       9:00 | CONSERVE Frameworks, Data Types and Management          | Amy     |
 |               |      10:00 | CONSERVE Scholar Introductions                          |         |
 |               |    *10:30* | *Break*                                                 |         |
-|               |      10:45 | Collaborative Workflows & Reproducible Pipelines        | Ian     |
+|               |      10:45 | [Collaborative Workflows & Reproducible Pipelines]      | Ian     |
 |               | *12:15 pm* | *Lunch*                                                 |         |
-|               |       1:15 | Introduction to Data Management & Analysis in R         | Ian     |
+|               |       1:15 | [Introduction to Data Management & Analysis in R]       | Ian     |
 |               |     *3:15* | *Break*                                                 |         |
 |               |       3:30 | Introduction to Open Data and Sources of Secondary Data | Hillary |
 | **Wednesday** |    8:30 am | *Breakfast Snacks*                                      |         |
@@ -153,3 +154,6 @@ On both **Windows** and **macOS**, run Kitematic and skip account sign-up if ask
 
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.baseurl }}/basic-git-lesson/course
+[Introduction to Data Management & Analysis in R]: {{ site.baseurl }}/basic-R-lesson/course
