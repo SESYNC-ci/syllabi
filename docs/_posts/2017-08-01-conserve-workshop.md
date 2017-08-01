@@ -155,5 +155,5 @@ On both **Windows** and **macOS**, run Kitematic and skip account sign-up if ask
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.baseurl }}/basic-git-lesson/course
-[Introduction to Data Management & Analysis in R]: {{ site.baseurl }}/basic-R-lesson/course
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
+[Introduction to Data Management & Analysis in R]: {{ site.gh-pages }}/basic-R-lesson/course
