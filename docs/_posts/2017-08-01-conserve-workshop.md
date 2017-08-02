@@ -112,11 +112,11 @@ Please email *{{ mailto }}* with any questions or for information not covered he
 |               |     *3:15* | *Break*                                                   |         |
 |               |       3:30 | [Introduction to Open Data and Sources of Secondary Data] | Hillary |
 | **Wednesday** |    8:30 am | *Breakfast Snacks*                                        |         |
-|               |       9:00 | Data Manipulation in R                                    | Ian     |
+|               |       9:00 | [Data Manipulation in R]                                  | Ian     |
 |               |    *10:30* | *Break*                                                   |         |
 |               |      10:45 | Coding Challenge #1                                       |         |
 |               | *12:15 pm* | *Lunch*                                                   |         |
-|               |       1:15 | Visualization with ggplot2                                | Mary    |
+|               |       1:15 | [Visualization with ggplot2]                              | Mary    |
 |               |     *3:15* | *Break*                                                   |         |
 |               |       3:30 | Coding Challenge #2                                       |         |
 |               |       4:30 | Code Review                                               |         |
@@ -155,6 +155,8 @@ On both **Windows** and **macOS**, run Kitematic and skip account sign-up if ask
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
-[Introduction to Data Management & Analysis in R]: {{ site.gh-pages }}/basic-R-lesson/course
-[Introduction to Open Data and Sources of Secondary Data]: https://docs.google.com/presentation/d/1spdG92dN_WiJgW4HDPE0rS3-6_LKgsEoasMfKCYYbzw/
+[Collaborative Workflows & Reproducible Pipelines]:{{ site.gh-pages }}/basic-git-lesson/course
+[Introduction to Data Management & Analysis in R]:{{ site.gh-pages }}/basic-R-lesson/course
+[Introduction to Open Data and Sources of Secondary Data]:https://docs.google.com/presentation/d/1spdG92dN_WiJgW4HDPE0rS3-6_LKgsEoasMfKCYYbzw/
+[Data Manipulation in R]:{{ site.gh-pages }}/data-manipulation-in-R-lesson/course
+[Visualization with ggplot2]:{{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
