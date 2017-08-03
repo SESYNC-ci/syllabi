@@ -24,7 +24,7 @@ twitter:
  - 889839023052730368
 shorturl: http://sesync.us/conserve
 other-download: Request a <a href="https://www.census.gov/developers/" target="_blank">Census API Key</a>
-handout: https://github.com/SESYNC-ci/handouts/releases/download/conserve-workshop-2017/handouts.zip
+handout: https://github.com/SESYNC-ci/handouts/archive/conserve-workshop-2017.zip
 ---
 
 <!-- Capture additional variables to use below. -->
