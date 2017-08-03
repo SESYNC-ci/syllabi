@@ -24,7 +24,7 @@ twitter:
  - 889839023052730368
 shorturl: http://sesync.us/conserve
 other-download: Request a <a href="https://www.census.gov/developers/" target="_blank">Census API Key</a>
-handout: https://github.com/SESYNC-ci/handouts
+handout: https://github.com/SESYNC-ci/handouts/releases/download/conserve-workshop-2017/handouts.zip
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -155,8 +155,8 @@ On both **Windows** and **macOS**, run Kitematic and skip account sign-up if ask
 Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
-[Collaborative Workflows & Reproducible Pipelines]:{{ site.gh-pages }}/basic-git-lesson/course
-[Introduction to Data Management & Analysis in R]:{{ site.gh-pages }}/basic-R-lesson/course
+[Collaborative Workflows & Reproducible Pipelines]:{{ site.gh-pages }}/basic-git-lesson/2017/08/01/
+[Introduction to Data Management & Analysis in R]:{{ site.gh-pages }}/basic-R-lesson/2017/08/01/
 [Introduction to Open Data and Sources of Secondary Data]:https://docs.google.com/presentation/d/1spdG92dN_WiJgW4HDPE0rS3-6_LKgsEoasMfKCYYbzw/
-[Data Manipulation in R]:{{ site.gh-pages }}/data-manipulation-in-R-lesson/course
-[Visualization with ggplot2]:{{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+[Data Manipulation in R]:{{ site.gh-pages }}/data-manipulation-in-R-lesson/2017/08/01/
+[Visualization with ggplot2]:{{ site.gh-pages }}/graphics-with-ggplot2-lesson/2017/08/01/
