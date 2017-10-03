@@ -11,7 +11,11 @@ humandate: Apr 2 - 4, 2018  # use three-letter month names
 humantime: 9:00 am - 5:00 pm
 startdate: 2018-04-02
 enddate: 2018-04-04
-instructors:
+instructors:    
+  - Ian Carroll, Data Scientist
+  - Mary Shelly, Associate Director for Synthesis
+  - Benoit Parmentier, Data Scientist
+  - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact:
 etherpad:
 twitter:
@@ -41,7 +45,8 @@ shorturl:
 
 ## General Information
 
-This year's Summer Institute brings together seven science teams for a short course on data and software skills in socio-environmental synthesis. Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
+This workshop introduces participants to open source tools for geospatial and temporal analysis with emphasis. The workshop will start with a short introduction to R and review the different packages available to carry out GIS analyses. Topics include performing map algebra, plotting raster/vector, raster cropping, raster extraction using vector data and other raster processing. The workshop will also cover basic raster time series analysis using raster image stack. We also provide an introduction to web mapping tools (leaflet) and geovisualization (in R).
+Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
 
 Participants should expect to:
 
@@ -129,45 +134,30 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 **Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **[Monday]**  | 9:00 am    | Introduction to the RStudio IDE                           | Ian    |
-|               | 9:30       | Installation Help & [Reading Comprehension Exercise]      |        |
+| **Monday**    | 9:00 am    | Introduction to Spatial R and Open Source Tools           | Ian    |
+|               | 9:30       | Introduction to R spatial and Installation Help           |        |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | [Basic R: Part I]                                         | Ian    |
+|               | 10:45      | Vector Analysis R: Lead Poisoning in Syracuse             | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Basic R: Part II]                                        | Mary   |
+|               | 1:15       | Suitability Analysis R: Conservation                      | Mary   |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Scripting Challenges]                                    |        |
+|               | 3:30       | Raster Analysis: Land/Hydrology application               |        |
 | **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
-|               | 9:15       | [Collaborative Workflows & Reproducible Pipelines]        | Ian    |
+|               | 9:15       | Python and Spatial data: Hurricane Harvey                 | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Introduce Coaches & 'data2doc' Project                    | Ian    |
-|               | 11:15      | Coaching Sessions & Installation Help                     |        |
+|               | 10:45      | Spatial Database + QGIS and Python                        |        |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Database Principles and Use]                             | Benoit |
+|               | 1:15       | Geovisualization in R                                     | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Manipulating Tabular Data]                               | Kelly  |
+|               | 3:30       | API map server and leaflet                                | Kelly  |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| **Wednesday** | 9:00 am    | [Visualization with ggplot2]                              | Mary   |
+| **Wednesday** | 9:00 am    | Raster Analysis: Time series and Fire in Alaska           | Mary   |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | [Mini-languages for Statistical Models]                   | Ian    |
+|               | 10:45      | Remote Sensing R: Flood mapping (classification)          | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Cyberinfrastructure @SESYNC                               | Mary   |
-|               | 2:15       | Coaching Sessions                                         |        |
+|               | 1:15       | Vector Analysis R: Disaster-Vulnerability analysis        | Mary   |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | [Introduction to Shiny Apps]                              | Kelly  |
-| **Thursday**  | 9:00 am    | [Geospatial Packages in R]                                | Benoit |
-|               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | [Introduction to Python + Pandas]                         | Kelly  |
-|               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | [Database-to-Doc with RMarkdown]                          | Ian    |
-|               | 1:45       | Coaching Sessions                                         |        |
-|               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Coaching Sessions                                         |        |
-| **Friday**    | 9:00 am    | [Web Services and APIs with Python]                       | Ian    |
-|               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Coaching Sessions                                         |        |
-|               | *12:15*    | *Lunch*                                                   |        |
-|               | 1:15       | "data2doc" Project Presentations                          |        |
+|               | 3:30       | TBA                                                       | Kelly  |
 {:#agenda .table .table-striped .hide-instructor}
 
 <!-- .disable-links -->
@@ -179,7 +169,7 @@ Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.m
 
 ## Pre-Arrival Installation Instructions
 
-A bundle of all the software needed for the Summer Institute is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
+A bundle of all the software needed for the Geospatial Workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
 
 - **Option 1:** [Docker for newer Windows and macOS laptops](#option-1-docker)
 - **Option 2:** [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
