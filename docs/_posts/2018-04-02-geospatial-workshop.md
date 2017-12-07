@@ -134,30 +134,29 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 **Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **Monday**    | 9:00 am    | Introduction to Spatial R and Open Source Tools           | Ian    |
-|               | 9:30       | Introduction to R spatial and Installation Help           |        |
+| **Monday**    | 9:00 am    | Introduction to SESYNC                                    | Mary   |
+|               | 9:15 am    | Introduction to Spatial R and Open Source Tools           | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Vector Analysis R: Lead Poisoning in Syracuse             | Ian    |
+|               | 10:45      | Vector Analysis R: Lead Poisoning in Syracuse             | Benoit |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Suitability Analysis R: Conservation                      | Mary   |
+|               | 1:15       | Suitability Analysis R: Conservation                      | Benoit |
 |               | *3:15*     | *Break*                                                   |        |
 |               | 3:30       | Raster Analysis: Land/Hydrology application               |        |
-| **Tuesday**   | 9:00 am    | Welcome and Overview of SESYNC                            | Mary   |
-|               | 9:15       | Python and Spatial data: Hurricane Harvey                 | Ian    |
+| **Tuesday**   | 9:15       | Python and Spatial data: Hurricane Harvey                 | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Spatial Database + QGIS and Python                        |        |
+|               | 10:45      | Spatial Database + QGIS and Python                        | Ian    |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Geovisualization in R                                     | Benoit |
+|               | 1:15       | Geovisualization in R                                     | Kelly? |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | API map server and leaflet                                | Kelly  |
+|               | 3:30       | API map server and leaflet                                | Kelly? |
 |               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| **Wednesday** | 9:00 am    | Raster Analysis: Time series and Fire in Alaska           | Mary   |
+| **Wednesday** | 9:00 am    | Raster Analysis: Time series and Fire in Alaska           | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Remote Sensing R: Flood mapping (classification)          | Ian    |
+|               | 10:45      | Remote Sensing R: Flood mapping (classification)          | Benoit |
 |               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Vector Analysis R: Disaster-Vulnerability analysis        | Mary   |
+|               | 1:15       | Vector Analysis R: Disaster-Vulnerability analysis        | Ian    |
 |               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | TBA                                                       | Kelly  |
+|               | 3:30       | Review & Requests                                         |        |
 {:#agenda .table .table-striped .hide-instructor}
 
 <!-- .disable-links -->
