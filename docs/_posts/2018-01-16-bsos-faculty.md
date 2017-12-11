@@ -115,8 +115,8 @@ site.contact address in docs/_config.yml. -->
 
 **Contact:**
 
-Please email *{{ mailto }}* with any questions, including installation issues,
-or for information not covered here.
+Please email *{{ mailto }}* with any questions, or for information not covered
+here.
 
 <!--
 An eventbrite value in the YAML front matter triggers the next block.
