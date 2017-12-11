@@ -27,3 +27,6 @@ The following R packages (i.e. add-on pieces of software) need to be installed. 
 - `ggplot2`
 - `RSQLite`
 - `rmarkdown`
+- `stargazer`
+- `gridExtra`
+

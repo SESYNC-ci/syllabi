@@ -12,3 +12,14 @@
 .logo-row a:hover {
     text-decoration: none;
 }
+.input pre {
+    width: 100%;
+    background-color: #EBECE4;
+    color: darkblue;
+}
+.reveal {
+    color: #ffff88;
+}
+.reveal pre code {
+    max-height: 40vh;
+}
