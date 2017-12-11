@@ -53,13 +53,12 @@ data-driven research.
 
 The first day of the workshop (Tuesday) will utilize R and tools available
 through the RStudio development environment. The second day (Thursday) will
-introduce the Python programming and rely on severl command line tools. The
-schedule below provides an overview of the specific topics we will address
-through a series of 6-8 lessons that integrate live-coding and trainee challenge
-exercises.
+introduce Python and several command line tools. The schedule below provides an
+overview of the specific topics we will address through a series of 8 lessons
+that integrate live-coding and trainee challenge exercises.
 
 Registration is presently by invitation only, but may be opened up to any
-Faculty and research staff in the Behavioral and Social Sciences College of the
+faculty or research staff in the Behavioral and Social Sciences College of the
 University of Maryland. *Participants are welcome to attend either one or both
 days.*
 
