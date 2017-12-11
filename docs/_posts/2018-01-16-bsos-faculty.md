@@ -3,7 +3,7 @@
 
 title: Data Skills Workshop (R and Python)
 venue: Behavioral and Social Sciences College
-address: "1101 Morrill Hall"
+address: 1101 Morrill Hall
 country: us
 language: en
 latlng: 38.9843149,-76.9463928
@@ -21,7 +21,7 @@ handout:
 github:
 feedback:
 data2doc:
-shorturl: http://sesync.us/bsos
+shorturl: "http://sesync.us/t6285"
 eventbrite:
 ---
 
