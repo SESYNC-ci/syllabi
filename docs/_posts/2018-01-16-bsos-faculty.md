@@ -47,7 +47,7 @@ eventbrite:
 A SESYNC Data Skills Workshop provides researchers from the socio-environmental
 synthesis community with hands-on training in open source tools for
 collaborative coding, data management, analysis, visualization, and
-dissemination. The goal of this one-day workshop is to introduce novice and
+dissemination. The goal of this two-day workshop is to introduce novice and
 intermediate scientific coders to concepts, skills and approaches for
 data-driven research.
 
@@ -165,10 +165,9 @@ follow-up questions with individuals as needed.
 |          | *4:15*     | *FIN*                            |
 {:#agenda .table .table-striped .disable-links}
 
-<!--
-Use the next block to detail pre-arrival installation and download instructions.
-Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.md.
--->
+<!-- Use the next block to detail pre-arrival installation and download
+instructions. Certain standard procedures may be included, e.g.
+docs/_includes/setup-RStudio.md. -->
 
 ## Acknowledgements
 
