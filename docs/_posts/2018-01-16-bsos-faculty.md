@@ -127,7 +127,7 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 <iframe
   src="//eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
-  frameborder="0" height="275" width="100%"
+  frameborder="0" height="280" width="100%"
   vspace="0" hspace="0" marginheight="5" marginwidth="5"
   scrolling="auto" allowtransparency="true">
 </iframe>
