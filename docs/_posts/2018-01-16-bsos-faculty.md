@@ -22,7 +22,7 @@ github:
 feedback:
 data2doc:
 shorturl: "http://sesync.us/t6285"
-eventbrite:
+eventbrite: 41948219253
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -57,10 +57,9 @@ introduce Python and several command line tools. The schedule below provides an
 overview of the specific topics we will address through a series of 8 lessons
 that integrate live-coding and trainee challenge exercises.
 
-Registration is presently by invitation only, but may be opened up to any
-faculty or research staff in the Behavioral and Social Sciences College of the
-University of Maryland. *Participants are welcome to attend either one or both
-days.*
+Registration is open to any faculty or research staff in the Behavioral and
+Social Sciences College of the University of Maryland. *Participants are
+welcome to attend either one or both days.*
 
 <!-- The next block displays instructors' names if they are available. -->
 
