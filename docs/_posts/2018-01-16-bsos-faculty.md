@@ -186,7 +186,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Basic R]: {{ site.gh-pages }}/basic-R-lesson/course
 [Model Building Mini-Languages]: {{ site.gh-pages }}/model-lang-lesson/course
 [Data Manipulation with "dplyr"]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/course
-[Visualization with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+[Visualizations with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course
 [Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/course
 [Social Media and other APIs]: {{ site.gh-pages }}
