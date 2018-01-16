@@ -143,7 +143,7 @@ Please note, we plan to end each day with sufficient time to answer any lengthy
 follow-up questions with individuals as needed.
 
 |Tuesday   | 9:00       | Introductions & Orientation      |
-|          | 9:15       | Basic R                          |
+|          | 9:15       |[Basic R]                          |
 |          | *10:45*    | *Coffee Break*                   |
 |          | 11:00      | Model Building Mini-Languages    |
 |          | *12:15 pm* | *Lunch Break*                    |
@@ -162,7 +162,7 @@ follow-up questions with individuals as needed.
 |          | *2:30*     | *Stretch Break*                  |
 |          | 2:45       | Social Media and other APIs      |
 |          | *4:15*     | *FIN*                            |
-{:#agenda .table .table-striped .disable-links}
+{:#agenda .table .table-striped}
 
 <!-- Use the next block to detail pre-arrival installation and download
 instructions. Certain standard procedures may be included, e.g.
