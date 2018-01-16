@@ -20,7 +20,7 @@ twitter:
   - sesync-ci
 handout: https://github.com/SESYNC-ci/handouts/releases/download/bsos-faculty-2018/handouts.zip
 github:
-feedback:
+feedback: https://goo.gl/forms/AIPACjYrmDB2CKip1
 data2doc:
 shorturl: "http://sesync.us/t6285"
 eventbrite: 41948219253
