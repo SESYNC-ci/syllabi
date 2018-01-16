@@ -16,7 +16,8 @@ instructors:
   - Mary Shelley, Associate Director of Synthesis @SESYNC
 contact: icarroll@sesync.org
 etherpad:
-twitter: #sesync-ci
+twitter: 
+  - sesync-ci
 handout: https://github.com/SESYNC-ci/handouts/releases/download/bsos-faculty-2018/handouts.zip
 github:
 feedback:
