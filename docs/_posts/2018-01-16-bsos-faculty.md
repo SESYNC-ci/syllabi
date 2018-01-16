@@ -167,6 +167,12 @@ follow-up questions with individuals as needed.
 instructions. Certain standard procedures may be included, e.g.
 docs/_includes/setup-RStudio.md. -->
 
+## Setup
+
+- Day 1
+  - login to https://lab.sesync.org/rstudio/ with the username from your e-mail address
+  - run `unzip('/tmp/handouts.zip', exdir = 'handouts')`
+
 ## Acknowledgements
 
 Portions of the instructional materials, along with the structure of the
