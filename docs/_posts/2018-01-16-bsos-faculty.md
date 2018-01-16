@@ -145,11 +145,11 @@ follow-up questions with individuals as needed.
 |Tuesday   | 9:00       | Introductions & Orientation      |
 |          | 9:15       |[Basic R]                          |
 |          | *10:45*    | *Coffee Break*                   |
-|          | 11:00      | Model Building Mini-Languages    |
+|          | 11:00      | [Model Building Mini-Languages]    |
 |          | *12:15 pm* | *Lunch Break*                    |
-|          | 1:00       | Data Manipulation with "dplyr"   |
+|          | 1:00       | [Data Manipulation with "dplyr"]   |
 |          | *2:30*     | *Stretch Break*                  |
-|          | 2:45       | Visualizations with "ggplot2"    |
+|          | 2:45       | [Visualizations with "ggplot2"]    |
 |          | *4:15*     | *FIN*                            |
 |Wednesday |            | *NOT MEETING*                    |
 |Thursday  | 9:00       | [Re-]Introductions & Orientation |
