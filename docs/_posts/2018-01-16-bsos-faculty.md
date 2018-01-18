@@ -153,12 +153,12 @@ follow-up questions with individuals as needed.
 |          | *4:15*     | *FIN*                            |
 |Wednesday |            | *NOT MEETING*                    |
 |Thursday  | 9:00       | [Re-]Introductions & Orientation |
-|          | 9:15       | git and More Tools in the Shell  |
+|          | 9:15       | [git and More Tools in the Shell]  |
 |          | *10:30*    | *Coffee Break*                   |
-|          | 10:45      | Basic Python                     |
+|          | 10:45      | [Basic Python]                    |
 |          | *12:15 pm* | *Lunch Break*                    |
 |          | 1:00       | Software Portals (PyPI and CRAN) |
-|          | 1:30       | Online Data and Repositories     |
+|          | 1:30       | [Online Data and Repositories]     |
 |          | *2:30*     | *Stretch Break*                  |
 |          | 2:45       | Social Media and other APIs      |
 |          | *4:15*     | *FIN*                            |
@@ -187,6 +187,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Model Building Mini-Languages]: {{ site.gh-pages }}/model-lang-lesson/course
 [Data Manipulation with "dplyr"]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
 [Visualizations with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+git and More Tools in the Shell {{ site.gh-pages }}/git-in-the-shell-lesson/course
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course
 [Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/course
 [Social Media and other APIs]: {{ site.gh-pages }}
