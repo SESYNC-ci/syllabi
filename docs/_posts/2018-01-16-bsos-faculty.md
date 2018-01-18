@@ -178,7 +178,46 @@ docs/_includes/setup-RStudio.md. -->
   - Sign-in or sign-up at <http://github.com>
   - start at <https://lab.sesync.org>
   - login the JupyterLab, ask for your username and password
-  
+
+## Software
+
+Use the default installation options for all packages. For Windows users, an installer for each item is available at the given download site. Mac users are encouraged to use Homebrew – the missing package manager for OS X – via the shell, although the downlink links also provide .dmg installers.
+
+git
+: https://git-scm.com/downloads
+: `brew install git`
+
+R
+: https://cran.rstudio.com/
+: `brew install r`
+
+RStudio (free version)
+: https://www.rstudio.com/products/rstudio/download2/
+: Use the downloader.
+
+Python 3.x
+: https://www.python.org/downloads/
+: `brew install python3`
+
+The following R packages need to be installed after R and Rstudio are installed. Open RStudio and, for each package below, type `install.packages(%package%)` at the prompt and press return. Follow all prompts.
+
+- tidyr
+- dplyr
+- magrittr
+- stringr
+- ggplot2
+- data.table
+- lme4
+
+The following Python packages need to be installed Python. Open a shell/terminal and, for each package below, run `pip3 install %package%`.
+
+- pandas
+- jupyterlab
+- beautifulsoup4
+- requests
+- census
+- ggplot
+
 ## Acknowledgements
 
 Portions of the instructional materials, along with the structure of the
