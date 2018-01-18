@@ -158,7 +158,7 @@ follow-up questions with individuals as needed.
 |          | 10:45      | [Basic Python]                    |
 |          | *12:15 pm* | *Lunch Break*                    |
 |          | 1:00       | Software Portals (PyPI and CRAN) |
-|          | 1:30       | [Online Data and Repositories]     |
+|          | 1:30       | [Web Services and APIs with Python] |
 |          | *2:30*     | *Stretch Break*                  |
 |          | 2:45       | Social Media and other APIs      |
 |          | *4:15*     | *FIN*                            |
