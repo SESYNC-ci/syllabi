@@ -218,7 +218,7 @@ The following Python packages need to be installed Python. Open a shell/terminal
 - census
 - ggplot
 
-After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab --sys-prefix` in the shell/terminal to complete installation.
+After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab --sys-prefix` in the shell/terminal to complete installation. [JupyterLab](http://jupyterlab-tutorial.readthedocs.io/en/latest/) runs through your browser, to launch it, enter `jupyter lab` in the shell/terminal, and stop it with Ctrl-C.
 
 ## Acknowledgements
 
