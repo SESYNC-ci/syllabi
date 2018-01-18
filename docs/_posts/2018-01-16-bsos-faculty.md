@@ -174,6 +174,7 @@ docs/_includes/setup-RStudio.md. -->
   - login to <https://lab.sesync.org/rstudio/> with the username from your e-mail address
   - run `unzip('/tmp/handouts.zip', exdir = 'handouts')`
 - Day 2
+  - Settle in next to a friend ... or make one!
   - Sign-in or sign-up at <http://github.com>
   - start at <https://lab.sesync.org>
   - login the JupyterLab, ask for your username and password
