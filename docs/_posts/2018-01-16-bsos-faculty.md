@@ -19,7 +19,7 @@ etherpad:
 twitter: 
   - sesync-ci
 handout: https://github.com/SESYNC-ci/handouts/releases/download/bsos-faculty-2018/handouts.zip
-github:
+github: true
 feedback: https://goo.gl/forms/AIPACjYrmDB2CKip1
 data2doc:
 shorturl: "http://sesync.us/t6285"
@@ -147,13 +147,13 @@ follow-up questions with individuals as needed.
 |          | *10:45*    | *Coffee Break*                   |
 |          | 11:00      | [Model Building Mini-Languages]    |
 |          | *12:15 pm* | *Lunch Break*                    |
-|          | 1:00       | [Data Manipulation with "dplyr"]   |
+|          | 1:00       | [Data Manipulation with "dplyr"]  |
 |          | *2:30*     | *Stretch Break*                  |
-|          | 2:45       | [Visualizations with "ggplot2"]    |
+|          | 2:45       | [Visualizations with "ggplot2"]   |
 |          | *4:15*     | *FIN*                            |
 |Wednesday |            | *NOT MEETING*                    |
 |Thursday  | 9:00       | [Re-]Introductions & Orientation |
-|          | 9:15       | [git and More Tools in the Shell]  |
+|          | 9:15       | [git and More Tools in the Shell] |
 |          | *10:30*    | *Coffee Break*                   |
 |          | 10:45      | [Basic Python]                    |
 |          | *12:15 pm* | *Lunch Break*                    |
@@ -171,9 +171,13 @@ docs/_includes/setup-RStudio.md. -->
 ## Setup
 
 - Day 1
-  - login to https://lab.sesync.org/rstudio/ with the username from your e-mail address
+  - login to <https://lab.sesync.org/rstudio/> with the username from your e-mail address
   - run `unzip('/tmp/handouts.zip', exdir = 'handouts')`
-
+- Day 2
+  - Sign-in or sign-up at <http://github.com>
+  - start at <https://lab.sesync.org>
+  - login the JupyterLab, ask for your username and password
+  
 ## Acknowledgements
 
 Portions of the instructional materials, along with the structure of the
@@ -187,7 +191,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Model Building Mini-Languages]: {{ site.gh-pages }}/model-lang-lesson/course
 [Data Manipulation with "dplyr"]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
 [Visualizations with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-git and More Tools in the Shell {{ site.gh-pages }}/git-in-the-shell-lesson/course
+[git and More Tools in the Shell]: {{ site.gh-pages }}/git-in-the-shell-lesson/course
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course
 [Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/course
 [Social Media and other APIs]: {{ site.gh-pages }}
