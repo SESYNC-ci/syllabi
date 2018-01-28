@@ -9,15 +9,10 @@ copyright: "&copy; National Socio-Environmental Synthesis Center (SESYNC)<br>1 P
 
 # Jekyll
 
+github: [metadata]
 future: true
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-defaults:
-  -
-    scope:
-      path: ''
-    values:
-      layout: 'default'
-gems:
+plugins:
   - jekyll-redirect-from
