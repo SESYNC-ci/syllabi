@@ -6,7 +6,7 @@ venue: Behavioral and Social Sciences College
 address: 1101 Morrill Hall
 country: us
 language: en
-latlng: 38.9843149,-76.9463928
+latlng: 38.984344,-76.9447095
 humandate: Jan 16, 2017 # use three-letter month names
 humantime: 9:00 am - 4:00 pm
 startdate: 2018-01-16
