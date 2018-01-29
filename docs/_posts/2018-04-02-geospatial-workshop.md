@@ -150,12 +150,12 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | *3:30*     | *Break*                                                   |        |
 |               | 3:45       | Practical & Questions                                     | Benoit |
 |               | *5:00*     | *Reception (informal with snacks and tasty beverages)*    |        |
-| **Tuesday**   | 9:00 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Clark County* | Benoit |
+| **Tuesday**   | 9:00 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
 |               | 10:45      | Raster Time-Series<br>*Wildfire in Alaska*                |  Ian   |
 |               | *12:30 pm* | *Lunch*                                                   |        |
 |               | 1:30       | Practical & Questions                                     |        |
-|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Harvey Inundation* | Benoit |
+|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Inundation* | Benoit |
 |               | *3:30*     | *Break*                                                   |        |
 |               | 3:45       | Remote Sensing & Classification<br>*continued*            | Benoit |
 | **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                  | Ian    |
