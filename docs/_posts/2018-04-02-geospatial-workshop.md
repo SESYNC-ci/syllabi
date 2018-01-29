@@ -12,9 +12,9 @@ humantime: 9:00 am - 5:00 pm
 startdate: 2018-04-02
 enddate: 2018-04-04
 instructors:    
+  - Benoit Parmentier, Data Scientist
   - Ian Carroll, Data Scientist
   - Mary Shelly, Associate Director for Synthesis
-  - Benoit Parmentier, Data Scientist
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
 contact:
 etherpad:
@@ -45,8 +45,12 @@ shorturl:
 
 ## General Information
 
-This workshop introduces participants to open source tools for geospatial and temporal analysis with emphasis. The workshop will start with a short introduction to R and review the different packages available to carry out GIS analyses. Topics include performing map algebra, plotting raster/vector, raster cropping, raster extraction using vector data and other raster processing. The workshop will also cover basic raster time series analysis using raster image stack. We also provide an introduction to web mapping tools (leaflet) and geovisualization (in R).
-Through lectures, hands-on computer labs, and project consultation, SESYNC staff will aim to accelerate your team's adoption of cyber resources for all phases of data-driven research and dissemination.
+This workshop introduces participants to open source tools for geospatial and
+temporal analysis of vector and raster data. The workshop will emphasize R
+packages and, to a lesser extent, Python libraries commonly used in GIS. Through
+lectures and hands-on computer labs, listed in the schedule below, SESYNC staff
+will aim to accelerate your adoption of computational resources for all phases of
+data-driven geospatial research.
 
 Participants should expect to:
 
@@ -55,7 +59,7 @@ Participants should expect to:
 - gain coding confidence
 - have fun
 
-Please review the agenda below and follow the [**pre-arrival installation instructions**](#pre-arrival-installation-instructions).
+<!-- Please review the agenda below and follow the [**pre-arrival installation instructions**](#pre-arrival-installation-instructions). -->
 
 <!-- The next block displays instructors' names if they are available. -->
 
@@ -71,9 +75,9 @@ Please review the agenda below and follow the [**pre-arrival installation instru
 {% for name in page.assistants %}- {{ name }}  
 {% endfor%}{% endif %}
 
-**When:**
+<!-- The next block displays the start [and end] date. -->
 
-Optional day for basic R training: Monday, July 17
+**When:**
 
 {% if page.enddate %}
 {{ page.startdate | date: "%A, %B %-d, %Y" }} to {{ page.enddate | date: "%A, %B %-d, %Y" }}
@@ -81,7 +85,8 @@ Optional day for basic R training: Monday, July 17
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
-<!-- The next block displays the address and links to a map showing directions. -->
+<!-- The next block displays the address and links to a map showing directions.
+-->
 
 {% if page.latlng %}
 **Where:**
@@ -93,26 +98,25 @@ Get directions with
 <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 {% endif %}
 
-<!--
-The following block automatically inserts a contact email address if one has been specified
-for the page. If one hasn't, this block inserts the site.contact address in docs/_config.yml.
--->
+<!-- The next block inserts a contact email address if one has been specified
+for the page. If one hasn't, this block inserts the site.contact address in
+docs/_config.yml. -->
 
 **Contact:**
 
-Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
+Please email *{{ mailto }}* with any questions, including installation issues,
+or for information not covered here.
 
 <!-- Modify the next block if there are any special requirements. -->
 
 ## Requirements
 
-- Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), and have installed the software described below the schedule.
-- At least one team member must bring data for the mini-project; a sample/incomplete data is okay.
-- After the course, participants must complete a [reimbursement form] to recover allowed travel expenses.
+- Participants must **bring a laptop** with a Mac, Linux, or Windows operating
+  system (not a tablet, Chromebook, etc.).
+- **After** the course, participants must complete a
+  [reimbursement form] to recover allowed travel expenses.
 
-<!--
-An eventbrite value in the YAML front matter triggers the next block.
--->
+<!-- An eventbrite value in the YAML front matter triggers the next block. -->
 
 {% if page.eventbrite %}
 ## Registration
@@ -126,97 +130,48 @@ An eventbrite value in the YAML front matter triggers the next block.
 </iframe>
 {% endif %}
 
-<!-- Compose the schedule below. The instructor field is only visible with URL query string parameter "draft=TRUE" -->
+<!-- Compose the schedule below. The instructor field is only visible with URL
+query string parameter "draft=TRUE" -->
 
 ## Schedule
 
 **Sessions begin promptly at 9:00 am.**
 
-**Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch provided by SESYNC at 12:15 pm, and an afternoon break. Trainees are responsible for their own breakfast and dinner arrangements (we can make recommendations).
+**Nourishment** will arrive at the 10:30 am coffee break, the on-site lunch
+provided by SESYNC at 12:30 pm, and an afternoon break. Trainees are responsible
+for their own breakfast and dinner arrangements (we can make recommendations).
 
 | **Monday**    | 9:00 am    | Introduction to SESYNC                                    | Mary   |
-|               | 9:15 am    | Introduction to Spatial R and Open Source Tools           | Benoit |
+|               | 9:15 am    | The Landscape of Open Source Geospatial Analysis          | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Vector Analysis R: Lead Poisoning in Syracuse             | Benoit |
-|               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Suitability Analysis R: Conservation                      | Benoit |
-|               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Raster Analysis: Land/Hydrology application               |        |
-| **Tuesday**   | 9:15       | Python and Spatial data: Hurricane Harvey                 | Ian    |
+|               | 10:45      | Vector Operations in R<br>*Lead Poisoning in Syracuse*    | Ian    |
+|               | *12:30 pm* | *Lunch*                                                   |        |
+|               | 1:30       | Raster Operations in R<br>*Application TBD*               | Benoit |
+|               | *3:30*     | *Break*                                                   |        |
+|               | 3:45       | Practical & Questions                                     | Benoit |
+|               | *5:00*     | *Reception (informal with snacks and tasty beverages)*    |        |
+| **Tuesday**   | 9:00 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Clark County* | Benoit |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Spatial Database + QGIS and Python                        | Ian    |
-|               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Geovisualization in R                                     | Kelly? |
-|               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | API map server and leaflet                                | Kelly? |
-|               | *5:00*     | *Reception (informal with snacks, tasty beverages, etc.)* |        |
-| **Wednesday** | 9:00 am    | Raster Analysis: Time series and Fire in Alaska           | Ian    |
+|               | 10:45      | Raster Time-Series<br>*Wildfire in Alaska*                |  Ian   |
+|               | *12:30 pm* | *Lunch*                                                   |        |
+|               | 1:30       | Practical & Questions                                     |        |
+|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Harvey Inundation* | Benoit |
+|               | *3:30*     | *Break*                                                   |        |
+|               | 3:45       | Remote Sensing & Classification<br>*continued*            | Benoit |
+| **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                  | Ian    |
 |               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Remote Sensing R: Flood mapping (classification)          | Benoit |
-|               | *12:15 pm* | *Lunch*                                                   |        |
-|               | 1:15       | Vector Analysis R: Disaster-Vulnerability analysis        | Ian    |
-|               | *3:15*     | *Break*                                                   |        |
-|               | 3:30       | Review & Requests                                         |        |
+|               | 10:45      | Pipelines for Online Data<br>*USGS FEWS NET Data Portal*  | Ian    |
+|               | *12:30 pm* | *Lunch*                                                   |        |
+|               | 1:30       | Practical & Questions                                     |        |
+|               | 3:00       | Geovisualization with Shiny and Leaflet<br>*National Land Cover Dataset* | Kelly  |
+|               | *3:30*     | *Break*                                                   |        |
+|               | 3:45       | Geovisualization with Shiny and Leaflet<br>*continued*    | Kelly  |
 {:#agenda .table .table-striped .hide-instructor}
-
 <!-- .disable-links -->
 
-<!--
-Use the next block to detail pre-arrival installation and download instructions.
-Certain standard procedures may be included, e.g. docs/_includes/setup-RStudio.md.
--->
-
-## Pre-Arrival Installation Instructions
-
-A bundle of all the software needed for the Geospatial Workshop is available as a Docker "container", a virtual server that your laptop will run in the background. To use the container, you "only" need to install Docker with Kitematic (it may be harder than the average install). If you cannot get Docker running, you must install several pieces of software separately. In short, please complete **only one** of the three sets of instructions below:
-
-- **Option 1:** [Docker for newer Windows and macOS laptops](#option-1-docker)
-- **Option 2:** [Docker Toolbox for laptops with an older operating system](#option-2-docker-toolbox)
-- ~~**Option 3:** [if 1 does not apply and 2 fails ...](#option-3-itemized-installation)~~
-
-### Option 1: Docker
-
-If you run **Windows** 10 Pro, Education, or Enterprise (64bit), you can probably install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#install-docker-for-windows). The installer will ask to enable the Windows 10 utility [Hyper-V](https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v), which you should "Ok". After restart, Docker will show up in the lower-right system tray (it may be hidden, so expand to see all running services). Docker may display an error message if your laptop's virtualization technology is turned off in the system BIOS. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs. To complete installation, right-click the Docker icon in your system tray and choose "Kitematic". Move the contents of the downloaded .zip file to a new folder called "Kitematic" within "C:\Program Files\Docker". Now Kitematic will launch from the right-click menu of the Docker icon in the system tray.
-
-If you run **macOS** 10.11+ (El Capitan or newer), you can probably install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/). Download and open the "Stable" installer and drag the Docker app icon into your Applications folder, as instructed. Kitematic will be in the menu opened by tapping on the Docker icon, once the icon appears in the menu bar.
-
-On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
-
-### Option 2: Docker Toolbox
-
-If you run 64bit **Windows** 7 or higher you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/), a legacy version of "Docker for Windows". After running the installer (leaving all the default settings), you will have three new applications: the Docker Quickstart Terminal, Kitematic and Oracle VM Virtualbox. When you are in a patient mood, launch Kitematic. You may see an error ending with a complaint about "VT-X/AMD-v" and the "BIOS" if your laptop's virtualization technology is turned off. In that case, search the internet for system-specific instructions for changing your BIOS settings using the keywords "enable vt-x %laptop type%" (e.g. "enable vt-x thinkpad") or "enable amd-v %laptop type%" on non-Intel PCs.
-
-If you run **macOS** 10.8+ (Mountain Lion or newer) you can probably install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/), a legacy version of "Docker for Mac". Choose "Get Docker Toolbox for Mac" from the installation guide to download the installer, click the package to install and complete the instructions.
-
-On both **Windows** and **macOS**, run Kitematic and skip account sign-up if asked. Search for "sesync", and create the "teaching-lab" container. If some text appears in the "Container Logs", you are ready to go. You can "Stop" the container and quit Docker.
-
-### Option 3: Itemized Installation
-
-The table below lists software we use in the short course. Unless noted (and especially for `git`) please use the default installation options. For **Windows users**, an installer for each item is available at the given download site. **Mac users** are encouraged to use [Homebrew](http://brew.sh){:target="_blank"} -- the missing package manager for OS X -- via the shell. Most packages in the list below can be installed with `brew install %package%`, but packages with an * require `brew cask install %package%`.
-**Ubuntu users** may install from the shell with `sudo apt-get install %package%`, and other Linux users are on their own.
-
-| Software   | Download Site                                         | Homebrew Package(s)         | Aptitude Package(s)    |
-|------------+-------------------------------------------------------+-----------------------------+------------------------|
-| git        | <https://git-scm.com/downloads>                       | `git`                       | `git`                  |
-| R          | <https://cran.rstudio.com/>                           | `r`                         | `r-base`               |
-| RStudio    | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*                  |                        |
-| Python 3.x | <https://www.python.org/downloads/>                   | `python3`                   | `python3`              |
-| GDAL/OGR   | <https://trac.osgeo.org/osgeo4w/>                     | `gdal2`<sup>1</sup>, `geos` | `gdal-bin`<sup>2</sup> |
-{:.table}
-
-1: **macOS** users will need to execute `brew tap osgeo/osgeo4mac` prior to running `brew install gdal2`.
-
-2: **Ubuntu** users will need to add the [UbuntuGIS](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) repository prior to running `apt-get install gdal-bin`
-
-The following R packages need to be installed. Open RStudio and, for each package below, type `install.packages(%package%)` at the prompt and press return. Follow all prompts.
-
-- `tidyr`
-- `ggplot2`
-- `RSQLite`
-- `rgdal`
-- `rgeos`
-- `shiny`
-- `leaflet`
+<!-- Use the next block to detail pre-arrival installation and download
+instructions. Certain standard procedures may be included, e.g.
+docs/_includes/setup-RStudio.md. -->
 
 ## Acknowledgments
 
