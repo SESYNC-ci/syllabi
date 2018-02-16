@@ -239,10 +239,10 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[Basic R]: {{ '/basic-R-lesson/2018/01/16/' | relative_url }}
-[Model Building Mini-Languages]: {{ '/model-lang-lesson/2018/01/16/' | relative_url }}
-[Data Manipulation with "dplyr"]: {{ '/census-data-manipulation-in-R-lesson/2018/01/16/' | relative_url }}
-[Visualizations with "ggplot2"]: {{ '/graphics-with-ggplot2-lesson/2018/01/16/' | relative_url }}
-[git and More Tools in the Shell]: {{ '/git-in-the-shell-lesson/2018/01/16/' | relative_url }}
-[Basic Python]: {{ '/basic-Python-lesson/2018/01/16/' | relative_url }}
-[Web Services and APIs with Python]: {{ '/online-data-lesson/2018/01/16/' | relative_url }}
+[Basic R]: {{ site.gh-pages }}/basic-R-lesson/2018/01/16/
+[Model Building Mini-Languages]: {{ site.gh-pages }}/model-lang-lesson/2018/01/16/
+[Data Manipulation with "dplyr"]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2018/01/16/
+[Visualizations with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2018/01/16/
+[git and More Tools in the Shell]: {{ site.gh-pages }}/git-in-the-shell-lesson/2018/01/16/
+[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/2018/01/16/
+[Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/2018/01/16/
