@@ -142,26 +142,26 @@ query string parameter "draft=TRUE" -->
 Please note, we plan to end each day with sufficient time to answer any lengthy
 follow-up questions with individuals as needed.
 
-|Tuesday   | 9:00       | Introductions & Orientation      |
-|          | 9:15       |[Basic R]                          |
-|          | *10:45*    | *Coffee Break*                   |
-|          | 11:00      | [Model Building Mini-Languages]    |
-|          | *12:15 pm* | *Lunch Break*                    |
-|          | 1:00       | [Data Manipulation with "dplyr"]  |
-|          | *2:30*     | *Stretch Break*                  |
-|          | 2:45       | [Visualizations with "ggplot2"]   |
-|          | *4:15*     | *FIN*                            |
-|Wednesday |            | *NOT MEETING*                    |
-|Thursday  | 9:00       | [Re-]Introductions & Orientation |
-|          | 9:15       | [git and More Tools in the Shell] |
-|          | *10:30*    | *Coffee Break*                   |
-|          | 10:45      | [Basic Python]                    |
-|          | *12:15 pm* | *Lunch Break*                    |
-|          | 1:00       | Software Portals (PyPI and CRAN) |
-|          | 1:30       | [Web Services and APIs with Python] |
-|          | *2:30*     | *Stretch Break*                  |
-|          | 2:45       | Social Media and other APIs      |
-|          | *4:15*     | *FIN*                            |
+|Tuesday   | 9:00       | Introductions & Orientation         |
+|          | 9:15       |[Basic R]                            |
+|          | *10:45*    | *Coffee Break*                      |
+|          | 11:00      | [Model Building Mini-Languages]     |
+|          | *12:15 pm* | *Lunch Break*                       |
+|          | 1:00       | [Data Manipulation with "dplyr"]    |
+|          | *2:30*     | *Stretch Break*                     |
+|          | 2:45       | [Visualizations with "ggplot2"]     |
+|          | *4:15*     | *FIN*                               |
+|Wednesday |            | *NOT MEETING*                       |
+|Thursday  | 9:00       | [Re-]Introductions & Orientation    |
+|          | 9:15       | [git and More Tools in the Shell]   |
+|          | *10:30*    | *Coffee Break*                      |
+|          | 10:45      | [Basic Python]                      |
+|          | *12:15 pm* | *Lunch Break*                       |
+|          | 1:00       | Software Portals (PyPI and CRAN)    |
+|          | 1:30       | [Web Services and APIs with Python] |
+|          | *2:30*     | *Stretch Break*                     | 
+|          | 2:45       | ~~Social Media and other APIs~~     |
+|          | *4:15*     | *FIN*                               |
 {:#agenda .table .table-striped}
 
 <!-- Use the next block to detail pre-arrival installation and download
@@ -181,7 +181,10 @@ docs/_includes/setup-RStudio.md. -->
 
 ## Software
 
-Use the default installation options for all packages. For Windows users, an installer for each item is available at the given download site. Mac users are encouraged to use Homebrew – the missing package manager for OS X – via the shell, although the downlink links also provide .dmg installers.
+Use the default installation options for all packages. For Windows users, an
+installer for each item is available at the given download site. Mac users are
+encouraged to use Homebrew – the missing package manager for OS X – via the
+shell, although the downlink links also provide .dmg installers.
 
 git
 : https://git-scm.com/downloads
@@ -199,7 +202,9 @@ Python 3.x
 : https://www.python.org/downloads/
 : `brew install python3`
 
-The following R packages need to be installed after R and Rstudio are installed. Open RStudio and, for each package below, type `install.packages(%package%)` at the prompt and press return. Follow all prompts.
+The following R packages need to be installed after R and Rstudio are installed.
+Open RStudio and, for each package below, type `install.packages(%package%)` at
+the prompt and press return. Follow all prompts.
 
 - tidyr
 - dplyr
@@ -209,7 +214,8 @@ The following R packages need to be installed after R and Rstudio are installed.
 - data.table
 - lme4
 
-The following Python packages need to be installed Python. Open a shell/terminal and, for each package below, run `pip3 install %package%`.
+The following Python packages need to be installed Python. Open a shell/terminal
+and, for each package below, run `pip3 install %package%`.
 
 - pandas
 - jupyterlab
@@ -218,7 +224,11 @@ The following Python packages need to be installed Python. Open a shell/terminal
 - census
 - ggplot
 
-After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab --sys-prefix` in the shell/terminal to complete installation. [JupyterLab](http://jupyterlab-tutorial.readthedocs.io/en/latest/) runs through your browser, to launch it, enter `jupyter lab` in the shell/terminal, and stop it with Ctrl-C.
+After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab
+--sys-prefix` in the shell/terminal to complete installation.
+[JupyterLab](http://jupyterlab-tutorial.readthedocs.io/en/latest/) runs through
+your browser, to launch it, enter `jupyter lab` in the shell/terminal, and stop
+it with Ctrl-C.
 
 ## Acknowledgements
 
@@ -229,11 +239,10 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[Basic R]: {{ site.gh-pages }}/basic-R-lesson/course
-[Model Building Mini-Languages]: {{ site.gh-pages }}/model-lang-lesson/course
-[Data Manipulation with "dplyr"]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
-[Visualizations with "ggplot2"]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[git and More Tools in the Shell]: {{ site.gh-pages }}/git-in-the-shell-lesson/course
-[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course
-[Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/course
-[Social Media and other APIs]: {{ site.gh-pages }}
+[Basic R]: {{ '/basic-R-lesson/2018/01/16/' | relative_url }}
+[Model Building Mini-Languages]: {{ '/model-lang-lesson/2018/01/16/' | relative_url }}
+[Data Manipulation with "dplyr"]: {{ '/census-data-manipulation-in-R-lesson/2018/01/16/' | relative_url }}
+[Visualizations with "ggplot2"]: {{ '/graphics-with-ggplot2-lesson/2018/01/16/' | relative_url }}
+[git and More Tools in the Shell]: {{ '/git-in-the-shell-lesson/2018/01/16/' | relative_url }}
+[Basic Python]: {{ '/basic-Python-lesson/2018/01/16/' | relative_url }}
+[Web Services and APIs with Python]: {{ '/online-data-lesson/2018/01/16/' | relative_url }}
