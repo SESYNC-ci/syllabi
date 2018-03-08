@@ -18,16 +18,15 @@
   <link href="{{site.baseurl}}/css/sesync.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/custom.css" rel="stylesheet">
   <script>
-   $(document).ready(function(){
-       // Enable lesson links and instructor column for draft == TRUE
-       var draft = new RegExp('[\?&]draft=([^&#]*)').exec(window.location.href);       
-       if (draft && draft[1] == 'TRUE') {
-           $('#agenda').removeClass('hide-instructor disable-links');   
-       }
-
-       // Set lesson links to open in new window
-       $('#agenda a').attr('target', '_blank');
-    
+    $(document).ready(function(){
+      // Enable lesson links and instructor column with query 'draft=TRUE'
+      var queryString = window.location.search.substring(1);
+      var queries = queryString.split('&');
+      if (queries.indexOf('draft=TRUE') != -1) {
+        $('#agenda').removeClass('hide-instructor disable-links');   
+      }
+      // Set lesson links to open in new window
+      $('#agenda a').attr('target', '_blank');
     });
   </script>
   
