@@ -20,6 +20,8 @@ contact:
 etherpad:
 twitter:
 handout:
+xlinklist:
+ - "<a href='http://sesync.us'>Day One Handouts</a>"
 github:
 feedback:
 data2doc:
@@ -141,37 +143,118 @@ query string parameter "draft=TRUE" -->
 provided by SESYNC at 12:30 pm, and an afternoon break. Trainees are responsible
 for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **Monday**    | 9:00 am    | Introduction to SESYNC                                    | Mary   |
-|               | 9:15 am    | The Landscape of Open Source Geospatial Analysis          | Benoit |
-|               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Vector Operations in R<br>*Lead Poisoning in Syracuse*    | Ian    |
-|               | *12:30 pm* | *Lunch*                                                   |        |
-|               | 1:30       | Raster Operations in R<br>*Application TBD*               | Benoit |
-|               | *3:30*     | *Break*                                                   |        |
-|               | 3:45       | Practical & Questions                                     | Benoit |
-|               | *5:00*     | *Reception (informal with snacks and tasty beverages)*    |        |
+| **Monday**    | 9:00 am    | Introduction to SESYNC                                      | Mary   |
+|               | 9:15 am    | [The Landscape of Open Source Geospatial Analysis][0]       | Benoit |
+|               | *10:30*    | *Break*                                                     |        |
+|               | 10:45      | [Vector Operations in R][1]<br>*Lead Poisoning in Syracuse* | Ian    |
+|               | *12:30 pm* | *Lunch*                                                     |        |
+|               | 1:30       | [Raster Operations in R][2]<br>*Land Change Modelling*      | Benoit |
+|               | *3:30*     | *Break*                                                     |        |
+|               | 3:45       | Practical & Questions                                       | Benoit |
+|               | *5:00*     | *Reception (informal with snacks and tasty beverages)*      |        |
 | **Tuesday**   | 9:00 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | Benoit |
-|               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Raster Time-Series<br>*Wildfire in Alaska*                |  Ian   |
-|               | *12:30 pm* | *Lunch*                                                   |        |
-|               | 1:30       | Practical & Questions                                     |        |
-|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Inundation* | Benoit |
-|               | *3:30*     | *Break*                                                   |        |
-|               | 3:45       | Remote Sensing & Classification<br>*continued*            | Benoit |
-| **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                  | Ian    |
-|               | *10:30*    | *Break*                                                   |        |
-|               | 10:45      | Pipelines for Online Data<br>*USGS FEWS NET Data Portal*  | Ian    |
-|               | *12:30 pm* | *Lunch*                                                   |        |
-|               | 1:30       | Practical & Questions                                     |        |
+|               | *10:30*    | *Break*                                                     |        |
+|               | 10:45      | Raster Time-Series<br>*Wildfire in Alaska*                  |  Ian   |
+|               | *12:30 pm* | *Lunch*                                                     |        |
+|               | 1:30       | Practical & Questions                                       |        |
+|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Inundation*   | Benoit |
+|               | *3:30*     | *Break*                                                     |        |
+|               | 3:45       | Remote Sensing & Classification<br>*continued*              | Benoit |
+| **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                    | Ian    |
+|               | *10:30*    | *Break*                                                     |        |
+|               | 10:45      | Pipelines for Online Data<br>*USGS FEWS NET Data Portal*    | Ian    |
+|               | *12:30 pm* | *Lunch*                                                     |        |
+|               | 1:30       | Practical & Questions                                       |        |
 |               | 3:00       | Geovisualization with Shiny and Leaflet<br>*National Land Cover Dataset* | Kelly  |
-|               | *3:30*     | *Break*                                                   |        |
-|               | 3:45       | Geovisualization with Shiny and Leaflet<br>*continued*    | Kelly  |
+|               | *3:30*     | *Break*                                                     |        |
+|               | 3:45       | Geovisualization with Shiny and Leaflet<br>*continued*      | Kelly  |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
 <!-- Use the next block to detail pre-arrival installation and download
 instructions. Certain standard procedures may be included, e.g.
 docs/_includes/setup-RStudio.md. -->
+
+## Software
+
+Each solftware listed below made some appearance in the workshop or is a
+generally useful component of the data science tool belt. Maintaining a
+functioning, up-to-date software environment is a big challenge! Consider this
+list a work-in-progress; we appreciate your suggestions for surmounting
+installation difficulties. An alternative to the list below is the [Anaconda
+R/Python Distribution](https://www.anaconda.com/download), the big-box store of
+data science.
+
+For each item, you'll find a link to a page with installation instructions,
+where available, or else to the downloadable installer. Windows users have
+little alternative to maintaining each software independently. MacOS users are
+encouraged to use Homebrew – the missing package manager for OS X – via the
+Terminal: we provide the relevant `brew install <pkg>` command, although the
+downlink links also provide .dmg installers. The third item is he package name
+that might work, for example, with `apt-get install <pkg>` on Ubuntu but YMMV.
+
+### git
+- <https://git-scm.com/downloads>
+- `brew install git`
+- `apt-get install git`
+
+### R
+- <https://cran.rstudio.com/>
+- `brew install r` or `brew cask install r-app`
+- `apt-get install r-base`
+
+### RStudio (free version)
+- <https://www.rstudio.com/products/rstudio/download2/>
+- `brew cask install rstudio`
+- ![]({{ site.baseurl }}/images/little-tux-b-w.sh.png){:style="height: 1em;"}
+
+### Python 3.x
+- <https://www.python.org/downloads/>
+- `brew install python3`
+- `apt-get install python3`
+
+### PostgreSQL
+- <https://www.postgresql.org/download/>
+- `brew install postgresql` or `brew cask install postgres`
+- `apt-get install postgresql`
+
+### postGIS
+- <https://postgis.net/install/>
+- `brew install postgis`
+- `apt-get install postgis` ([ppaubuntugis/ubuntugis-unstable](https://launchpad.net/~ubuntugis/+archive/ubuntu/ppa))
+
+### R Packages
+
+Install the following R packages after R and Rstudio are installed. Open RStudio
+and, for each package below, type `install.packages(%package%)` at the prompt
+and press return. For information on any package, navigate to
+`http://cran.r-project.org/package=%package%`. Bold packages are red hot.
+
+| tidyr       | forecast   | readr        | ROCR        |
+| **dplyr**   | gstat      | modules      | rgeos       |
+| leaflet     | plyr       | rmarkdown    | RPostgreSQL |
+| stringr     | lubridate  | randomForest | **sf**      |
+| **ggplot2** | mapview    | **raster**   | **shiny**   |
+| data.table  | dbplyr     | rasterVis    | sphet       |
+| **lme4**    | colorRamps | rgdal        | spdep       |
+| xts         | zoo        | network      | caret       |
+| magick      |            |              |             |
+
+### Python Packages
+
+The following Python packages need to be installed Python. Open a shell/terminal
+and, for each package below, run `pip3 install %package%`. Bold packages are flying off the shelves!
+
+| **geopandas**  | requests       | sqlalchemy     | pydap        |
+| **jupyterlab** | **numpy**      | pysal          | **rasterio** |
+| beautifulsoup4 | pygresql       | pandas         |              |
+| requests       | lxml           | **matplotlib** |              |
+
+After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab
+--sys-prefix` in the shell/terminal to complete installation.
+[JupyterLab](http://jupyterlab-tutorial.readthedocs.io/en/latest/) runs through
+your browser, to launch it, enter `jupyter lab` in the shell/terminal, and stop
+it with Ctrl-C.
 
 ## Acknowledgments
 
@@ -180,19 +263,18 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 <!-- Only use space below for links. -->
 
-[reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
-[Basic R: Part I]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/
-[Basic R: Part II]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/#/slides/plot
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/2017/07/18/
-[Database Principles and Use]: {{ site.gh-pages }}/introdb-lesson/2017/07/18/
-[Manipulating Tabular Data]: {{ site.gh-pages }}/data-manipulation-in-R-lesson/2017/07/18/
-[Visualization with ggplot2]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2017/07/18/
-[Database-to-Doc with RMarkdown]: {{ site.gh-pages }}/basic-RMarkdown-lesson/2017/07/18/
-[Introduction to Shiny Apps]: {{ site.gh-pages }}/basic-Shiny-lesson/2017/07/18/
-[Geospatial Packages in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2017/07/18/
-[Introduction to Python + Pandas]: {{ site.gh-pages }}/basic-Python-lesson/2017/07/18/
-[Mini-languages for Statistical Models]: {{ site.gh-pages }}/model-lang-lesson/2017/07/18/
-[Web Services and APIs with Python]: {{ site.gh-pages }}/online-data-lesson/2017/07/18/
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
-[Reading Comprehension Exercise]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/reading.html
-[Scripting Challenges]: {{ site.gh-pages }}/basic-R-lesson/2017/07/18/challenge.html
+[reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
+
+[0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EYN4YnpdgeFKiLa029Z6AhkBhbElQH362wxDalHvSLIw2A?e=Djacim
+[1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
+[2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course/
+<!--
+[3]:
+[4]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/ 
+[5]:
+[6]: {{ site.gh-pages }}/pygis-postgis-sampler-lesson/course/ 
+[7]: {{ site.gh-pages }}/gis-pipeline-lesson/course/ 
+[8]: {{ site.gh-pages }}/basic-shiny-lesson/course/ 
+-->
+
