@@ -20,12 +20,12 @@ contact:
 etherpad:
 twitter:
 handout:
-xlinklist:
- - "<a href='http://sesync.us'>Day One Handouts</a>"
+linklist:
+ - "<a href='http://sesync.us/pb1i4'>Day One Handouts</a>"
 github:
 feedback:
 data2doc:
-shorturl:
+shorturl: http://sesync.us/geospatial
 ---
 
 <!-- Capture additional variables to use below. -->
