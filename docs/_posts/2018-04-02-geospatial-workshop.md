@@ -22,6 +22,7 @@ twitter:
 handout:
 linklist:
  - "<a href='http://sesync.us/pb1i4'>Day One Handouts</a>"
+ - "<a href='http://sesync.us/iu3zg'>Day Two Handouts</a>"
 github:
 feedback:
 data2doc:
@@ -152,14 +153,14 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | *3:30*     | *Break*                                                     |        |
 |               | 3:45       | Practical & Questions                                       | Benoit |
 |               | *5:00*     | *Reception (informal with snacks and tasty beverages)*      |        |
-| **Tuesday**   | 9:00 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | Benoit |
+| **Tuesday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*             |  Ian   |
 |               | *10:30*    | *Break*                                                     |        |
-|               | 10:45      | Raster Time-Series<br>*Wildfire in Alaska*                  |  Ian   |
+|               | 10:45      | Remote Sensing & Classification<br>*Hurricane Inundation*   | Benoit |
 |               | *12:30 pm* | *Lunch*                                                     |        |
-|               | 1:30       | Practical & Questions                                       |        |
-|               | 3:00       | Remote Sensing & Classification<br>*Hurricane Inundation*   | Benoit |
+|               | 1:30       | Remote Sensing & Classification<br>*continued*              | Benoit |
+|               | 2:30       | Practical & Questions                                       | Benoit |
 |               | *3:30*     | *Break*                                                     |        |
-|               | 3:45       | Remote Sensing & Classification<br>*continued*              | Benoit |
+|               | 3:45 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | 
 | **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                    | Ian    |
 |               | *10:30*    | *Break*                                                     |        |
 |               | 10:45      | Pipelines for Online Data<br>*USGS FEWS NET Data Portal*    | Ian    |
@@ -271,8 +272,8 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EYN4YnpdgeFKiLa029Z6AhkBhbElQH362wxDalHvSLIw2A?e=Djacim
 [1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
 [2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course/
+[3]: http://cyberhelp.sesync.org/raster-time-series-alaska-lesson/course/
 <!--
-[3]:
 [4]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/ 
 [5]:
 [6]: {{ site.gh-pages }}/pygis-postgis-sampler-lesson/course/ 
