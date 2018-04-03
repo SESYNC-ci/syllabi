@@ -239,6 +239,7 @@ and press return. For information on any package, navigate to
 | **lme4**    | colorRamps | rgdal        | spdep       |
 | xts         | zoo        | network      | caret       |
 | magick      |            |              |             |
+{:.table}
 
 ### Python Packages
 
@@ -249,6 +250,7 @@ and, for each package below, run `pip3 install %package%`. Bold packages are fly
 | **jupyterlab** | **numpy**      | pysal          | **rasterio** |
 | beautifulsoup4 | pygresql       | pandas         |              |
 | requests       | lxml           | **matplotlib** |              |
+{:.table}
 
 After installing jupyterlab, run `jupyter serverextension enable --py jupyterlab
 --sys-prefix` in the shell/terminal to complete installation.
