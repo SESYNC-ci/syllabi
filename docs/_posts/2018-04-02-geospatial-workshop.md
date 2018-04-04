@@ -161,15 +161,14 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | 1:30       | Remote Sensing & Classification<br>*continued*              | Benoit |
 |               | 2:30       | Practical & Questions                                       | Benoit |
 |               | *3:30*     | *Break*                                                     |        |
-|               | 3:45 am    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | 
-| **Wednesday** | 9:00       | PyQGIS with PostGIS<br>*Application TBD*                    | Ian    |
+|               | 3:45 pm    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | 
+| **Wednesday** | 9:00       | [PyQGIS with PostGIS][6]<br>*Application TBD*                    | Ian    |
 |               | *10:30*    | *Break*                                                     |        |
-|               | 10:45      | Pipelines for Online Data<br>*USGS FEWS NET Data Portal*    | Ian    |
+|               | 10:45 am   | [Geovisualization with Shiny and Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
 |               | *12:30 pm* | *Lunch*                                                     |        |
-|               | 1:30       | Practical & Questions                                       |        |
-|               | 3:00       | Geovisualization with Shiny and Leaflet<br>*National Land Cover Dataset* | Kelly  |
+|               | 1:30       | [Pipelines for Online Data][7]<br>*USGS FEWS NET Data Portal*    | Ian    |
 |               | *3:30*     | *Break*                                                     |        |
-|               | 3:45       | Geovisualization with Shiny and Leaflet<br>*continued*      | Kelly  |
+|               | 3:45 pm    | Practical & Questions                                       |        |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
@@ -274,11 +273,9 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
 [2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course/
 [3]: http://cyberhelp.sesync.org/raster-time-series-alaska-lesson/course/
-<!--
 [4]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/ 
-[5]:
-[6]: {{ site.gh-pages }}/pygis-postgis-sampler-lesson/course/ 
-[7]: {{ site.gh-pages }}/gis-pipeline-lesson/course/ 
-[8]: {{ site.gh-pages }}/basic-shiny-lesson/course/ 
+[6]: {{ site.gh-pages }}/basic-python-gis-lesson/course/ 
+[7]: {{ site.gh-pages }}/fldas-pipeline-lesson/course/ 
+[8]: {{ site.gh-pages }}/leaflet-in-R-lesson/course/ 
 -->
 
