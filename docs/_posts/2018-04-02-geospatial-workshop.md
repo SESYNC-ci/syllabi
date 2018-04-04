@@ -23,6 +23,7 @@ handout:
 linklist:
  - "<a href='http://sesync.us/pb1i4'>Day One Handouts</a>"
  - "<a href='http://sesync.us/iu3zg'>Day Two Handouts</a>"
+ - "<a href='http://sesync.us/qlp4m'>Day Three Handouts</a>"
 github:
 feedback:
 data2doc:
