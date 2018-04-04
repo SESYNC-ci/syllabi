@@ -189,7 +189,7 @@ data science.
 For each item, you'll find a link to a page with installation instructions,
 where available, or else to the downloadable installer. Windows users have
 little alternative to maintaining each software independently. MacOS users are
-encouraged to use Homebrew – the missing package manager for OS X – via the
+encouraged to use [Homebrew](https://brew.sh/)–the missing package manager for OS X–via the
 Terminal: we provide the relevant `brew install <pkg>` command, although the
 downlink links also provide .dmg installers. The third item is he package name
 that might work, for example, with `apt-get install <pkg>` on Ubuntu but YMMV.
@@ -239,7 +239,7 @@ and press return. For information on any package, navigate to
 | data.table  | dbplyr     | rasterVis    | sphet       |
 | **lme4**    | colorRamps | rgdal        | spdep       |
 | xts         | zoo        | network      | caret       |
-| magick      |            |              |             |
+| magick      | **sp**     |              |             |
 {:.table}
 
 ### Python Packages
