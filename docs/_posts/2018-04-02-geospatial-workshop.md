@@ -25,7 +25,7 @@ linklist:
  - "<a href='http://sesync.us/iu3zg'>Day Two Handouts</a>"
  - "<a href='http://sesync.us/qlp4m'>Day Three Handouts</a>"
 github:
-feedback:
+feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
 data2doc:
 shorturl: http://sesync.us/geospatial
 ---
