@@ -145,30 +145,30 @@ query string parameter "draft=TRUE" -->
 provided by SESYNC at 12:30 pm, and an afternoon break. Trainees are responsible
 for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **Monday**    | 9:00 am    | Introduction to SESYNC                                      | Mary   |
-|               | 9:15 am    | [The Landscape of Open Source Geospatial Analysis][0]       | Benoit |
-|               | *10:30*    | *Break*                                                     |        |
-|               | 10:45      | [Vector Operations in R][1]<br>*Lead Poisoning in Syracuse* | Ian    |
-|               | *12:30 pm* | *Lunch*                                                     |        |
-|               | 1:30       | [Raster Operations in R][2]<br>*Land Change Modelling*      | Benoit |
-|               | *3:30*     | *Break*                                                     |        |
-|               | 3:45       | Practical & Questions                                       | Benoit |
-|               | *5:00*     | *Reception (informal with snacks and tasty beverages)*      |        |
-| **Tuesday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*             |  Ian   |
-|               | *10:30*    | *Break*                                                     |        |
-|               | 10:45      | Remote Sensing & Classification<br>*Hurricane Inundation*   | Benoit |
-|               | *12:30 pm* | *Lunch*                                                     |        |
-|               | 1:30       | Remote Sensing & Classification<br>*continued*              | Benoit |
-|               | 2:30       | Practical & Questions                                       | Benoit |
-|               | *3:30*     | *Break*                                                     |        |
-|               | 3:45 pm    | Intersections, Zonal Statistics, and Distance<br>*Conservation Suitability in Florida* | 
-| **Wednesday** | 9:00       | [PyQGIS with PostGIS][6]<br>*Application TBD*                    | Ian    |
-|               | *10:30*    | *Break*                                                     |        |
-|               | 10:45 am   | [Geovisualization with Shiny and Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
-|               | *12:30 pm* | *Lunch*                                                     |        |
-|               | 1:30       | [Pipelines for Online Data][7]<br>*USGS FEWS NET Data Portal*    | Ian    |
-|               | *3:30*     | *Break*                                                     |        |
-|               | 3:45 pm    | Practical & Questions                                       |        |
+| **Monday**    | 9:00 am    | Introduction to SESYNC                                        | Mary   |
+|               | 9:15 am    | [The Landscape of Open Source Geospatial Analysis][0]         | Benoit |
+|               | *10:30*    | *Break*                                                       |        |
+|               | 10:45      | [Vector Operations in R][1]<br>*Lead Poisoning in Syracuse*   | Ian    |
+|               | *12:30 pm* | *Lunch*                                                       |        |
+|               | 1:30       | [Raster Operations in R][2]<br>*Land Change Modelling*        | Benoit |
+|               | *3:30*     | *Break*                                                       |        |
+|               | 3:45       | Practical & Questions                                         | Benoit |
+|               | *5:00*     | *Reception (informal with snacks and tasty beverages)*        |        |
+| **Tuesday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*               | Ian    |
+|               | *10:30*    | *Break*                                                       |        |
+|               | 10:45      | [Remote Sensing & Classification][4]<br>*Hurricane Inundation*| Benoit |
+|               | *12:30 pm* | *Lunch*                                                       |        |
+|               | 1:30       | Remote Sensing & Classification<br>*continued*                | Benoit |
+|               | 2:30       | Practical & Questions                                         | Benoit |
+|               | *3:30*     | *Break*                                                       |        |
+|               | 3:45 pm    | [Intersections, Zonal Statistics, and Distance][5]<br>*Conservation Suitability in Florida* | Benoit |
+| **Wednesday** | 9:00       | [PyQGIS with PostGIS][6]<br>*Application TBD*                 | Ian    |
+|               | *10:30*    | *Break*                                                       |        |
+|               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
+|               | *12:30 pm* | *Lunch*                                                       |        |
+|               | 1:30       | [Pipelines for Online Data][7]<br>*USGS FEWS NET Data Portal* | Ian    |
+|               | *3:30*     | *Break*                                                       |        |
+|               | 3:45 pm    | Practical & Questions                                         |        |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
@@ -268,14 +268,12 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
-
 [0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EYN4YnpdgeFKiLa029Z6AhkBhbElQH362wxDalHvSLIw2A?e=Djacim
-[1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
-[2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course/
-[3]: http://cyberhelp.sesync.org/raster-time-series-alaska-lesson/course/
-[4]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/ 
-[6]: {{ site.gh-pages }}/basic-python-gis-lesson/course/ 
-[7]: {{ site.gh-pages }}/fldas-pipeline-lesson/course/ 
-[8]: {{ site.gh-pages }}/leaflet-in-R-lesson/course/ 
--->
-
+[1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/2018/04/02/
+[2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/2018/04/02/
+[3]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/2018/04/02/
+[4]: {{ site.gh-pages }}/remote-sensing-classification-lesson/2018/04/02/
+[5]: {{ site.gh-pages }}/geospatial-suitability-analysis-lesson/2018/04/02/
+[6]: {{ site.gh-pages }}/basic-python-gis-lesson/2018/04/02/
+[7]: {{ site.gh-pages }}/fldas-pipeline-lesson/2018/04/02/
+[8]: {{ site.gh-pages }}/leaflet-in-R-lesson/2018/04/02/
