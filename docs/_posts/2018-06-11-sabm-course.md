@@ -3,17 +3,17 @@ title: "SESYNC Short-Course: Introduction to Spatial Agent-Based Modeling"
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
-humandate: Jul 16-20, 2018
+humandate: Jun 11-15, 2018
 humantime: 8:30 am - 5:00 pm
-startdate: 2018-07-16
-enddate: 2017-07-20
+startdate: 2018-06-11
+enddate: 2018-06-15
 registration: open
 instructor: ["Nick Magliocca"]
 assistant: ["Ian Carroll", "Kelly Hondula"]
-contact: nmagliocca@sesync.org
-twitter:
-etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-17
-handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2017/handouts.zip
+contact: nrmagliocca@ua.edu
+twitter:@nickmags13
+etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-18
+handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2018/handouts.zip
 data2doc:
 github: true
 shorturl:
