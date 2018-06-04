@@ -10,8 +10,8 @@ enddate: 2018-06-15
 registration: open
 instructor: ["Nick Magliocca"]
 assistant: ["Ian Carroll"]
-contact: nmagliocca@sesync.org
-twitter:
+contact: nrmagliocca@ua.edu
+twitter: sabm2018
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-18
 handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2018/handouts.zip
 data2doc:
