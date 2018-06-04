@@ -3,17 +3,15 @@ title: "SESYNC Short-Course: Introduction to Spatial Agent-Based Modeling"
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
 country: United-States
-humandate: Jun 11 - 15, 2018
+humandate: June 11-15, 2018
 humantime: 8:30 am - 5:00 pm
 startdate: 2018-06-11
 enddate: 2018-06-15
 registration: open
-instructor:
- - "Nick Magliocca"
-assistant: 
-- "Ian Carroll"
-contact: nrmagliocca@ua.edu
-twitter: @nickmags13
+instructor: ["Nick Magliocca"]
+assistant: ["Ian Carroll"]
+contact: nmagliocca@sesync.org
+twitter: "@nickmags13"
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-18
 handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2018/handouts.zip
 data2doc:
@@ -226,12 +224,12 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 
 [1]: https://drive.google.com/open?id=1ZLPxJjqKD0rbCXcvlcox68BpzzMCre9KaosFjxIaQxc
 [2]: https://drive.google.com/open?id=1Mr577ds2hsHwlw0FafguS6UodmFS2J8ItS4EXOaQr2I
-[3]: {{ site.gh-pages }}/basic-netlogo-lesson/2018/06/11/index.html
+[3]: {{ site.gh-pages }}/basic-netlogo-lesson/2018/07/16/index.html
 [4]: https://drive.google.com/open?id=1B13R5fkProK6zFslgBCGEOkso9BLd9dVgxkcAJ9uDDc
 [5]: https://drive.google.com/open?id=1AGSS3EEke8r4l3AVHs8AGVy6z8smYyN6uoFrUq392s4
-[6]: {{ site.gh-pages }}/netlogo-programming-lesson/2018/06/11/index.html
-[7]: {{ site.gh-pages }}/basic-git-lesson/2018/06/11/index.html
+[6]: {{ site.gh-pages }}/netlogo-programming-lesson/2018/07/16/index.html
+[7]: {{ site.gh-pages }}/basic-git-lesson/2018/07/16/index.html
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
-[9]: {{ site.gh-pages }}/rnetlogo-lesson/2018/06/11/index.html
-[10]: {{ site.gh-pages }}/gis-abm-lesson/2018/06/11/index.html
+[9]: {{ site.gh-pages }}/rnetlogo-lesson/2018/07/16/index.html
+[10]: {{ site.gh-pages }}/gis-abm-lesson/2018/07/16/index.html
 [handout]: {{ page.handout }}
