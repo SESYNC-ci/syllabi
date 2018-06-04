@@ -11,7 +11,9 @@ registration: open
 instructor: ["Nick Magliocca"]
 assistant: ["Ian Carroll"]
 contact: nrmagliocca@ua.edu
-twitter: sabm2018
+twitter:
+ - sabm2018
+ - 880115261722038272
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-18
 handout: https://drive.google.com/open?id=1f78fajX0-OXxT8l6SVxUgB9ir_7K0hpO
 data2doc:
