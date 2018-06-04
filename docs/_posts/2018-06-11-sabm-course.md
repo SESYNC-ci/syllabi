@@ -89,6 +89,10 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 **Plenary sessions begin promptly at 9:00 am.** Breakfast snacks (e.g., granola bars) and coffee/tea are provided at 8:30am on-site. If you would like a more substantial breakfast, it is suggested that you eat at your hotel or a nearby restaurant prior to arriving at SESYNC. Coffee/Tea and snack breaks are at 10:30 am and 3:30 pm, and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own dinner arrangements (we can make recommendations).
 
+| Pre-Course Readings |  | 1. O’Sullivan, D., Evans, T., Manson, S., Metcalf, S., Ligmann-Zielinska, A., & Bone, C. (2016). Strategic directions for agent-based modeling: avoiding the YAAWN syndrome. Journal of land use science, 11(2), 177-187.
+     |
+|           |            | 2. Filatova, T., Verburg, P. H., Parker, D. C., & Stannard, C. A. (2013). Spatial agent-based models for socio-ecological systems: Challenges and prospects. Environmental modelling & software, 45, 1-7.
+     |
 | Monday    |    8:30 am | Coffee/Tea at SESYNC                                                                                              |
 |           |       8:45 | Course Introduction                                                                                                |
 |           |       9:15 | Lecture: [What are socio-environmental (S-E) systems?][1]                                                                                                                                                                                                     |
