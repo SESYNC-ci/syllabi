@@ -87,6 +87,10 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 **Plenary sessions begin promptly at 9:00 am.** Breakfast snacks (e.g., granola bars) and coffee/tea are provided at 8:30am on-site. If you would like a more substantial breakfast, it is suggested that you eat at your hotel or a nearby restaurant prior to arriving at SESYNC. Coffee/Tea and snack breaks are at 10:30 am and 3:30 pm, and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own dinner arrangements (we can make recommendations).
 
+| Pre-Course Readings |  | 1. O’Sullivan, D., Evans, T., Manson, S., Metcalf, S., Ligmann-Zielinska, A., & Bone, C. (2016). Strategic directions for agent-based modeling: avoiding the YAAWN syndrome. Journal of land use science, 11(2), 177-187.
+     |
+|           |            | 2. Filatova, T., Verburg, P. H., Parker, D. C., & Stannard, C. A. (2013). Spatial agent-based models for socio-ecological systems: Challenges and prospects. Environmental modelling & software, 45, 1-7.
+     |
 | Monday    |    8:30 am | Coffee/Tea at SESYNC                                                                                              |
 |           |       8:45 | Course Introduction                                                                                                |
 |           |       9:15 | Lecture: [What are socio-environmental (S-E) systems?][1]                                                                                                                                                                                                     |
@@ -220,12 +224,12 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 
 [1]: https://drive.google.com/open?id=1ZLPxJjqKD0rbCXcvlcox68BpzzMCre9KaosFjxIaQxc
 [2]: https://drive.google.com/open?id=1Mr577ds2hsHwlw0FafguS6UodmFS2J8ItS4EXOaQr2I
-[3]: {{ site.gh-pages }}/basic-netlogo-lesson/2017/06/05/index.html
+[3]: {{ site.gh-pages }}/basic-netlogo-lesson/2018/07/16/index.html
 [4]: https://drive.google.com/open?id=1B13R5fkProK6zFslgBCGEOkso9BLd9dVgxkcAJ9uDDc
 [5]: https://drive.google.com/open?id=1AGSS3EEke8r4l3AVHs8AGVy6z8smYyN6uoFrUq392s4
-[6]: {{ site.gh-pages }}/netlogo-programming-lesson/2017/06/05/index.html
-[7]: {{ site.gh-pages }}/basic-git-lesson/2017/06/05/index.html
+[6]: {{ site.gh-pages }}/netlogo-programming-lesson/2018/07/16/index.html
+[7]: {{ site.gh-pages }}/basic-git-lesson/2018/07/16/index.html
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
-[9]: {{ site.gh-pages }}/rnetlogo-lesson/2017/06/05/index.html
-[10]: {{ site.gh-pages }}/gis-abm-lesson/2017/06/05/index.html
+[9]: {{ site.gh-pages }}/rnetlogo-lesson/2018/07/16/index.html
+[10]: {{ site.gh-pages }}/gis-abm-lesson/2018/07/16/index.html
 [handout]: {{ page.handout }}
