@@ -159,7 +159,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |            | b. Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.                 |
 |           |            | c. Optional: Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48. |
 | Friday    |    8:30 am | Coffee/Tea at SESYNC, outline of the day                                                                                                                                                                                                                      |
-|           |       9:00 | Choice of Tutorials: [Introduction to version control with Git][7] OR [Use R to analyze NetLogo simulations][9]                                                                                                                                      |
+|           |       9:00 | [Introduction to version control with Git][7]                                                                         |
 |           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
 |           |      11:00 | Tutorial: [GIS and NetLogo][10]                                                                                                                                                                                                                               |
 |           |    *12:30* | *Lunch*                                                                                                                                                                                                                                                       |
@@ -189,9 +189,6 @@ The analagous command line utility for Windows is [Chocolatey](http://chocolatey
 |-------------------------+-----------------------------------------------------------+----------+----------+-------------|
 | NetLogo                 | <https://ccl.northwestern.edu/netlogo/download.shtml>     |          |          |             |
 | git                     | <https://git-scm.com/downloads>                           | `git`    | `git`    | `git`       |
-| R                       | <https://cran.r-project.org/>                             | `r`      | `r-base` | `r.project` |
-| RStudio Desktop         | <https://www.rstudio.com/products/rstudio/download2/>     |          |          |             |
-| Java SE Development Kit | <http://www.oracle.com/technetwork/java/javase/downloads> |          |          |             |
 {:.table}
 
 ### Installation
@@ -199,26 +196,6 @@ The analagous command line utility for Windows is [Chocolatey](http://chocolatey
 Follow the normal procedures for running the downloaded installers on your operating system.
 If necessary for NetLogo, drag the package contents to your Desktop, Program Files (**on Windows**), or Applications (**on Mac**) folder.
 **Mac users** may be prevented from running a ".pkg" file at first, but simply open `System Preferences` > `Security & Privacy` after receiving a warning and choose to "Open Anyway".
-
-The following R packages also need to be installed.
-Open RStudio and, for each package below, type `install.packages('%package%')` at the `>` prompt and press return.
-To install `igraph` for example, type `install.packages('igraph')` and press return.
-Proceed as directed, and seek help if the installation stops with a message saying the packaged failed to install.
-
-- `igraph`
-- `rJava` (**Mac users** should install from source: `install.packages('rJava', type='source')`)
-- `RNetLogo`
-
-### Tests
-
-RStudio, Java & NetLogo must talk to each other, but a successful install is not sufficient to guarantee they will.
-Please run following test before arrival, and notify the instructor on **day one** if your tests fails.
-
-1. [Download][handout] and unzip the handout.
-1. Open 'handouts.Rproj', and wait for RStudio to start.
-1. Type `source('tests.R')` at the `>` prompt and press return.
-1. Follow the prompt to navigate to the Java file.
-1. The message "Tests passed." indicates a working installation.
 
 Contact the instructor, in advance by e-mail or on the first day of the workshop, if your installations or tests fail.
 
