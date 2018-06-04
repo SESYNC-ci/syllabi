@@ -6,6 +6,8 @@ A syllabus for a SESYNC-cyberinfrastructure led short course provides logistical
 
 Create or find syllabus templates in the `docs/_drafts/` folder. Copy a suitable template to the `docs/_posts/` folder following the naming convention of `YYYY-MM-DD-title.md`. Use the starting day of the event for the date.
 
+For details on the YAML header fields, refer to the original [template](https://github.com/SESYNC-ci/syllabi/blob/71350afc40212e9f1d0a6178af6b86d8c93ec10b/docs/_drafts/template.md).
+
 # Offline preview
 
 No link exists to a new syllabus until one is created on SESYNC's main website, by adding a syllabus link to the event, so it is not necessary to develop a new syllabus offline. Also, the most accurate "preview" will result from letting GitHub's own build environment create the page. To view the page for any syllabus, use appropriate substitutions in the following link.
