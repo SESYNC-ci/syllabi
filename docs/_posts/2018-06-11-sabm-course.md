@@ -13,7 +13,7 @@ assistant: ["Ian Carroll"]
 contact: nrmagliocca@ua.edu
 twitter: sabm2018
 etherpad: https://public.etherpad-mozilla.org/p/sabm-jun-18
-handout: https://github.com/SESYNC-ci/handouts/releases/download/sabm-june-2018/handouts.zip
+handout: https://drive.google.com/open?id=1f78fajX0-OXxT8l6SVxUgB9ir_7K0hpO
 data2doc:
 github: true
 shorturl:
