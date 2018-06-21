@@ -145,43 +145,41 @@ An eventbrite value in the YAML front matter triggers the next block.
 provided by SESYNC at 12:30 pm, and afternoon snacks. Trainees are responsible
 for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **[Monday]**  |       9:00 | Introduction to the RStudio IDE                           |           |   |
-|               |            | [Base R]                                                  | Ian       |   |
-|               |            | [Vizualiation with ggplot]                                | Elizabeth |   |
-| **Tuesday**   |       9:00 | Welcome and Overview of SESYNC                            | Mary      |   |
-|               |       9:10 | [Collaborative Workflows & Reproducible Pipelines]        | Ian       |   |
-|               |    *10:45* | *Break*                                                   |           |   |
-|               |      11:00 | Introduce Coaches & 'data2doc'                            |           |   |
-|               |      11:45 | Meet the Teams                                            |           |   |
-|               |    *12:30* | *Lunch*                                                   |           |   |
-|               |      13:15 | [Tabular Data]                                            | Mary      |   |
-|               |      15:00 | Challenge Exercise                                        |           |   |
-|               |    *15:30* | *Break*                                                   |           |   |
-|               | till 17:00 | 'data2doc'                                                |           |   |
-|               |    *17:00* | *Reception (informal with snacks, tasty beverages, etc.)* |           |   |
-| **Wednesday** |       9:00 | [Geospatial Data]                                         | Benoit    |   |
-|               |    *10:45* | *Break*                                                   |           |   |
-|               |      11:00 | 'data2doc'                                                |           |   |
-|               |    *12:30* | *Lunch*                                                   |           |   |
-|               |      13:15 | [Regression]                                              | Ian       |   |
-|               |      15:00 | Challenge Exercise                                        |           |   |
-|               |    *15:30* | *Break*                                                   |           |   |
-|               | till 17:00 | 'data2doc'                                                |           |   |
-| **Thursday**  |       9:00 | [Python]                                                  | Kelly     |   |
-|               |    *10:45* | *Break*                                                   |           |   |
-|               |      11:00 | 'data2doc'                                                |           |   |
-|               |    *12:30* | *Lunch*                                                   |           |   |
-|               |      13:15 | [Online Data]                                             | Ian       |   |
-|               |      15:00 | Challenge Exercise                                        |           |   |
-|               |    *15:30* | *Break*                                                   |           |   |
-|               | till 17:00 | 'data2doc'                                                |           |   |
-| **Friday**    |       9:00 | [Shiny]                                                   | Kelly     |   |
-|               |    *10:45* | *Break*                                                   |           |   |
-|               |      11:00 | 'data2doc'                                                |           |   |
-|               |    *12:30* | *Lunch*                                                   |           |   |
-|               |      13:30 | 'data2doc' Presentations (10 min)                         |           |   |
-|               |    *15:30* | *Break*                                                   |           |   |
-|               | till 17:00 | [Pipelines]                                               | Ian       |   |
+| **[Monday]**  |    9:00 | Introduction to the RStudio IDE                           |           |   |
+|               |         | [Base R]                                                  | Ian       |   |
+|               |         | [Vizualiation with ggplot]                                | Elizabeth |   |
+| **Tuesday**   |    9:00 | Welcome and Overview of SESYNC                            | Mary      |   |
+|               |    9:10 | [Collaborative Workflows & Reproducible Pipelines]        | Ian       |   |
+|               | *10:45* | *Break*                                                   |           |   |
+|               |   11:00 | Introduce Coaches & 'data2doc'                            |           |   |
+|               |   11:45 | Meet the Teams                                            |           |   |
+|               | *12:30* | *Lunch*                                                   |           |   |
+|               |   13:15 | [Tabular Data]                                            | Mary      |   |
+|               |   15:00 | Challenge Exercise                                        |           |   |
+|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
+|               | *17:00* | *Reception (informal with snacks, tasty beverages, etc.)* |           |   |
+| **Wednesday** |    9:00 | [Geospatial Data]                                         | Benoit    |   |
+|               | *10:45* | *Break*                                                   |           |   |
+|               |   11:00 | 'data2doc'                                                |           |   |
+|               | *12:30* | *Lunch*                                                   |           |   |
+|               |   13:15 | [Regression]                                              | Ian       |   |
+|               |   15:00 | Challenge Exercise                                        |           |   |
+|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
+| **Thursday**  |    9:00 | [Python]                                                  | Kelly     |   |
+|               | *10:45* | *Break*                                                   |           |   |
+|               |   11:00 | 'data2doc'                                                |           |   |
+|               | *12:30* | *Lunch*                                                   |           |   |
+|               |   13:15 | [Online Data]                                             | Ian       |   |
+|               |   15:00 | Challenge Exercise                                        |           |   |
+|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
+| **Friday**    |    9:00 | [Shiny]                                                   | Kelly     |   |
+|               | *10:45* | *Break*                                                   |           |   |
+|               |   11:00 | [Data Mngmt in Pipelines]                                 | Ian       |   |
+|               | *12:30* | *Lunch*                                                   |           |   |
+|               |   13:15 | 'data2doc'                                                |           |   |
+|               |   15:00 | 'data2doc' Presentations (10 min)                         |           |   |
+|               | *15:45* | *Break*                                                   |           |   |
+|               |   16:00 | 'data2doc' Presentations (10 min)                         |           |   |
 {:#agenda .table .table-striped .hide-instructor}
 
 <!-- .disable-links -->
