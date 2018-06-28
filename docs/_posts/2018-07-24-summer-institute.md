@@ -106,8 +106,7 @@ address in docs/_config.yml.
 
 **Contact:**
 
-Please email *{{ mailto }}* with any questions, including installation issues,
-or for information not covered here.
+Please email *{{ mailto }}* with any questions or for information not covered here.
 
 <!-- Modify the next block if there are any special requirements. -->
 
@@ -141,50 +140,66 @@ An eventbrite value in the YAML front matter triggers the next block.
 
 ## Schedule
 
-**Nourishment** will arrive at the 10:45 am coffee break, the on-site lunch
-provided by SESYNC at 12:30 pm, and afternoon snacks. Trainees are responsible
+**Nourishment** will arrive at the 10:45 am break, the on-site lunch
+provided by SESYNC at 12:30 pm, and afternoon snacks. Participants are responsible
 for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **[Monday]**  |    9:00 | Introduction to the RStudio IDE                           |           |   |
-|               |         | [Base R]                                                  | Ian       |   |
-|               |         | [Vizualiation with ggplot]                                | Elizabeth |   |
-| **Tuesday**   |    9:00 | Welcome and Overview of SESYNC                            | Mary      |   |
-|               |    9:10 | [Collaborative Workflows & Reproducible Pipelines]        | Ian       |   |
-|               | *10:45* | *Break*                                                   |           |   |
-|               |   11:00 | Introduce Coaches & 'data2doc'                            |           |   |
-|               |   11:45 | Meet the Teams                                            |           |   |
-|               | *12:30* | *Lunch*                                                   |           |   |
-|               |   13:15 | [Tabular Data]                                            | Mary      |   |
-|               |   15:00 | Challenge Exercise                                        |           |   |
-|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
-|               | *17:00* | *Reception (informal with snacks, tasty beverages, etc.)* |           |   |
-| **Wednesday** |    9:00 | [Geospatial Data]                                         | Benoit    |   |
-|               | *10:45* | *Break*                                                   |           |   |
-|               |   11:00 | 'data2doc'                                                |           |   |
-|               | *12:30* | *Lunch*                                                   |           |   |
-|               |   13:15 | [Regression]                                              | Ian       |   |
-|               |   15:00 | Challenge Exercise                                        |           |   |
-|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
-| **Thursday**  |    9:00 | [Python]                                                  | Kelly     |   |
-|               | *10:45* | *Break*                                                   |           |   |
-|               |   11:00 | 'data2doc'                                                |           |   |
-|               | *12:30* | *Lunch*                                                   |           |   |
-|               |   13:15 | [Online Data]                                             | Ian       |   |
-|               |   15:00 | Challenge Exercise                                        |           |   |
-|               | *15:30* | 'data2doc' *with snacks!*                                 |           |   |
-| **Friday**    |    9:00 | [Shiny]                                                   | Kelly     |   |
-|               | *10:45* | *Break*                                                   |           |   |
-|               |   11:00 | [Data Mngmt in Pipelines]                                 | Ian       |   |
-|               | *12:30* | *Lunch*                                                   |           |   |
-|               |   13:15 | 'data2doc'                                                |           |   |
-|               |   15:00 | 'data2doc' Presentations (10 min)                         |           |   |
-|               | *15:45* | *Break*                                                   |           |   |
-|               |   16:00 | 'data2doc' Presentations (10 min)                         |           |   |
-{:#agenda .table .table-striped .hide-instructor}
-
-<!-- .disable-links -->
+| **[Monday]**  |    9:00 | Introduction to the RStudio IDE                    |           |   |
+|               |    9:15 | Pseudo-coding Exercise                             |           |   |
+|               |    9:45 | [Base R]                                           | Ian       | R |
+|               | *10:45* | *Coffee + Tea Break*                               |           |   |
+|               |   11:00 | [Base R] (continued)                               | Ian       | R |
+|               |   12:00 | Pair-coding Exercise                               |           |   |
+|               | *12:30* | *Lunch*                                            |           |   |
+|               |   13:30 | [Visualizing Tabular Data]                         | Elizabeth | R > ggplot |
+|               | *15:30* | *Snack Break*                                      |           |   |
+|               |   15:45 | Scripting Exercise                                 |           |   |
+| **Tuesday**   |    9:00 | Welcome and Overview of SESYNC                     | Mary      |   |
+|               |    9:10 | [Collaborative Workflows & Reproducible Pipelines] | Ian       | git |
+|               | *10:45* | *Coffee + Tea Break*                               |           |   |
+|               |   11:00 | Introduce Coaches & 'data2doc'                     |           |   |
+|               |   11:45 | Meet the Teams                                     |           |   |
+|               | *12:30* | *Lunch*                                            |           |   |
+|               |   13:15 | [Manipulating Tabular Data]                        | Mary      | R > dplyr |
+|               |   15:00 | Challenge Exercise                                 |           |   |
+|               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
+|               | *17:00* | *Reception (with tasty beverages, etc.)*           |           |   |
+| **Wednesday** |    9:00 | [Vector and Raster Geospatial Data]                | Benoit    | R > sf, raster |
+|               | *10:45* | *Coffee + Tea Break*                               |           |   |
+|               |   11:00 | 'data2doc'                                         |           |   |
+|               | *12:30* | *Lunch*                                            |           |   |
+|               |   13:15 | [Regression]                                       | Ian       | R > nlme |
+|               |   15:00 | Challenge Exercise                                 |           |   |
+|               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
+| **Thursday**  |    9:00 | [Classification]                                   | Kelly     | Python > scikit-learn |
+|               | *10:45* | *Coffee + Tea Break*                               |           |   |
+|               |   11:00 | 'data2doc'                                         |           |   |
+|               | *12:30* | *Lunch*                                            |           |   |
+|               |   13:15 | [Online Data]                                      | Ian       | Python > requests |
+|               |   15:00 | Challenge Exercise \| 'data2doc'                   |           |   |
+|               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
+| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > Shiny  |
+|               | *10:45* | *Coffee + Tea Break*                               |           |   |
+|               |   11:00 | [Data Provenance and Publishing]                   | Ian       |   |
+|               | *12:30* | *Lunch*                                            |           |   |
+|               |   13:15 | 'data2doc'                                         |           |   |
+|               |   15:00 | Team Presentations (4 x 10 min)                    |           |   |
+|               | *15:45* | *Snack Break*                                      |           |   |
+|               |   16:00 | Team Presentations (5 x 10 min)                    |           |   |
+{:#agenda .table .table-striped .hide-instructor .disable-links}
+<!--  -->
 
 ## Software
+
+The workshop will use RStudio, Jupyter, and many libraries and dependencies
+associated with these two Integrated Development Environments (IDEs). SESYNC
+provides a cloud platform capable of supporting the software needs for the short
+course, so there is nothing for you to install in advance. *Once finalized*, a
+complete list of the open source software you encounter will be posted here
+along with links to install guides. Feel free to request assistance any time
+during the course with installing the listed software on your laptop.
+
+<!--
 
 The table of software below is shared **for information only**, you do not need to install these programs on your laptop. FIXME
 
@@ -210,18 +225,30 @@ The following R packages need to be installed. Open RStudio and, for each packag
 - `rgeos`
 - `shiny`
 - `leaflet`
+-->
 
 ## Acknowledgments
 
-Portions of the instructional materials are adopted from [Data Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
-The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+Portions of the instructional materials are adopted from [Data
+Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software
+Carpentry](http://software-carpentry.org){:target="_blank"}. The structure of
+the curriculum as well as the teaching style are informed by [Software
+Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
+
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/course
-[Reading Comprehension Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Scripting Challenges]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
-
-
+[Reading Comprehension Exercise]: {{ site.gh-pages }}/basic-R-lesson/
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
+[Scripting Challenges]: {{ site.gh-pages }}/basic-R-lesson/
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/git-in-the-shell-lesson/course
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-R-lesson/course
+[Vector and Raster Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
+[Regression]: {{ site.gh-pages }}/model-lang-lesson/course
+[Classification]: {{ site.gh-pages }}
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/course
+[Smart and Interactive Documents]: {{ site.gh-pages }}/basic-Shiny-lesson/course
+[Data Provenance and Publishing]: {{ site.gh-pages }}
