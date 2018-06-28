@@ -20,12 +20,9 @@ assistants:
  - Elizabeth Green, Research Assistant
  - Sigfried Gold, Graduate Assistant
 contact: icarroll@sesync.org
-twitter:
-handout:
-github: true
-feedback:
-data2doc:
-shorturl: http://sesync.us/summerinstitute
+sidebar_list:
+  - "You are here: <http://sesync.us/summerinstitute>"
+  - "Do you have a [GitHub](https://www.github.com){:target=\"_blank\"} account?"
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -151,11 +148,11 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |   11:00 | [Base R] (continued)                               | Ian       | R |
 |               |   12:00 | Pair-coding Exercise                               |           |   |
 |               | *12:30* | *Lunch*                                            |           |   |
-|               |   13:30 | [Visualizing Tabular Data]                         | Elizabeth | R > ggplot |
+|               |   13:30 | [Visualizing Tabular Data]                         | Elizabeth | R > ggplot2 |
 |               | *15:30* | *Snack Break*                                      |           |   |
 |               |   15:45 | Scripting Exercise                                 |           |   |
 | **Tuesday**   |    9:00 | Welcome and Overview of SESYNC                     | Mary      |   |
-|               |    9:10 | [Collaborative Workflows & Reproducible Pipelines] | Ian       | git |
+|               |    9:10 | [Collaborative Workflows & Reproducible Pipelines] | Ian       | git, GitHub |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
 |               |   11:00 | Introduce Coaches & 'data2doc'                     |           |   |
 |               |   11:45 | Meet the Teams                                     |           |   |
@@ -178,7 +175,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |   13:15 | [Online Data]                                      | Ian       | Python > requests |
 |               |   15:00 | Challenge Exercise \| 'data2doc'                   |           |   |
 |               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
-| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > Shiny  |
+| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > shiny  |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
 |               |   11:00 | [Data Provenance and Publishing]                   | Ian       |   |
 |               | *12:30* | *Lunch*                                            |           |   |

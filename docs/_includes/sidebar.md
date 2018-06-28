@@ -2,6 +2,9 @@
 
 # Course Material <br>& Links
 
+{% for li in page.sidebar_list %}
+- {{ li }}{% endfor %}
+
 {% if page.shorturl %}
 - Also at <{{ page.shorturl }}>. {% endif %} {% if page.cloud %}
 - Do you have a [{{ page.cloud[0] }}]({{ page.cloud[1] }}){:target="_blank"} account? {% endif %} {% if page.github %}
