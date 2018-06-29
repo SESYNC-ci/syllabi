@@ -175,7 +175,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |   13:15 | [Online Data]                                      | Ian       | Python > requests |
 |               |   15:00 | Challenge Exercise \| 'data2doc'                   |           |   |
 |               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
-| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > shiny  |
+| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > rmarkdown, shiny  |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
 |               |   11:00 | [Data Provenance and Publishing]                   | Ian       |   |
 |               | *12:30* | *Lunch*                                            |           |   |
