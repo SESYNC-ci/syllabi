@@ -242,7 +242,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Scripting Challenges]: {{ site.gh-pages }}/basic-R-lesson/
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-R-lesson/course
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
 [Vector and Raster Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
 [Classification]: {{ site.gh-pages }}
