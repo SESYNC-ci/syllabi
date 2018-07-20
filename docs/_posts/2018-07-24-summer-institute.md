@@ -23,6 +23,7 @@ contact: icarroll@sesync.org
 sidebar_list:
   - "You are here: <http://sesync.us/summerinstitute>"
   - "Do you have a [GitHub](https://www.github.com){:target=\"_blank\"} account?"
+  - "Mini-project goals: [data2doc](data2doc.html)"
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -142,15 +143,15 @@ provided by SESYNC at 12:30 pm, and afternoon snacks. Participants are responsib
 for their own breakfast and dinner arrangements (we can make recommendations).
 
 | **[Monday]**  |    9:00 | Introduction to the RStudio IDE                    |           |   |
-|               |    9:15 | Pseudo-coding Exercise                             |           |   |
+|               |    9:15 | [Pseudo-coding Exercise]                           |           |   |
 |               |    9:45 | [Base R]                                           | Ian       | R |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
 |               |   11:00 | [Base R] (continued)                               | Ian       | R |
-|               |   12:00 | Pair-coding Exercise                               |           |   |
+|               |   12:00 | [Pair-coding Exercise]                             |           |   |
 |               | *12:30* | *Lunch*                                            |           |   |
 |               |   13:30 | [Visualizing Tabular Data]                         | Elizabeth | R > ggplot2 |
 |               | *15:30* | *Snack Break*                                      |           |   |
-|               |   15:45 | Scripting Exercise                                 |           |   |
+|               |   15:45 | [Scripting Exercise]                               |           |   |
 | **Tuesday**   |    9:00 | Welcome and Overview of SESYNC                     | Mary      |   |
 |               |    9:10 | [Collaborative Workflows & Reproducible Pipelines] | Ian       | git, GitHub |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
@@ -235,17 +236,22 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 <!-- Only use space below for links. -->
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
-[Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 
+[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/course
-[Reading Comprehension Exercise]: {{ site.gh-pages }}/basic-R-lesson/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/exercise
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Scripting Challenges]: {{ site.gh-pages }}/basic-R-lesson/
+[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/
+
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/git-in-the-shell-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-R-lesson/course
+
 [Vector and Raster Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
+
 [Classification]: {{ site.gh-pages }}
 [Online Data]: {{ site.gh-pages }}/online-data-lesson/course
+
 [Smart and Interactive Documents]: {{ site.gh-pages }}/basic-Shiny-lesson/course
 [Data Provenance and Publishing]: {{ site.gh-pages }}
+
