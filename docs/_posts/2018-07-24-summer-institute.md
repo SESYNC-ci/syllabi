@@ -176,7 +176,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |   13:15 | [Online Data]                                      | Ian       | Python > requests |
 |               |   15:00 | Challenge Exercise \| 'data2doc'                   |           |   |
 |               |   15:30 | 'data2doc' *+ Snacks!*                             |           |   |
-| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > shiny  |
+| **Friday**    |    9:00 | [Smart and Interactive Documents]                  | Kelly     | R > rmarkdown, shiny  |
 |               | *10:45* | *Coffee + Tea Break*                               |           |   |
 |               |   11:00 | [Data Provenance and Publishing]                   | Ian       |   |
 |               | *12:30* | *Lunch*                                            |           |   |
@@ -199,7 +199,7 @@ during the course with installing the listed software on your laptop.
 
 <!--
 
-The table of software below is shared **for information only**, you do not need to install these programs on your laptop. FIXME
+The table of software below is shared **for your information only**, you do not need to install these programs on your laptop. FIXME
 
 | Software   | Download Site                                         | Homebrew Package(s)         | Aptitude Package(s)    |
 |------------+-------------------------------------------------------+-----------------------------+------------------------|
@@ -243,8 +243,8 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/
 
-[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/git-in-the-shell-lesson/course
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-R-lesson/course
+[Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
 
 [Vector and Raster Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
@@ -252,6 +252,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Classification]: {{ site.gh-pages }}
 [Online Data]: {{ site.gh-pages }}/online-data-lesson/course
 
-[Smart and Interactive Documents]: {{ site.gh-pages }}/basic-Shiny-lesson/course
+[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
 [Data Provenance and Publishing]: {{ site.gh-pages }}
+
 
