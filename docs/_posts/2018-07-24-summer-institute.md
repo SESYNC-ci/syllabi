@@ -24,6 +24,8 @@ sidebar_list:
   - "You are here: <http://sesync.us/summerinstitute>"
   - "Do you have a [GitHub](https://www.github.com){:target=\"_blank\"} account?"
   - "Mini-project goals: [data2doc](data2doc.html)"
+  - [Handouts I](http://sesync.us/k2ofi)
+  - Handouts II
 ---
 
 <!-- Capture additional variables to use below. -->
@@ -184,8 +186,8 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |   15:00 | Team Presentations (4 x 10 min)                    |           |   |
 |               | *15:45* | *Snack Break*                                      |           |   |
 |               |   16:00 | Team Presentations (5 x 10 min)                    |           |   |
-{:#agenda .table .table-striped .hide-instructor .disable-links}
-<!--  -->
+{:#agenda .table .table-striped .hide-instructor}
+<!-- .disable-links -->
 
 ## Software
 
@@ -237,11 +239,11 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
 
-[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/
+[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/course
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/exercise
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/
+[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
@@ -250,9 +252,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
 
 [Classification]: {{ site.gh-pages }}
-[Online Data]: {{ site.gh-pages }}/online-data-lesson/course
+[Online Data]: {{ site.gh-pages }}
 
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
 [Data Provenance and Publishing]: {{ site.gh-pages }}
-
-
