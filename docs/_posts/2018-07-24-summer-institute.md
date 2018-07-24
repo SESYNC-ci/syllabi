@@ -252,7 +252,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Vector and Raster Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
 
-[Classification]: {{ site.gh-pages }}
+[Classification]: {{ site.gh-pages }}/basic-Python-lesson/course
 [Online Data]: {{ site.gh-pages }}
 
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
