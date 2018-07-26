@@ -191,41 +191,66 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 
 ## Software
 
-The workshop will use RStudio, Jupyter, and many libraries and dependencies
-associated with these two Integrated Development Environments (IDEs). SESYNC
-provides a cloud platform capable of supporting the software needs for the short
-course, so there is nothing for you to install in advance. *Once finalized*, a
-complete list of the open source software you encounter will be posted here
-along with links to install guides. Feel free to request assistance any time
-during the course with installing the listed software on your laptop.
+The workshop uses RStudio and Jupyter, as well as many packages and
+dependencies associated with these two Integrated Development
+Environments (IDEs). SESYNC provides a cloud platform capable of
+supporting the software needs for the short course, so there is
+nothing for you to install in advance. During and after the course,
+you will be able to install any and or all of this software---it is
+all free and open source---on your own machines. Feel free to request
+assistance any time during the course with installing the listed
+software on your laptop.
 
-<!--
-
-The table of software below is shared **for your information only**, you do not need to install these programs on your laptop. FIXME
+The table and lists below should help you find the right way to
+install the software, depending on your operating system.  Both
+Windows and macOS users can install from the listed "Download Site",
+or by following instructions given there. Linux (and optionally macOS)
+users should use a package manager---your Linux distro's native one,
+or [Homebrew] on macOS---where possible. The GDAL/OGR downloads are
+not essential for using spatial libraries with R installed through the
+given download site.
 
 | Software   | Download Site                                         | Homebrew Package(s)         | Aptitude Package(s)    |
 |------------+-------------------------------------------------------+-----------------------------+------------------------|
 | git        | <https://git-scm.com/downloads>                       | `git`                       | `git`                  |
 | R          | <https://cran.rstudio.com/>                           | `r`                         | `r-base`               |
-| RStudio    | <https://www.rstudio.com/products/rstudio/download2/> | `rstudio`*                  |                        |
+| RStudio    | <https://www.rstudio.com/products/rstudio/download2/> |                             |                        |
 | Python 3.x | <https://www.python.org/downloads/>                   | `python3`                   | `python3`              |
-| GDAL/OGR   | <https://trac.osgeo.org/osgeo4w/>                     | `gdal2`<sup>1</sup>, `geos` | `gdal-bin`<sup>2</sup> |
+| Jupyter Lab| <http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>|    |                        |
+| GDAL/OGR   | <https://trac.osgeo.org/osgeo4w/>                     | `gdal`, `geos`              | `gdal-bin`<sup>1</sup> |
 {:.table}
 
-1: **macOS** users will need to execute `brew tap osgeo/osgeo4mac` prior to running `brew install gdal2`.
-
-2: **Ubuntu** users will need to add the [UbuntuGIS](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) repository prior to running `apt-get install gdal-bin`
+1: **Ubuntu** users will need to add the [UbuntuGIS](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) repository prior to running `apt-get install gdal-bin`
 
 The following R packages need to be installed. Open RStudio and, for each package below, type `install.packages(%package%)` at the prompt and press return. Follow all prompts.
 
 - `tidyr`
 - `ggplot2`
-- `RSQLite`
-- `rgdal`
-- `rgeos`
+- `dplyr`
+- `raster`
+- `sf`
+- `sp`
 - `shiny`
 - `leaflet`
--->
+- `rmarkdown`
+- `lme4`
+- `rstanarm`
+- `data.table`
+
+The following Python packaged need to be installed. From a command prompt, type `pip3 install %package%` and press return. Follow all prompts.
+
+- `jupyterlab`
+- `numpy`
+- `scipy`
+- `pandas`
+- `beautifulsoup4`
+- `census`
+- `lxml`
+- `requests`
+- `sqlalchemy`
+- `scikit-learn`
+- `mlxtend`
+- `seaborn`
 
 ## Acknowledgments
 
@@ -256,3 +281,5 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
 [Data Provenance and Publishing]: {{ site.gh-pages }}
+
+[Homebrew]: https://brew.sh/
