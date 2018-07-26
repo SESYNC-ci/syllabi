@@ -277,7 +277,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course
 
 [Classification]: {{ site.gh-pages }}/basic-Python-lesson/course
-[Online Data]: {{ site.gh-pages }}
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/course
 
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
 [Data Provenance and Publishing]: {{ site.gh-pages }}
