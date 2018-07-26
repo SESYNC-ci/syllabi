@@ -25,8 +25,7 @@ sidebar_list:
  - "Do you have a [GitHub](https://www.github.com){:target=\"_blank\"} account?"
  - "Mini-project goals: [data2doc](data2doc.html)"
  - "Sandbox: <https://lab.sesync.org>"
- - "[Handouts I](http://sesync.us/k2ofi)"
- - Handouts II
+ - "[Handouts](http://sesync.us/k2ofi)"
 ---
 
 <!-- Capture additional variables to use below. -->
