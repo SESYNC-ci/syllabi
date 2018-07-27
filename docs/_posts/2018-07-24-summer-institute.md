@@ -26,6 +26,7 @@ sidebar_list:
  - "Mini-project goals: [data2doc](data2doc.html)"
  - "Sandbox: <https://lab.sesync.org>"
  - "[Handouts](http://sesync.us/k2ofi)"
+ - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSfwT0ogwFBkr8uuoesv2ZCZlDhLoQ0kDRv29Q94daaWxd2Odw/viewform?usp=sf_link_"
 ---
 
 <!-- Capture additional variables to use below. -->
