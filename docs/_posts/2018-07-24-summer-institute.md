@@ -265,11 +265,11 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 [reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
 
-[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson/course
-[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/course/#/slides/exercise
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
-[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
+[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2018/07/24/reading.html
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/2018/07/24/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2018/07/24/index.html#exercise
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2018/07/24/
+[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/2018/07/24/challenge.html
 
 [Collaborative Workflows & Reproducible Pipelines]: {{ site.gh-pages }}/basic-git-lesson/course
 [Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
