@@ -7,7 +7,7 @@ address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
 country: us
 language: en
 latlng: 38.97667, -76.50347
-humandate: Apr 2 - 4, 2018  # use three-letter month names
+humandate: March 27 - 29, 2019  # use three-letter month names
 humantime: 9:00 am - 5:00 pm
 startdate: 2018-04-02
 enddate: 2018-04-04
