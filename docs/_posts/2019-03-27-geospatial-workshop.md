@@ -7,15 +7,16 @@ address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
 country: us
 language: en
 latlng: 38.97667, -76.50347
-humandate: March 27 - 29, 2019  # use three-letter month names
+humandate: Mar 27 - 29, 2019  # use three-letter month names
 humantime: 9:00 am - 5:00 pm
-startdate: 2018-04-02
-enddate: 2018-04-04
+startdate: 2019-03-27
+enddate: 2019-03-29
 instructors:    
   - Benoit Parmentier, Data Scientist
   - Ian Carroll, Data Scientist
-  - Mary Shelly, Associate Director for Synthesis
+  - Rachael Blake, Data Scientist
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
+  - Eliazabeth Green, Computational Research Assistant
 contact:
 etherpad:
 twitter:
