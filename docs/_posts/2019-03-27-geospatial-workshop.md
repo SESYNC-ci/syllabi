@@ -21,9 +21,9 @@ etherpad:
 twitter:
 handout:
 linklist:
- - "<a href='http://sesync.us/zuah3'>Handouts</a>"
+# - "<a href='http://sesync.us/zuah3'>Handouts</a>"
 github:
-feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
+#feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
 data2doc:
 shorturl:
 ---
