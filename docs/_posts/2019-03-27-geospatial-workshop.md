@@ -155,12 +155,12 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | *5:00*     | *Reception (informal with snacks and tasty beverages)*        |        |
 | **Thursday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*               | Ian    |
 |               | *10:30*    | *Break*                                                       |        |
-|               | 10:45      | Project Session2                                              | Benoit |
+|               | 10:45      | Project Session 2                                              | Benoit |
 |               | *12:30 pm* | *Lunch*                                                       |        |
-|               | 1:30       |                                                               | Benoit |
-|               | 2:30       | Practical & Questions                                         | Benoit |
+|               | 1:30       |  [Intersections, Zonal Statistics, and Distance][5]<br>*Conservation Suitability in Florida*                                        | Benoit |
+|               | 3:00       | Practical & Questions/Project Session help                    | Benoit |
 |               | *3:30*     | *Break*                                                       |        |
-|               | 3:45 pm    | [Intersections, Zonal Statistics, and Distance][5]<br>*Conservation Suitability in Florida*                                        | Benoit |
+|               | 3:45 pm    | Project Session 3                                         | Benoit |
 | **Friday** | 9:00          | Remote Sensing & Classification<br>                           | Rachael    |
 |               | *10:30*    | *Break*                                                       |        |
 |               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
