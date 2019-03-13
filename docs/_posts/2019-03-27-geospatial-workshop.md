@@ -163,7 +163,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | 3:45 pm    | Project Session 3                                         | Benoit |
 | **Friday** | 9:00          | Remote Sensing & Classification<br>  or Python for geospatial modeling: Climate regression  | Rachael    |
 |               | *10:30*    | *Break*                                                       |        |
-|               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
+|               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*Customizing Interactive Maps* | Kelly  |
 |               | *12:15 pm* | *Lunch*                                                       |        |
 |               | 1:15       | Project Session 4                                             | Ian    |
 |               | *3:00*     | *Break*                                                       |        |
