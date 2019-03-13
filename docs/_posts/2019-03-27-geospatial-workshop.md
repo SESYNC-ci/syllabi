@@ -176,7 +176,7 @@ docs/_includes/setup-RStudio.md. -->
 
 ## Software
 
-Each solftware listed below made some appearance in the workshop or is a
+Each software listed below made some appearance in the workshop or is a
 generally useful component of the data science tool belt. Maintaining a
 functioning, up-to-date software environment is a big challenge! Consider this
 list a work-in-progress; we appreciate your suggestions for surmounting
