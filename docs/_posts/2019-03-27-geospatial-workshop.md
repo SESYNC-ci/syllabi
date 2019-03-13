@@ -144,24 +144,24 @@ query string parameter "draft=TRUE" -->
 provided by SESYNC at 12:30 pm, and an afternoon break. Trainees are responsible
 for their own breakfast and dinner arrangements (we can make recommendations).
 
-| **Monday**    | 9:00 am    | Introduction to SESYNC                                        | Mary   |
+| **Wednesday**    | 9:00 am    | Introduction to SESYNC                                        | Mary   |
 |               | 9:15 am    | [The Landscape of Open Source Geospatial Analysis][0]         | Benoit |
 |               | *10:30*    | *Break*                                                       |        |
-|               | 10:45      | [Vector Operations in R][1]<br>*Lead Poisoning in Syracuse*   | Ian    |
+|               | 10:45      | [Vector Operations in R][1]<br>*Lead Poisoning in Syracuse*   | Elizabeth    |
 |               | *12:30 pm* | *Lunch*                                                       |        |
 |               | 1:30       | [Raster Operations in R][2]<br>*Land Change Modelling*        | Benoit |
 |               | *3:30*     | *Break*                                                       |        |
-|               | 3:45       | Practical & Questions                                         | Benoit |
+|               | 3:45       | Project Session 1                                             | Benoit |
 |               | *5:00*     | *Reception (informal with snacks and tasty beverages)*        |        |
-| **Tuesday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*               | Ian    |
+| **Thursday**   | 9:00am     | [Raster Time-Series][3]<br>*Wildfire in Alaska*               | Ian    |
 |               | *10:30*    | *Break*                                                       |        |
-|               | 10:45      | [Remote Sensing & Classification][4]<br>*Hurricane Inundation*| Benoit |
+|               | 10:45      | Project Session2                                              | Benoit |
 |               | *12:30 pm* | *Lunch*                                                       |        |
-|               | 1:30       | Remote Sensing & Classification<br>*continued*                | Benoit |
+|               | 1:30       |                                                               | Benoit |
 |               | 2:30       | Practical & Questions                                         | Benoit |
 |               | *3:30*     | *Break*                                                       |        |
-|               | 3:45 pm    | [Intersections, Zonal Statistics, and Distance][5]<br>*Conservation Suitability in Florida* | Benoit |
-| **Wednesday** | 9:00       | [PyQGIS with PostGIS][6]<br>*Application TBD*                 | Ian    |
+|               | 3:45 pm    | [Intersections, Zonal Statistics, and Distance][5]<br>*Conservation Suitability in Florida*                                        | Benoit |
+| **Friday** | 9:00          | Remote Sensing & Classification<br>                           | Rachael    |
 |               | *10:30*    | *Break*                                                       |        |
 |               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*National Land Cover Dataset* | Kelly  |
 |               | *12:30 pm* | *Lunch*                                                       |        |
