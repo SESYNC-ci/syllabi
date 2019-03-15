@@ -165,9 +165,10 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | *10:30*    | *Break*                                                       |        |
 |               | 10:45 am   | [Geovisualization with Leaflet][8]<br>*Customizing Interactive Maps* | Kelly  |
 |               | *12:30 pm* | *Lunch*                                                       |        |
-|               | 1:15       | Project Session 4                                             | Ian    |
+|               | 1:30       | Project Session 4                                             | Ian    |
+|               | 2:30       | Presentation Project Session                                     | Ian    |
 |               | *3:30*     | *Break*                                                       |        |
-|               | 3:15 pm    | Presentation Project Session                                  |        |
+|               | 3:45 pm    | Presentation Project Session                                  |        |
 {:#agenda .table .table-striped .hide-instructor .disable-links}
 
 <!-- Use the next block to detail pre-arrival installation and download
