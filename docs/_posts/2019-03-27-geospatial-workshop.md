@@ -16,7 +16,7 @@ instructors:
   - Ian Carroll, Data Scientist
   - Rachael Blake, Data Scientist
   - Kelly Hondula, Quantitative Researcher and Computer Programmer
-  - Eliazabeth Green, Computational Research Assistant
+  - Elizabeth Green, Computational Research Assistant
 contact:
 etherpad:
 twitter:
