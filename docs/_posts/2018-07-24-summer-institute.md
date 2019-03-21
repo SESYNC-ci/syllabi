@@ -280,7 +280,7 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Classification]: {{ site.gh-pages }}/basic-Python-lesson/2018/07/24/
 [Online Data]: {{ site.gh-pages }}/online-data-lesson/2018/07/24/
 
-[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course
+[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/2018/07/24/
 [Data Provenance and Publishing]: {{ site.gh-pages }}
 
 [Homebrew]: https://brew.sh/
