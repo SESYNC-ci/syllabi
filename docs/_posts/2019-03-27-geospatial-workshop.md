@@ -22,7 +22,8 @@ etherpad:
 twitter:
 handout:
 linklist:
-# - "<a href='http://sesync.us/zuah3'>Handouts</a>"
+ - "You are here: <https://sesync.us/geospatial>"
+ - "<a href='https://files.sesync.org/index.php/s/z6GEDGXcDjq4j9X'>Handouts</a>"
 github:
 #feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
 data2doc:
