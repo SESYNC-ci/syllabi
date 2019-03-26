@@ -22,7 +22,7 @@ etherpad:
 twitter:
 handout:
 linklist:
- - "You are here: <https://sesync.us/geospatial>"
+ - "You are here: <http://sesync.us/geospatial>"
  - "<a href='https://files.sesync.org/index.php/s/z6GEDGXcDjq4j9X'>Handouts</a>"
 github:
 #feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
@@ -280,12 +280,12 @@ The structure of the curriculum as well as the teaching style are informed by [S
 <!-- Only use space below for links. -->
 
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
-[reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
-[0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EYN4YnpdgeFKiLa029Z6AhkBhbElQH362wxDalHvSLIw2A?e=Djacim
+[reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/sesync_travel_reimbursement_request_form_2019_-_fillable_january_2019.pdf
+[0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EcBii7bRnQJOsaxJV5vxGw4BoY6WVcApLr0QUIw_4ad60A?e=OuLNjM
 [1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course
 [2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course
 [3]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course
 [4]: {{ site.gh-pages }}/geospatial-suitability-analysis-lesson/course
-[5]: {{ site.gh-pages }}/temperature-regression-lesson/course
-[6]: {{ site.gh-pages }}/remote-sensing-classification-lesson/course
+[5]: {{ site.gh-pages }}/remote-sensing-classification-lesson/course
+[6]: {{ site.gh-pages }}/temperature-regression-lesson/course
 [7]: {{ site.gh-pages }}/leaflet-in-R-lesson/course
