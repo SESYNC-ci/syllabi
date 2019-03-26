@@ -163,7 +163,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | *3:30*        | *Break*                                                                                     |           |
 |               | 3:45 pm       | Project Session 3                                                                           | Benoit    |
 | **Friday**    | 9:00 in Blue  | [Remote Sensing & Classification][5]<br>*Flooding from Hurrican Rita*                       | Rachael   |
-|               | 9:00 in Green | [Python for Geospatial Modeling][6]<br>*Temperature Regression*                             | Benoit    |
+|               | 9:00 in Green | Python for Geospatial Modeling<br>*Temperature Regression*                             | Benoit    |
 |               | *10:30*       | *Break*                                                                                     |           |
 |               | 10:45 am      | [Geovisualization with Leaflet][7]<br>*Customizing Interactive Maps*                        | Kelly     |
 |               | *12:30 pm*    | *Lunch*                                                                                     |           |
