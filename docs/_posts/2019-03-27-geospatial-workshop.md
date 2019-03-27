@@ -171,8 +171,9 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | 2:30          | Presentation Project Session                                                                |           |
 |               | *3:30*        | *Break*                                                                                     |           |
 |               | 3:45 pm       | Presentation Project Session                                                                |           |
-{:#agenda .table .table-striped .hide-instructor} # .disable-links
+{:#agenda .table .table-striped .hide-instructor}
 
+<!--  .disable-links -->
 <!-- Use the next block to detail pre-arrival installation and download
 instructions. Certain standard procedures may be included, e.g.
 docs/_includes/setup-RStudio.md. -->
