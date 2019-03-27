@@ -23,8 +23,8 @@ twitter:
 handout:
 linklist:
  - "You are here: <http://sesync.us/geospatial>"
- - "<a href='https://files.sesync.org/index.php/s/z6GEDGXcDjq4j9X'>Handouts</a>"
- - "<a href='https://lab.sesync.org'>Teaching Lab</a>"
+ - "<a href='https://files.sesync.org/index.php/s/z6GEDGXcDjq4j9X' target='_blank'>Handouts</a>"
+ - "<a href='https://lab.sesync.org' target='_blank'>Teaching Lab</a>"
 github:
 #feedback: https://goo.gl/forms/g1cCGXQ0NegcxVer2
 data2doc:
