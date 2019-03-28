@@ -283,7 +283,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
 
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 [reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/sesync_travel_reimbursement_request_form_2019_-_fillable_january_2019.pdf
-[0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EcBii7bRnQJOsaxJV5vxGw4BoY6WVcApLr0QUIw_4ad60A?e=OuLNjM
+[0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EZAyjoGbR_VItm60y3NxuMsBJ4GFQS9l1CSMp8UavRZPAw?e=bNlbPX
 [1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course
 [2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course
 [3]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course
