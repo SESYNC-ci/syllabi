@@ -284,10 +284,9 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [Cyberinfrastructure @SESYNC]: {{ site.gh-pages }}
 [reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/sesync_travel_reimbursement_request_form_2019_-_fillable_january_2019.pdf
 [0]: https://sesync.sharepoint.com/:p:/s/sesyncci/EZAyjoGbR_VItm60y3NxuMsBJ4GFQS9l1CSMp8UavRZPAw?e=bNlbPX
-[1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course
-[2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/course
-[3]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course
-[4]: {{ site.gh-pages }}/geospatial-suitability-analysis-lesson/course
-[5]: {{ site.gh-pages }}/remote-sensing-classification-lesson/course
-[6]: {{ site.gh-pages }}/temperature-regression-lesson/course
-[7]: {{ site.gh-pages }}/leaflet-in-R-lesson/course
+[1]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/2019/03/27/
+[2]: {{ site.gh-pages }}/intro-land-change-modelling-lesson/2019/03/27/
+[3]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/2019/03/27/
+[4]: {{ site.gh-pages }}/geospatial-suitability-analysis-lesson/2019/03/27/
+[5]: {{ site.gh-pages }}/remote-sensing-classification-lesson/2019/03/27/
+[7]: {{ site.gh-pages }}/leaflet-in-R-lesson/2019/03/27/
