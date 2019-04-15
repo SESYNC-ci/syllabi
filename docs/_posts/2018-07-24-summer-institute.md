@@ -21,10 +21,8 @@ assistants:
  - Sigfried Gold, Graduate Assistant
 contact: icarroll@sesync.org
 sidebar_list:
- - "You are here: <http://sesync.us/summerinstitute>"
  - "Do you have a [GitHub](https://www.github.com){:target=\"_blank\"} account?"
  - "Mini-project goals: [data2doc](data2doc.html)"
- - "Sandbox: <https://lab.sesync.org>"
  - "[Handouts](http://sesync.us/k2ofi)"
  - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSfwT0ogwFBkr8uuoesv2ZCZlDhLoQ0kDRv29Q94daaWxd2Odw/viewform?)"
 ---
