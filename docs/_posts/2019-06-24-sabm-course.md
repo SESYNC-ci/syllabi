@@ -61,6 +61,7 @@ This course is intended as a foundational course for anyone interested in adding
 [//]: # " Modify the block below if there are any special requirements. "
 
 **Requirements:**  
+Readings are listed on the schedule below to be read in preparation for the next day's lessons. However, this is a substantial reading list and participants are encouraged to work through the readings prior to arriving. All of the course readings can be found in this [shared folder][11].
 Participants must bring a laptop with [NetLogo](https://ccl.northwestern.edu/netlogo/){:target="_blank"} installed.
 
 [//]: # " The following block automatically inserts a contact email address if one has been specified for the page. "
@@ -226,4 +227,5 @@ Contact the instructor, in advance by e-mail or on the first day of the workshop
 [8]: https://drive.google.com/open?id=1TycMtH7E5RdGvytUn1ri8agEN5HbFSIHBGamuBaNy-M
 [9]: {{ site.gh-pages }}/rnetlogo-lesson/2018/07/16/index.html
 [10]: {{ site.gh-pages }}/gis-abm-lesson/2018/07/16/index.html
+[11]: https://drive.google.com/drive/folders/1sZfyWD9fjSxIZ0PQo41kHgmhBAsNPv2Q?usp=sharing
 [handout]: {{ page.handout }}
