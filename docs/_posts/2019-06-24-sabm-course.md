@@ -91,13 +91,16 @@ The structure of the curriculum as well as the teaching style are informed by [S
      |
 |           |            | 2. Filatova, T., Verburg, P. H., Parker, D. C., & Stannard, C. A. (2013). Spatial agent-based models for socio-ecological systems: Challenges and prospects. Environmental modelling & software, 45, 1-7.
      |
-|           |            | 3. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.   
+|           |            | 3. Crooks, A., Castle, C., & Batty, M. (2008). Key challenges in agent-based modelling for geo-spatial simulation. Computers, Environment and Urban Systems, 32(6), 417-430.
      |
-|           |            | 4. Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48. 
+|           |            | 4. Müller, B., Bohn, F., Dreßler, G., Groeneveld, J., Klassert, C., Martin, R., ... & Schwarz, N. (2013). Describing human decisions in agent-based models–ODD+ D, an extension of the ODD protocol. Environmental Modelling & Software, 48, 37-48.
          |
-|           |            | 5. Optional: Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.                                                            |
-|           |            | 6. Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.                  |
-|           |            | 7. Optional: An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.                                                                                                  |
+|           |            | 5. Optional: Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: a review and first update. Ecological modelling, 221(23), 2760-2768.
+         |
+|           |            | 6. Optional: Polhill, J. G., Parker, D., Brown, D., & Grimm, V. (2008). Using the ODD protocol for describing three agent-based social simulation models of land-use change. Journal of Artificial Societies and Social Simulation, 11(2), 3.
+         |
+|           |            | 7. Optional: An, L. (2012). Modeling human decisions in coupled human and natural systems: review of agent-based models. Ecological Modelling, 229, 25-36.
+         |
 | Monday    |    8:30 am | Coffee/Tea at SESYNC                                                                                              |
 |           |       8:45 | Course Introduction                                                                                                |
 |           |       9:15 | Lecture: [What are socio-environmental (S-E) systems?][1]                                                                                                                                                                                                     |
@@ -112,14 +115,14 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |       4:00 | Group work - model scoping and description                                                                                                                                                                                                                    |
 |           |     *5:15* | *Reception at SESYNC (informal with snacks, tasty beverages, etc.)*                                                                                                                                                                                           |
 |           |       6:30 | Dinner in Annapolis                                                                                                                                                                                                                                           |
-|           | *Homework* | 1. Read supporting paper(s) for chosen model                                                                                                                                                                                                                  |
-|           |            | 2. Groeneveld, J., Müller, B., Buchmann, C.M., Dressler, G., Guo, C., Hase, N., Hoffmann, F., John, F., Klassert, C., Lauf, T. and Liebelt, V., 2017. Theoretical foundations of human decision-making in agent-based land use models–A review. Environmental modelling & software, 87, pp.39-48.                
+|           | *Homework* | 1. Read supporting paper(s) for chosen model 
+        |
+|           |            | 2. Groeneveld, J., Müller, B., Buchmann, C.M., Dressler, G., Guo, C., Hase, N., Hoffmann, F., John, F., Klassert, C., Lauf, T. and Liebelt, V., 2017. Theoretical foundations of human decision-making in agent-based land use models–A review. Environmental modelling & software, 87, pp.39-48.
          |
-|           |            | 3. Schlüter, M., Baeza, A., Dressler, G., Frank, K., Groeneveld, J., Jager, W., ... & Schwarz, N. (2017). A framework for mapping and comparing behavioural theories in models of social-ecological systems. Ecological Economics, 131, 21-35.                |
+|           |            | 3. Schlüter, M., Baeza, A., Dressler, G., Frank, K., Groeneveld, J., Jager, W., ... & Schwarz, N. (2017). A framework for mapping and comparing behavioural theories in models of social-ecological systems. Ecological Economics, 131, 21-35.
+         |
 |           |            | 4. O’Sullivan, D., Evans, T., Manson, S., Metcalf, S., Ligmann-Zielinska, A., & Bone, C. (2016). Strategic directions for agent-based modeling: avoiding the YAAWN syndrome. Journal of land use science, 11(2), 177-187.
          |
-|           |            | 5. Optional readings:                                                                                                                                                                                                                                         |
-|           |            | c. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.                                |
 | Tuesday   |    8:30 am | Coffee/Tea at SESYNC, outline of the day                                                                                                                                                                                                                      |
 |           |       9:00 | Group work – causal map of chosen model and formulate hypotheses                                                                                                                                                                                              |
 |           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
@@ -135,8 +138,10 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |            | a. What is the overall purpose of your model? Do not describe anything about how the model will work here, only for what the model will be used.                                                                                                              |
 |           |            | b. What is (are) the main research question(s) you seek to answer?                                                                                                                                                                                            |
 |           |            | c. Why (or why not) is ABM the most appropriate modeling approach to answer your research question(s)?                                                                                                                                                        |
-|           |  *Reading* | a. Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.                                 |
-|           |            | b. OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.                                              |
+|           |  *Reading* | a. Crooks, A. T., & Castle, C. J. (2012). The integration of agent-based modelling and geographical information for geospatial simulation. In Agent-based models of geographical systems (pp. 219-251). Springer Netherlands.
+         |
+|           |            | b. OR … Brown, D. G., Riolo, R., Robinson, D. T., North, M., & Rand, W. (2005). Spatial process and data models: Toward integration of agent-based models and GIS. Journal of Geographical Systems, 7(1), 25-47.
+         |
 | Wednesday |    8:30 am | Coffee/Tea at SESYNC, outline of the day                                                                                                                                                                                                                      |
 |           |       9:00 | Brief overview of ODD protocol                                                                                                                                                                                                                                |
 |           |       9:30 | Class discussion of writing assignments                                                                                                                                                                                                                       |
@@ -151,11 +156,14 @@ The structure of the curriculum as well as the teaching style are informed by [S
 |           |            | a. What constitutes an agent in your system?                                                                                                                                                                                                                  |
 |           |            | b. What are key attributes of your agents, and how do they differ between agents?                                                                                                                                                                             |
 |           |            | c. Which environment conditions influence agent behaviors? Do these conditions vary over space? If so, how?                                                                                                                                                   |
-|           |  *Reading* | a. Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.                               |
-|           |            | b. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.                                |
-|           |            | c. Optional: Magliocca, N., McConnell, V., & Walls, M. (2018). Integrating global sensitivity approaches to deconstruct spatial and temporal sensitivities of complex spatial agent-based models. Journal of Artificial Societies and Social Simulation, 21(1).                                                                                        
-         |
-|           |            | d. An optional example of POM: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.                                                                                        |
+|           |  *Reading* | a. Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., ... & DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: lessons from ecology. Science, 310(5750), 987-991.
+        |
+|           |            | b. Brown, D. G., Page, S., Riolo, R., Zellner, M., & Rand, W. (2005). Path dependence and the validation of agent-based spatial models of land use. International Journal of Geographical Information Science, 19(2), 153-174.
+        |
+|           |            | c. Optional: Magliocca, N., McConnell, V., & Walls, M. (2018). Integrating global sensitivity approaches to deconstruct spatial and temporal sensitivities of complex spatial agent-based models. Journal of Artificial Societies and Social Simulation, 21(1). 
+        |
+|           |            | d. An optional example of POM: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.
+        |
 | Thursday  |    8:30 am | Coffee/Tea at SESYNC, outline of the day                                                                                                                                                                                                                      |
 |           |       9:00 | Individual project consultation and work time                                                                                                                                                                                                                 |
 |           |    *10:30* | *Break*                                                                                                                                                                                                                                                       |
