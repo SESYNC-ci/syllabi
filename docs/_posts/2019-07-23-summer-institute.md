@@ -153,13 +153,13 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |    10:45 | Introduce Coaches & `data2doc`           |         |                          |
 |               |    11:45 | Meet the Teams                           |         |                          |
 |               |  *12:30* | *Lunch*                                  |         |                          |
-| Blue Room     |    13:30 | [Manipulating Tabular Data]              | Kelly   | R > dplyr                |
-| Green Room    |    13:30 | [Manipulating Tabular Data]	      | Benoit  | Python > pandas          |
+| Blue Room     |    13:30 | [Manipulating Tabular Data (R)]          | Kelly   | R > dplyr                |
+| Green Room    |    13:30 | [Manipulating Tabular Data (Python)]     | Benoit  | Python > pandas          |
 |               |    15:15 | Homework & GitHub                        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               |  *17:00* | *Reception (with tasty beverages, etc.)* |         |                          |
-|               | Homework | [Lesson 1] & [Lesson 2] Exercises        |         |                          |
+|               | Homework | [Lesson 1] & [Lesson 2 (R)]/[2 (Python)] Exercises||                          |
 | **Wednesday** |     9:00 | Exercise Review                          |         |                          |
 |               |     9:15 | [Regression]                             | Ian     | R > nlme                 |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
@@ -171,9 +171,9 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |    15:45 | `data2doc`                               |         |                          |
 |               | Homework | [Lesson 3] & [Lesson 4] Exercises        |         |                          |
 | **Thursday**  |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Classification]                         | Benoit  | Python > scikit-learn    |
+|               |     9:15 | [Online Data]                            | Ian     | Python > requests        |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Online Data]                            | Ian     | Python > requests        |
+|               |    10:45 | [Classification]                         | Benoit  | Python > scikit-learn    |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Project Reports & Discussion             |         |                          |
@@ -182,9 +182,9 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               | Homework | [Lesson 5] & [Lesson 6] Exercises        |         |                          |
 | **Friday**    |     9:00 | Exercise Review                          |         |                          |
 | Blue Room     |     9:15 | [Structure for Unstructured Data]        | Ian     |                          |
-| Green Room    |     9:15 | Relational Databases Q&A                 | Kelly   |                          |
+| Green Room    |     9:15 | Relational Databases Q&A                 | Kelly   | SQL, R > dbplyr          |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Documenting and Publishing Data]	      | Rachael |                          |
+|               |    10:45 | [Documenting and Publishing Data]	       | Rachael | R > dataspice            |
 |               |  *12:30* | *Lunch* + `data2doc`                     |         |                          |
 |               |    14:45 | Team Presentations (4 x 10 min)          |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
@@ -198,8 +198,8 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 The workshop uses RStudio and Jupyter, as well as many packages and
 dependencies associated with these two Integrated Development
 Environments (IDEs). SESYNC provides a cloud platform capable of
-supporting the software needs for the short course, so there is
-nothing for you to install in advance. During and after the course,
+supporting the software needs for the short course, so **there is
+nothing for you to install** in advance. During and after the course,
 you will be able to install any and or all of this software---it is
 all free and open source---on your own machines. Feel free to request
 assistance any time during the course with installing the listed
@@ -258,15 +258,12 @@ The following Python packaged need to be installed. From a command prompt, type 
 
 ## Acknowledgments
 
-Portions of the instructional materials are adopted from [Data
-Carpentry](http://www.datacarpentry.org){:target="_blank"} and [Software
-Carpentry](http://software-carpentry.org){:target="_blank"}. The structure of
-the curriculum as well as the teaching style are informed by [Software
-Carpentry](http://software-carpentry.org){:target="_blank"}.
+Portions of the instructional materials and our pedagogy are adopted from [The
+Carpentries](http://carpentries.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[reimbursement form]: https://www.sesync.org/sites/default/files/sesync_travel_reimbursement_request_form_2017_-_fillable_july_2017.pdf
+[reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/travel_policies_jan_2019.pdf
 
 [Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson
@@ -275,10 +272,11 @@ Carpentry](http://software-carpentry.org){:target="_blank"}.
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson
-[Lesson 1]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson#exercises
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson
-[Lesson 2]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson#exercises
+[Lesson 1]: {{ site.gh-pages }}/basic-git-lesson#exercises
+[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson
+[Lesson 2 (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson#exercises
+[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson
+[2 (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson#exercises
 
 [Regression]: {{ site.gh-pages }}/model-lang-lesson
 [Lesson 3]: {{ site.gh-pages }}/model-lang-lesson#exercises
