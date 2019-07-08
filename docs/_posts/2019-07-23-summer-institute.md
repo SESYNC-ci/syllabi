@@ -19,8 +19,8 @@ instructors:
 assistants:
 contact: icarroll@sesync.org
 sidebar_list:
- - "Know your [GitHub](https://www.github.com){:target=\"_blank\"} password!"
- - "Mini-project goals: [data2doc](data2doc.html)"
+ - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
+ - "Mini-project goals: [data2doc](/data2doc.html){:target=\"_blank\"}"
 # - "[Handouts](http://sesync.us/k2ofi)"
 # - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSfwT0ogwFBkr8uuoesv2ZCZlDhLoQ0kDRv29Q94daaWxd2Odw/viewform?)"
 ---
