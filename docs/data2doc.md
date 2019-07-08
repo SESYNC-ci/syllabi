@@ -1,5 +1,5 @@
 ---
-layout: slides
+layout: slideshow
 styleurl: "https://cdn.jsdelivr.net/gh/SESYNC-ci/lesson-style@v3.0/docs"
 style: /assets/css/slideshow.css
 reveal: "https://cdn.jsdelivr.net/gh/hakimel/reveal.js@3.8.0"
@@ -35,11 +35,11 @@ scheduled for "data2doc", your team should aim to achieve the following:
 1. Choose a git captain, and
     1. (Captain) create a GitHub repo,
     1. (Captain) invite collaborators, and
-    1. (Teammates) accept invitation.
-1. (Captain) Clone the repo as a new RStudio project.
-1. (Captain) Create & push the .Rproj and a skeleton `README.md`.
-1. (Teammates) Clone the repo as a new RStudio project.
-1. Complete one section of `REAMDE.md` and push to GitHub.
+    1. (Team) accept invitation.
+1. (Captain) Create a RStudio project from the repo.
+1. (Captain) Start a `README.md` & push files.
+1. (Team) Create a RStudio project from the repo.
+1. Add to the `REAMDE.md` and merge/push.
 
 </section>
 
@@ -72,9 +72,9 @@ scheduled for "data2doc", your team should aim to achieve the following:
 ### Practice #4: Friday
 
 1. Discuss the first steps of your reproducible pipeline. Can you aquire data programatically?
-1. Discuss the final steps of your reproducible pipeline. Should you creating a data package?
+1. Discuss the final steps of your reproducible pipeline. Should you create a data package?
 1. Try to get that regression or classification model working, or finish that data visualization.
-1. Prepare to present on your mini-project.
+1. Prepare to present on your mini-project!
 
 </section>
 

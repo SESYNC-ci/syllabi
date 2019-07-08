@@ -17,9 +17,9 @@
 	<!--[if lt IE 9]>
             <script src="{{ site.reveal }}/lib/js/html5shiv.js"></script>
 	<![endif]-->
-
-	<link rel="stylesheet" href="{{ page.styleurl }}{{ page.style }}">	
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">	
+	
+	<link rel="stylesheet" href="{{ page.styleurl | append: page.style | relative_url }}">
+	<link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}">	
 
     </head>
     
@@ -31,7 +31,7 @@
 	    {% assign slides = content | split: "<p>===</p>" %}
       {% for slide in slides %}
           <section{% if slide.background %}
-                     data-background="{{ site.baseurl }}{{ slide.background }}"
+                     data-background="{{ slide.background | relative_url }}"
                      {% endif %}{% if slide.class %}
                      class="{{ slide.class }}"{% endif %}>
               {{ slide }}
@@ -47,8 +47,8 @@
 	 Reveal.initialize({
 
 	     // Size
-	     width: 810,
-	     height: 500,
+	     width: 980,
+	     height: 700,
 	     margin: 0.02,
 
 	     // Controls
