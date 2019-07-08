@@ -155,7 +155,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |  *12:30* | *Lunch*                                  |         |                          |
 | Blue Room     |    13:30 | [Manipulating Tabular Data (R)]          | Kelly   | R > dplyr                |
 | Green Room    |    13:30 | [Manipulating Tabular Data (Python)]     | Benoit  | Python > pandas          |
-|               |    15:15 | Homework & GitHub                        |         |                          |
+|               |    15:15 | About Homework & GitHub                  |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               |  *17:00* | *Reception (with tasty beverages, etc.)* |         |                          |
@@ -166,7 +166,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |    10:45 | [Smart and Interactive Documents]        | Kelly   | R > rmarkdown, R > shiny |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
-|               |    15:15 | Project Reports & Discussion             |         |                          |
+|               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               | Homework | [Lesson 3] & [Lesson 4] Exercises        |         |                          |
@@ -176,7 +176,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |    10:45 | [Classification]                         | Benoit  | Python > scikit-learn    |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
-|               |    15:15 | Project Reports & Discussion             |         |                          |
+|               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               | Homework | [Lesson 5] & [Lesson 6] Exercises        |         |                          |
