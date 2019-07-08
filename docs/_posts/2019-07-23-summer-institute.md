@@ -186,7 +186,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
 |               |    10:45 | [Documenting and Publishing Data]	       | Rachael | R > dataspice            |
 |               |  *12:30* | *Lunch* + `data2doc`                     |         |                          |
-|               |    14:45 | Team Presentations (4 x 10 min)          |         |                          |
+|               |    14:30 | Team Presentations (5 x 10 min)          |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | Team Presentations (5 x 10 min)          |         |                          |
 |               | Homework | [Lesson 7] & [Lesson 8] Exercises        |         |                          |
