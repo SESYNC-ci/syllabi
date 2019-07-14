@@ -11,8 +11,8 @@ reveal-theme: /css/theme/black.css
 ## Mini-project Goals
 {:style="text-transform: none;"}
 
-Your team is here to practice, and we are here as coaches. In the time
-scheduled for "data2doc", your team should aim to achieve the following:
+Your team is here to practice, and your instructors are here to coach. In the time
+scheduled for "data2doc", each team should aim to achieve the following:
 
 </section>
 
