@@ -44,7 +44,7 @@ sidebar_list:
 
 ## General Information
 
-The Summer Institute of 2019 brings together nine science teams for a short
+The Summer Institute of 2019 brings together ten science teams for a short
 course on data and software skills in socio-environmental synthesis. Through
 hands-on tutorial and project consultation, SESYNC staff will aim to accelerate
 your team's adoption of cyber resources in all phases of data-driven research
