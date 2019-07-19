@@ -19,6 +19,7 @@ instructors:
 assistants:
 contact: icarroll@sesync.org
 sidebar_list:
+ - "You are here: <http://sesync.us/si>"
  - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
  - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "[Handouts](http://sesync.us/k2ofi)"
