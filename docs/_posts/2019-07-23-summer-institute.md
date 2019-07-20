@@ -281,7 +281,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Regression]: {{ site.gh-pages }}/model-lang-lesson/course/
 [Lesson 6]: {{ site.gh-pages }}/model-lang-lesson#exercises
-[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson
+[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course/
 [Lesson 7]: {{ site.gh-pages }}/interactive-rmarkdown-lesson#exercises
 
 [Classification]: {{ site.gh-pages }}/basic-Python-lesson/course/
