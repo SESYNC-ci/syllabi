@@ -267,31 +267,31 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/travel_policies_jan_2019.pdf
 
 [Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/course/
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course/
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 
-[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson
+[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/course/
 [Lesson 1]: {{ site.gh-pages }}/basic-git-lesson#exercises
-[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson
+[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/
 [Lesson 2 (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson#exercises
-[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson
+[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/course/
 [2 (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson#exercises
 
-[Regression]: {{ site.gh-pages }}/model-lang-lesson
+[Regression]: {{ site.gh-pages }}/model-lang-lesson/course/
 [Lesson 3]: {{ site.gh-pages }}/model-lang-lesson#exercises
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson
 [Lesson 4]: {{ site.gh-pages }}/interactive-rmarkdown-lesson#exercises
 
-[Classification]: {{ site.gh-pages }}/basic-Python-lesson
+[Classification]: {{ site.gh-pages }}/basic-Python-lesson/course/
 [Lesson 5]: {{ site.gh-pages }}/basic-Python-lesson#exercises
-[Online Data]: {{ site.gh-pages }}/online-data-lesson
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/course/
 [Lesson 6]: {{ site.gh-pages }}/online-data-lesson#exercises
 
-[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson
+[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/course/
 [Lesson 7]: {{ site.gh-pages }}/text-mining-lesson#exercises
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/course/
 [Lesson 8]: {{ site.gh-pages }}/data-package-lesson#exercises
 
 [Homebrew]: https://brew.sh/
