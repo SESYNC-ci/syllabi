@@ -174,7 +174,7 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 | **Thursday**  |     9:00 | Exercise Review                          |         |                          |
 |               |     9:15 | [Online Data]                            | Ian     | Python > requests        |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Classification]                         | Benoit  | Python > scikit-learn    |
+|               |    10:45 | [Geospatial Data]                        | Benoit  | R > sf, R > raster       |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Mini-project Updates & Discussion        |         |                          |
@@ -284,10 +284,10 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course/
 [Lesson 7]: {{ site.gh-pages }}/interactive-rmarkdown-lesson#exercises
 
-[Classification]: {{ site.gh-pages }}/basic-Python-lesson/course/
-[Lesson 8]: {{ site.gh-pages }}/basic-Python-lesson#exercises
 [Online Data]: {{ site.gh-pages }}/online-data-lesson/course/
-[Lesson 9]: {{ site.gh-pages }}/online-data-lesson#exercises
+[Lesson 8]: {{ site.gh-pages }}/online-data-lesson#exercises
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
+[Lesson 9]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson#exercises
 
 [Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/course/
 [Lesson 10]: {{ site.gh-pages }}/text-mining-lesson#exercises
