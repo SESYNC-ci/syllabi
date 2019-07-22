@@ -20,6 +20,7 @@ assistants:
 contact: icarroll@sesync.org
 sidebar_list:
  - "You are here: <http://sesync.us/si>"
+ - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
  - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
  - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
  - "Download the [Handouts](https://files.sesync.org/index.php/s/4GgMCNM2ggs7Mjs){:target=\"_blank\"}"
