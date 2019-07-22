@@ -149,49 +149,49 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | [Scripting Exercise]                     |         |                          |
 | **Tuesday**   |     9:00 | Welcome and Overview of SESYNC           | Jon     |                          |
-|               |     9:15 | [Collaborative & Reproducible Research]  | Ian     | git, GitHub              |
+|               |     9:15 | Collaborative & Reproducible Research  | Ian     | git, GitHub              |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
 |               |    10:45 | Introduce Coaches & `data2doc`           |         |                          |
 |               |    11:45 | Meet the Teams                           |         |                          |
 |               |  *12:30* | *Lunch*                                  |         |                          |
-| Blue Room     |    13:30 | [Manipulating Tabular Data (R)]          | Kelly   | R > dplyr                |
-| Green Room    |    13:30 | [Manipulating Tabular Data (Python)]     | Benoit  | Python > pandas          |
+| Blue Room     |    13:30 | Manipulating Tabular Data (R)          | Kelly   | R > dplyr                |
+| Green Room    |    13:30 | Manipulating Tabular Data (Python)     | Benoit  | Python > pandas          |
 |               |    15:15 | About Homework & GitHub                  |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               |  *17:00* | *Reception (with tasty beverages, etc.)* |         |                          |
-|               | Homework | [Lesson 3] & [Lesson 4 (R)]/[5 (Python)] Exercises||                          |
+|               | Homework | Lesson 3 & Lesson 4 (R)/5 (Python) Exercises||                          |
 | **Wednesday** |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Regression]                             | Ian     | R > nlme                 |
+|               |     9:15 | Regression                             | Ian     | R > nlme                 |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Smart and Interactive Documents]        | Kelly   | R > rmarkdown, R > shiny |
+|               |    10:45 | Smart and Interactive Documents        | Kelly   | R > rmarkdown, R > shiny |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | [Lesson 6] & [Lesson 7] Exercises        |         |                          |
+|               | Homework | Lesson 6 & Lesson 7 Exercises        |         |                          |
 | **Thursday**  |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Online Data]                            | Ian     | Python > requests        |
+|               |     9:15 | Online Data                            | Ian     | Python > requests        |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Geospatial Data]                        | Benoit  | R > sf, R > raster       |
+|               |    10:45 | Geospatial Data                        | Benoit  | R > sf, R > raster       |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | [Lesson 8] & [Lesson 9] Exercises        |         |                          |
+|               | Homework | Lesson 8 & Lesson 9 Exercises        |         |                          |
 | **Friday**    |     9:00 | Exercise Review                          |         |                          |
-| Blue Room     |     9:15 | [Structure for Unstructured Data]        | Ian     |                          |
+| Blue Room     |     9:15 | Structure for Unstructured Data        | Ian     |                          |
 | Green Room    |     9:15 | Relational Databases Q&A                 | Kelly   | SQL, R > dbplyr          |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | [Documenting and Publishing Data]	       | Rachael | R > dataspice            |
+|               |    10:45 | Documenting and Publishing Data	       | Rachael | R > dataspice            |
 |               |  *12:30* | *Lunch* + `data2doc`                     |         |                          |
 |               |    14:30 | Team Presentations (5 x 10 min)          |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | Team Presentations (5 x 10 min)          |         |                          |
-|               | Homework | [Lesson 10] & [Lesson 11] Exercises      |         |                          |
-{:#agenda .table .table-striped .hide-instructor .disable-links}
+|               | Homework | Lesson 10 & Lesson 11 Exercises      |         |                          |
+{:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
 ## Software
