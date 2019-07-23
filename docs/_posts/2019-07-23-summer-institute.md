@@ -150,18 +150,18 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | [Scripting Exercise]                     |         |                          |
 | **Tuesday**   |     9:00 | Welcome and Overview of SESYNC           | Jon     |                          |
-|               |     9:15 | Collaborative & Reproducible Research  | Ian     | git, GitHub              |
+|               |     9:15 | [Collaborative & Reproducible Research]  | Ian     | git, GitHub              |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
 |               |    10:45 | Introduce Coaches & `data2doc`           |         |                          |
 |               |    11:45 | Meet the Teams                           |         |                          |
 |               |  *12:30* | *Lunch*                                  |         |                          |
-| Blue Room     |    13:30 | Manipulating Tabular Data (R)          | Kelly   | R > dplyr                |
-| Green Room    |    13:30 | Manipulating Tabular Data (Python)     | Benoit  | Python > pandas          |
+| Blue Room     |    13:30 | [Manipulating Tabular Data (R)]          | Kelly   | R > dplyr                |
+| Green Room    |    13:30 | [Manipulating Tabular Data (Python)]     | Benoit  | Python > pandas          |
 |               |    15:15 | About Homework & GitHub                  |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               |  *17:00* | *Reception (with tasty beverages, etc.)* |         |                          |
-|               | Homework | Lesson 3 & Lesson 4 (R)/5 (Python) Exercises||                          |
+|               | Homework | [Lesson 3] & [Lesson 4 (R)]/[5 (Python)] Exercises||                          |
 | **Wednesday** |     9:00 | Exercise Review                          |         |                          |
 |               |     9:15 | Regression                             | Ian     | R > nlme                 |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
