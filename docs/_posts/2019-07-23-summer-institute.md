@@ -161,17 +161,17 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
 |               |  *17:00* | *Reception (with tasty beverages, etc.)* |         |                          |
-|               | Homework | [Lesson 3] & [Lesson 4 (R)]/[5 (Python)] Exercises||                          |
+|               | Homework | [Lesson 3] & [Lesson 4 (R)]/5 (Python) Exercises||                          |
 | **Wednesday** |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | Regression                             | Ian     | R > nlme                 |
+|               |     9:15 | [Regression]                             | Ian     | R > nlme                 |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | Smart and Interactive Documents        | Kelly   | R > rmarkdown, R > shiny |
+|               |    10:45 | [Smart and Interactive Documents]        | Kelly   | R > rmarkdown, R > shiny |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | Lesson 6 & Lesson 7 Exercises        |         |                          |
+|               | Homework | [Lesson 6] & [Lesson 7] Exercises        |         |                          |
 | **Thursday**  |     9:00 | Exercise Review                          |         |                          |
 |               |     9:15 | Online Data                            | Ian     | Python > requests        |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
