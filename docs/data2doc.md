@@ -60,8 +60,7 @@ scheduled for "data2doc", each team should aim to achieve the following:
 
 ### Practice #3: Thursday
 
-1. Begin to code a simple regression or classification analysis.
-1. Begin to create a simple visualization or Shiny output.
+1. Begin to code a simple regression analysis or visualization.
 1. Decide on the format of your presentation (consider RMarkdown).
 1. Practice your collaborative workflow: stage, commit, pull, and push!
 
@@ -73,7 +72,7 @@ scheduled for "data2doc", each team should aim to achieve the following:
 
 1. Discuss the first steps of your reproducible pipeline. Can you aquire data programatically?
 1. Discuss the final steps of your reproducible pipeline. Should you create a data package?
-1. Try to get that regression or classification model working, or finish that data visualization.
+1. Try to get that regression model working or finish that data visualization.
 1. Prepare to present on your mini-project!
 
 </section>
