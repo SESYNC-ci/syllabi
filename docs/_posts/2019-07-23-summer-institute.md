@@ -173,15 +173,15 @@ for their own breakfast and dinner arrangements (we can make recommendations).
 |               |    15:45 | `data2doc`                               |         |                          |
 |               | Homework | [Lesson 6] & [Lesson 7] Exercises        |         |                          |
 | **Thursday**  |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | Online Data                            | Ian     | Python > requests        |
+|               |     9:15 | [Online Data]                            | Ian     | Python > requests        |
 |               |  *10:30* | *Coffee + Tea Break*                     |         |                          |
-|               |    10:45 | Geospatial Data                        | Benoit  | R > sf, R > raster       |
+|               |    10:45 | [Geospatial Data]                        | Benoit  | R > sf, R > raster       |
 |               |  *12:30* | *Lunch*                                  |         |                          |
 |               |    13:30 | `data2doc`                               |         |                          |
 |               |    15:15 | Mini-project Updates & Discussion        |         |                          |
 |               |  *15:30* | *Snack Break*                            |         |                          |
 |               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | Lesson 8 & Lesson 9 Exercises        |         |                          |
+|               | Homework | [Lesson 8] & [Lesson 9] Exercises        |         |                          |
 | **Friday**    |     9:00 | Exercise Review                          |         |                          |
 | Blue Room     |     9:15 | Structure for Unstructured Data        | Ian     |                          |
 | Green Room    |     9:15 | Relational Databases Q&A                 | Kelly   | SQL, R > dbplyr          |
