@@ -20,10 +20,10 @@ assistants:
 contact: icarroll@sesync.org
 sidebar_list:
  - "You are here: <http://sesync.us/si>"
- - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
+# - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
  - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
  - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
- - "Download the [Handouts](https://files.sesync.org/index.php/s/4GgMCNM2ggs7Mjs){:target=\"_blank\"}"
+ - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2019-07-23-summer-institute/handouts.zip){:target=\"_blank\"}"
  - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSflGCqRj-ToYJeCVmFxmH2dFFM4qXl2hyqJp-0Nb-9UihdDqA/viewform)"
 ---
 
@@ -268,31 +268,31 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [reimbursement form]: https://www.sesync.org/sites/default/files/basic_page/travel_policies_jan_2019.pdf
 
 [Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson/course/
-[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course/
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/index.html#exercises
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2019/07/23/
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 
-[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/course/
-[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson#exercises
-[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/
-[Lesson 4 (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson#exercises
-[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/course/
-[5 (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson#exercises
+[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/
+[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/index.html#exercises
+[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/
+[Lesson 4 (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/index.html#exercises
+[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/2019/07/23/
+[5 (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/2019/07/23/index.html#exercises
 
-[Regression]: {{ site.gh-pages }}/model-lang-lesson/course/
-[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson#exercises
-[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/course/
-[Lesson 7]: {{ site.gh-pages }}/interactive-rmarkdown-lesson#exercises
+[Regression]: {{ site.gh-pages }}/model-lang-lesson/2019/07/23/
+[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson/2019/07/23/index.html#exercises
+[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/2019/07/23/
+[Lesson 7]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/2019/07/23/index.html#exercises
 
-[Online Data]: {{ site.gh-pages }}/online-data-lesson/course/
-[Lesson 8]: {{ site.gh-pages }}/online-data-lesson#exercises
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
-[Lesson 9]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson#exercises
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/
+[Lesson 8]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/index.hml#exercises
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
+[Lesson 9]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
 
-[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/course/
-[Lesson 10]: {{ site.gh-pages }}/text-mining-lesson#exercises
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/course/
-[Lesson 11]: {{ site.gh-pages }}/data-package-lesson#exercises
+[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/
+[Lesson 10]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/index.html#exercises
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
+[Lesson 11]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
 
 [Homebrew]: https://brew.sh/
