@@ -134,7 +134,7 @@ query string parameter "draft=TRUE" -->
 ## Schedule
 
 | **[Monday]**  |     9:00 | Introduction to the RStudio IDE          |         |                          |
-|               |     9:15 | [Pseudo-coding Exercise]                 |         |                          |
+|               |     9:15 | [Block Programming Exercise]             |         |                          |
 |               |     9:45 | [Base R]                                 |         | R                        |
 |               |    10:45 | [Base R] (continued)                     |         | R                        |
 |               |    12:00 | [Pair-coding Exercise]                   |         |                          |
@@ -243,7 +243,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[Pseudo-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
+[Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/index.html#exercises
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2019/07/23/
