@@ -3,12 +3,12 @@
 
 title: Summer Institute @SESYNC
 venue: SESYNC
-address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
+address: "virtual"
 country: us
 language: en
 latlng: 38.97667, -76.50347
 humandate: Jul 21 - 24, 2020  # use three-letter month names
-humantime: 9:00 am - 5:00 pm
+humantime: 
 startdate: 2020-07-21
 enddate: 2020-07-24
 instructors:
@@ -133,38 +133,32 @@ query string parameter "draft=TRUE" -->
 
 ## Schedule
 
-| **[Monday]**  |     9:00 | Introduction to the RStudio IDE          |         |                          |
-|               |     9:15 | [Block Programming Exercise]             |         |                          |
-|               |     9:45 | [Base R]                                 |         | R                        |
-|               |    10:45 | [Base R] (continued)                     |         | R                        |
-|               |    12:00 | [Pair-coding Exercise]                   |         |                          |
-|               |    13:30 | [Visualizing Tabular Data]               |         | R > ggplot2              |
-|               |    15:45 | [Scripting Exercise]                     |         |                          |
-| **Tuesday**   |     9:00 | Welcome and Overview of SESYNC           | Jon     |                          |
-|               |     9:15 | [Collaborative & Reproducible Research]  |         | git, GitHub              |
-|               |    10:45 | Introduce Coaches & `data2doc`           |         |                          |
-|               |    11:45 | Meet the Teams                           |         |                          |
-|               |    13:30 | [Manipulating Tabular Data (R)]          |         | R > dplyr                |
-|               |    13:30 | [Manipulating Tabular Data (Python)]     |         | Python > pandas          |
-|               |    15:15 | About Homework & GitHub                  |         |                          |
-|               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | [Lesson 3] & [Lesson 4 (R)]/5 (Python) Exercises|  |                          |
-| **Wednesday** |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Regression]                             |         | R > nlme                 |
-|               |    10:45 | [Smart and Interactive Documents]        |         | R > rmarkdown, R > shiny |
-|               |    13:30 | `data2doc`                               |         |                          |
-|               |    15:15 | Mini-project Updates & Discussion        |         |                          |
-|               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | [Lesson 6] & [Lesson 7] Exercises        |         |                          |
-| **Thursday**  |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Online Data]                            |         | Python > requests        |
-|               |    10:45 | [Geospatial Data]                        |         | R > sf, R > raster       |
-|               |    13:30 | `data2doc`                               |         |                          |
-|               |    15:15 | Mini-project Updates & Discussion        |         |                          |
-|               |    15:45 | `data2doc`                               |         |                          |
-|               | Homework | [Lesson 8] & [Lesson 9] Exercises        |         |                          |
+| **[Monday]**  |          | Introduction to the RStudio IDE          |         |                          |
+|               |          | [Block Programming Exercise]             |         |                          |
+|               |          | [Base R]                                 |         | R                        |
+|               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
+|               |          | [Pair-coding Exercise]                   |         |                          |
+|               |          | [Scripting Exercise]                     |         |                          |
+| **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
+|               |          | [Manipulating Tabular Data]              |         | R > dplyr                | 
+|               |    11:00 | Welcome and Overview of SESYNC           | Jon K   |                          |
+|               |    11:15 | Introduce Coaches                        |         |                          |  
+|               |    11:30 | Meet the Teams                           |         |                          |
+|               |    12:15 | Coaching                                 |         |                          |
+|               |    13:00 | About Homework Exercises & GitHub        |         |                          |
+|               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
+| **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
+|               |          | [Online Data]                            |         | Python > requests        |
+|               |    11:00 | Exercise Review & Office hours           |         |                          |
+|               |    13:00 | Mini-project Updates & Discussion        |         |                          |
+|               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
+|               |          | Coaching                                 |         |                          |
+| **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       | 
+|               |          | [Interactive Web Applications]           |         | R > shiny                |
+|               |    11:00 | Exercise Review & Office hours           |         |                          |
+|               |          | Coaching                                 |         |                          |
 | **Friday**    |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 | [Structure for Unstructured Data]        |         |                          |
+|               |     9:15 |    |         |                          |
 |               |     9:15 | Relational Databases Q&A                 |         | SQL, R > dbplyr          |
 |               |    10:45 | [Documenting and Publishing Data]	      |         | R > dataspice            |
 |               |    14:30 | Team Presentations (5 x 10 min)          |         |                          |
@@ -251,25 +245,24 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/
 [Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/index.html#exercises
-[Manipulating Tabular Data (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/
-[Lesson 4 (R)]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/index.html#exercises
-[Manipulating Tabular Data (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/2019/07/23/
-[5 (Python)]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/2019/07/23/index.html#exercises
-
-[Regression]: {{ site.gh-pages }}/model-lang-lesson/2019/07/23/
-[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson/2019/07/23/index.html#exercises
-[Smart and Interactive Documents]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/2019/07/23/
-[Lesson 7]: {{ site.gh-pages }}/interactive-rmarkdown-lesson/2019/07/23/index.html#exercises
-
-[Online Data]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/
-[Lesson 8]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/index.hml#exercises
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
-[Lesson 9]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/
+[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/index.html#exercises
 
 [Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/
-[Lesson 10]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/index.html#exercises
+[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/index.html#exercises
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/
+[Lesson 6]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/index.hml#exercises
+
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
+[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
+[Lesson 8]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
+
 [Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
-[Lesson 11]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
+[Lesson 9]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
+[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
+
 
 [Homebrew]: https://brew.sh/
 
