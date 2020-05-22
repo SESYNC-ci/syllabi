@@ -137,8 +137,7 @@ query string parameter "draft=TRUE" -->
 |               |          | [Block Programming Exercise]             |         |                          |
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
-|               |          | [Pair-coding Exercise]                   |         |                          |
-|               |          | [Scripting Exercise]                     |         |                          |
+|               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                | 
 |               |    11:00 | Welcome and Overview of SESYNC           | Jon K   |                          |
@@ -152,18 +151,18 @@ query string parameter "draft=TRUE" -->
 |               |    11:00 | Exercise Review & Office hours           |         |                          |
 |               |    13:00 | Mini-project Updates & Discussion        |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
-|               |          | Coaching                                 |         |                          |
+|               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       | 
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
 |               |    11:00 | Exercise Review & Office hours           |         |                          |
-|               |          | Coaching                                 |         |                          |
-| **Friday**    |     9:00 | Exercise Review                          |         |                          |
-|               |     9:15 |    |         |                          |
-|               |     9:15 | Relational Databases Q&A                 |         | SQL, R > dbplyr          |
-|               |    10:45 | [Documenting and Publishing Data]	      |         | R > dataspice            |
-|               |    14:30 | Team Presentations (5 x 10 min)          |         |                          |
-|               |    15:45 | Team Presentations (5 x 10 min)          |         |                          |
-|               | Homework | [Lesson 11] Exercises                    |         |                          |
+|               |          | Coaching (time TBD with your coach)      |         |                          |
+|               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
+| **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
+|               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
+|               |    11:00 | Team Presentations (5 x 10 min)          |         |                          |
+|               |    12:30 | Team Presentations (5 x 10 min)          |         |                          |
+|               |          | Exercises for [Lesson 10]                |         |                          |
+
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
@@ -239,8 +238,8 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/
-[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/index.html#exercises
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2019/07/23/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/index.html#exercises
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/
@@ -255,11 +254,11 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
 [Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
-[Lesson 8]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
+[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/2019/07/23/
+[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/2019/07/23/index.html#exercises
 
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
-[Lesson 9]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
+[Database Principles]: {{ site.gh-pages }}/introdb-lesson/2019/07/23/
+[Lesson 9]: {{ site.gh-pages }}/introdb-lesson/2019/07/23/index.html#exercises
 [Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
 [Lesson 10]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
 
