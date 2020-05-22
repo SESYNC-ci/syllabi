@@ -6,7 +6,7 @@ venue: SESYNC
 address: "This year's Summer Institute will be held virtually."
 country: us
 language: en
-latlng: 38.97667, -76.50347
+<!-- latlng: 38.97667, -76.50347 -->
 humandate: Jul 21 - 24, 2020  # use three-letter month names
 humantime: 
 startdate: 2020-07-21
@@ -92,8 +92,8 @@ Participants should expect to:
 {{ page.address }}
   
 Get directions with
-<a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a> or
-<a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
+<!-- <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a> or
+<a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>. -->
 {% endif %}
 
 <!-- The following block automatically inserts a contact email address if one
