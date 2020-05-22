@@ -3,7 +3,7 @@
 
 title: Summer Institute @SESYNC
 venue: SESYNC
-address: "We are hold this year's Summer Institute virtually."
+address: "This year's Summer Institute will be held virtually."
 country: us
 language: en
 latlng: 38.97667, -76.50347
