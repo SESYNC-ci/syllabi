@@ -162,7 +162,6 @@ query string parameter "draft=TRUE" -->
 |               |    11:00 | Team Presentations (5 x 10 min)          |         |                          |
 |               |    12:30 | Team Presentations (5 x 10 min)          |         |                          |
 |               |          | Exercises for [Lesson 10]                |         |                          |
-
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
