@@ -113,6 +113,8 @@ system (not a tablet, Chromebook, etc.) with a full-featured browser (not
 Microsft Edge).
 - At least one team member must prepare and have available data for the mini-project; a
 sample/incomplete data is okay.
+- Participants must be able to access lesson materials via the internet, and video or voice
+conference for coaching sessions.  
 
 <!-- An eventbrite value in the YAML front matter triggers the next block. -->
 
