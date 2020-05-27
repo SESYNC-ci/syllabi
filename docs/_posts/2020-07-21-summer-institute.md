@@ -22,7 +22,7 @@ sidebar_list:
  - "You are here: <http://sesync.us/si>"
 # - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
 # - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
-# - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
+# - "Project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2019-07-23-summer-institute/handouts.zip){:target=\"_blank\"}"
 # - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSflGCqRj-ToYJeCVmFxmH2dFFM4qXl2hyqJp-0Nb-9UihdDqA/viewform)"
 ---
@@ -135,35 +135,44 @@ query string parameter "draft=TRUE" -->
 
 ## Schedule
 
+#### Note: Times displayed are in US Eastern Daylight Savings Time. 
+
 | **[Monday]**  |          | Introduction to the RStudio IDE          |         |                          |
 |               |          | [Block Programming Exercise]             |         |                          |
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
+|               |    09:00 | Office Hours (3 hours)                   |         |                          |
+|               |    13:00 | Office Hours (3 hours)                   |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                | 
-|               |    11:00 | Welcome and Overview of SESYNC           | Jon K   |                          |
-|               |    11:15 | Introduce Coaches                        |         |                          |  
-|               |    11:30 | Meet the Teams                           |         |                          |
-|               |    12:15 | Coaching                                 |         |                          |
-|               |    13:00 | About Homework Exercises & GitHub        |         |                          |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
+|               |    11:00 | Welcome and Overview of SESYNC           | Jon K   |                          |
+|               |    11:15 | Introduce Coaches                        |         |                          |
+|               |    11:30 | Meet the Teams                           |         |                          |
+|               |    12:15 | About Homework Exercises & GitHub        |         |                          |
+|               |    13:00 | Exercise Review & Office Hours           |         |                          |
+|               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
 |               |          | [Online Data]                            |         | Python > requests        |
-|               |    11:00 | Exercise Review & Office hours           |         |                          |
-|               |    13:00 | Mini-project Updates & Discussion        |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
+|               |    11:00 | Exercise Review & Office Hours           |         |                          |
+|               |    13:00 | Project Updates & Discussion             |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       | 
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
-|               |    11:00 | Exercise Review & Office hours           |         |                          |
-|               |          | Coaching (time TBD with your coach)      |         |                          |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
+|               |    11:00 | Exercise Review & Office Hours           |         |                          |
+|               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
 |               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
-|               |    11:00 | Team Presentations (5 x 10 min)          |         |                          |
-|               |    12:30 | Team Presentations (5 x 10 min)          |         |                          |
 |               |          | Exercises for [Lesson 10]                |         |                          |
+|               |    11:00 | Team Presentations (3 x 10 min)          |         |                          |
+|               |    11:30 | Break                                    |         |                          |
+|               |    11:45 | Team Presentations (4 x 10 min)          |         |                          |
+|               |    12:30 | Break                                    |         |                          |
+|               |    13:00 | Team Presentations (3 x 10 min)          |         |                          |
+
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
