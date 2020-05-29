@@ -137,7 +137,7 @@ query string parameter "draft=TRUE" -->
 
 #### Note: Times displayed are in US Eastern Daylight Savings Time. 
 
-| **[Monday]**  |          | Introduction to the RStudio IDE          |         |                          |
+| **[Monday]**  |          | [Introduction to R and the RStudio IDE]  |         |                          |
 |               |          | [Block Programming Exercise]             |         |                          |
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
@@ -246,6 +246,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
+[Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/rstudio_ide.html
 [Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2019/07/23/
