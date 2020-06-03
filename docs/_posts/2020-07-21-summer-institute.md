@@ -142,48 +142,63 @@ query string parameter "draft=TRUE" -->
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
-|               |    09:00 | Office Hours (3 hours)                   |         |                          |
-|               |    13:00 | Office Hours (3 hours)                   |         |                          |
+|               |   *09:00*| *Office Hours (3 hours)*                 |         |                          |
+|               |   *13:00*| *Office Hours (3 hours)*                 |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
-|               |          | [Manipulating Tabular Data]              |         | R > dplyr                | 
+|               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
-|               |    11:00 | Welcome and Overview of SESYNC           | Jon K   |                          |
-|               |    11:15 | Introduce Coaches                        |         |                          |
-|               |    11:30 | Meet the Teams                           |         |                          |
-|               |    12:15 | About Homework Exercises & GitHub        |         |                          |
-|               |    13:00 | Exercise Review & Office Hours           |         |                          |
+|               |   *11:00*| *Welcome and Overview of SESYNC*         | Jon K   |                          |
+|               |   *11:15*| *Introduce Coaches*                      |         |                          |
+|               |   *11:30*| *Meet the Teams*                         |         |                          |
+|               |   *12:15*| *About Homework Exercises & GitHub*      |         |                          |
+|               |   *13:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
 |               |          | [Online Data]                            |         | Python > requests        |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
-|               |    11:00 | Exercise Review & Office Hours           |         |                          |
-|               |    13:00 | Project Updates & Discussion             |         |                          |
+|               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *13:00*| *Project Updates & Discussion*           |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       | 
+| **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       |
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
-|               |    11:00 | Exercise Review & Office Hours           |         |                          |
+|               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
 |               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
-|               |    11:00 | Team Presentations (3 x 10 min)          |         |                          |
+|               |   *11:00*| *Team Presentations (3 x 10 min)*        |         |                          |
 |               |    11:30 | Break                                    |         |                          |
-|               |    11:45 | Team Presentations (4 x 10 min)          |         |                          |
+|               |   *11:45*| *Team Presentations (4 x 10 min)*        |         |                          |
 |               |    12:30 | Break                                    |         |                          |
-|               |    13:00 | Team Presentations (3 x 10 min)          |         |                          |
-
+|               |   *13:00*| *Team Presentations (3 x 10 min)*        |         |                          |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
 ## Software
 
-The workshop uses RStudio and Jupyter, as well as many packages and
-dependencies associated with these two Integrated Development
+To hold this course virtually, we will be using a few software 
+platforms for communication and collaboration.  Communication with 
+instructors, and within your team will be via Slack.  You can text 
+chat, as well as video call with screen sharing.  Office hours and 
+exercise reviews will be held via Zoom.  This will allow voice and 
+video conference with screen sharing and recording.  Please download
+these two software (free) platforms to the computer you will be using
+before the workshop.
+
+
+| Software   | Download Site                                         | 
+|------------+-------------------------------------------------------|
+| Slack      | <https://slack.com/downloads/>                        |
+| Zoom       | <http://zoom.com/download/>                           | 
+{:.table}
+
+We use RStudio and Jupyter in this course, as well as many packages 
+and dependencies associated with these two Integrated Development
 Environments (IDEs). SESYNC provides a cloud platform capable of
-supporting the software needs for the short course, so **there is
-nothing for you to install** in advance. However, you are welcome
- to install any and or all of this software---it is
+supporting the software needs for the course, so **there is no
+computational software for you to install** in advance. However, 
+you are welcome to install any and or all of this software---it is
 all free and open source---on your own machines. Feel free to request
 assistance any time during the course with installing the listed
 software on your laptop.
