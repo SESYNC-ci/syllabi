@@ -142,11 +142,13 @@ query string parameter "draft=TRUE" -->
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
+|               |          | Optional: [Basic Python]                 |         |                          |
 |               |   *09:00*| *Office Hours (3 hours)*                 |         |                          |
 |               |   *13:00*| *Office Hours (3 hours)*                 |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
+|               |          | Optional: [Tabular Data in Python]       |         |                          |
 |               |   *11:00*| *Welcome and Overview of SESYNC*         | Jon K   |                          |
 |               |   *11:15*| *Introduce Coaches*                      |         |                          |
 |               |   *11:30*| *Meet the Teams*                         |         |                          |
@@ -154,7 +156,7 @@ query string parameter "draft=TRUE" -->
 |               |   *13:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
-|               |          | [Online Data]                            |         | Python > requests        |
+|               |          | [Online Data]                            |         | R > requests             |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |   *13:00*| *Project Updates & Discussion*           |         |                          |
@@ -162,6 +164,7 @@ query string parameter "draft=TRUE" -->
 | **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       |
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
+|               |          | Optional: [Raster Classification in R]   |         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
@@ -263,30 +266,33 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/rstudio_ide.html
 [Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2019/07/23/
-[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2019/07/23/index.html#exercises
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
+[Basic Python]: {{ site.gh-pages }}/basic-python-lesson/
 
-[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/
-[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/2019/07/23/index.html#exercises
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/
-[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2019/07/23/index.html#exercises
+[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/
+[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/index.html#exercises
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/
+[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/index.html#exercises
+[Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson
 
-[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/
-[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/2019/07/23/index.html#exercises
-[Online Data]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/
-[Lesson 6]: {{ site.gh-pages }}/online-data-lesson/2019/07/23/index.hml#exercises
+[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/
+[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/index.html#exercises
+[Online Data]: {{ site.gh-pages }}/online-data-lesson/
+[Lesson 6]: {{ site.gh-pages }}/online-data-lesson/index.hml#exercises
 
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/
-[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2019/07/23/index.html#exercises
-[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/2019/07/23/
-[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/2019/07/23/index.html#exercises
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/
+[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/index.html#exercises
+[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/
+[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/index.html#exercises
+[Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson
 
-[Database Principles]: {{ site.gh-pages }}/introdb-lesson/2019/07/23/
-[Lesson 9]: {{ site.gh-pages }}/introdb-lesson/2019/07/23/index.html#exercises
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/
-[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/2019/07/23/index.html#exercises
+[Database Principles]: {{ site.gh-pages }}/introdb-lesson/
+[Lesson 9]: {{ site.gh-pages }}/introdb-lesson/index.html#exercises
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/
+[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/index.html#exercises
 
 
 [Homebrew]: https://brew.sh/
