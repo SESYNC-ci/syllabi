@@ -156,7 +156,8 @@ query string parameter "draft=TRUE" -->
 |               |   *13:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
-|               |          | [Online Data]                            |         | R > requests             |
+|               |          | [Online Data in R]                       |         | R > rvest                |
+|               |          | Optional: [Online Data in Python]        |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |   *13:00*| *Project Updates & Discussion*           |         |                          |
@@ -281,8 +282,9 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/
 [Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/index.html#exercises
-[Online Data]: {{ site.gh-pages }}/online-data-lesson/
-[Lesson 6]: {{ site.gh-pages }}/online-data-lesson/index.hml#exercises
+[Online Data in R]: {{ site.gh-pages }}/online-data-with-R-lesson/
+[Lesson 6]: {{ site.gh-pages }}/online-data-with-R-lesson/index.hml#exercises
+[Online Data in Python]: {{ site.gh-pages }}/online-data-lesson/
 
 [Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/
 [Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/index.html#exercises
