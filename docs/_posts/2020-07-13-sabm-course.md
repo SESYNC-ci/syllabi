@@ -1,4 +1,4 @@
-﻿---
+---
 title: "SESYNC Short-Course: Introduction to Spatial Agent-Based Modeling"
 venue1: SESYNC
 address1: 1 Park Place, Annapolis MD
@@ -85,8 +85,6 @@ The structure of the curriculum as well as the teaching style are informed by [S
 [//]: # " Edit this block to show the syllabus and schedule for your bootcamp. "
 
 ## Schedule
-
-**Plenary sessions begin promptly at 9:00 am.** Breakfast snacks (e.g., granola bars) and coffee/tea are provided at 8:30am on-site. If you would like a more substantial breakfast, it is suggested that you eat at your hotel or a nearby restaurant prior to arriving at SESYNC. Coffee/Tea and snack breaks are at 10:30 am and 3:30 pm, and on-site lunch provided by SESYNC at 12:30 pm. Trainees are responsible for their own dinner arrangements (we can make recommendations).
 
 | Pre-Course Readings |  | 1. Railsback, S. and Grimm, V. (2019). Models, Agent-Based Models, and the Modeling Cycle. In: Railsback, S. and Grimm, V., Agent-based and Individual-Based Modeling: A Practical Introduction, Second Edition. Princeton UP.
      |
