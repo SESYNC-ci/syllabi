@@ -48,7 +48,7 @@ sidebar_list:
 
 The 2020 Summer Institute brings together ten science teams for a short
 course on data and software skills in socio-environmental synthesis. Through
-hands-on tutorial and project consultation, SESYNC staff will aim to accelerate
+hands-on tutorials and project consultation, SESYNC staff will aim to accelerate
 your team's adoption of cyber resources in all phases of data-driven research
 and dissemination.
 
@@ -155,7 +155,7 @@ query string parameter "draft=TRUE" -->
 |               |   *12:15*| *About Homework Exercises & GitHub*      |         |                          |
 |               |   *13:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Wednesday** |          | [Structure for Unstructured Data]        |         |                          |
+| **Wednesday** |          | [Structure for Unstructured Data]        |         | R > tidytext             |
 |               |          | [Online Data in R]                       |         | R > rvest                |
 |               |          | Optional: [Online Data in Python]        |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
@@ -179,6 +179,17 @@ query string parameter "draft=TRUE" -->
 |               |   *13:00*| *Team Presentations (3 x 10 min)*        |         |                          |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
+
+## Participation Guide
+
+The structure of this year's virtual Summer Institute will be a mixture of self-paced 
+asynchronous lessons with instructor-led synchronous sessions.  To get the most out of 
+each day, you should:
+
+1. Thoroughly review and code along with the lesson material and exercises for each day _prior to_ that day's Office Hours and Exercise Review.
+1. Call in to the Zoom meeting for daily Office Hours and Exercise Review to ask questions you have on that day's lesson material.  Note: Optional lessons will not be reviewed.  The links to these lessons are only provided for your personal learning and development.
+1. Participate in coaching sessions for your team mini-project and apply what you learn in the lessons to your project.  
+1. Ask questions of your instructors, your team, and fellow participants on Slack.  Feel free to do this when you're reviewing the lessons, or when you're thinking about your mini-project.  
 
 ## Software
 
