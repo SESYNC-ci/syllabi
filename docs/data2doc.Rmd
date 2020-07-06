@@ -1,6 +1,12 @@
 ---
 title:  "SESYNC <br> Cyber Summer Institute <br> Mini-projects"
-output: ioslides_presentation
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +20,7 @@ Your team is here to practice.
 
 Your instructors are here to coach. 
 
+---
 
 ## Mini-project Goals
 
@@ -24,6 +31,7 @@ Your instructors are here to coach.
 - Script a reproducible "data-to-document" pipeline.
 - Present mini-results (Friday).
 
+---
 
 ## Practice #1: Tuesday
 
@@ -36,6 +44,7 @@ Your instructors are here to coach.
 1. (Team) Create a RStudio project from the repo.
 1. Add to the `REAMDE.md` and merge/push.
 
+---
 
 ## Practice #2: Wednesday
 
@@ -46,6 +55,7 @@ Your instructors are here to coach.
 1. Read data into R and prepare it for a simple analyis or visualization.
 1. Update the `README.md` on GitHub.
 
+---
 
 ## Practice #3: Thursday
 
@@ -53,6 +63,7 @@ Your instructors are here to coach.
 1. Decide on the format of your presentation (consider RMarkdown).
 1. Practice your collaborative workflow: stage, commit, pull, and push!
 
+---
 
 ## Practice #4: Friday
 

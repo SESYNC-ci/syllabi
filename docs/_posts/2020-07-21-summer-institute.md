@@ -272,7 +272,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
-[Basic Python]: {{ site.gh-pages }}/basic-python-lesson/
+[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/
 [Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/index.html#exercises
