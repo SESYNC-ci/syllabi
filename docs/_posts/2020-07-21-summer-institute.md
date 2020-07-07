@@ -6,7 +6,7 @@ venue: SESYNC
 address: "This year's Summer Institute will be held virtually."
 country: us
 language: en
-<!-- latlng: 38.97667, -76.50347 -->
+# latlng: 38.97667, -76.50347
 humandate: Jul 21 - 24, 2020  # use three-letter month names
 humantime: 
 startdate: 2020-07-21
@@ -22,7 +22,7 @@ sidebar_list:
  - "You are here: <http://sesync.us/si>"
 # - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
 # - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
-# - "Project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
+# - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2019-07-23-summer-institute/handouts.zip){:target=\"_blank\"}"
 # - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSflGCqRj-ToYJeCVmFxmH2dFFM4qXl2hyqJp-0Nb-9UihdDqA/viewform)"
 ---
