@@ -193,11 +193,11 @@ each day, you should:
 
 **FAQ**
 
-1. When are team coaching sessions?
+*When are team coaching sessions?*
 
 Coaching session times will vary by team because each coach will be working with 2-3 teams during the institute. Teams and coaches should arrange times for video calls that are amenable to each other's schedules, needs, and timezones by communicating in your team's Slack channel. Coaching sessions should generally be held between 8am to 6pm EDT. 
 
-1. How will I collaborate with my team on our mini-project?
+*How will I collaborate with my team on our mini-project?*
 
 How your team decides to work is up to you and your team. You will be able to chat and hold group video calls with screen-sharing through Slack at any time. We encourage you to spend roughly 3 hours each day on your project, however this may vary throughout the week. Coaches can help you strategize how to collaborate and make best use of your time. 
 
