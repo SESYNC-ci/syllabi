@@ -313,8 +313,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/index.html#exercises
 [Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson
 
-[Database Principles]: {{ site.gh-pages }}/introdb-lesson/
-[Lesson 9]: {{ site.gh-pages }}/introdb-lesson/index.html#exercises
+[Database Principles]: {{ site.gh-pages }}/sqlite-lesson/
 [Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/
 [Lesson 10]: {{ site.gh-pages }}/data-package-lesson/index.html#exercises
 
