@@ -191,6 +191,16 @@ each day, you should:
 1. Participate in coaching sessions for your team mini-project and apply what you learn in the lessons to your project.  
 1. Ask questions of your instructors, your team, and fellow participants on Slack.  Feel free to do this when you're reviewing the lessons, or when you're thinking about your mini-project.  
 
+**FAQ**
+
+*When are team coaching sessions?*
+
+Coaching session times will vary by team because each coach will be working with 2-3 teams during the institute. Teams and coaches should arrange times for video calls that are amenable to each other's schedules, needs, and timezones by communicating in your team's Slack channel. Coaching sessions should generally be held between 8am to 6pm EDT. 
+
+*How will I collaborate with my team on our mini-project?*
+
+How your team decides to work is up to you and your team. You will be able to chat and hold group video calls with screen-sharing through Slack at any time. We encourage you to spend roughly 3 hours each day on your project, however this may vary throughout the week. Coaches can help you strategize how to collaborate and make best use of your time. 
+
 ## Software
 
 To hold this course virtually, we will be using a few software 
