@@ -150,7 +150,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
         |
 |           |            | c. An optional example of POM: Railsback, S. F., & Harvey, B. C. (2002). Analysis of habitat-selection rules using an individual-based model. Ecology,83(7), 1817-1830.
         |
-| Thursday  |*Instructional Content*| [Lecture 5: Survey data and ABMs] [11]				                                                |
+| Thursday  |*Instructional Content*| [Lecture 5: Introduction to model calibration, sensitivity analysis, and eveluation] [14]				                                                |
 |           |	  *Skills Tutorials*| [GIS and NetLogo][12]																					|
 |           |      	 1:00-2:00 pm ET| *Live* Question & Answer Session					                                                    |                                                                                                                                                                                                                                                 |
 |           |      	         Anytime| Inidividual project consultation time				                                                    |                                                                                                                                                                                                                                               |
@@ -160,7 +160,7 @@ The structure of the curriculum as well as the teaching style are informed by [S
         |
 |           |            | c. Optional: Magliocca, N., McConnell, V., & Walls, M. (2018). Integrating global sensitivity approaches to deconstruct spatial and temporal sensitivities of complex spatial agent-based models. Journal of Artificial Societies and Social Simulation, 21(1). 
         |
-| Friday    |*Instructional Content*| [Lecture 6: Introduction to model calibration, sensitivity analysis, and eveluation] [14]             |
+| Friday    |*Instructional Content*| [Lecture 6: Survey data and ABMs] [11]             |
 |           |	  *Skills Tutorials*| [Introduction to version control with Git][15]														|
 |           |      	 1:00-2:00 pm ET| *Live* Question & Answer Session					                                                    |                                                                                                                                                                                                                                                 |
 |           |      	         Anytime| Inidividual project consultation time				                                                    |                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                 |
