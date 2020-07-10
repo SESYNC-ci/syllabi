@@ -318,7 +318,6 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson
 
 [Database Principles]: {{ site.gh-pages }}/sqlite-lesson/
-[Lesson 9]: {{ site.gh-pages }}/introdb-lesson/index.html#exercises
 [Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/
 [Lesson 10]: {{ site.gh-pages }}/data-package-lesson/index.html#exercises
 
