@@ -142,13 +142,14 @@ query string parameter "draft=TRUE" -->
 |               |          | [Base R]                                 |         | R                        |
 |               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
-|               |          | Optional: [Basic Python]                 |         |                          |
+|               |          | [Extra Tips for learning R]              |         |                          |
+|               |          | Optional lesson: [Basic Python]          |         |                          |
 |               |   *09:00*| *Office Hours (3 hours)*                 |         |                          |
 |               |   *13:00*| *Office Hours (3 hours)*                 |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
-|               |          | Optional: [Tabular Data in Python]       |         |                          |
+|               |          | Optional lesson: [Tabular Data in Python]|         |                          |
 |               |   *11:00*| *Welcome and Overview of SESYNC*         | Jon K   |                          |
 |               |   *11:15*| *Introduce Coaches*                      |         |                          |
 |               |   *11:30*| *Meet the Teams*                         |         |                          |
@@ -157,7 +158,7 @@ query string parameter "draft=TRUE" -->
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         | R > tidytext             |
 |               |          | [Online Data in R]                       |         | R > rvest                |
-|               |          | Optional: [Online Data in Python]        |         |                          |
+|               |          | Optional lesson: [Online Data in Python] |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |   *13:00*| *Project Updates & Discussion*           |         |                          |
@@ -165,7 +166,7 @@ query string parameter "draft=TRUE" -->
 | **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       |
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
-|               |          | Optional: [Raster Classification in R]   |         |                          |
+|               |          | Optional lesson: [Raster Classification in R]|         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
@@ -293,6 +294,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
+[Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/Rlearningresources.html
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/
