@@ -201,6 +201,10 @@ Coaching session times will vary by team because each coach will be working with
 
 How your team decides to work is up to you and your team. You will be able to chat and hold group video calls with screen-sharing through Slack at any time. We encourage you to spend roughly 3 hours each day on your project, however this may vary throughout the week. Coaches can help you strategize how to collaborate and make best use of your time. 
 
+*What should I expect for attending Day 0?*
+
+The optional first day will operate similar to the rest of the week. Lesson material is linked in the schedule and some coding demonstration videos will be sent out ahead of time to supplement those lessons. On Day 0, instructors will hold live 3 hour Office Hours sessions via Zoom at both 9:00 EDT and 13:00 EDT where we will go over exercises and answer questions about that day's lesson material. You should review the lesson material prior to attending. Choose whichever time to attend Office Hours that works best for you. 
+
 ## Software
 
 To hold this course virtually, we will be using a few software 
