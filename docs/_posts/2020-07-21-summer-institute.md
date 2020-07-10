@@ -294,34 +294,34 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 [Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/rstudio_ide.html
 [Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson/
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/course
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/index.html#exercises
 [Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
 [Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/Rlearningresources.html
-[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/
+[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course
 
-[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/
-[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/index.html#exercises
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/
-[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/index.html#exercises
-[Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson
+[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/course
+[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson#exercises
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course
+[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson#exercises
+[Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/course
 
-[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/
-[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/index.html#exercises
-[Online Data in R]: {{ site.gh-pages }}/online-data-with-R-lesson/
-[Lesson 6]: {{ site.gh-pages }}/online-data-with-R-lesson/index.hml#exercises
-[Online Data in Python]: {{ site.gh-pages }}/online-data-lesson/
+[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/course
+[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson#exercises
+[Online Data in R]: {{ site.gh-pages }}/online-data-with-R-lesson/course
+[Lesson 6]: {{ site.gh-pages }}/online-data-with-R-lesson#exercises
+[Online Data in Python]: {{ site.gh-pages }}/online-data-lesson/course
 
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/
-[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/index.html#exercises
-[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/
-[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/index.html#exercises
-[Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson
+[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course
+[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson#exercises
+[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/course
+[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson#exercises
+[Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson/course
 
-[Database Principles]: {{ site.gh-pages }}/sqlite-lesson/
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/
-[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/index.html#exercises
+[Database Principles]: {{ site.gh-pages }}/sqlite-lesson/course
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/course
+[Lesson 10]: {{ site.gh-pages }}/data-package-lesson#exercises
 
 
 [Homebrew]: https://brew.sh/
