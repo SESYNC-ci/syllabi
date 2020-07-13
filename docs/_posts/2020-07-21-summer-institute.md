@@ -208,6 +208,8 @@ The optional first day will operate similar to the rest of the week. Lesson mate
 
 ## Software
 
+**Communication Software**
+
 To hold this course virtually, we will be using a few software 
 platforms for communication and collaboration.  Communication with 
 instructors, and within your team will be via Slack.  You can text 
@@ -223,6 +225,12 @@ before the workshop.
 | Slack      | <https://slack.com/downloads/>                        |
 | Zoom       | <http://zoom.com/download/>                           | 
 {:.table}
+
+If you are not familiar with joining virtual meetings in Zoom, please see the
+[Zoom help pages](https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting) for more info.
+
+
+**Computational Software**
 
 We use RStudio and Jupyter in this course, as well as many packages 
 and dependencies associated with these two Integrated Development
