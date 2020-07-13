@@ -169,7 +169,7 @@ query string parameter "draft=TRUE" -->
 |               |          | Optional lesson: [Raster Classification in R]|         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Friday**    |          | [Database Principles]                    |         | SQL, R > dbplyr          |
+| **Friday**    |          | [Database Principles]                    |         | SQL, R > RSQLite          |
 |               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
 |               |   *10:00*| *Office Hours & Course Wrap-up*          |         |                          |
