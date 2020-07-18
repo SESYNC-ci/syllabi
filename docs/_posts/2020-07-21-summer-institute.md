@@ -154,20 +154,20 @@ query string parameter "draft=TRUE" -->
 |               |   *11:15*| *Introduce Coaches*                      |         |                          |
 |               |   *11:30*| *Meet the Teams*                         |         |                          |
 |               |   *12:15*| *About Homework Exercises & GitHub*      |         |                          |
-|               |   *13:00*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *13:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         | R > tidytext             |
 |               |          | [Online Data in R]                       |         | R > rvest                |
 |               |          | Optional lesson: [Online Data in Python] |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
 |               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
-|               |   *13:00*| *Project Updates & Discussion*           |         |                          |
+|               |   *13:00*| *Project Updates & Discussion (1 hour)*           |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       |
 |               |          | [Interactive Web Applications]           |         | R > shiny                |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
 |               |          | Optional lesson: [Raster Classification in R]|         |                          |
-|               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *11:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | [Database Principles]                    |         | SQL, R > RSQLite          |
 |               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
