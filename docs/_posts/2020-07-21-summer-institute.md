@@ -24,7 +24,7 @@ sidebar_list:
 # - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
 # - "Mini-project goals: [data2doc](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2019-07-23-summer-institute/handouts.zip){:target=\"_blank\"}"
-# - "[Feedback Survey](https://docs.google.com/forms/d/e/1FAIpQLSflGCqRj-ToYJeCVmFxmH2dFFM4qXl2hyqJp-0Nb-9UihdDqA/viewform)"
+# - "[Feedback Survey](https://forms.gle/YbborJGuLXoQCP4M9)"
 ---
 
 <!-- Capture additional variables to use below. -->
