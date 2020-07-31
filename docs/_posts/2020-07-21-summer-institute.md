@@ -301,13 +301,13 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/rstudio_ide.html
-[Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
+[Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/rstudio_ide.html
+[Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/reading.html
 [Base R]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/
 [Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2020/07/21/
 [Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/index.html#exercises
-[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
-[Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/Rlearningresources.html
+[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/challenge.html
+[Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/2020/07/21/Rlearningresources.html
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/2020/07/21/
 
 [Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/2020/07/21/
