@@ -25,7 +25,7 @@ sidebar_list:
  - "Mini-project goals: [daily goals](/syllabi/data2doc.html){:target=\"_blank\"}"
  - "Team Projects: [Github Repositories](https://github.com/SESYNC-ci/si2020instructors/blob/master/teams2020.md){:target=\"_blank\"}"
  - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2020-07-21-summer-institute/handouts.zip){:target=\"_blank\"}"
- - "[Feedback Survey](https://forms.gle/YbborJGuLXoQCP4M9)"
+# - "[Feedback Survey](https://forms.gle/YbborJGuLXoQCP4M9)"
 ---
 
 <!-- Capture additional variables to use below. -->
