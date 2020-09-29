@@ -66,10 +66,17 @@ A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is 
 
 [//]: # " Edit this table to show the agenda. "
 
-|    9:00 am | tidyverse lesson | Welcome                                      |
-|       9:30 | tidyverse lesson | bla                                          |
-|    *10:30* | tidyverse lesson | *Break*                                      |
-|      10:45 | tidyverse lesson | bla                                          |
+|   10:00 am | tidyverse lesson | Intro fs and map functions                   |
+|    *10:30* | *Break*          |                                              |
+|      10:40 | tidyverse lesson | Review Exercises 1 & 2                       |
+|      10:45 | tidyverse lesson | strings and dates                            |
+|   *11:00*  | *Break*          |                                              |
+|      11:10 | tidyverse lesson | Review Exercises                             |
+|      11:15 | tidyverse lesson | glue and markdown in ggplot labels           |
+|    *11:45* | *Break*          |                                              |
+|      11:55 | tidyverse lesson | Review Exercises 3 & 4                       |
+|     12:00  | tidyverse lesson | factors                                      |
+|     12:20  | tidyverse lesson | Review Exericses 5 & 6, summary              |
 | *12:30 pm* | *Lunch Break*    |                                              |
 |       2:00 | git lesson       | intro and review of basic git lesson         |
 |       2:15 | git lesson       | branches and forks                           |
