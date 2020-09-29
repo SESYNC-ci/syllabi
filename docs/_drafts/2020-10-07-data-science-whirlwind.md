@@ -91,7 +91,16 @@ A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is 
 
 ### tidyverse lesson
 
-bla
+Should be familiar with basic concepts of "tidy" data introduced in the [Manipulating Tabular Data Lesson](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/) and the basics of ggplot2 introduced in the [Visualizing Tabular Data Lesson](https://cyberhelp.sesync.org/graphics-with-ggplot2-lesson/).
+
+In particular, should know about
+
+* rstudio interface
+* be able to log into rstudio.sesync.org in order to access data we will use
+* using the pipe
+* using functions
+* text manipulation? is any prereq needed for regex part?
+* what markdown syntax is?
 
 ### git lesson
 
