@@ -12,13 +12,17 @@ instructors:
   - Kelly Hondula
   - Quentin Read
   - Rachael Blake
-contact:  # correspondence e-mail address
+contact: rblake@sesync.org # correspondence e-mail address
 etherpad:  # optional etherpad url
 twitter:  # optional twitter hashtag
 eventbrite:  # optional eventbrite id
 handout:  # optional handout url
 github:  # reminder about github account: true, false (default)
 feedback:  # optional form url
+sidebar_list:
+ - "[Advanced tidyverse lesson](https://cyberhelp.sesync.org/advanced-tidyverse-lesson/){:target=\"_blank\"}"
+ - "[Advanced git lesson](https://cyberhelp.sesync.org/advanced-git-lesson/){:target=\"_blank\"}"
+ - "Have your [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
 ---
 
 {% capture mailto %}
@@ -51,43 +55,14 @@ feedback:  # optional form url
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
+**Contact:**  
+Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
+
 **Requirements:**  
 
 We will be using the [SESYNC RStudio server](https://rstudio.sesync.org) for this lesson. 
 
 Alternatively, you can use your own local installations of R (preferably version 4.0.0 or later) and git (preferably version 2.28 or later).
-
-**Contact:**  
-Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
-
-## Schedule
-
-A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is below.
-
-[//]: # " Edit this table to show the agenda. "
-
-| Time       | Event            | Lesson topic
-| ---------- | ---------------- | -------------------------------------------- |
-|   10:00 am | tidyverse lesson | Intro, fs and map functions                  |
-|    *10:30* | *Break*          |                                              |
-|      10:40 | tidyverse lesson | Review Exercises 1 & 2                       |
-|      10:45 | tidyverse lesson | strings and dates                            |
-|   *11:00*  | *Break*          |                                              |
-|      11:10 | tidyverse lesson | Review Exercises                             |
-|      11:15 | tidyverse lesson | glue and markdown in ggplot labels           |
-|    *11:45* | *Break*          |                                              |
-|      11:55 | tidyverse lesson | Review Exercises 3 & 4                       |
-|      12:00 | tidyverse lesson | factors                                      |
-|      12:20 | tidyverse lesson | Review Exericses 5 & 6, summary              |
-| *12:30 pm* | *Lunch Break*    |                                              |
-|       2:00 | git lesson       | Intro and review of basic git lesson         |
-|       2:15 | git lesson       | Branches and Forks                           |
-|       2:45 | git lesson       | Pull requests; breakout for exercises        |
-|     *3:15* | *Break*          |                                              |
-|       3:35 | git lesson       | Issues and Pages                             |
-|       4:00 | git lesson       | Breakout for exercises                       |
-|       4:45 | git lesson       | Reconvene and wrap-up                        |
-{:.table .table-striped}
 
 ## Pre-Workshop Homework
 
@@ -111,6 +86,31 @@ Before Wednesday's workshop:
 **If you've used git and GitHub before with point-and-click interface** please go over our introductory command-line [git in the shell lesson].
 
 **If you are already familiar with the basics of command-line git** please review the introductory command-line [git in the shell lesson] anyway, to make sure you're up to speed.
+
+## Schedule
+
+[//]: # " Edit this table to show the agenda. "
+
+|   10:00 am | tidyverse lesson | Intro, fs and map functions                  |
+|    *10:30* | *Break*          |                                              |
+|      10:40 | tidyverse lesson | Review Exercises 1 & 2                       |
+|      10:45 | tidyverse lesson | strings and dates                            |
+|   *11:00*  | *Break*          |                                              |
+|      11:10 | tidyverse lesson | Review Exercises                             |
+|      11:15 | tidyverse lesson | glue and markdown in ggplot labels           |
+|    *11:45* | *Break*          |                                              |
+|      11:55 | tidyverse lesson | Review Exercises 3 & 4                       |
+|      12:00 | tidyverse lesson | factors                                      |
+|      12:20 | tidyverse lesson | Review Exericses 5 & 6, summary              |
+| *12:30 pm* | *Lunch Break*    |                                              |
+|       2:00 | git lesson       | Intro and review of basic git lesson         |
+|       2:15 | git lesson       | Branches and Forks                           |
+|       2:45 | git lesson       | Pull requests; breakout for exercises        |
+|     *3:15* | *Break*          |                                              |
+|       3:35 | git lesson       | Issues and Pages                             |
+|       4:00 | git lesson       | Breakout for exercises                       |
+|       4:45 | git lesson       | Reconvene and wrap-up                        |
+{:.table .table-striped}
 
 ## Detailed agenda 
 
@@ -140,7 +140,7 @@ Before Wednesday's workshop:
 
 ## Acknowledgements & Support
 
-The structure of the curriculum as well as the teaching style are informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
+The teaching style is informed by [Software  Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 [//]: # " Specify any referenced links with the appropriate url. "
 [//]: # " {{ site.gh-pages }} points to the root of the SESYNC-CI organization. "
