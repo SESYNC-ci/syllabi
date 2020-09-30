@@ -1,11 +1,11 @@
 ---
 title: Data Science Whirlwind
 venue: SESYNC
-address: "1 Park Place, Suite 300<br>Annapolis, MD 21401"
+address: "Online"
 country: us
 language: en
 humandate: Oct 7, 2020  # use three letter month abbrv.
-humantime: 9:00 am - 5:00 pm
+humantime: 10:00 am - 5:00 pm
 startdate: 2020-10-07
 enddate:  # leave blank for one-day events
 instructors:
@@ -66,7 +66,7 @@ A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is 
 
 [//]: # " Edit this table to show the agenda. "
 
-|   10:00 am | tidyverse lesson | Intro fs and map functions                   |
+|   10:00 am | tidyverse lesson | Intro, fs and map functions                  |
 |    *10:30* | *Break*          |                                              |
 |      10:40 | tidyverse lesson | Review Exercises 1 & 2                       |
 |      10:45 | tidyverse lesson | strings and dates                            |
@@ -75,8 +75,8 @@ A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is 
 |      11:15 | tidyverse lesson | glue and markdown in ggplot labels           |
 |    *11:45* | *Break*          |                                              |
 |      11:55 | tidyverse lesson | Review Exercises 3 & 4                       |
-|     12:00  | tidyverse lesson | factors                                      |
-|     12:20  | tidyverse lesson | Review Exericses 5 & 6, summary              |
+|      12:00 | tidyverse lesson | factors                                      |
+|      12:20 | tidyverse lesson | Review Exericses 5 & 6, summary              |
 | *12:30 pm* | *Lunch Break*    |                                              |
 |       2:00 | git lesson       | intro and review of basic git lesson         |
 |       2:15 | git lesson       | branches and forks                           |
@@ -91,16 +91,19 @@ A more detailed [agenda for the git lesson](#detailed-agenda-for-git-lesson) is 
 
 ### tidyverse lesson
 
-Should be familiar with basic concepts of "tidy" data introduced in the [Manipulating Tabular Data Lesson](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/) and the basics of ggplot2 introduced in the [Visualizing Tabular Data Lesson](https://cyberhelp.sesync.org/graphics-with-ggplot2-lesson/).
+This lesson is designed for people who are already familiar with "tidy" data analysis and visualization in R, i.e. using `dplyr` and `ggplot2`. **If you are unfamiliar with these topics** please review the [Manipulating Tabular Data Lesson](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/) and the [Visualizing Tabular Data Lesson](https://cyberhelp.sesync.org/graphics-with-ggplot2-lesson/) before the workshop. 
 
-In particular, should know about
+In particular, please make sure you already understand: 
 
-* rstudio interface
-* be able to log into rstudio.sesync.org in order to access data we will use
-* using the pipe
-* using functions
-* text manipulation? is any prereq needed for regex part?
-* what markdown syntax is?
+* How to [chain functions using pipes](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/#chaining-functions) (`%>%`)
+* Using column names to refer to variables in tables (e.g. `Species` instead of `iris$Species`)
+
+### Detailed agenda for tidyverse lesson
+
+- **10:00-10:30**: The beginning of the lesson will introduce the learning objectives and explain some details of what the tidyverse is. Then we will start working through code examples. Kelly will do live-coding demonstrations that students will follow along with using a fill-in-the-blanks style worksheet. The first section covers functions for reading data using readr, fs, and purrr.
+- **10:40-11:00**: After a short break we will resume by going over answers to the first set of exercises. Kelly will be availabe during the break time to answer questions. During all of the breaks, students can work on exercises independently, with others, or just take a break. The second section will cover functions in stringr and lubridate.
+- **11:10-11:45**: We will go over answers to the next set of exercises, then cover functions in glue and ggplot for formatting in plots. 
+- **11:55-12:30**: The final section will cover functions in forcats and tidyr, and conclude with a summary and some time for remaining questions. 
 
 ### git lesson
 
