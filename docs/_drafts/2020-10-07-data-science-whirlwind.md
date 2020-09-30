@@ -55,7 +55,9 @@ feedback:  # optional form url
 
 We will be using the [SESYNC RStudio server](https://rstudio.sesync.org) for this lesson. 
 
-Alternatively, you can use your own local installations of R (preferably version 4.0.0 or later) and git (preferably version 2.28 or later).
+Alternatively, you can use your own local installations of R (preferably version 4.0.0 or later) and git (preferably version 2.28 or later). 
+
+If you plan to use a local installation of R for the tidyverse lesson, please contact Kelly ahead of time to make sure you will be able to access files used in the lesson. 
 
 **Contact:**  
 Please email *{{ mailto }}* with any questions, including installation issues, or for information not covered here.
