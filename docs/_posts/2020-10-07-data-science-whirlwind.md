@@ -149,4 +149,4 @@ The teaching style is informed by [Software  Carpentry](http://software-carpentr
 
 [basic git lesson]: {{ site.gh-pages }}/basic-git-lesson/
 [git in the shell lesson]: {{ site.gh-pages }}/git-in-the-shell-lesson/
-[advanced git lesson]: {{ site.gh-pages }}advanced-git-lesson/
+[advanced git lesson]: {{ site.gh-pages }}/advanced-git-lesson/
