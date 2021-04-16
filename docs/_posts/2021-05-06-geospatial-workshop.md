@@ -20,6 +20,7 @@ handout:  # optional handout url
 github:  # reminder about github account: true, false (default)
 feedback:  # optional form url
 sidebar_list:
+ # - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
  # - "[Introduction to Geospatial Analysis in R](https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html){:target=\"_blank\"}"
  # - "[Raster Time-series](https://cyberhelp.sesync.org/raster-time-series-alaska-lesson/){:target=\"_blank\"}"
  # - "[Vetor Analysis](https://cyberhelp.sesync.org/vector-analysis-syracuse-lesson/){:target=\"_blank\"}"
@@ -59,9 +60,15 @@ sidebar_list:
 **Contact:**  
 Please email *{{ mailto }}* with any questions, or for information not covered here.
 
-**Requirements:**  
+**Expectations:**  
 
-We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop. You will be sent log-in information individually.  
+We expect that you will attend for an entire lesson (ex: all of the Vector Analysis lesson), however you are not required to attend all four lessons during the day.  
+
+We strongly encourage everyone to keep their video on during the workshop, as this helps instructors see when participants might need assistance, and fosters a sense of community among participants.  
+
+**Requirements:**
+
+You must have a computer with internet connection and a standard web brower.  We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop (log-in information will be individually).  You will not need to download any software, or use your local installation of R/RStudio.  
 
 ## Schedule
 
