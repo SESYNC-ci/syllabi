@@ -68,12 +68,12 @@ We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this wo
 [//]: # " Edit this table to show the agenda. "
 
 |   09:00 am | Intro to Geospatial Analysis | Intro to geospatial data in R    |
-|    *10:30* | *Break*                      |                                  |
-|      10:40 | Raster Time-series           | Raster operations                |
+|    *10:55* | *Break*                      |                                  |
+|      11:05 | Raster Time-series           | Raster operations                |
 | *12:30 pm* | *Lunch Break*                |                                  |
 |       1:30 | Vector Analysis              | Vector operations                |
-|     *3:30* | *Break*                      |                                  |
-|       3:45 | Leaflet in R                 | Visualizing maps                 |
+|     *3:15* | *Break*                      |                                  |
+|       3:30 | Leaflet in R                 | Visualizing maps                 |
 {:.table .table-striped}
 
 {% if page.eventbrite %}
