@@ -60,7 +60,7 @@ Please email *{{ mailto }}* with any questions, or for information not covered h
 
 We expect that you will attend for an entire lesson (ex: all of the Vector Analysis lesson), however you are not required to attend all four lessons during the day.  
 
-We strongly encourage everyone to keep their video on during the workshop, as this helps instructors see when participants might need assistance, and fosters a sense of community among participants.  
+We strongly encourage everyone to keep their video on during the workshop as this helps instructors see when participants might need assistance, and fosters a sense of community among participants.  
 
 **Requirements:**
 
@@ -88,7 +88,7 @@ You must have a computer with internet connection and a standard web brower.  We
 
 ## Acknowledgements & Support
 
-The teaching style is informed by [Software  Carpentry](http://software-carpentry.org){:target="_blank"}.
+The teaching style is informed by [Software Carpentry](http://software-carpentry.org){:target="_blank"}.
 
 [//]: # " Specify any referenced links with the appropriate url. "
 [//]: # " {{ site.gh-pages }} points to the root of the SESYNC-CI organization. "
