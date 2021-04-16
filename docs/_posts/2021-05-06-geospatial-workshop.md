@@ -60,7 +60,7 @@ sidebar_list:
 **Contact:**  
 Please email *{{ mailto }}* with any questions, or for information not covered here.
 
-**Expectations:**  
+**Participation expectations:**  
 
 We expect that you will attend for an entire lesson (ex: all of the Vector Analysis lesson), however you are not required to attend all four lessons during the day.  
 
