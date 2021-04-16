@@ -21,10 +21,6 @@ github:  # reminder about github account: true, false (default)
 feedback:  # optional form url
 sidebar_list:
  # - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
- # - "[Introduction to Geospatial Analysis in R](https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html){:target=\"_blank\"}"
- # - "[Raster Time-series](https://cyberhelp.sesync.org/raster-time-series-alaska-lesson/){:target=\"_blank\"}"
- # - "[Vetor Analysis](https://cyberhelp.sesync.org/vector-analysis-syracuse-lesson/){:target=\"_blank\"}"
- # - "[Leaflet in R](https://cyberhelp.sesync.org/leaflet-in-R-lesson/){:target=\"_blank\"}"
 ---
 
 {% capture mailto %}
@@ -68,7 +64,7 @@ We strongly encourage everyone to keep their video on during the workshop, as th
 
 **Requirements:**
 
-You must have a computer with internet connection and a standard web brower.  We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop (log-in information will be individually).  You will not need to download any software, or use your local installation of R/RStudio.  
+You must have a computer with internet connection and a standard web brower.  We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop (log-in information will be provided individually).  You will not need to have R or RStudio on your computer, and won't need to download any software.  
 
 ## Schedule
 
@@ -97,7 +93,7 @@ The teaching style is informed by [Software  Carpentry](http://software-carpentr
 [//]: # " Specify any referenced links with the appropriate url. "
 [//]: # " {{ site.gh-pages }} points to the root of the SESYNC-CI organization. "
 
-[Introduction to Geospatial Analysis in R]: {{ site.gh-pages }}/atelier_rgeo/
+[Intro to Geospatial Analysis]: {{ site.gh-pages }}/atelier_rgeo/
 [Raster Time-series]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/
 [Vetor Analysis]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/
 [Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/
