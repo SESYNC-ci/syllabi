@@ -20,10 +20,10 @@ handout:  # optional handout url
 github:  # reminder about github account: true, false (default)
 feedback:  # optional form url
 sidebar_list:
- - "[Introduction to Geospatial Analysis in R](https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html){:target=\"_blank\"}"
- - "[Raster Time-series](https://cyberhelp.sesync.org/raster-time-series-alaska-lesson/){:target=\"_blank\"}"
- - "[Vetor Analysis](https://cyberhelp.sesync.org/vector-analysis-syracuse-lesson/){:target=\"_blank\"}"
- - "[Leaflet in R](https://cyberhelp.sesync.org/leaflet-in-R-lesson/){:target=\"_blank\"}"
+ # - "[Introduction to Geospatial Analysis in R](https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html){:target=\"_blank\"}"
+ # - "[Raster Time-series](https://cyberhelp.sesync.org/raster-time-series-alaska-lesson/){:target=\"_blank\"}"
+ # - "[Vetor Analysis](https://cyberhelp.sesync.org/vector-analysis-syracuse-lesson/){:target=\"_blank\"}"
+ # - "[Leaflet in R](https://cyberhelp.sesync.org/leaflet-in-R-lesson/){:target=\"_blank\"}"
 ---
 
 {% capture mailto %}
@@ -61,7 +61,7 @@ Please email *{{ mailto }}* with any questions, or for information not covered h
 
 **Requirements:**  
 
-We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop. You will be sent log-in information
+We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop. You will be sent log-in information individually.  
 
 ## Schedule
 
