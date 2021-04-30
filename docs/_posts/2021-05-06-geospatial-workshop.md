@@ -71,7 +71,9 @@ You must have a computer with internet connection and a standard web brower.  We
 If you would like to brush up on the data manipulation and visualization skills we'll use when working with geospatial data, we suggest these lessons: 
 
 [Basic R lesson](https://cyberhelp.sesync.org/basic-R-lesson/) 
+
 [Manipulating Tabular Data](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/)
+
 [Visualizing Tabular Data](https://cyberhelp.sesync.org/graphics-with-ggplot2-lesson/)
 
 
