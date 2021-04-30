@@ -64,19 +64,29 @@ We strongly encourage everyone to keep their video on during the workshop as thi
 
 **Requirements:**
 
-You must have a computer with internet connection and a standard web brower.  We will be using the [SESYNC Teaching Lab ](https://lab.sesync.org/) for this workshop (log-in information will be provided individually).  You will not need to have R or RStudio on your computer, and won't need to download any software.  
+You must have a computer with internet connection and a standard web brower.  We will be using the [SESYNC Teaching Lab](https://lab.sesync.org/) for this workshop (log-in information will be provided individually).  You will not need to have R or RStudio on your computer, and won't need to download any software.  
+
+## Pre-Workshop Suggested Review
+
+If you would like to brush up on the data manipulation and visualization skills we'll use when working with geospatial data, we suggest these lessons: 
+
+[Basic R lesson](https://cyberhelp.sesync.org/basic-R-lesson/) 
+[Manipulating Tabular Data](https://cyberhelp.sesync.org/census-data-manipulation-in-R-lesson/)
+[Visualizing Tabular Data](https://cyberhelp.sesync.org/graphics-with-ggplot2-lesson/)
+
 
 ## Schedule
 
 [//]: # " Edit this table to show the agenda. "
 
-|   09:00 am | Intro to Geospatial Analysis | Intro to geospatial data in R    |
-|    *10:55* | *Break*                      |                                  |
-|      11:05 | Raster Time-series           | Raster operations                |
-| *12:30 pm* | *Lunch Break*                |                                  |
-|       1:30 | Vector Analysis              | Vector operations                |
-|     *3:15* | *Break*                      |                                  |
-|       3:30 | Leaflet in R                 | Visualizing maps                 |
+|   09:00 am | [Intro to Geospatial Analysis] | Intro to geospatial data in R    |
+|    *10:55* | *Break*                        |                                  |
+|      11:05 | [Raster Time-series]           | Raster operations                |
+| *12:30 pm* | *Lunch Break*                  |                                  |
+|       1:30 | [Vector Analysis]              | Vector operations                |
+|     *3:15* | *Break*                        |                                  |
+|       3:30 | [Leaflet in R]                 | Visualizing maps                 |
+|       5:00 | Wrap-up                        |                                  |
 {:.table .table-striped}
 
 {% if page.eventbrite %}
@@ -93,7 +103,7 @@ The teaching style is informed by [Software Carpentry](http://software-carpentry
 [//]: # " Specify any referenced links with the appropriate url. "
 [//]: # " {{ site.gh-pages }} points to the root of the SESYNC-CI organization. "
 
-[Intro to Geospatial Analysis]: {{ site.gh-pages }}/atelier_rgeo/
+[Intro to Geospatial Analysis]: https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html
 [Raster Time-series]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/
 [Vetor Analysis]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/
 [Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/
