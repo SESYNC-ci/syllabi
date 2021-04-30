@@ -77,6 +77,8 @@ If you would like to brush up on the data manipulation and visualization skills 
 
 ## Schedule
 
+#### Note: Times displayed are in US Eastern Daylight Savings Time.
+
 [//]: # " Edit this table to show the agenda. "
 
 |   09:00 am | [Intro to Geospatial Analysis] | Intro to geospatial data in R    |
