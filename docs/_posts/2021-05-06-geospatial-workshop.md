@@ -105,5 +105,5 @@ The teaching style is informed by [Software Carpentry](http://software-carpentry
 
 [Intro to Geospatial Analysis]: https://pmarchand1.github.io/atelier_rgeo/rgeo_workshop.html
 [Raster Time-series]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/
-[Vetor Analysis]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/
+[Vector Analysis]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/
 [Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/
