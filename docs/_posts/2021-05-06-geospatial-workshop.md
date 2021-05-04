@@ -20,7 +20,7 @@ handout:  # optional handout url
 github:  # reminder about github account: true, false (default)
 feedback:  # optional form url
 sidebar_list:
- # - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
+  - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
 ---
 
 {% capture mailto %}
