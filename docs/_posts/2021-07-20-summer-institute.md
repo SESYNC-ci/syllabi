@@ -7,10 +7,10 @@ address: "This year's Summer Institute will be held virtually."
 country: us
 language: en
 # latlng: 38.97667, -76.50347
-humandate: Jul 20 - 23, 2020  # use three-letter month names
+humandate: Jul 20 - 23, 2021  # use three-letter month names
 humantime: 
-startdate: 2020-07-20
-enddate: 2020-07-23
+startdate: 2021-07-20
+enddate: 2021-07-23
 instructors:
  - Rachael Blake, Data Scientist
  - Mary Glover, Instructor
@@ -169,17 +169,17 @@ query string parameter "draft=TRUE" -->
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 |               |          | [Extra Tips for learning R]              |         |                          |
 |               |          | Optional lesson: [Basic Python]          |         |                          |
-|               |   *09:00*| *Office Hours (3 hours)*                 |         |                          |
-|               |   *13:00*| *Office Hours (3 hours)*                 |         |                          |
+|               |   *00:00*| *Office Hours (3 hours)*                 |         |                          |
+|               |   *00:00*| *Office Hours (3 hours)*                 |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
 |               |          | Optional lesson: [Tabular Data in Python]|         |                          |
-|               |   *11:00*| *Welcome and Overview of SESYNC*         | Jon K   |                          |
-|               |   *11:15*| *Introduce Coaches*                      |         |                          |
-|               |   *11:30*| *Meet the Teams*                         |         |                          |
-|               |   *12:15*| *About Homework Exercises & GitHub*      |         |                          |
-|               |   *13:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
+|               |   *13:00*| *Welcome and Overview of SESYNC*         |         |                          |
+|               |   *13:10*| *Introduce Coaches*                      |         |                          |
+|               |   *13:20*| *Meet the Teams*                         |         |                          |
+|               |   *14:00*| *About Homework Exercises & GitHub*      |         |                          |
+|               |   *14:15*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | [Structure for Unstructured Data]        |         | R > tidytext             |
 |               |          | [Online Data in R]                       |         | R > rvest                |
