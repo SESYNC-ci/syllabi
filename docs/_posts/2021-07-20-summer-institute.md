@@ -165,15 +165,15 @@ query string parameter "draft=TRUE" -->
 
 | **[Monday]**  |          | [Introduction to R and the RStudio IDE]  |         |                          |
 |               |          | [Block Programming Exercise]             |         |                          |
-|               |          | [Base R]                                 |         | R                        |
-|               |          | [Visualizing Tabular Data]               |         | R > ggplot2              |
+|               |          | Lesson 1: [Base R]                       |         | R                        |
+|               |          | Lesson 2: [Visualizing Tabular Data]     |         | R > ggplot2              |
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 |               |          | [Extra Tips for learning R]              |         |                          |
 |               |          | Optional lesson: [Basic Python]          |         |                          |
 |               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
 |               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
-| **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
-|               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
+| **Tuesday**   |          | Lesson 3: [Git for Collaboration]        |         | git                      |
+|               |          | Lesson 4: [Manipulating Tabular Data]    |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
 |               |          | Optional lesson: [Tabular Data in Python]|         |                          |
 |               |   *00:00*| *Welcome and Overview of SESYNC*         |         |                          |
@@ -182,21 +182,20 @@ query string parameter "draft=TRUE" -->
 |               |   *00:00*| *About Homework Exercises & GitHub*      |         |                          |
 |               |   *00:15*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Wednesday** |          | [Geospatial Data in R]                        |         | R > sf, R > raster       |
-|               |          | [Vector Data in R]                            |         | R >                      |
-|               |          | Optional lesson: [Raster Classification in R]           |         |                          |
+| **Wednesday** |          | Lesson 5: [Geospatial Data in R]         |         | R > sf, R > stars        |
+|               |          | Lesson 6: [Regression Models in R]       |         | R > lme4                 |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
 |               |   *00:00*| *Exercise Review & Office Hours*         |         |                          |
 |               |   *00:00*| *Project Updates & Discussion (1 hour)*  |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Thursday**  |          | [Regression Models]                      |         | R >                      |
-|               |          | [Structure for Unstructured Data]        |         | R > tidytext             |
+| **Thursday**  |          | Lesson 7: [Vector Data in R]             |         | R > sf, R > dplyr        |
+|               |          | Lesson 8: [Text Analysis in R]           |         | R > stringr; R > tidytext|
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
-|               |          | Optional lesson: []|         |                          |
-|               |   *00:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
+|               |          | Optional lesson: [Raster Data in R]      |         |                          |
+|               |   *00:00*| *Exercise Review & Office Hours (2 hours)*|        |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Friday**    |          | []                    |         | R >           |
-|               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
+| **Friday**    |          | Lesson 9: [Leaflet in R]                 |         | R > leaflet              |
+|               |          | Lesson 10: [Documenting and Publishing Data]|      | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
 |               |   *00:00*| *Office Hours & Course Wrap-up*          |         |                          |
 |               |   *00:00*| *Team Presentations (4 x 10 min)*        |         |                          |
@@ -311,25 +310,25 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/Rlearningresources.html
 [Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course/
 
-[Collaborative & Reproducible Research]: {{ site.gh-pages }}/basic-git-lesson/course/
+[Git for Collaboration]: {{ site.gh-pages }}/basic-git-lesson/course/
 [Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/course/index.html#exercises
 [Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/
 [Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/index.html#exercises
 [Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/course/
 
-[Structure for Unstructured Data]: {{ site.gh-pages }}/text-mining-lesson/course/
-[Lesson 5]: {{ site.gh-pages }}/text-mining-lesson/course/index.html#exercises
-[Online Data in R]: {{ site.gh-pages }}/online-data-with-R-lesson/course/
-[Lesson 6]: {{ site.gh-pages }}/online-data-with-R-lesson/course/index.html#exercises
-[Online Data in Python]: {{ site.gh-pages }}/online-data-lesson/course/
-
 [Geospatial Data in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
-[Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/index.html#exercises
-[Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/course/
-[Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/course/index.html#exercises
-[Raster Classification in R]: {{ site.gh-pages }}/remote-sensing-classification-lesson/course/
+[Lesson 5]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/index.html#exercises
+[Regression Models in R]: {{ site.gh-pages }}/model-lang-lesson/course/
+[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson/course/index.html#exercises
 
-[Database Principles]: {{ site.gh-pages }}/sqlite-lesson/course/
+[Vector Data in R]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
+[Lesson 7]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/index.html#exercises
+[Text Analysis in R]: {{ site.gh-pages }}/text-mining-lesson/course/
+[Lesson 8]: {{ site.gh-pages }}/text-mining-lesson/course/index.html#exercises
+[Raster Data in R]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/
+
+[Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/course/
+[Lesson 9]: {{ site.gh-pages }}/leaflet-in-R-lesson/index.html#exercises
 [Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/course/
 [Lesson 10]: {{ site.gh-pages }}/data-package-lesson/course/index.html#exercises
 
