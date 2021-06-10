@@ -14,12 +14,13 @@ enddate: 2021-07-23
 instructors:
  - Rachael Blake, Data Scientist
  - Mary Glover, Instructor
+ - Renee Obringer, Instructor
  - Quentin Read, Data Scientist
 assistants:
 contact: rblake@sesync.org
 sidebar_list:
  - "You are here: <http://sesync.us/si>"
-# - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
+ - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
  - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
 # - "Mini-project goals: [daily goals](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "Team Projects: [Github Repositories](https://github.com/SESYNC-ci/si2020instructors/blob/master/teams2020.md){:target=\"_blank\"}"
@@ -82,7 +83,7 @@ Participants should expect to:
 {{ page.startdate | date: "%A, %B %-d, %Y" }}
 {% endif %}
 
-*Optional day for basic R training: Monday, July 19*
+*Optional day for basic R training: Monday, July 19, 2021*
 
 <!-- The next block displays the address and links to a map showing directions. -->
 
@@ -133,7 +134,7 @@ conference for coaching sessions.
 ## Participation Guide
 
 The structure of this year's virtual Summer Institute will be a mixture of self-paced 
-asynchronous lessons with instructor-led synchronous office hours and coaching sessions.  To get the most out of each day, you should:
+asynchronous lessons with instructor-led synchronous office hours and coaching sessions.  To get the most out of each day, participants should:
 
 1. Thoroughly review and code-along with the lesson material and exercises for each day _prior to_ that day's Office Hours and Exercise Review.
 1. Call in to the Zoom meeting for daily Office Hours and Exercise Review to ask questions you have on that day's lesson material.  Note: Optional lessons will not be reviewed.  The links to these lessons are provided for your personal learning and development.
@@ -144,11 +145,11 @@ asynchronous lessons with instructor-led synchronous office hours and coaching s
 
 *When are team coaching sessions?*
 
-Coaching session times will vary by team because each coach will be working with 2-3 teams during the institute. Teams and coaches should arrange times for video calls that are amenable to each other's schedules, needs, and timezones by communicating in your team's Slack channel. Coaching sessions are approximately 1 hour long, and should be held generally between 8am to 6pm EDT. 
+Coaching session times will vary by team because each coach will be working with 2-3 teams during the institute. Teams and coaches will arrange times for video calls that are amenable to each other's schedules, needs, and timezones by communicating in your team's Slack channel. Coaching sessions are approximately 1 hour long, and should be held generally between 8am to 6pm EDT. 
 
 *How will I collaborate with my team on our mini-project?*
 
-How your team decides to work is up to you and your team. You will be able to chat and hold group video calls with screen-sharing through Slack at any time. We encourage you to spend roughly 3 hours each day on your project, however this may vary throughout the week. Coaches can help you strategize how to collaborate and make best use of your time. 
+How your team decides to work is up to you and your team. You will be able to chat (synchronously and asynchronously) and hold group video calls with screen-sharing through Slack at any time. We encourage you to spend roughly 3 hours each day on your project, however this may vary throughout the week. Coaches can help you strategize how to collaborate and make the best use of your time. 
 
 *What should I expect if I am attending Day 0?*
 
@@ -169,40 +170,40 @@ query string parameter "draft=TRUE" -->
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 |               |          | [Extra Tips for learning R]              |         |                          |
 |               |          | Optional lesson: [Basic Python]          |         |                          |
-|               |   *00:00*| *Office Hours (3 hours)*                 |         |                          |
-|               |   *00:00*| *Office Hours (3 hours)*                 |         |                          |
+|               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
+|               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
 | **Tuesday**   |          | [Collaborative & Reproducible Research]  |         | git                      |
 |               |          | [Manipulating Tabular Data]              |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
 |               |          | Optional lesson: [Tabular Data in Python]|         |                          |
-|               |   *13:00*| *Welcome and Overview of SESYNC*         |         |                          |
-|               |   *13:10*| *Introduce Coaches*                      |         |                          |
-|               |   *13:20*| *Meet the Teams*                         |         |                          |
-|               |   *14:00*| *About Homework Exercises & GitHub*      |         |                          |
-|               |   *14:15*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *00:00*| *Welcome and Overview of SESYNC*         |         |                          |
+|               |   *00:10*| *Introduce Coaches*                      |         |                          |
+|               |   *00:20*| *Meet the Teams*                         |         |                          |
+|               |   *00:00*| *About Homework Exercises & GitHub*      |         |                          |
+|               |   *00:15*| *Exercise Review & Office Hours*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Wednesday** |          | [Structure for Unstructured Data]        |         | R > tidytext             |
-|               |          | [Online Data in R]                       |         | R > rvest                |
-|               |          | Optional lesson: [Online Data in Python] |         |                          |
+| **Wednesday** |          | [Geospatial Data in R]                        |         | R > sf, R > raster       |
+|               |          | [Vector Data in R]                            |         | R >                      |
+|               |          | Optional lesson: [Raster Classification in R]           |         |                          |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
-|               |   *11:00*| *Exercise Review & Office Hours*         |         |                          |
-|               |   *13:00*| *Project Updates & Discussion (1 hour)*           |         |                          |
+|               |   *00:00*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *00:00*| *Project Updates & Discussion (1 hour)*  |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Thursday**  |          | [Geospatial Data]                        |         | R > sf, R > raster       |
-|               |          | [Interactive Web Applications]           |         | R > shiny                |
+| **Thursday**  |          | [Regression Models]                      |         | R >                      |
+|               |          | [Structure for Unstructured Data]        |         | R > tidytext             |
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
-|               |          | Optional lesson: [Raster Classification in R]|         |                          |
-|               |   *11:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
+|               |          | Optional lesson: []|         |                          |
+|               |   *00:00*| *Exercise Review & Office Hours (2 hours)*         |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
-| **Friday**    |          | [Database Principles]                    |         | SQL, R > RSQLite          |
+| **Friday**    |          | []                    |         | R >           |
 |               |          | [Documenting and Publishing Data]	      |         | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
-|               |   *10:00*| *Office Hours & Course Wrap-up*          |         |                          |
-|               |   *11:00*| *Team Presentations (3 x 10 min)*        |         |                          |
-|               |    11:30 | Break                                    |         |                          |
-|               |   *11:45*| *Team Presentations (4 x 10 min)*        |         |                          |
-|               |    12:30 | Break                                    |         |                          |
-|               |   *13:00*| *Team Presentations (3 x 10 min)*        |         |                          |
+|               |   *00:00*| *Office Hours & Course Wrap-up*          |         |                          |
+|               |   *00:00*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |    00:40 | Break                                    |         |                          |
+|               |   *00:45*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |    00:30 | Break                                    |         |                          |
+|               |   *00:00*| *Team Presentations (3 x 10 min)*        |         |                          |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
@@ -322,7 +323,7 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 [Lesson 6]: {{ site.gh-pages }}/online-data-with-R-lesson/course/index.html#exercises
 [Online Data in Python]: {{ site.gh-pages }}/online-data-lesson/course/
 
-[Geospatial Data]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
+[Geospatial Data in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
 [Lesson 7]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/index.html#exercises
 [Interactive Web Applications]: {{ site.gh-pages }}/basic-Shiny-lesson/course/
 [Lesson 8]: {{ site.gh-pages }}/basic-Shiny-lesson/course/index.html#exercises
