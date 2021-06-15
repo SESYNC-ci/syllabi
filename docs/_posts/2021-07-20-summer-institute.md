@@ -21,7 +21,7 @@ contact: rblake@sesync.org
 sidebar_list:
  - "You are here: <http://sesync.us/si>"
  - "Access the [Lab](https://lab.sesync.org){:target=\"_blank\"}"
- - "Have a [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
+ - "Have your [GitHub](https://www.github.com){:target=\"_blank\"} login handy!"
 # - "Mini-project goals: [daily goals](/syllabi/data2doc.html){:target=\"_blank\"}"
 # - "Team Projects: [Github Repositories](https://github.com/SESYNC-ci/si2020instructors/blob/master/teams2020.md){:target=\"_blank\"}"
 # - "Download the [Handouts](https://github.com/SESYNC-ci/handouts/releases/download/2020-07-21-summer-institute/handouts.zip){:target=\"_blank\"}"
@@ -133,13 +133,14 @@ conference for coaching sessions.
 
 ## Participation Guide
 
-The structure of this year's virtual Summer Institute will be a mixture of self-paced 
-asynchronous lessons with instructor-led synchronous office hours and coaching sessions.  To get the most out of each day, participants should:
+The structure of this year's virtual Summer Institute will be a mixture of self-paced asynchronous lessons with instructor-led synchronous office hours and coaching sessions.  To get the most out of each day, participants should:
 
 1. Thoroughly review and code-along with the lesson material and exercises for each day _prior to_ that day's Office Hours and Exercise Review.
 1. Call in to the Zoom meeting for daily Office Hours and Exercise Review to ask questions you have on that day's lesson material.  Note: Optional lessons will not be reviewed.  The links to these lessons are provided for your personal learning and development.
 1. Participate in coaching sessions for your team mini-project and apply what you learn in the lessons to your project.  
 1. Ask questions of your instructors, your team, and fellow participants on Slack.  Feel free to do this when you're reviewing the lessons, or when you're thinking about your mini-project.  
+
+All participants are expected to attend and be present for all events in bold on the schedule below, especially the welcome on Tuesday, and all the presentations on Friday.  
 
 **FAQ**
 
@@ -162,6 +163,7 @@ query string parameter "draft=TRUE" -->
 ## Schedule
 
 #### Note: Times displayed are in US Eastern Daylight Savings Time. 
+#### All participants are expected to attend all events in bold. 
 
 | **[Monday]**  |          | [Introduction to R and the RStudio IDE]  |         |                          |
 |               |          | [Block Programming Exercise]             |         |                          |
@@ -170,39 +172,39 @@ query string parameter "draft=TRUE" -->
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 |               |          | [Extra Tips for learning R]              |         |                          |
 |               |          | Optional lesson: [Basic Python]          |         |                          |
-|               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
-|               |   *00:00*| *Office Hours (1 hour)*                  |         |                          |
+|               |   *09:00*| *Office Hours (1 hour)*                  |         |                          |
+|               |   *15:00*| *Office Hours (1 hour)*                  |         |                          |
 | **Tuesday**   |          | Lesson 3: [Git for Collaboration]        |         | git                      |
 |               |          | Lesson 4: [Manipulating Tabular Data]    |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
 |               |          | Optional lesson: [Tabular Data in Python]|         |                          |
-|               |   *00:00*| *Welcome and Overview of SESYNC*         |         |                          |
-|               |   *00:10*| *Introduce Coaches*                      |         |                          |
-|               |   *00:20*| *Meet the Teams*                         |         |                          |
-|               |   *00:00*| *About Homework Exercises & GitHub*      |         |                          |
-|               |   *00:15*| *Exercise Review & Office Hours*         |         |                          |
+|               |   *13:00*| *Welcome and Overview of SESYNC*         |         |                          |
+|               |   *13:10*| *Introduce Coaches*                      |         |                          |
+|               |   *13:20*| *Meet the Teams*                         |         |                          |
+|               |   *14:00*| *About Homework Exercises & GitHub*      |         |                          |
+|               |   *14:15*| *Exercise Review & Office Hours (1 hour)*|         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | Lesson 5: [Geospatial Data in R]         |         | R > sf, R > stars        |
 |               |          | Lesson 6: [Regression Models in R]       |         | R > lme4                 |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
-|               |   *00:00*| *Exercise Review & Office Hours*         |         |                          |
-|               |   *00:00*| *Project Updates & Discussion (1 hour)*  |         |                          |
+|               |   *13:00*| *Exercise Review & Office Hours (1 hour)*|         |                          |
+|               |   *14:00*| *Project Updates & Discussion (1 hour)*  |         |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Thursday**  |          | Lesson 7: [Vector Data in R]             |         | R > sf, R > dplyr        |
 |               |          | Lesson 8: [Text Analysis in R]           |         | R > stringr; R > tidytext|
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
 |               |          | Optional lesson: [Raster Data in R]      |         |                          |
-|               |   *00:00*| *Exercise Review & Office Hours (2 hours)*|        |                          |
+|               |   *13:00*| *Exercise Review & Office Hours (2 hours)*|        |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | Lesson 9: [Leaflet in R]                 |         | R > leaflet              |
 |               |          | Lesson 10: [Documenting and Publishing Data]|      | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
-|               |   *00:00*| *Office Hours & Course Wrap-up*          |         |                          |
-|               |   *00:00*| *Team Presentations (4 x 10 min)*        |         |                          |
-|               |    00:40 | Break                                    |         |                          |
-|               |   *00:45*| *Team Presentations (4 x 10 min)*        |         |                          |
-|               |    00:30 | Break                                    |         |                          |
-|               |   *00:00*| *Team Presentations (3 x 10 min)*        |         |                          |
+|               |   *13:00*| *Office Hours & Course Wrap-up*          |         |                          |
+|               |   *13:30*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |    14:10 | Break                                    |         |                          |
+|               |   *14:15*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |    14:55 | Break                                    |         |                          |
+|               |   *15:00*| *Team Presentations (3 x 10 min)*        |         |                          |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
