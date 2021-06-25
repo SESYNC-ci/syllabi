@@ -162,8 +162,8 @@ query string parameter "draft=TRUE" -->
 
 ## Schedule
 
+#### All participants are expected to attend all events in **bold**. 
 #### Note: Times displayed are in US Eastern Daylight Savings Time. 
-#### All participants are expected to attend all events in bold. 
 
 | **[Monday]**  |          | [Introduction to R and the RStudio IDE]  |         |                          |
 |               |          | [Block Programming Exercise]             |         |                          |
@@ -172,39 +172,39 @@ query string parameter "draft=TRUE" -->
 |               |          | [Pair-coding Exercise] & [Scripting Exercise]|     |                          |
 |               |          | [Extra Tips for learning R]              |         |                          |
 |               |          | Optional lesson: [Basic Python]          |         |                          |
-|               |   *09:00*| *Office Hours (1 hour)*                  |         |                          |
-|               |   *15:00*| *Office Hours (1 hour)*                  |         |                          |
+|               |   *09:00*| **Office Hours (1 hour)**                |         |                          |
+|               |   *15:00*| **Office Hours (1 hour)**                |         |                          |
 | **Tuesday**   |          | Lesson 3: [Git for Collaboration]        |         | git                      |
 |               |          | Lesson 4: [Manipulating Tabular Data]    |         | R > dplyr                |
 |               |          | Exercises for [Lesson 3] & [Lesson 4]    |         |                          |
 |               |          | Optional lesson: [Tabular Data in Python]|         |                          |
-|               |   *13:00*| *Welcome and Overview of SESYNC*         |         |                          |
-|               |   *13:10*| *Introduce Coaches*                      |         |                          |
-|               |   *13:20*| *Meet the Teams*                         |         |                          |
-|               |   *14:00*| *About Homework Exercises & GitHub*      |         |                          |
-|               |   *14:15*| *Exercise Review & Office Hours (1 hour)*|         |                          |
+|               |   *13:00*| **Welcome and Overview of SESYNC**       |         |                          |
+|               |   *13:10*| **Introduce Coaches**                    |         |                          |
+|               |   *13:20*| **Meet the Teams**                       |         |                          |
+|               |   *14:00*| **About Homework Exercises & GitHub**    |         |                          |
+|               |   *14:15*| **Exercise Review & Office Hours (1 hour)**|       |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Wednesday** |          | Lesson 5: [Geospatial Data in R]         |         | R > sf, R > stars        |
 |               |          | Lesson 6: [Regression Models in R]       |         | R > lme4                 |
 |               |          | Exercises for [Lesson 5] & [Lesson 6]    |         |                          |
-|               |   *13:00*| *Exercise Review & Office Hours (1 hour)*|         |                          |
-|               |   *14:00*| *Project Updates & Discussion (1 hour)*  |         |                          |
+|               |   *13:00*| **Exercise Review & Office Hours (1 hour)**|       |                          |
+|               |   *14:00*| **Project Updates & Discussion (1 hour)**  |       |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Thursday**  |          | Lesson 7: [Vector Data in R]             |         | R > sf, R > dplyr        |
 |               |          | Lesson 8: [Text Analysis in R]           |         | R > stringr; R > tidytext|
 |               |          | Exercises for [Lesson 7] & [Lesson 8]    |         |                          |
 |               |          | Optional lesson: [Raster Data in R]      |         |                          |
-|               |   *13:00*| *Exercise Review & Office Hours (2 hours)*|        |                          |
+|               |   *13:00*| **Exercise Review & Office Hours (2 hours)**|      |                          |
 |               |          | Coaching (time TBD with your coach)      |         |                          |
 | **Friday**    |          | Lesson 9: [Leaflet in R]                 |         | R > leaflet              |
 |               |          | Lesson 10: [Documenting and Publishing Data]|      | R > dataspice            |
 |               |          | Exercises for [Lesson 10]                |         |                          |
-|               |   *13:00*| *Office Hours & Course Wrap-up*          |         |                          |
-|               |   *13:30*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |   *13:00*| **Office Hours & Course Wrap-up**        |         |                          |
+|               |   *13:30*| **Team Presentations (4 x 10 min)**      |         |                          |
 |               |    14:10 | Break                                    |         |                          |
-|               |   *14:15*| *Team Presentations (4 x 10 min)*        |         |                          |
+|               |   *14:15*| **Team Presentations (4 x 10 min)**      |         |                          |
 |               |    14:55 | Break                                    |         |                          |
-|               |   *15:00*| *Team Presentations (3 x 10 min)*        |         |                          |
+|               |   *15:00*| **Team Presentations (3 x 10 min)**      |         |                          |
 {:#agenda .table .table-striped .hide-instructor}
 <!-- .disable-links -->
 
