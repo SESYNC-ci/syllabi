@@ -13,7 +13,7 @@ styleurl: https://cdn.jsdelivr.net/gh/SESYNC-ci/lesson-style@v3.0/docs
 {:style="text-transform: none;"}
 
 Your team is here to practice, and your instructors are here to coach. In the time
-scheduled for "Coaching", each team should aim to achieve the following:
+scheduled for "Coaching," each team should aim to achieve the following:
 
 </section>
 
@@ -40,7 +40,7 @@ scheduled for "Coaching", each team should aim to achieve the following:
 1. (Captain) Create a RStudio project from the repo.
 1. (Captain) Start a `README.md` & push files.
 1. (Team) Create a RStudio project from the repo.
-1. Add to the `REAMDE.md` and merge/push.
+1. Add to the `README.md` and merge/push.
 
 </section>
 
@@ -52,7 +52,7 @@ scheduled for "Coaching", each team should aim to achieve the following:
    1. Are your data in tidy tables?
    1. Can you define relationships between tables?
    1. How will you share it within the team?
-1. Read data into R and prepare it for a simple analyis or visualization.
+1. Read data into R and prepare it for a simple analysis or visualization.
 1. Update the `README.md` on GitHub.
 
 </section>
@@ -71,7 +71,7 @@ scheduled for "Coaching", each team should aim to achieve the following:
 
 ### Practice #4: Friday
 
-1. Discuss the first steps of your reproducible pipeline. Can you aquire data programatically?
+1. Discuss the first steps of your reproducible pipeline. How do you plan to acquire your data?
 1. Discuss the final steps of your reproducible pipeline. Should you create a data package?
 1. Try to get that regression model working or finish that data visualization.
 1. Prepare to present on your mini-project!
@@ -80,6 +80,6 @@ scheduled for "Coaching", each team should aim to achieve the following:
 
 <section markdown="block">
 
-## Scrimage!
+## Scrimmage!
 
 </section>
