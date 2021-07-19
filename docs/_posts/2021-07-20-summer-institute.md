@@ -154,7 +154,7 @@ How your team decides to work is up to you and your team. You will be able to ch
 
 *What should I expect if I am attending Day 0?*
 
-The optional first day will operate similar to the rest of the week.  Lesson material is linked in the schedule and coding demonstration videos will be sent out ahead of time to supplement those lessons.  On Day 0, instructors will hold live Office Hours sessions via Zoom **at both 9:00 EDT and 13:00 EDT** where we will answer questions about that day's lesson material and exercses.  You should review the lesson material prior to attending Office Hours.  We will not be reviewing material unless you ask questions, so please bring your questions!  Choose whichever time to attend Office Hours that works best for you. 
+The optional first day will operate similar to the rest of the week.  Lesson material is linked in the schedule and coding demonstration videos will be sent out ahead of time to supplement those lessons.  On Day 0, instructors will hold live Office Hours sessions via Zoom **at both 9:00 EDT and 15:00 EDT** where we will answer questions about that day's lesson material and exercses.  You should review the lesson material prior to attending Office Hours.  We will not be reviewing material unless you ask questions, so please bring your questions!  Choose whichever time to attend Office Hours that works best for you. 
 
 
 <!-- Compose the schedule below. The instructor field is only visible with URL
