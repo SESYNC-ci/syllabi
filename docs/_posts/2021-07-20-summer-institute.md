@@ -307,36 +307,36 @@ Carpentries](http://carpentries.org){:target="_blank"}.
 
 <!-- Only use space below for links. -->
 
-[Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/rstudio_ide.html
-[Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/reading.html
-[Base R]: {{ site.gh-pages }}/basic-R-lesson/course/
-[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/course/
-[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/course/index.html#exercises
-[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/challenge.html
-[Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/Rlearningresources.html
-[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/course/
+[Introduction to R and the RStudio IDE]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/rstudio_ide.html
+[Block Programming Exercise]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/reading.html
+[Base R]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/
+[Visualizing Tabular Data]: {{ site.gh-pages }}/graphics-with-ggplot2-lesson/2021/07/19/
+[Pair-coding Exercise]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/index.html#exercises
+[Scripting Exercise]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/challenge.html
+[Extra Tips for learning R]: {{ site.gh-pages }}/basic-R-lesson/2021/07/19/Rlearningresources.html
+[Basic Python]: {{ site.gh-pages }}/basic-Python-lesson/2021/07/19/
 
-[Git for Collaboration]: {{ site.gh-pages }}/basic-git-lesson/course/
-[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/course/index.html#exercises
-[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/
-[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/course/index.html#exercises
-[Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/course/
+[Git for Collaboration]: {{ site.gh-pages }}/basic-git-lesson/2021/07/19/
+[Lesson 3]: {{ site.gh-pages }}/basic-git-lesson/2021/07/19/index.html#exercises
+[Manipulating Tabular Data]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2021/07/19/
+[Lesson 4]: {{ site.gh-pages }}/census-data-manipulation-in-R-lesson/2021/07/19/index.html#exercises
+[Tabular Data in Python]: {{ site.gh-pages }}/census-data-manipulation-in-Python-lesson/2021/07/19/
 
-[Geospatial Data in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/
-[Lesson 5]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/course/index.html#exercises
-[Regression Models in R]: {{ site.gh-pages }}/model-lang-lesson/course/
-[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson/course/index.html#exercises
+[Geospatial Data in R]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2021/07/19/
+[Lesson 5]: {{ site.gh-pages }}/geospatial-packages-in-R-lesson/2021/07/19/index.html#exercises
+[Regression Models in R]: {{ site.gh-pages }}/model-lang-lesson/2021/07/19/
+[Lesson 6]: {{ site.gh-pages }}/model-lang-lesson/2021/07/19/index.html#exercises
 
-[Vector Data in R]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/course/
-[Lesson 7]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/index.html#exercises
-[Text Analysis in R]: {{ site.gh-pages }}/text-mining-lesson/course/
-[Lesson 8]: {{ site.gh-pages }}/text-mining-lesson/course/index.html#exercises
-[Raster Data in R]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/course/
+[Vector Data in R]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/2021/07/19/
+[Lesson 7]: {{ site.gh-pages }}/vector-analysis-syracuse-lesson/2021/07/19/index.html#exercises
+[Text Analysis in R]: {{ site.gh-pages }}/text-mining-lesson/2021/07/19/
+[Lesson 8]: {{ site.gh-pages }}/text-mining-lesson/2021/07/19/index.html#exercises
+[Raster Data in R]: {{ site.gh-pages }}/raster-time-series-alaska-lesson/2021/07/19/
 
-[Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/course/
-[Lesson 9]: {{ site.gh-pages }}/leaflet-in-R-lesson/index.html#exercises
-[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/course/
-[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/course/index.html#exercises
+[Leaflet in R]: {{ site.gh-pages }}/leaflet-in-R-lesson/2021/07/19/
+[Lesson 9]: {{ site.gh-pages }}/leaflet-in-R-lesson/2021/07/19/index.html#exercises
+[Documenting and Publishing Data]: {{ site.gh-pages }}/data-package-lesson/2021/07/19/
+[Lesson 10]: {{ site.gh-pages }}/data-package-lesson/2021/07/19/index.html#exercises
 
 
 [Homebrew]: https://brew.sh/
